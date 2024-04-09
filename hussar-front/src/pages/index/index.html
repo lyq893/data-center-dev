@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" id="indexIcon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" id="indexClass" href="${process.env.VUE_APP_HUSSAR_DEFAULT_API}/themeConfig/getThemeConfigCss.css?themeId=&type=${process.env.VUE_APP_PAGE_TYPE}" charset="utf-8">
+    <% if (process.env.VUE_APP_GD_JSCODE) { %>
+    <script type="text/javascript">
+      window._AMapSecurityConfig = {
+        securityJsCode: `${process.env.VUE_APP_GD_JSCODE}`,
+      }
+    </script>
+    <% } %>
+    <% if (process.env.VUE_APP_GD_KEY) { %>
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=${process.env.VUE_APP_GD_KEY}"></script>
+    <% } %>
+    <% if (process.env.VUE_APP_BD_AK) { %>
+    <script type="text/javascript" src="https://api.map.baidu.com/getscript?v=2.0&ak=${process.env.VUE_APP_BD_AK}"></script>
+    <% } %>
+    <%= process.env.VUE_APP_ENABLE_DLL === 'yes' ? (function() {
+    const dllConfig = require('@/../config/dllConfig');
+    const scripts = dllConfig.indexScripts;
+    const styles = dllConfig.indexStyles;
+    let dlls = '<!--  使用不重启dll优化时开启  -->';
+    for (const script of scripts) {
+    dlls += `\n    <script src="/vendor/${script}.dll.js"></script>`;
+    }
+    for (const style of styles) {
+    dlls += `\n    <link href="/vendor/${style}.css" rel="stylesheet"/>`;
+    }
+    return dlls;
+    })() : '' %>
+    <title id="indexTitle">统一门户</title>
+    <!-- 引用后端项目中的pageoffice.js文件 -->
+<!--    <script type="text/javascript" src="/hussarApi/pageoffice.js"></script>-->
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but hussar-front doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>

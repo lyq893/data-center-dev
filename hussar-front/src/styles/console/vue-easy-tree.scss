@@ -1,0 +1,43 @@
+// ---- vxe-easy-tree树 -----
+
+.lcdp-tree {
+  .vue-recycle-scroller.direction-vertical {
+    // !important覆盖组件自带的行内样式
+    overflow: hidden !important;
+    // 避免出现垂直滚动条时悬浮背景色遮挡滚动条
+    z-index: 5;
+    /*兼容火狐*/
+    &:hover {
+      overflow: auto !important;
+      overflow: overlay !important;
+    }
+    // 横向滚动条覆盖组件自带的overflow: hidden;
+    .vue-recycle-scroller__item-wrapper {
+      overflow: visible;
+    }
+    .vue-recycle-scroller__item-view {
+      width: max-content;
+      min-width: 100%;
+    }
+  }
+}
+.tree-node-info span {
+  display:inline-block;
+  float: left;
+  height: 36px;
+  font-size: 14px;
+  color: #4A4C66;
+  line-height: 36px;
+  white-space: nowrap;
+  max-width: 80%;
+  min-width: 56%
+}
+.lcdp-tree .el-tree-node__content {
+  background: #ffffff;
+  border-radius: 4px;
+}
+.lcdp-tree .el-tree-node__content:hover {
+  background: #F5F5F5;
+  /*border-radius: 0px 18px 18px 0px;*/
+  border-radius: 4px;
+}

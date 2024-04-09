@@ -1,0 +1,467 @@
+.el-button {
+  font-weight: 400;
+}
+
+// 主按钮
+.btn-search {
+  min-width: 60px;
+  width: auto;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 16px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: 1px solid #045340;
+  background: #045340;
+
+  &:focus {
+    color: #FFFFFF;
+    border: 1px solid #045340;
+    background: #045340;
+  }
+
+  &:hover {
+    background: #1E8F74;
+    filter: blur(10%);
+    box-shadow: 0 0 6px #11482B;
+    border: 1px solid #1E8F74;
+  }
+
+  &:active {
+    background-color: #045340;
+  }
+}
+
+.drawer-btn-save {
+  min-width: 80px;
+  width: auto;
+  height: 32px;
+  border-radius: 2px;
+  padding: 0 26px;
+  margin-left: 16px !important;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #045340;
+  border-color: #045340;
+
+  &:focus {
+    color: #FFFFFF;
+    border-color: #045340;
+    background: #045340;
+  }
+
+  &:hover {
+    background: #1E8F74;
+    filter: blur(10%);
+    box-shadow: 0 0 6px #11482B;
+    border: 1px solid #1E8F74;
+  }
+
+  &:active {
+    background-color: #045340;
+  }
+}
+
+// 次按钮
+.btn-reset {
+  min-width: 60px;
+  width: auto;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 16px;
+  border-radius: 2px;
+  color: #A7A7A7;
+  border: 1px solid #CDCDCD;
+  background: #FFFFFF;
+
+  &:focus {
+    color: #A7A7A7;
+    border: 1px solid #CDCDCD;
+    background: #FFFFFF;
+  }
+
+  &:hover {
+    border: 1px solid #FFFFFF;
+    color: #045340;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(17, 72 , 43, 0.3);
+  }
+
+  &:active {
+    border: 1px solid #AFE0D4;
+    color: #045340;
+    background-color: #EBFFFA;
+    box-shadow: none;
+  }
+}
+
+.drawer-btn-cancel {
+  min-width: 80px;
+  width: auto;
+  height: 32px;
+  border-radius: 2px;
+  padding: 0 26px;
+  font-size: 14px;
+  color: #A7A7A7;
+  border: 1px solid #CCCCCC;
+  background-color: #ffffff;
+
+  &:focus {
+    color: #A7A7A7;
+    border: 1px solid #CCCCCC;
+    background-color: #ffffff;
+  }
+
+  &:hover {
+    border: 1px solid #FFFFFF;
+    color: #A7A7A7;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(17, 72 , 43, 0.3);
+  }
+
+  &:active {
+    border: 1px solid #AFE0D4;
+    color: #045340;
+    background-color: #EBFFFA;
+    box-shadow: none;
+  }
+}
+
+// 抽屉中的修改按钮
+.drawer-btn-detail-edit {
+  padding: 4px 14px;
+  min-width: 56px;
+  width: auto;
+  height: 28px;
+  border-radius: 2px;
+  border: 1px solid #045340;
+  color: #045340;
+  background-color: #FCFCFC;
+
+  &:hover {
+    border: 1px solid #1E8F74;
+    color: #1E8F74;
+  }
+}
+
+// 按钮组
+// 主按钮按钮组
+.tool-btns {
+  margin-left: auto;
+  font-size: 14px;
+  color: #4a4c66;
+  float: right;
+
+  .el-button + .el-button {
+    margin-left: 2px !important;
+  }
+
+  // 更多
+  .el-dropdown {
+    cursor: pointer;
+    height: 24px;
+    border-radius: 2px;
+
+    .more-btn {
+      &:hover {
+        color: #1E8F74;
+      }
+    }
+
+    .btn-search {
+      min-width: 33px !important;
+      margin-left: 2px;
+      padding: 0 8px;
+    }
+
+    i {
+      font-size: 16px;
+      margin-right: 4px;
+      line-height: 16px;
+    }
+  }
+
+}
+
+// 文字按钮按钮组
+.btn-box {
+  font-size: 14px;
+  color: #1E8F74;
+  line-height: 20px;
+  .btn-text {
+    cursor: pointer;
+
+    &:hover {
+      color: #045340;
+      text-decoration: underline;
+    }
+
+    &:active {
+      color: #024031;
+    }
+  }
+
+  .line {
+    width: 1px;
+    height: 12px;
+    margin: 0 8px;
+    border-left: 1px solid #EAEAEA;
+  }
+
+  .el-dropdown {
+    .btn-more {
+      color: #045340;
+      cursor: pointer;
+
+      &:hover {
+        span, i {
+          color: #045340
+        }
+      }
+
+      &:active {
+        span, i {
+          color: #024031;
+        }
+      }
+    }
+  }
+
+  // 表格操作列按钮禁用样式
+  .btn-text-gary {
+    color: #8A9990;
+
+    &:hover {
+      color: #8A9990!important;
+      cursor: not-allowed;
+    }
+  }
+}
+
+// 弹框按钮
+// 弹窗次按钮
+.dialog-cancel, .btn-cancel {
+  min-width: 60px;
+  width: auto;
+  height: 32px;
+  text-align: center;
+  line-height: 10px;
+  font-size: 14px;
+  margin-right: 8px;
+  opacity: 1;
+  border-radius: 2px;
+  box-shadow: none;
+  padding: 0 16px;
+  color: #A7A7A7;
+  border: 1px solid #CCCCCC;
+  background-color: #ffffff;
+
+  &:focus {
+    color: #A7A7A7;
+    border: 1px solid #CCCCCC;
+    background-color: #ffffff;
+  }
+
+  &:hover {
+    border: 1px solid #FFFFFF;
+    color: #045340;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(17, 72 , 43, 0.3);
+  }
+
+  &:active {
+    border: 1px solid #AFE0D4;
+    color: #045340;
+    background-color: #EBFFFA;
+    box-shadow: none;
+  }
+}
+
+// 弹窗主按钮
+.dialog-save, .btn-save {
+  min-width: 60px;
+  width: auto;
+  height: 32px;
+  line-height: 10px;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 2px;
+  box-shadow: none;
+  margin-left: 0 !important;
+  padding: 0 16px;
+  color: #FFFFFF;
+  border: 1px solid #045340;
+  background-color: #045340;
+
+  &:focus {
+    color: #FFFFFF;
+    border: 1px solid #045340;
+    background-color: #045340;
+  }
+
+  &:hover {
+    background: #1E8F74;
+    filter: blur(10%);
+    box-shadow: 0 0 6px #11482B;
+    border: 1px solid #1E8F74;
+  }
+
+  &:active {
+    border: 1px solid #AFE0D4;
+    color: #045340;
+    background-color: #EBFFFA;
+    box-shadow: none;
+  }
+
+  &.is-loading span {
+    margin-left: 10px;
+  }
+}
+
+// 弹窗中有删除按钮
+.lcdp-message {
+  .dialog-save {
+    min-width: 60px;
+    width: auto;
+    height: 32px;
+    line-height: 10px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none;
+    margin-left: 0 !important;
+    padding: 0 16px;
+    color: #FFFFFF;
+    border: 1px solid #045340;
+    background-color: #045340;
+
+    &:focus {
+      color: #FFFFFF;
+      border: 1px solid #045340;
+      background-color: #045340;
+    }
+
+    &:hover {
+      background: #1E8F74;
+      filter: blur(10%);
+      box-shadow: 0 0 6px #11482B;
+      border: 1px solid #1E8F74;
+    }
+
+    &:active {
+      background-color: #045340;
+    }
+
+    &.is-loading span {
+      margin-left: 10px;
+    }
+  }
+
+  .dialog-delete {
+    min-width: 60px;
+    width: auto;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none;
+    padding: 0 16px;
+    margin-left: 0 !important;
+    border: 0;
+    background-color: #ff7172;
+
+    &:focus {
+      background-color: #ff7172;
+    }
+
+    &:hover {
+      background-color: #f57171;
+    }
+
+    &:active {
+      background-color: #E04446;
+    }
+  }
+}
+
+// 特殊
+// 驳回按钮
+.drawer-btn-reject {
+  min-width: 80px;
+  width: auto;
+  height: 32px;
+  border-radius: 3px;
+  padding: 6px 6px;
+  margin-left: 16px;
+  font-size: 14px;
+  color: #FF4D4F;
+  border: 1px solid #FF4D4F;
+  background-color: #ffffff;
+
+  &:focus {
+    color: #FF4D4F;
+    border: 1px solid #FF4D4F;
+    background-color: #ffffff;
+  }
+
+  &:hover {
+    color: #FF7172;
+    border: 1px solid #FF7172;
+    background-color: #FFFFFF;
+  }
+
+  &:active {
+    color: #E04446;
+    border: 1px solid #E04446;
+    background-color: #FFFFFF;
+  }
+}
+
+// 删除按钮
+.drawer-btn-del {
+  min-width: 80px;
+  width: auto;
+  height: 32px;
+  border-radius: 3px;
+  margin-left: 16px !important;
+  padding: 4px 14px;
+  color: #ffffff;
+  border: 1px solid #FF4D4F;
+  background-color: #FF4D4F;
+
+  &:focus {
+    color: #ffffff;
+    border: 1px solid #FF4D4F;
+    background-color: #FF4D4F;
+  }
+
+  &:hover {
+    color: #FFFFFF;
+    background-color: #F81E21;
+    border: 1px solid #F81E21;
+  }
+
+  &:active {
+    color: #FFFFFF;
+    background-color: #F8704A;
+    border: 1px solid #F8704A;
+  }
+}
+
+// 右表部分按钮
+.right-tree-btns {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: auto;
+  color: #4a4c66;
+  cursor: pointer;
+
+  i {
+    font-size: 16px;
+    margin-right: 4px;
+    line-height: 16px;
+  }
+}
+
+
+

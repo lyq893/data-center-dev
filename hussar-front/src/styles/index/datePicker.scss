@@ -1,0 +1,1550 @@
+/*-----------------日期时间选择器----------------*/
+// 弹框文字大小
+.date-range-picker .el-picker-panel__content .el-date-table,
+.shortcut-bottom .el-picker-panel__content .el-month-table td .cell,
+.shortcut-bottom .el-picker-panel__content .el-year-table td .cell,
+.date-range-picker.time-range .el-picker-panel__footer .el-button {
+  font-size: 14px;
+}
+.date-range-picker {
+  .el-picker-panel__content {
+    // 日期选项行高
+    .el-date-table {
+      td {
+        padding: 2px 0;
+        span {
+          width: 22px;
+          height: 22px;
+          line-height: 22px;
+          font-weight: 400;
+        }
+        // 当前日期
+        &.today {
+          span {
+            border: 1px solid var(--c-themeColor);
+          }
+        }
+      }
+      // 星期
+      th {
+        border-bottom: 0;
+        padding-top: 10px;
+        color: var(--c-mainTxtColor);
+        font-weight: 500;
+      }
+    }
+    &.el-date-range-picker__content {
+      .el-date-table {
+        border-top: 1px solid var(--c-borderColor);
+        padding: 0 16px 16px 16px;
+      }
+    }
+  }
+  &.range-shortcut {
+    //  快捷选项
+    .el-picker-panel__sidebar {
+      .el-picker-panel__shortcut {
+        line-height: 20px;
+        padding: 6px 0 6px 16px;
+        color: var(--c-mainTxtColor);
+      }
+    }
+  }
+  .el-date-range-picker__content {
+    padding: 0;
+    &.is-left {
+      border-right: 0;
+    }
+    .el-date-range-picker__header {
+      div {
+        color: var(--c-mainTxtColor);
+        padding: 0 6px;
+        margin: 5px 50px;
+        font-size: 14px;
+      }
+    }
+  }
+  .el-date-range-picker__header {
+    margin-bottom: 5px;
+    // 箭头图标禁用时隐藏
+    .el-picker-panel__icon-btn {
+      &.is-disabled {
+        visibility: hidden;
+      }
+    }
+  }
+  // 翻页图标(单箭头)
+  .el-picker-panel__icon-btn {
+    &.el-icon-arrow-right {
+      margin-right: 8px;
+    }
+    &.el-icon-arrow-left {
+      margin-left: 8px;
+    }
+  }
+  // 分割线
+  &.time-range {
+    .el-picker-panel__footer {
+      border-top: 1px solid var(--c-borderColor);
+    }
+  }
+  &.quarter-picker {
+    padding: 0;
+  }
+}
+// 修改高度由26px为28px 解决范围阴影不居中
+.date-range-picker .el-picker-panel__content .el-date-table td,
+.date-range-picker .el-picker-panel__content .el-date-table td div {
+  height: 28px;
+}
+// 日期选项悬浮背景色
+.date-range-picker:not(.week-picker) .el-picker-panel__content .el-date-table td span:hover,
+.shortcut-bottom .el-picker-panel__content .el-month-table td .cell:hover,
+.week-picker .el-picker-panel__content .el-date-table.is-week-mode .el-date-table__row:hover div {
+  background-color: #F3F3F3;
+}
+// 日期文字字色 (补充部分代码，解决生成文字缺少属性 字体 居中 字重）
+.date-range-picker .el-picker-panel__content .el-date-table td span,
+.date-range-picker .el-picker-panel__content .el-date-table td.available:hover,
+.shortcut-bottom .el-picker-panel__content .el-month-table td .cell,
+.shortcut-bottom .el-picker-panel__content .el-year-table td .cell,
+.quarter-picker .el-picker-panel__content .el-quarter-table td .cell {
+  color: var(--c-mainTxtColor);
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+}
+// 清除图标
+.el-date-editor {
+  .el-input__icon {
+    &.el-icon-circle-close {
+      &:hover {
+        &:before {
+          content: "\E79D";
+          color: var(--c-iconColor);
+        }
+      }
+    }
+  }
+  &:hover {
+    .el-icon-circle-close {
+      &:before {
+        content: "\E6DB";
+        color: var(--c-iconColor);
+      }
+    }
+  }
+}
+.quarter-item .el-input__icon.el-icon-circle-close:before{
+  color: var(--c-iconColor);
+}
+// 翻页图标(双箭头)
+.date-range-picker .el-picker-panel__icon-btn.el-icon-d-arrow-left,
+.month-picker .el-picker-panel__icon-btn.el-icon-d-arrow-left {
+  margin-left: 24px;
+}
+.date-range-picker .el-picker-panel__icon-btn.el-icon-d-arrow-right,
+.month-picker .el-picker-panel__icon-btn.el-icon-d-arrow-right {
+  margin-right: 24px;
+}
+// 悬浮、选中样式关联主题色
+.date-range-picker.range-shortcut .el-picker-panel__body-wrapper .el-picker-panel__sidebar .el-picker-panel__shortcut:hover,
+.date-range-picker .el-picker-panel__content .el-date-table td.today span,
+.date-range-picker .el-date-range-picker__header .el-picker-panel__icon-btn:hover,
+.shortcut-bottom .el-date-picker__header .el-picker-panel__icon-btn:hover,
+.shortcut-bottom .el-picker-panel__body-wrapper .el-picker-panel__sidebar .el-picker-panel__shortcut,
+.date-range-picker.time-range .el-picker-panel__footer .el-button.el-button--text,
+.date-range-picker.time-range .el-time-panel__footer .el-time-panel__btn.confirm {
+  color: var(--c-themeColor);
+}
+// 日期范围选中样式
+.date-range-picker .el-picker-panel__body .el-picker-panel__content .el-date-table td.start-date span,
+.date-range-picker .el-picker-panel__body .el-picker-panel__content .el-date-table td.end-date span,
+.date-range-picker.time-range .el-picker-panel__footer .el-button.el-button--mini.is-plain {
+  background-color: var(--c-themeColor);
+  color: var(--c-whiteColor);
+}
+// 选中范围背景色(日期范围)
+.date-range-picker .el-picker-panel__content .el-date-table td.in-range div,
+.date-range-picker.range-shortcut .el-picker-panel__content .el-date-table td.in-range div:hover {
+  background-color: var(--c-lightColor);
+}
+// 周选中样式
+.week-picker {
+  .el-picker-panel__content {
+    .el-date-table {
+      &.is-week-mode {
+        .el-date-table__row {
+          &.current {
+            div {
+              background-color: var(--c-themeColor);
+            }
+            span {
+              color: var(--c-whiteColor);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// 月份文字行高
+.shortcut-bottom.month-picker .el-picker-panel__content .el-month-table td .cell,
+.shortcut-bottom.month-picker .el-picker-panel__content .el-year-table td .cell {
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+}
+// 今年、本月、本季度
+.shortcut-bottom .el-picker-panel__content .el-month-table td.today .cell,
+.shortcut-bottom .el-picker-panel__content .el-year-table td.today .cell,
+.quarter-picker .el-picker-panel__content .el-quarter-table td.quarter .cell {
+  border: 1px solid var(--c-themeColor);
+  border-radius: 12px;
+  font-weight: 400;
+  color: var(--c-themeColor);
+}
+.shortcut-bottom .el-picker-panel__content .el-month-table td,
+.shortcut-bottom .el-picker-panel__content .el-year-table td {
+  padding: 15px 0;
+}
+.shortcut-bottom {
+  .el-picker-panel__content {
+    .el-month-table {
+      td {
+        div {
+          padding: 0;
+          height: 22px;
+        }
+      }
+    }
+    .el-year-table {
+      td {
+        .cell {
+          &:hover {
+            border-radius: 12px;
+            background-color: #F3F3F3;
+          }
+        }
+      }
+    }
+  }
+  // 快捷选项区位置
+  .el-picker-panel__sidebar {
+    top: auto;
+    border-right: 0;
+    width: 328px;
+    .el-picker-panel__shortcut {
+      text-align: center;
+      padding-left: 0;
+      margin-bottom: 8px;
+      font-weight: 400;
+    }
+  }
+  .el-date-picker__header {
+    .el-date-picker__header-label {
+      font-size: 14px;
+      color: var(--c-mainTxtColor);
+    }
+  }
+  .el-date-picker__header--bordered {
+    & + .el-picker-panel__content {
+      margin: 0 0 2px 0;
+      width: 100%;
+    }
+  }
+}
+// 日期选中样式
+.month-picker .el-picker-panel__content .el-month-table td.current:not(.disabled) .cell,
+.quarter-picker .el-picker-panel__content .el-quarter-table td.current:not(.disabled) .cell {
+  background-color: var(--c-themeColor);
+  color: var(--c-whiteColor);
+}
+.month-picker {
+  .el-date-picker__header {
+    margin: 0;
+  }
+  .el-date-picker__header--bordered {
+    padding-top: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--c-borderColor);
+  }
+}
+.shortcut-bottom .el-picker-panel__sidebar + .el-picker-panel__body,
+.quarter-picker .el-quarter-picker {
+  margin-left: 0;
+  margin-bottom: 44px;
+  border-bottom: 1px solid var(--c-borderColor);
+}
+.el-date-picker {
+  &.has-sidebar {
+    &.shortcut-bottom {
+      width: 328px;
+    }
+  }
+}
+// 隐藏Tooltip箭头
+.date-range-picker.el-popper .popper__arrow {
+  display: none;
+}
+.el-popper.date-range-picker {
+  margin-top: 0 !important;
+}
+// 弹框背景色
+.shortcut-bottom .el-picker-panel__body-wrapper {
+  background-color: var(--c-whiteColor);
+}
+.date-range-picker .el-picker-panel__sidebar {
+  background-color: var(--c-whiteColor);
+}
+.month-picker .el-date-picker__header .el-picker-panel__icon-btn,
+.date-range-picker .el-picker-panel__icon-btn {
+  color: var(--c-iconColor);
+}
+// 弹框阴影
+.el-picker-panel.el-date-picker.el-popper.date-range-picker,
+.el-picker-panel.el-date-range-picker.el-popper.date-range-picker,
+.el-popover.el-popper.date-range-picker.quarter-picker{
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 32%);
+}
+// 弹框背景色
+.el-popper {
+  &.date-range-picker {
+    background-color: var(--c-whiteColor);
+  }
+}
+.date-range-picker {
+  &.time-range {
+    .el-picker-panel__footer {
+      background-color: unset;
+    }
+    input {
+      &.el-input__inner {
+        background-color: unset;
+      }
+    }
+  }
+}
+// 日期选项文字（非本月）
+.date-range-picker .el-picker-panel__body-wrapper .el-date-table td.prev-month span,
+.date-range-picker .el-picker-panel__body-wrapper .el-date-table td.next-month span {
+  color: var(--c-placeholderIconColor);
+}
+.date-range-picker.time-range .el-date-range-picker__time-header input.el-input__inner:focus,
+.date-range-picker.time-range .el-picker-panel__footer .el-button.el-button--mini.is-plain {
+  border-color: var(--c-themeColor);
+}
+// 周选择器
+.week-picker {
+  .el-picker-panel__body {
+    .el-date-picker__header {
+      border-bottom: 1px solid var(--c-borderColor);
+      margin: 0;
+      padding: 5px 0;
+    }
+    .el-picker-panel__content {
+      margin-top: 0;
+    }
+  }
+}
+.quarter-picker {
+  .el-date-picker__header {
+    &.el-date-picker__header--bordered {
+      border-bottom: 1px solid var(--c-borderColor);
+    }
+  }
+}
+/*----日期选择器（快捷选项）-------*/
+.datePickerShortcut .el-picker-panel__body .el-date-picker__header {
+  border-bottom: 1px solid var(--c-borderColor);
+  margin: 0 !important;
+  padding: 5px 0;
+}
+// 隐藏Tooltip箭头
+.datePickerShortcut.el-popper .popper__arrow {
+  display: none;
+}
+.el-popper.datePickerShortcut {
+  margin-top: 0 !important;
+}
+// 双箭头
+.datePickerShortcut .el-picker-panel__icon-btn.el-icon-d-arrow-left {
+  margin-left: 24px;
+}
+.datePickerShortcut .el-picker-panel__icon-btn.el-icon-d-arrow-right {
+  margin-right: 24px;
+}
+// 日期文字字色
+.datePickerShortcut .el-picker-panel__content .el-date-table td span,
+.datePickerShortcut .el-picker-panel__content .el-date-table td.available:hover {
+  color: var(--c-mainTxtColor);
+}
+// 非本月文字字色
+.datePickerShortcut .el-picker-panel__body-wrapper .el-date-table td.prev-month span, .datePickerShortcut .el-picker-panel__body-wrapper .el-date-table td.next-month span {
+  color: var(--c-placeholderIconColor);
+}
+// 弹出框阴影
+.el-picker-panel.el-date-picker.el-popper.has-sidebar.datePickerShortcut {
+  box-shadow: 0 0 8px 0 rgb(0 0 0 / 32%);
+}
+// 弹窗背景填充色
+.el-picker-panel.el-date-picker.el-popper.has-sidebar.datePickerShortcut {
+  background-color: var(--c-whiteColor);
+}
+.datePickerShortcut {
+  // 今年、本月、本季度
+  .el-picker-panel__body .el-picker-panel__content .el-year-table td.today .cell,
+  .el-picker-panel__content .el-month-table td.today .cell {
+    border: 1px solid var(--c-themeColor);
+    border-radius: 12px;
+    font-weight: 400;
+    color: var(--c-themeColor) !important;
+  }
+  .el-picker-panel__content .el-month-table td, .el-picker-panel__content .el-year-table td {
+    padding: 15px 0;
+  }
+  // 年、月 悬浮字色
+  .el-picker-panel__content {
+    .el-month-table {
+      td {
+        div {
+          padding: 0;
+          height: 22px;
+        }
+      }
+    }
+    .el-year-table,.el-month-table {
+      td {
+        .cell {
+          &:hover {
+            border-radius: 12px;
+            background-color: #F3F3F3;
+            color: var(--c-mainTxtColor);
+          }
+        }
+      }
+    }
+  }
+  // 弹框文字大小 关联字体颜色为主要字色
+  .el-picker-panel__content .el-date-table,
+  .el-picker-panel__content .el-month-table td .cell,
+  .el-picker-panel__content .el-year-table td .cell,{
+    font-size: 14px;
+    color: var(--c-mainTxtColor);
+  }
+  .el-picker-panel__shortcut:hover {
+    color: var(--c-themeColor)
+  }
+  /*-悬浮颜色-*/
+  .el-picker-panel__icon-btn:hover {
+    color: var(--c-themeColor)
+  }
+  /*-今天文字颜色-*/
+  .el-picker-panel__content {
+    // 日期选项行高
+    .el-date-table {
+      td {
+        padding: 2px 0;
+        span {
+          width: 22px;
+          height: 22px;
+          line-height: 22px;
+          font-weight: 400;
+        }
+        // 当前日期
+        &.today {
+          span {
+            border: 1px solid var(--c-themeColor);
+          }
+        }
+      }
+      // 星期
+      th {
+        border-bottom: 0;
+        padding-top: 10px;
+        color: var(--c-mainTxtColor);
+        font-weight: 500;
+      }
+    }
+    &.el-date-range-picker__content {
+      .el-date-table {
+        border-top: 1px solid var(--c-borderColor);
+        padding: 0 16px 16px 16px;
+      }
+    }
+  }
+
+  // 弹窗年份文字 大小 关联主要字色
+  .el-date-picker__header-label {
+    font-size: 14px;
+    color: var(--c-mainTxtColor)
+  }
+
+  .el-select-dropdown, .el-picker-panel {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.32);
+    border-radius: 2px;
+  }
+  /*-弹出面板日期等样式微调-*/
+  .el-picker-panel__content .el-date-table td.current:not(.disabled) span {
+    background-color: var(--c-themeColor);
+    color: var(--c-whiteColor);
+  }
+  // 快捷弹窗背景颜色
+  .el-picker-panel__sidebar {
+    background-color:var(--c-whiteColor);
+  }
+  // 快捷弹窗文字修改为主要字色
+  .el-picker-panel__shortcut {
+    color:var(--c-mainTxtColor);
+  }
+  .el-picker-panel__content {
+    margin-top: 0 !important;
+  }
+
+  .el-date-table td span:hover {
+    background-color: #F3F3F3;
+  }
+  // 翻页图标(单箭头)
+  .el-picker-panel__icon-btn {
+    &.el-icon-arrow-right {
+      margin-right: 8px;
+    }
+
+    &.el-icon-arrow-left {
+      margin-left: 8px;
+    }
+  }
+}
+//年份选择器
+.year-picker {
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+  .el-picker-panel__content {
+    .el-year-table {
+      td {
+        &.current {
+          &:not(.disabled) {
+            //选择的日期样式
+            .cell {
+              background-color: var(--c-themeColor);
+              color: var(--c-whiteColor);
+              border-radius: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  //顶部年份样式
+  .el-date-picker__header {
+    margin: 6px 0 0 0;
+    padding-bottom: 4px;
+    border-bottom: solid 1px var(--c-borderColor);
+  }
+  &.el-date-picker {
+    &.has-sidebar {
+      //弹出框阴影
+      &.shortcut-bottom {
+        width: 290px;
+        margin: 0!important;
+        box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+      }
+    }
+  }
+  .el-picker-panel__sidebar {
+    width: 100%;
+    background-color: var(--c-whiteColor);
+    & + .el-picker-panel__body {
+      border-top: solid 1px #D5D9DC;
+    }
+  }
+  .el-date-picker__header--bordered {
+    & + .el-picker-panel__content {
+      height: 203px;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+  }
+  table {
+    height: 100%;
+  }
+  .el-date-picker__prev-btn {
+    margin-left: 28px;
+  }
+  .el-date-picker__next-btn {
+    margin-right: 28px;
+  }
+  .popper__arrow {
+    display: none;
+  }
+}
+//当前年份单元框行高
+.year-picker .el-picker-panel__content .el-year-table td.today .cell{
+  line-height: 21px;
+}
+//可选年份单元框行高
+.year-picker .el-year-table td .cell{
+  width: 50px;
+  height: 22px;
+  line-height: 22px;
+}
+//选项按钮关联主题
+.year-picker .el-icon-d-arrow-left,.year-picker .el-icon-d-arrow-right{
+  color: var(--c-iconColor)
+}
+//快捷选项按钮关联主题
+//.year-picker .el-picker-panel__shortcut{
+//  color:var(--c-mainTxtColor)!important;
+//}
+
+//年份快捷选择器
+.year-shortcut {
+  .el-picker-panel__content {
+    .el-year-table {
+      td {
+        &.today {
+          //本年日期样式
+          .cell {
+            border: 1px solid var(--c-themeColor);
+            border-radius: 12px;
+            font-weight: 400;
+            color: var(--c-themeColor);
+            line-height: 21px;
+          }
+        }
+        &.current {
+          //当前选择日期样式
+          .cell {
+            background-color: var(--c-themeColor);
+            color: var(--c-whiteColor);
+            border-radius: 12px;
+          }
+        }
+        //日期样式
+        .cell {
+          width: 50px;
+          height: 22px;
+          line-height: 22px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  &.el-date-picker {
+    //日期弹出框阴影
+    &.has-sidebar {
+      width: 402px;
+      margin: 0!important;
+      box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+      background-color: var(--c-whiteColor);
+    }
+    .el-picker-panel__content {
+      width: 290px;
+      height: 203px;
+      margin: 0;
+      padding: 0 10px;
+    }
+    table {
+      height: 100%;
+    }
+  }
+  //分割线样式
+  .el-date-picker__header--bordered {
+    padding-bottom: 4px;
+    margin: 6px 0 0 0;
+    border-bottom: solid 1px var(--c-borderColor);
+  }
+  .el-picker-panel__sidebar {
+    border-right: solid 1px var(--c-borderColor);
+    background-color: var(--c-whiteColor);
+  }
+  //年份文字样式
+  .el-date-picker__header-label {
+    font-size: 14px;
+    color: #505960;
+    color: var(--c-mainTxtColor);
+  }
+  .el-date-picker__prev-btn {
+    margin-left: 28px;
+  }
+  .el-date-picker__next-btn {
+    margin-right: 28px;
+  }
+}
+//年快捷选项图标关联主题小图标色
+.year-shortcut .el-date-picker__header .el-picker-panel__icon-btn {
+  color: var(--c-iconColor)
+}
+//年份文字关联主题
+.year-shortcut .el-picker-panel__content .el-year-table td .cell{
+  color: var(--c-mainTxtColor);
+}
+.year-shortcut .el-picker-panel__content .el-year-table td .cell:hover{
+  border-radius: 12px;
+  background-color: #F3F3F3;
+}
+//选择按钮关联主题色
+.year-shortcut .el-icon-d-arrow-left,.year-shortcut .el-icon-d-arrow-right{
+  color: var(--c-iconColor)
+}
+//按钮悬浮颜色关联主题色
+.year-shortcut .el-picker-panel__shortcut:hover,.year-shortcut .el-date-picker__header .el-picker-panel__icon-btn:hover {
+  color: (var(--c-themeColor));
+}
+//快捷选项按钮关联主题色
+.year-shortcut .el-picker-panel__shortcut{
+  color: var(--c-mainTxtColor)
+}
+//隐藏下拉框箭头
+.year-shortcut .popper__arrow{
+  display: none;
+}
+/*-----------------月份选择器（带快捷键）----------------*/
+.jxd-month-picker-shortcut-bd {
+  .el-picker-panel__content {
+    .el-month-table {
+      td {
+        // 悬浮样式
+        .cell {
+          width: 50px;
+          height: 22px;
+          line-height: 22px;
+          font-size: 14px;
+          color: var(--c-mainTxtColor);
+          &:hover {
+            border-radius: 12px;
+            background-color: #F3F3F3;
+            color: var(--c-mainTxtColor)
+          }
+        }
+        // 当前时间日期样式
+        &.today {
+          .cell {
+            border: 1px solid var(--c-themeColor);
+            border-radius: 12px;
+            font-weight: 400;
+            color: var(--c-themeColor);
+          }
+        }
+        // 当前选择日期样式
+        &.current {
+          .cell {
+            background-color: var(--c-themeColor);
+            color: var(--c-whiteColor);
+            border-radius: 12px;
+          }
+        }
+      }
+    }
+  }
+  &.el-date-picker {
+    //日期弹出框阴影
+    &.has-sidebar {
+      width: 402px;
+      margin: 0;
+      box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+    }
+    .el-picker-panel__content {
+      width: 290px;
+      height: 203px;
+      margin: 0;
+      padding: 0 10px;
+    }
+    table {
+      height: 100%;
+    }
+  }
+  //分割线样式
+  .el-date-picker__header--bordered {
+    padding-bottom: 4px;
+    margin: 6px 0 0 0;
+    border-bottom: 1px solid var(--c-borderColor);
+  }
+  .el-picker-panel__sidebar {
+    border-right: 1px solid var(--c-borderColor);
+  }
+  //文字样式
+  .el-date-picker__header-label {
+    font-size: 14px;
+    color: var(--c-mainTxtColor);
+  }
+  .el-date-picker__prev-btn {
+    margin-left: 28px;
+    color: var(--c-iconColor);
+  }
+  .el-date-picker__next-btn {
+    margin-right: 28px;
+    color: var(--c-iconColor);
+  }
+  .el-picker-panel__shortcut {
+    color: var(--c-mainTxtColor);
+  }
+}
+//按钮悬浮颜色关联主题色
+.jxd-month-picker-shortcut-bd .el-picker-panel__shortcut:hover,.jxd-month-picker-shortcut-bd .el-date-picker__header .el-picker-panel__icon-btn:hover {
+  color: var(--c-themeColor);
+}
+//月份选择器快捷选项弹窗填充色
+.jxd-month-picker-shortcut-bd,.jxd-month-picker-shortcut-bd .el-picker-panel__sidebar{
+  background: var(--c-whiteColor);
+}
+//修改月份选择快捷选项下拉小箭头样式
+.jxd-month-picker-shortcut-bd.el-popper .popper__arrow::after{
+  border-bottom-color: var(--c-whiteColor);
+}
+///*-----------------时间选择器----------------*/
+//设置弹出框的宽高和阴影
+.el-time-panel.el-popper.TimePicker{
+  padding: 0;
+  height: 289px;
+  width: 290px;
+  margin: 0!important;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+  background-color: var(--c-whiteColor);
+}
+.el-time-panel.el-popper.TimePicker .el-time-panel__content{
+  height: 244px;
+  width: 290px;
+  margin-top: 4px;
+}
+.el-time-panel.el-popper.TimePicker .el-time-panel__footer{
+  height: 44px;
+  width: 290px;
+  padding: 0;
+  border-top: 1px solid var(--c-borderColor);
+}
+.TimePicker .el-time-panel__content.has-seconds .el-time-spinner__item{
+  width: 78px;
+  height: 24px;
+  line-height: 24px;
+  color: var(--c-mainTxtColor);
+  border-radius: 2px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.TimePicker .el-time-panel__content.has-seconds .el-time-spinner__item.active{
+  background: var(--c-lightColor);
+  cursor:pointer;
+}
+.TimePicker .el-time-panel__content.has-seconds .el-time-spinner__item:hover{
+  background: #F3F3F3;
+  border-radius: 2px;
+}
+.TimePicker .el-time-panel__content.has-seconds .el-time-spinner__item.active .el-date-table td span{
+  height: 20px;
+  line-height: 20px;
+}
+.el-time-panel .el-popper .TimePicker .el-time-panel__content .el-time-spinner  .el-time-spinner__wrapper .el-scrollbar__wrap .el-scrollbar__view .el-time-spinner__list .el-time-spinner__item .active{
+  margin-top: 0;
+}
+//设置按钮样式
+.TimePicker .el-time-panel__footer .el-time-panel__btn.confirm{
+  background-color: var(--c-themeColor);
+  color: var(--c-whiteColor);
+  width: 56px;
+  height: 24px;
+  line-height: 24px;
+  margin: 10px 12px 10px auto;
+  padding: 2px 14px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0;
+}
+// 隐藏取消按钮
+.TimePicker .el-time-panel__footer .el-time-panel__btn.cancel{
+  display: none;
+}
+.TimePicker .el-time-spinner__list::after, .TimePicker .el-time-spinner__list::before{
+  height: 120px!important;
+}
+.el-time-panel.el-popper.TimePicker .el-time-panel__content.has-seconds .el-time-spinner.has-seconds .el-time-spinner__wrapper .el-scrollbar{
+  height: 244px;
+  width: 290px;
+}
+.TimePicker .el-time-spinner__wrapper .el-scrollbar__wrap:not(.el-scrollbar__wrap--hidden-default){
+  padding-bottom: 0;
+}
+.el-time-panel.el-popper.TimePicker .el-time-panel__content.has-seconds .el-time-spinner.has-seconds .el-time-spinner__wrapper{
+  max-height: 244px;
+  height: 244px;
+  width: 78px;
+  margin-left: 12px;
+}
+.TimePicker .el-time-panel__content.has-seconds .el-time-spinner__item.el-date-table.is-week-mode .el-date-table__row{
+  height: 22px;
+}
+//将滚动条隐藏
+.TimePicker .el-scrollbar__bar.is-horizontal, .TimePicker .el-scrollbar__bar.is-vertical{
+  display: none;
+}
+// 隐藏双横线
+.TimePicker .el-time-panel__content::after, .TimePicker .el-time-panel__content::before{
+  border-top:0;
+  border-bottom: 0;
+}
+.TimePicker .el-time-spinner__list{
+  width: 78px;
+  margin-bottom: 4px;
+}
+.TimePicker .el-time-spinner:first-child{
+  margin-left: 4px;
+}
+.TimePicker .el-time-spinner:last-child{
+  margin-right: 16px;
+}
+// 箭头隐藏
+.el-popper.TimePicker  .popper__arrow::after{
+  display: none;
+}
+.el-popper.TimePicker[x-placement^=bottom] .popper__arrow,  .el-popper.TimePicker[x-placement^=top] .popper__arrow{
+  display: none;
+}
+
+/*-----------------周选择器带快捷键----------------*/
+//设置弹出框
+.el-picker-panel.el-date-picker.el-popper.has-sidebar.weekPickerShortcut{
+  border-radius: 2px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+  margin:0!important;
+  background-color: var(--c-whiteColor);
+}
+//快捷键悬浮颜色
+.el-picker-panel .el-date-picker .el-popper .has-sidebar .weekPickerShortcut .el-picker-panel__body-wrapper .el-picker-panel__sidebar .el-picker-panel__shortcut:hover{
+  color: var(--c-themeColor) !important;
+}
+// 当天
+.weekPickerShortcut .el-picker-panel__content .el-date-table td.today span{
+  height: 22px;
+  line-height: 22px;
+  color: var(--c-themeColor);
+  border: 1px solid var(--c-themeColor);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: PingFangSC-Regular;
+  border-radius:50%;
+  letter-spacing: 0;
+}
+// 头部箭头间隔
+.weekPickerShortcut [class*=" el-icon-"], .weekPickerShortcut [class^=el-icon-]{
+  margin-left:11px;
+}
+// 本月
+.weekPickerShortcut .el-date-table .available span{
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  color: var(--c-mainTxtColor);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: PingFangSC-Regular;
+  text-align: center;
+  letter-spacing: 0;
+}
+// 将起始和结束的样式设置为同名
+.weekPickerShortcut .el-date-table td.start-date span, .weekPickerShortcut .el-date-table td.end-date span{
+  background-color:transparent;
+}
+.weekPickerShortcut .el-date-table.is-week-mode .el-date-table__row.current div{
+  background-color: var(--c-themeColor);
+  color: var(--c-whiteColor);
+  padding:0;
+  height: 22px;
+}
+.weekPickerShortcut .el-date-table.is-week-mode .el-date-table__row{
+  height: 22px;
+}
+.weekPickerShortcut .el-date-table.is-week-mode .el-date-table__row div{
+  padding:0;
+}
+.weekPickerShortcut .el-date-table.is-week-mode .el-date-table__row.current span{
+  color: var(--c-whiteColor);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: PingFangSC-Regular;
+  text-align: center;
+  letter-spacing: 0;
+}
+.weekPickerShortcut .el-date-table td, .weekPickerShortcut .el-date-table td div{
+  height: 22px!important;
+}
+.el-picker-panel.el-date-picker.el-popper.has-sidebar.weekPickerShortcut{
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+  border-radius: 2px;
+}
+// 选中项悬浮
+.weekPickerShortcut .el-picker-panel__shortcut:hover{
+  color: var(--c-themeColor)!important;
+}
+.weekPickerShortcut .el-date-picker__header{
+  border-bottom:1px solid var(--c-borderColor);
+  padding: 0 24px;
+  margin-top: 12px!important;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-bottom: 12px;
+}
+// 星期
+.weekPickerShortcut  .el-date-table th{
+  border-bottom:none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--c-mainTxtColor)!important;
+  font-family: PingFangSC-Medium;
+  letter-spacing: 0;
+}
+// 快捷键
+.weekPickerShortcut .el-picker-panel__shortcut{
+  padding-left: 16px;
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--c-mainTxtColor);
+  font-family: PingFangSC-Medium;
+  height: 20px;
+  letter-spacing: 0;
+}
+// 边距
+.weekPickerShortcut .el-date-picker .el-picker-panel__content{
+  margin: 16px 16px 16px 24px;
+  width: 290px;
+}
+// 头部年份月份样式
+.weekPickerShortcut .el-date-picker__header-label{
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: var(--c-mainTxtColor);
+  font-family: PingFangSC-Medium;
+}
+.weekPickerShortcut .el-picker-panel__sidebar{
+  padding-top: 0;
+  background-color: var(--c-whiteColor);
+  border-right:1px solid var(--c-borderColor);
+}
+.weekPickerShortcut .el-date-table td{
+  padding: 4.5px 0;
+}
+// 头部箭头的样式和悬浮样式
+.weekPickerShortcut .el-picker-panel__icon-btn.el-date-picker__next-btn.el-icon-d-arrow-right, .weekPickerShortcut .el-picker-panel__icon-btn.el-date-picker__prev-btn.el-icon-d-arrow-left{
+  color: var(--c-iconColor);
+}
+.weekPickerShortcut .el-picker-panel__icon-btn.el-date-picker__next-btn.el-icon-arrow-right, .weekPickerShortcut .el-picker-panel__icon-btn.el-date-picker__prev-btn.el-icon-arrow-left{
+  color: var(--c-iconColor);
+}
+.weekPickerShortcut .el-picker-panel__icon-btn.el-date-picker__prev-btn.el-icon-arrow-left:hover{
+  color: var(--c-themeColor);
+}
+.weekPickerShortcut .el-picker-panel__icon-btn.el-date-picker__next-btn.el-icon-arrow-right:hover{
+  color: var(--c-themeColor);
+}
+.weekPickerShortcut .el-picker-panel__icon-btn.el-date-picker__prev-btn.el-icon-d-arrow-left:hover{
+  color: var(--c-themeColor);
+}
+.weekPickerShortcut .el-picker-panel__icon-btn.el-date-picker__next-btn.el-icon-d-arrow-right:hover{
+  color: var(--c-themeColor)!important;
+}
+.weekPickerShortcut .el-date-picker__header .el-picker-panel__icon-btn:hover{
+  color: var(--c-themeColor);
+}
+// 悬浮背景填充颜色
+.weekPickerShortcut .el-date-table.is-week-mode .el-date-table__row:hover div{
+  background-color: #F3F3F3;
+}
+.weekPickerShortcut .el-date-table.is-week-mode .el-date-table__row.current:hover div{
+  background-color: var(--c-themeColor);
+}
+// 弹出框的小三角隐藏
+.el-popper.weekPickerShortcut[x-placement^=top] .popper__arrow{
+  display: none;
+}
+.el-popper.weekPickerShortcut[x-placement^=top] .popper__arrow::after{
+  display: none;
+}
+.el-popper.weekPickerShortcut[x-placement^=bottom] .popper__arrow::after{
+  display: none;
+}
+.el-popper.weekPickerShortcut[x-placement^=bottom] .popper__arrow{
+  display: none;
+}
+// 非本月
+.weekPickerShortcut .el-date-table td.prev-month span, .weekPickerShortcut .el-date-table td.next-month span{
+  color: var(--c-placeholderIconColor);
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: PingFangSC-Regular;
+  text-align: center;
+  letter-spacing: 0;
+}
+/*-----------------时间范围选择器----------------*/
+.el-time-range-picker.el-picker-panel.el-popper.TimeRangePicker{
+  width: 580px;
+  height: 289px;
+  background: var(--c-whiteColor);
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+  border-radius: 2px;
+  margin: 0!important;
+}
+// 中间区域的宽高
+.el-time-range-picker.el-picker-panel.el-popper.TimeRangePicker .el-time-range-picker__content{
+  padding: 0!important;
+  height: 245px;
+  width: 580px;
+}
+.el-time-range-picker.el-picker-panel.el-popper.TimeRangePicker .el-time-range-picker__content .el-time-range-picker__cell{
+  width: 290px;
+  height: 245px;
+  padding: 0;
+}
+// 头部标题区样式
+.el-time-range-picker.el-picker-panel.el-popper.TimeRangePicker .el-time-range-picker__content .el-time-range-picker__cell .el-time-range-picker__header{
+  width: 290px;
+  height: 41px;
+  padding-top:12px ;
+  padding-bottom: 9px;
+  color: var(--c-mainTxtColor);
+  text-align: center;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0!important;
+  line-height: 20px;
+}
+.el-time-range-picker.el-picker-panel.el-popper.TimeRangePicker .el-time-range-picker__content .el-time-range-picker__cell .el-time-range-picker__body{
+  height: 203px;
+  width: 290px;
+  border-radius: 2px;
+  border: none;
+  border-top: 1px solid var(--c-borderColor);
+}
+.el-time-range-picker.el-picker-panel.el-popper.TimeRangePicker .el-time-range-picker__content .el-time-range-picker__cell .el-time-range-picker__body.el-time-panel__content.has-seconds .el-time-spinner.has-seconds{
+  height: 203px;
+  width: 290px;
+  border-radius: 2px;
+}
+.el-time-range-picker.el-picker-panel.el-popper.TimeRangePicker .el-time-range-picker__content .el-time-range-picker__cell .el-time-range-picker__body.el-time-panel__content.has-seconds .el-time-spinner.has-seconds .el-time-spinner__wrapper .el-scrollbar .el-scrollbar__wrap{
+  margin: 0;
+  padding: 0;
+  height: 203px;
+  width: 78px;
+}
+.TimeRangePicker .el-time-range-picker__content .el-time-range-picker__cell .el-time-range-picker__body.el-time-panel__content.has-seconds .el-time-spinner.has-seconds .el-time-spinner__wrapper .el-scrollbar .el-scrollbar__wrap .el-scrollbar__view.el-time-spinner__list .el-time-spinner__item{
+  width: 78px;
+  height: 24px;
+}
+.TimeRangePicker .el-time-range-picker__content .el-time-range-picker__cell .el-time-range-picker__body.el-time-panel__content.has-seconds .el-time-spinner.has-seconds .el-time-spinner__wrapper .el-scrollbar {
+  height: 203px;
+}
+.TimeRangePicker .el-time-spinner.has-seconds .el-time-spinner__wrapper{
+  width: 78px;
+  height: 195px;
+  max-height: 203px;
+  margin-left: 12px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.TimeRangePicker .el-time-spinner.has-seconds .el-time-spinner__wrapper:first-child{
+  margin-left: 16px;
+}
+.TimeRangePicker .el-time-spinner.has-seconds .el-time-spinner__wrapper:last-child{
+  margin-right: 16px;
+}
+.TimeRangePicker .el-time-spinner__wrapper .el-scrollbar__wrap:not(.el-scrollbar__wrap--hidden-default){
+  padding-bottom: 0;
+}
+.TimeRangePicker .el-time-spinner__item.disabled{
+  color: var(--c-placeholderIconColor);
+}
+
+// 不可选中时间的样式
+.TimeRangePicker .el-time-spinner__item.active:not(.disabled){
+  background-color: var(--c-lightColor);
+  border-radius: 2px;
+  cursor:pointer;
+  color: var(--c-mainTxtColor);
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.TimeRangePicker  .el-time-spinner__item{
+  width: 78px;
+  height: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  border-radius: 2px;
+}
+// 悬浮背景色
+.TimeRangePicker .el-time-spinner__item:hover:not(.disabled):not(.active){
+  background: #F3F3F3;
+}
+.TimeRangePicker .el-scrollbar__wrap{
+  margin: 0;
+  padding: 0;
+}
+// 隐藏滚动条
+.TimeRangePicker .el-scrollbar__bar .is-horizontal{
+  display: none;
+}
+.TimeRangePicker .el-scrollbar__bar .is-vertical{
+  display: none;
+}
+// 底部的样式
+.TimeRangePicker .el-time-panel__footer{
+  width: 580px;
+  height: 44px;
+  line-height: 44px;
+  padding: 0;
+  border-top: 1px solid var(--c-borderColor);
+}
+.TimeRangePicker .el-time-panel__footer .el-time-panel__btn.cancel{
+  display: none;
+}
+// 按钮样式
+.TimeRangePicker .el-time-panel__footer .el-time-panel__btn.confirm{
+  width: 56px;
+  height: 24px;
+  line-height: 24px;
+  background: var(--c-themeColor);
+  border-radius: 2px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--c-whiteColor);
+  text-align: center;
+  margin: 10px 12px 10px 0;
+}
+//  隐藏三角
+.TimeRangePicker .el-picker-panel.el-date-picker.el-popper{
+  margin:0!important;
+}
+.TimeRangePicker .el-time-panel__footer .el-time-panel__btn.cancel{
+  display: none;
+}
+.el-popper.TimeRangePicker .popper__arrow::after {
+  visibility: hidden;
+}
+.el-popper.TimeRangePicker[x-placement^=bottom] .popper__arrow, .el-popper.TimeRangePicker[x-placement^=top] .popper__arrow {
+  visibility: hidden;
+}
+// 双横线的隐藏
+.TimeRangePicker .el-time-panel__content::after, .TimeRangePicker .el-time-panel__content::before {
+  border-top: 0;
+  border-bottom: 0;
+}
+// 选中项
+.TimeRangePicker .el-time-panel__content.has-seconds .el-time-spinner__item.active{
+  background: var(--c-lightColor);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 2px;
+  cursor:pointer;
+}
+.TimeRangePicker .el-time-spinner__list::after, .TimeRangePicker .el-time-spinner__list::before{
+  height: 90px!important;
+}
+//将滚动条隐藏
+.TimeRangePicker .el-scrollbar__bar.is-horizontal, .TimeRangePicker .el-scrollbar__bar.is-vertical{
+  display: none;
+}
+.TimeRangePicker .el-time-spinner__list{
+  margin-bottom: 4px;
+}
+
+
+//金额输入框
+//提示气泡
+.jxd-tooltip.el-tooltip__popper.is-light {
+  background-color: var(--c-whiteColor);
+  color: var(--c-mainTxtColor);
+  border: 1px solid var(--c-borderColor);
+  box-shadow: var(--s-default2);
+  width: 40px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  padding: 0px;
+  .popper__arrow {
+    left: 39%!important;
+    margin-left: -6px;
+    border-top-color: var(--c-borderColor)!important;
+    &:after {
+      border-top-color:var(--c-whiteColor);
+    }
+  }
+}
+//清除图标
+.jxd_ins_elInputCurrency {
+  .el-input__icon {
+    &:before {
+      content: "\E6DB";
+      color: var(--c-iconColor);
+    }
+    &:hover {
+      &:before {
+        content: "\E79D";
+        color: var(--c-iconColor);
+      }
+    }
+  }
+}
+
+// 月份范围选择去带快捷键
+.el-picker-panel.el-date-range-picker.el-popper.has-sidebar.MonthRangePickerShortcut{
+  margin: 0!important;
+  width: 692px;
+  height: 244px;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+}
+.MonthRangePickerShortcut .el-picker-panel__body-wrapper .el-picker-panel__sidebar{
+  width: 112px;
+  height: 242px;
+  padding: 0;
+}
+.MonthRangePickerShortcut .el-date-range-picker__content.is-left{
+  border: none;
+}
+.MonthRangePickerShortcut .el-month-table{
+  width: 290px;
+  height: 203px;
+  margin-left: 5px;
+}
+.MonthRangePickerShortcut .el-date-range-picker__content.is-left{
+  padding: 0;
+}
+.MonthRangePickerShortcut .el-date-range-picker__content.is-right{
+  padding: 0;
+}
+.MonthRangePickerShortcut .el-month-table td div{
+  padding: 0;
+  height: 20px;
+  line-height: 20px;
+}
+.MonthRangePickerShortcut .el-month-table td .cell{
+  height: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--c-mainTxtColor);
+  font-family: PingFangSC-Regular;
+  text-align: center;
+}
+.MonthRangePickerShortcut .el-month-table td .cell:hover{
+  color: var(--c-mainTxtColor);
+}
+.MonthRangePickerShortcut .el-month-table .in-range .cell:hover{
+  background-color: var(--c-defaultBg);
+}
+// 悬浮选项背景颜色
+.MonthRangePickerShortcut .el-month-table td .cell:hover{
+  background-color: #F3F3F3;
+}
+//选中的开始月份和结束月份样式
+.MonthRangePickerShortcut .el-picker-panel__content .el-month-table td.start-date .cell, .MonthRangePickerShortcut .el-picker-panel__content .el-month-table td.end-date .cell{
+  color: var(--c-whiteColor);
+  height: 22px;
+  line-height: 22px;
+  border-radius: 12px;
+  background-color: var(--c-themeColor);
+}
+.MonthRangePickerShortcut  .el-month-table td.start-date .cell:hover{
+  background-color: var(--c-themeColor);
+  color: var(--c-whiteColor);
+}
+.MonthRangePickerShortcut  .el-month-table td.end-date .cell:hover{
+  background-color: var(--c-themeColor);
+  color: var(--c-whiteColor);
+}
+// 当月
+.MonthRangePickerShortcut .el-month-table td.today div a.cell{
+  border: 1px solid var(--c-themeColor);
+  border-radius: 12px;
+  color: var(--c-themeColor);
+}
+.MonthRangePickerShortcut .el-date-range-picker__content .el-date-range-picker__header{
+  height: 41px;
+  line-height: 41px;
+  border-bottom: 1px solid var(--c-borderColor);
+  padding-top: 12px;
+}
+.MonthRangePickerShortcut .el-date-range-picker__content.is-right .el-date-range-picker__header{
+  padding-right: 24px;
+  border-bottom: 1px solid var(--c-borderColor);
+}
+.MonthRangePickerShortcut .el-date-range-picker__content.is-left .el-date-range-picker__header{
+  padding-left: 24px;
+  border-bottom: 1px solid var(--c-borderColor);
+}
+.MonthRangePickerShortcut .el-date-range-picker__content .el-date-range-picker__header div{
+  height: 20px;
+  line-height: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  color: var(--c-mainTxtColor);
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+// 隐藏三角形
+.el-popper.MonthRangePickerShortcut[x-placement^=bottom] .popper__arrow,  .el-popper.MonthRangePickerShortcut[x-placement^=top] .popper__arrow{
+  display: none;
+}
+//月份范围快捷键
+.MonthRangePickerShortcut .el-picker-panel__shortcut{
+  color: var(--c-mainTxtColor);
+  margin-top: 12px;
+  padding-left: 16px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  font-size: 14px;
+}
+.MonthRangePickerShortcut .el-picker-panel__shortcut:hover{
+  color: var(--c-themeColor);
+}
+.MonthRangePickerShortcut .el-picker-panel__icon-btn.el-icon-d-arrow-left{
+  color: var(--c-iconColor);
+  width: 16px;
+  height: 16px;
+}
+.MonthRangePickerShortcut .el-picker-panel__icon-btn.el-icon-d-arrow-right{
+  color: var(--c-iconColor);
+  width: 16px;
+  height: 16px;
+}
+.MonthRangePickerShortcut .el-picker-panel__icon-btn.el-icon-d-arrow-left:hover{
+  color: var(--c-themeColor);
+}
+.MonthRangePickerShortcut .el-picker-panel__icon-btn.el-icon-d-arrow-right:hover{
+  color: var(--c-themeColor);
+}
+.MonthRangePickerShortcut .el-picker-panel__icon-btn{
+  margin-top: 0;
+}
+.MonthRangePickerShortcut .el-month-table td.in-range div{
+  background-color: var(--c-defaultBg);
+}
+.MonthRangePickerShortcut td.today.in-range.start-date{
+  color: var(--c-whiteColor);
+}
+//日期时间快捷
+.el-popper.DateTimePickerShortcut[x-placement^=bottom] .popper__arrow,  .el-popper.DateTimePickerShortcut[x-placement^=top] .popper__arrow{
+  display: none;
+}
+.el-popper.DateTimePickerShortcut {
+  margin: 0!important;
+}
+
+//级联下拉框样式
+.cascader-options {
+  height: 208px;
+  .el-cascader-panel {
+    height: 100%;
+    background-color: var(--c-whiteColor);
+  }
+  .el-cascader-menu {
+    border-right: 1px solid #D5D9DC;
+    color: #505960;
+    min-width: 250px;
+  }
+  //取消下拉框三角图标
+  .popper__arrow {
+    display: none;
+    &::after {
+      content: none;
+    }
+  }
+  //下拉框宽度
+  .el-cascader-menu__list {
+    width: 249px;
+    //下拉框选项内边距
+    //下拉选项的高度
+    .el-cascader-node {
+      padding: 0 30px 0 12px;
+      height: 32px;
+    }
+    //选项选中图标大小
+    .el-radio__inner {
+      width: 12px;
+      height: 12px;
+    }
+    //选项文字内边距
+    .el-cascader-node__label {
+      padding: 0 6px;
+      color: var(--c-mainTxtColor);
+    }
+    //箭头图标位置
+    .el-cascader-node__postfix {
+      right: 14px;
+    }
+    //选项选中样式
+    .el-cascader-node.is-selectable.in-checked-path {
+      .el-cascader-node__label {
+        color: var(--c-themeColor);
+        font-weight: 400;
+      }
+      .el-cascader-node__postfix {
+        color: var(--c-themeColor);
+      }
+    }
+    .el-cascader-node.is-selectable.in-active-path {
+      font-weight: unset;
+    }
+  }
+  .el-cascader-node {
+    &:not(.is-disabled):hover {
+      background-color: #F3F3F3;
+    }
+    //选项悬浮样式
+    &:not(.is-disabled):focus {
+      background-color: #F3F3F3;
+    }
+  }
+  .el-radio__input {
+    &.is-checked {
+      .el-radio__inner {
+        background-color: var(--c-themeColor);
+        border-color: var(--c-themeColor);
+      }
+    }
+  }
+  &.el-cascader__dropdown {
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.32);
+    margin: 0!important;
+  }
+  .el-radio__inner {
+    &:hover {
+      border-color: var(--c-themeColor);
+    }
+  }
+}
+//清除图标
+.jxd_ins_elCascader {
+  .el-icon-circle-close {
+    transform: rotateZ(180deg)
+  }
+}
+//时间选择器样式
+.el-time-panel.el-popper .el-time-panel__content .el-time-spinner .el-time-spinner__wrapper .el-scrollbar__wrap {
+  box-sizing: content-box;
+}
+// 日期时间样式
+.el-picker-panel.el-date-picker.DataTimePicker .el-date-table td,.el-picker-panel.el-date-picker.has-time  .el-date-table td{
+  height: 32px;
+}
+.el-picker-panel.el-date-picker.DataTimePicker .el-date-table td div,.el-picker-panel.el-date-picker.has-time .el-date-table td div {
+  height: 24px;
+}
+.el-picker-panel.el-date-picker.DataTimePicker .el-date-table td span,.el-picker-panel.el-date-picker.has-time .el-date-table td span{
+  height: 18px;
+  line-height: 18px;
+}

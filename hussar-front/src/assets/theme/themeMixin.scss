@@ -1,0 +1,130 @@
+// 16-标题_大-中黑
+@mixin font-titleBigBold	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-titleColor);
+  letter-spacing:0px;
+  font-size:16px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:bold;
+}
+// 14-次要文字-常规
+@mixin font-subFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-subTxtColor);
+  letter-spacing:0px;
+  font-size:14px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}
+// 12-主要文字-常规
+@mixin font-smallMainFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-mainTxtColor);
+  letter-spacing:0px;
+  font-size:12px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}
+// 14-链接文字-常规
+@mixin font-linkFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-linkColor);
+  letter-spacing:0px;
+  font-size:14px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}
+// 14-标题_小-中黑
+@mixin font-titleSmallBold	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-mainTxtColor);
+  letter-spacing:0px;
+  font-size:14px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:bold;
+}
+// 14-常规强调-中黑
+@mixin font-mainFontBoldNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  letter-space:0px;
+  color:var(--c-titleColor);
+  font-size:14px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:bold;
+}
+// 12-占位文字-常规
+@mixin font-smallPlaceholderFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-placeholderIconColor);
+  letter-spacing:0px;
+  font-size:12px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}
+// 14-主要文字-常规
+@mixin font-mainFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-mainTxtColor);
+  letter-spacing:0px;
+  font-size:14px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}
+// 14-纯白文字-常规
+@mixin font-whiteFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-whiteColor);
+  letter-spacing:0px;
+  font-size:14px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}
+// 12-减淡文字-常规
+@mixin font-lightFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-normalTxtColor);
+  letter-spacing:0px;
+  font-size:12px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}
+// 14-占位文字-常规
+@mixin font-placeholderFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-placeholderIconColor);
+  letter-spacing:0px;
+  font-size:14px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}
+// 14-品牌文字-常规
+@mixin font-brandFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-themeColor);
+  letter-spacing:0px;
+  font-size:14px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}
+// 12-错误文字-常规
+@mixin font-wrongFontNormal	{
+  font-family:-apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei","微软雅黑", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+  color:var(--c-checkBadColor);
+  letter-spacing:0px;
+  font-size:12px;
+  text-decoration:none;
+  font-style:normal;
+  font-weight:normal;
+}

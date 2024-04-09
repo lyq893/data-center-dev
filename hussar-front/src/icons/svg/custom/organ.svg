@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="svg-con" width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title></title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="列表页" transform="translate(-26.000000, -90.000000)">
+            <g id="组织机构-icon" transform="translate(26.000000, 90.000000)">
+                <rect id="矩形" class="svg-rect"  x="0" y="0" width="21" height="20" rx="4"></rect>
+                <path d="M14,9 C14.5522847,9 15,9.44771525 15,10 L15,12 L14,12 L14,10.5 C14,10.2238576 13.7761424,10 13.5,10 L7.5,10 C7.25454011,10 7.05039163,10.1768752 7.00805567,10.4101244 L7,10.5 L7,12 L6,12 L6,10 C6,9.44771525 6.44771525,9 7,9 L14,9 Z" id="形状结合" fill="#FFFFFF"></path>
+                <rect id="矩形" fill="#FFFFFF" x="7" y="4" width="7" height="3" rx="1.5"></rect>
+                <rect id="矩形备份-22" fill="#FFFFFF" x="4" y="12" width="5" height="3" rx="1.5"></rect>
+                <rect id="矩形备份-24" fill="#FFFFFF" x="12" y="12" width="5" height="3" rx="1.5"></rect>
+                <polygon id="路径" fill="#FFFFFF" fill-rule="nonzero" points="10 7 11 7 11 10 10 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

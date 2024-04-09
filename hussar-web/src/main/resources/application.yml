@@ -1,0 +1,315 @@
+server:
+  servlet:
+    context-path: /
+  port: 8280
+  tomcat:
+    port-header: HEAD,DELETE,OPTIONS,TRACE,COPY,SEARCH,PROPFIND,BOGUS
+    min-spare-threads: 20
+    max-threads: 500
+    max-connections: 10000
+    max-http-form-post-size: -1
+    uri-encoding: UTF-8
+  compression:
+    enabled: true
+    mime-types: application/javascript,text/css,application/json,application/xml,text/html,text/xml,text/plain
+
+hussar:
+  core:
+    encrypt:
+      enable-pw-encryption: true # 是否开启登录密码传输加密
+  cache:
+    cacheType: ehcache
+    redisCluster: 0
+  audit:
+    enable: false # 是否开启审计日志
+    version: 8.2.1 # 服务版本
+    server-name: hussar-web # 当前服务名称
+  security:
+    check-safe:
+      enable: true # 二次认证开关
+    enable: true # 是否开启认证
+    enable-authority: true # 是否开启鉴权
+    enable-aop-authority: false #是否开启service鉴权
+    ignore-urls: # 认证白名单
+      - /global/sessionError
+      - /global/error
+      - /exception/repeat
+      - /speed/resources/file
+      - /unifiedtodo/saveTask
+      - /unifiedtodo/updateTask
+      - /unifiedtodo/deleteTask
+      - /unifiedtodo/updateTaskStatus
+      - /unifiedtodo/updateUserStatus
+      - /unifiedtodo/updateTaskUser
+      - /unifiedtodo/addTaskUser
+      - /unifiedtodo/deleteTaskUser
+      - /themeConfig/getThemeConfigCss.css
+      - /themeConfig/getThemeColor
+      - /themeConfig/getCurrentApplicationTheme
+      - /server/acquire
+      - /server/assert
+      - /druid/**
+      - /hussarbase/publish/prepare/**
+      - /hussarbase/publish/download/**
+      - /hussarBase/newapp/saveOrUpdateNewApplication
+      - /hussarBase/newapp/abutmentGitlab
+      - /hussarBase/newapp/importData
+      - /hussarBase/newapp/status
+      - /hussarBase/authorization/IAMDataSync/**
+      - /hussarBase/authorization/pushDataToIam/**
+      - /hussarBase/application/devops/**
+      - /hussarBase/authorization/newapp/getApplicationInfo
+      - /hussarBase/authorization/refreshToken/**
+      - /expansion/getMessage
+      - /bpm/publicProcess/getModifyConfigurationOnline
+    oauth2:
+      is-code: false #登录认证时是否使用授权码模式
+      is-implicit: false #登录认证时是否使用隐藏式
+      is-password: true #登录认证时是否使用密码模式
+      is-client: false #登录认证时是否使用凭证式
+      is-new-refresh: true # 刷新token时是否更换新的refreshToken 可删
+      header-token-key: Authorization #token存放在header中的key值 可删
+  job: #任务调度
+    enable-server: true         #服务是否为调度服务
+    enable-executor: true       # 服务是否为执行器服务
+    enable-single-model: true  # 是否为单体模式（单服务中既包括调度器，又包含执行器模块,且调度器仅为本服务中执行器分配任务，此时可配置为true，不再使用akka进行调度器、执行器间的通信，直接使用接口调用）
+    execution:
+      app-name: hussar-job      #应用名称，服务对应的应用名称
+      server-address: 127.0.0.1:8280    #调度服务地址，单体设置为自身的ip+端口号，若不配置就不开启调度
+    dispatch:
+      package-type: '@project.packaging@'   # 解决 springboot 中无法区分jar启动还是war启动，解决websocket重复注入的问题
+  dynamic:
+    setting:
+      datasource-key-by-header: hussar-token #配置从header中那个属性获取数据源key
+  secure:
+    encrypt:
+      #是否开启传输加密
+      enabled: false
+      #是否开启签名
+      enabled-encrypt-sign: true
+    anti-replay:
+      #是否开启防重放
+      enabled: true
+    risk-protect:
+      # 是否开启风险防护
+      enable: true
+      # 是否开启Actuator端点访问检查
+      actuator-access-check: true
+      # 可访问Actuator端点的ip，默认通过localhost方式请求可访问
+      actuator-access-ips:
+        - 127.0.0.1
+
+  log:
+    #是否开启日志，开启日志需要配置es
+    enable: false
+    #日志页面地址，用于告警时查看错误信息
+    url: http://localhost:8081/console.html#/unifiedLog
+    #日志保留天数,配置0或者不配置默认永久保留
+    log-keep-days: 3
+    #链路保留天数,配置0或者不配置默认永久保留
+    trace-keep-days: 3
+    es:
+      #es连接地址
+      hosts: localhost:9200
+  packaged: '@project.packaging@'
+  static-version: 20200305
+  refer-whitelist:
+    - http://
+    - https://
+
+  base:
+    domain: HUSSAR_V8
+    kaptcha-expire: 3   #验证码失效时间  单位 minute
+
+  bpm:
+    modify-configuration-online: true #是支持在线配置模式，在线配置模式参与者抄送人表单权限配置存储到表中
+    workflow-editable-online: true #获取流程能否在线编辑（false只可以配置参与者，抄送人，表单权限，true流程画布所有的都可编辑）
+    form-editable-online: true #获取表单能否在线编辑（true可编辑，false不可编辑）
+    use-security-level: false #是否使用密级
+    order-rule: 2 #办理历史的排序规则：1:先按接受时间升序，再按办理时间升序；2:待办在前，已办按办理时间升序(默认)；3:待办在前，已办按办理时间降序
+    use-datapush: false # 是否启用统一待办自动推送
+    system-id: 524168298611613696  # 统一待办应用编码
+    msg:
+      app-id: workflow #统一消息应用id
+      app-secret: 426bd4e7571f0bc777bbc48545582313 #统一消息应用密钥
+      todo-scene-code: todo #统一消息待办场景编码
+      reject-scene-code: reject #统一消息驳回场景编码
+      reminders-scene-code: reminders #统一消息催办场景编码
+      entrust-scene-code: entrust #统一消息委托场景编码
+      complete-scene-code: complete #统一消息流程完成编码
+      terminated-scene-code: terminated #统一消息流程终止编码
+  message:
+    queuePrefix:   #消息队列前缀
+    enable-message-service: false #开启消息服务
+    job-app-id: 543099687121723392 #定时任务appId  单体模式下使用hussar.job.execution.
+  mp:
+    sensitive:
+      enable: true #是否开启数据脱敏
+    encrypt:
+      enable: true #是否开启敏感数据入库存储加密
+  oss:
+    # 是否进行上传文件类型校验
+    upload-file-type-check: true
+    # 支持上传的文件类型
+    support-file-types: txt,doc,xls,docx,pptx,xlsx,pdf,rar,zip,png,jpg,ico,apk,ipa,p12,exe,jks,mobileprovision,keystore,jpeg
+  mobile:
+    integration:
+      ding-talk-token-url: https://oapi.dingtalk.com/gettoken # 集成钉钉,获取token url
+      ding-talk-userid-url: https://oapi.dingtalk.com/user/getuserinfo # 集成钉钉，获取 userid url
+      we-chat-work-token-url: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+      we-chat-work-user-id-url: https://qyapi.weixin.qq.com/cgi-bin/auth/getuserinfo
+      we-chat-work-user-info-url: https://qyapi.weixin.qq.com/cgi-bin/user/get
+    publish:
+      python-path: C:\test
+      tmp-path: C:\test\tmp
+      app-img-path: C:\test\noDelete.png
+      download-url: http://localhost:8081/hussarApi/hussarbase/publish/download/
+      prepare-url: http://localhost:8081/#/pulish/
+  migration:
+    # 导出数据完整性校验算法
+    checksum: sha256
+
+open:
+  type: 1
+  isMultiple: true
+
+plugin: # 插件的配置
+  runMode: prod   # 插件运行模式. dev: 开发环境, prod: 生产环境,dev模式下运行的是代码，prod模式下运行的是jar包
+  enable: false   # 是否启用插件，启用时配置参考application-example.yml中的插件配置项
+  pluginRestPathPrefix: / # 插件rest接口前缀. 默认: /plugins
+  enablePluginIdRestPathPrefix: false # 是否启用插件id作为rest接口前缀, 默认为启用. 如果为启用, 则地址为 /pluginRestPathPrefix/pluginId,其中pluginRestPathPrefix: 为pluginRestPathPrefix的配置值, pluginId: 为插件id
+  enableSwaggerRefresh: true # 是否启用Swagger刷新机制. 默认启用
+  backUpPath: backupPlugin # 在卸载插件后, 备份插件的目录
+  uploadTempPath: temp # 上传的插件所存储的临时目录
+
+hussar-formdesign:
+  vue-code-path: /src/pages/index                            # 文件生成地址
+  front-api-path: /src/pages/index                           # 前台生成api路径
+  menu-role: 超级管理员                                        # vue菜单生成后相关资源绑定的角色，多角色用逗号分隔
+  menu-role-group:                                           # vue菜单生成后相关资源绑定角色组下的角色，可选：系统角色、普通角色、管理角色
+  mobile-compile-server: http://localhost:8988/buildEntry    #手机端编译服务地址
+  mobile-compile-html-path: /public/index.html               # 移动端编译入口html文件相对路径
+  mobile-compile-path: /opt/nginx/mobileHtml                 # 移动前台编译输出路径
+  java-path: /com/jxdinfo/hussar/example                     # 可视化设计器代码包路径前缀
+  modules: modules
+  workspace: F:\qingtie\test
+  front-project-path: hussar-front
+  back-project-path: hussar-web
+  mobile-front-project-path: hussar-mobile
+knife4j:
+  enable: true
+
+spring:
+  data:
+    mongodb:
+      host: localhost # mongodb的连接地址
+      port: 27017 # mongodb的连接端口号
+      database: msg # mongodb的连接的数据库
+      username:
+      password:
+  rabbitmq:
+    addresses: localhost
+    port: 5672
+    username:
+    password:
+    virtual-host: /
+    publisher-confirms: true
+    publisher-returns: true
+  cache:
+    type: redis
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 3
+    timeout: 2000
+    lettuce:
+      shutdown-timeout: 100
+      pool:
+        max-active: 3000
+        max-idle: 3000
+        min-idle: 0
+        max-wait: -1
+        time-between-eviction-runs: 60000
+  jmx:
+    enabled: false
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-request-size: 500MB
+      max-file-size: 500MB
+  aop:
+    proxy-target-class: true
+  activiti:
+    check-process-definitions: false
+    database-schema-update: true
+    async-executor-activate: false
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+  autoconfigure:
+    exclude: org.springframework.cloud.gateway.config.GatewayAutoConfiguration,org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration,org.activiti.spring.boot.SecurityAutoConfiguration
+  datasource:
+    druid:
+      stat-view-servlet:
+        enabled: true
+        loginUsername: admin
+        loginPassword: 123456
+        allow: ''
+
+mybatis-plus:
+  type-handlers-package: com.jxdinfo.hussar.support.mp.typeconvter
+  mapper-locations: classpath*:com/jxdinfo/hussar/**/mapping/*.xml
+  typeAliasesPackage: com.jxdinfo.hussar.**.model,com.xxxx.**.model
+  typeEnumsPackage: com.jxdinfo.hussar.common.constant.enums
+  check-config-location: true
+  global-config:
+    banner: false
+    db-config:
+      id-type: assign-id
+    enable-sql-runner: true
+  configuration:
+    map-underscore-to-camel-case: false
+    cache-enabled: true
+    lazyLoadingEnabled: false
+    multipleResultSetsEnabled: true
+
+logging:
+  config: classpath:log4j2.xml
+  level:
+    root: INFO
+
+# 应用管理平台和 新应用线上应用需要配置 对接IAM管控平台
+IAM:
+  data-sync:
+    key: JLB6L6MJVIT5Z7IL
+    type: SM4
+    signType: SM3
+    bimRemoteUser: iamUser
+    bimRemotePwd: 123qwe!@#QWE
+  auth:
+    address: iam-dev.lunz.cn
+    clientId: LCDP
+    clientSecret: 6144aa3e3cea40278d2c63291141e4f9
+  grant:
+    address: bpc-dev.lunz.cn
+    username: ddmadmin
+    userId: 20230717092947216-6D6F-186C5F7A0
+    appKey: LCDP
+    dataObjectCode: GONNENG       #功能权限对象编码
+    adataObjectCode: TEMP         #可见范围对象编码
+    btnObjectCode: CAOZUO      #操作权限对象编码
+  request-way: http
+
+# 线上新应用配置： 新应用启动成功回调参数 
+appManage:
+  enable: false #开启调用回调方法 线上为true  线下为false
+  url: localhost:8081 #应用管理平台前端地址及端口号
+  projectCode: aaa
+  branch: dev #分支名称
+  deployType: 1 #部署类型
+  obtainChangeFlag: false # 是否获取变更标识，新应用传递给应用管理平台，用于查询部署记录信息
+

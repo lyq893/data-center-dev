@@ -1,0 +1,1715 @@
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# 环境变量的相关的内容
+apiVersion: v1
+data:
+  # 编译服务
+  FRONT_COMPILE_SERVER: 'http://{{ .Values.serviceName.hussarCompile }}.{{ .Values.namespace }}:8989/buildEntry'
+  MOBILE_COMPILE_SERVER: 'http://{{ .Values.serviceName.hussarCompile }}.{{ .Values.namespace }}:8988/buildEntry'
+  MOBILE_UNI_COMPILE_SERVER: 'http://{{ .Values.serviceName.hussarCompile }}.{{ .Values.namespace }}:8987/buildEntry'
+  FRONT_COMPILE_CODE_FORMAT: 'http://{{ .Values.serviceName.hussarCompile }}.{{ .Values.namespace }}:8820/codeFormat'
+
+  # 私服地址
+  REGISTRY: 'http://123.232.10.234:8212/nexus/content/groups/npm-public/'
+
+  #访问预览地址
+  WEB_URL: 'http://{{ .Values.service.frontService }}'
+  MOBILE_URL: 'http://{{ .Values.service.mobileService }}'
+  MOBILE_UNI_URL: 'http://{{ .Values.service.mobileUniService }}'
+
+  # MYSQL数据库
+  MYSQL_HOST: '{{ .Values.mysql.host }}'
+  MYSQL_PORT: '{{ .Values.mysql.port }}'
+  MYSQL_DATABASE: '{{ .Values.mysql.database }}'
+  MYSQL_USER: '{{ .Values.mysql.username }}'
+  MYSQL_PASSWORD: '{{ .Values.mysql.password }}'
+
+  # ORACLE数据库
+  ORACLE_HOST: '{{ .Values.oracle.host }}'
+  ORACLE_PORT: '{{ .Values.oracle.port }}'
+  ORACLE_DATABASE: '{{ .Values.oracle.database }}'
+  ORACLE_USER: '{{ .Values.oracle.username }}'
+  ORACLE_PASSWORD: '{{ .Values.oracle.password }}'
+
+  # DM数据库
+  DM_HOST: '{{ .Values.dm.host }}'
+  DM_PORT: '{{ .Values.dm.port }}'
+  DM_DATABASE: '{{ .Values.dm.database }}'
+  DM_USER: '{{ .Values.dm.username }}'
+  DM_PASSWORD: '{{ .Values.dm.password }}'
+
+  # PG数据库
+  PGSQL_HOST: '{{ .Values.pgsql.host }}'
+  PGSQL_PORT: '{{ .Values.pgsql.port }}'
+  PGSQL_DATABASE: '{{ .Values.pgsql.database }}'
+  PGSQL_USER: '{{ .Values.pgsql.username }}'
+  PGSQL_PASSWORD: '{{ .Values.pgsql.password }}'
+
+  # SQLSERVER数据库
+  SQLSERVER_HOST: '{{ .Values.sqlServer.host }}'
+  SQLSERVER_PORT: '{{ .Values.sqlServer.port }}'
+  SQLSERVER_DATABASE: '{{ .Values.sqlServer.database }}'
+  SQLSERVER_USER: '{{ .Values.sqlServer.username }}'
+  SQLSERVER_PASSWORD: '{{ .Values.sqlServer.password }}'
+
+  # KINGBASE数据库
+  KINGBASE_HOST: '{{ .Values.kingbase.host }}'
+  KINGBASE_PORT: '{{ .Values.kingbase.port }}'
+  KINGBASE_DATABASE: '{{ .Values.kingbase.database }}'
+  KINGBASE_USER: '{{ .Values.kingbase.username }}'
+  KINGBASE_PASSWORD: '{{ .Values.kingbase.password }}'
+
+  # OSCAR 数据库
+  OSCAR_HOST: '{{ .Values.oscar.host }}'
+  OSCAR_PORT: '{{ .Values.oscar.port }}'
+  OSCAR_DATABASE: '{{ .Values.oscar.database }}'
+  OSCAR_USER: '{{ .Values.oscar.username }}'
+  OSCAR_PASSWORD: '{{ .Values.oscar.password }}'
+
+  # 企微终端信息
+  CORP_ID: '{{ .Values.corp.corpid }}'
+  CORP_SECRET: '{{ .Values.corp.corpsecret }}'
+
+  # 云智慧探针监听应用名称
+  APP_NAME: '{{ .Values.javaAgent.appName }}'
+
+kind: ConfigMap
+metadata:
+  annotations: {}
+  labels: {}
+  name: {{ .Values.configName.env }}
+  namespace: {{ .Values.namespace }}
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# nginx conf server
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  annotations: {}
+  labels: {}
+  name: {{ .Values.configName.nginxConfig }}
+  namespace: {{ .Values.namespace }}
+data:
+  hussar-server.conf: |
+    server {
+      listen       8080;
+      client_max_body_size 1000m;
+      location / {
+          root   /app/html_front;
+          index  index.html index.htm;
+      }
+
+      location /hussarApi {
+        rewrite ^/hussarApi/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header REMOTE-HOST $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS, PUT";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+      location /hussarApi/hussarAuth {
+        rewrite ^/hussarApi/hussarAuth/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header REMOTE-HOST $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS, PUT";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+      location /hussarApi/hussarSchedule {
+        rewrite ^/hussarApi/hussarSchedule/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header REMOTE-HOST $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS, PUT";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+      location /hussarApi/hussarUnifiedLog {
+        rewrite ^/hussarApi/hussarUnifiedLog/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header REMOTE-HOST $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS, PUT";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+      location /hussarvfg/license {
+        rewrite ^/hussarvfg/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header REMOTE-HOST $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS, PUT";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+
+      location /hussarvfg/api {
+        rewrite ^/hussarvfg/api/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header REMOTE-HOST $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS, PUT";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+      location /hussartheme/api {
+        rewrite ^/hussartheme/api/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header REMOTE-HOST $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS, PUT";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+      location /hussarvfg/hussartheme {
+        rewrite ^/hussarvfg/hussartheme/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header Host $http_host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header REMOTE-HOST $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS, PUT";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+      error_page   500 502 503 504  /50x.html;
+      location = /50x.html {
+          root   html;
+      }
+    }
+    # 判断是否包含H5类型 开启关于hussar-mobile配置
+    {{ if contains  "h5" .Values.project.projectType  }}
+    server {
+      listen       8380;
+      client_max_body_size 1000m;
+      location / {
+          root   /app/html_mobile;
+          index  index.html index.htm;
+      }
+
+      location /hussarApi {
+        rewrite ^/hussarApi/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+      location /hussarAuth {
+        rewrite ^/hussarAuth/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+    }
+    {{ end }}
+    # 判断是否包含uniapp类型 且未开发环境时 开启关于hussar-mobile-uni配置
+    {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+    server {
+      listen       8480;
+      client_max_body_size 1000m;
+      location / {
+          root   /app/html_mobile_uni;
+          index  index.html index.htm;
+      }
+
+      location /hussarApi {
+        rewrite ^/hussarApi/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+
+      location /hussarAuth {
+        rewrite ^/hussarAuth/(.*)$ /$1 break;
+        proxy_pass http://{{ .Values.serviceName.hussarBackend }}.{{ .Values.namespace }}:8280;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        add_header Access-Control-Allow-Origin *;
+        add_header Access-Control-Allow-Methods "DELETE, POST, GET, OPTIONS";
+        add_header Access-Control-Allow-Headers "Origin, Authorization, Accept";
+        add_header Access-Control-Allow-Credentials true;
+      }
+    }
+    {{ end }}
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# hussar-backed  yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  annotations: {}
+  labels: {}
+  name: {{ .Values.configName.webConfig }}
+  namespace: {{ .Values.namespace }}
+data:
+  application-dev.yml: |
+    ############################## 可视化设计器配置 开始  ##############################
+    hussar-formdesign:
+      workspace: /home/hussar/workspace/
+      menu-role: 超级管理员                                        # vue菜单生成后相关资源绑定的角色，多角色用逗号分隔
+      menu-role-group:                                           # vue菜单生成后相关资源绑定角色组下的角色，可选：系统角色、普通角色、管理角色
+      vue-code-path: /src/pages/index                            # 文件生成地址
+      front-api-path: /src/pages/index                           # 前台生成api路径
+      front-compile-server: ${FRONT_COMPILE_SERVER:http://localhost:8989/buildEntry}         # 编译服务地址
+      front-compile-path: /home/hussar/nginx/front/html_front   # 前端编译输出路径
+      front-compile-html-path: /src/pages/index/index.html        # 前端编译入口html文件相对路径
+      mobile-compile-server: ${MOBILE_COMPILE_SERVER:http://localhost:8988/buildEntry}    #手机端编译服务地址
+      mobile-compile-html-path: /public/index.html               # 移动端编译入口html文件相对路径
+      mobile-compile-path: /home/hussar/nginx/front/html_mobile  # 移动前台编译输出路径
+      java-path: /com/jxdinfo/hussar/example                     # 可视化设计器代码包路径前缀
+      modules: modules
+      code-format-address: ${FRONT_COMPILE_CODE_FORMAT:http://localhost:8820/codeFormat}
+      local-un-reset: true                                           #开启前端不重启模式
+      web-url: ${WEB_URL:http://192.168.2.99:8082}                   # web预览地址
+      mobile-url: ${MOBILE_URL:http://192.168.2.99:8380}             # 移动端预览地址
+      offline-lr: true                                               # 本地利刃调试
+      back-project-path: hussar-web                                 # 天斧后端的项目路径
+      front-project-path: hussar-front
+      mobile-front-project-path: hussar-mobile
+      defer-publish: false                                       # 延迟写入
+      hussar-mobile-uni:
+        uni-url: ${MOBILE_UNI_URL:http://192.168.2.99:8083}       # 预览地址
+        uni-front-project-path: hussar-mobile-uni    # 工作空间项目名称
+        uni-compile-html-path: /public/index.html    # uni前台编译入口 html 文件相对路径
+        uni-compile-server: ${MOBILE_UNI_COMPILE_SERVER:http://localhost:8988/buildEntry}     # uni编译服务地址
+        uni-compile-path: /home/hussar/nginx/front/html_mobile_uni
+
+    spring:
+    {{ if eq .Values.database.type "mysql" }}
+      ###################  MySQL数据库配置  ###################
+      datasource:
+        dynamic:
+          primary: master
+          strict: true
+          druid: # 全局druid参数，绝大部分值和默认保持一致。(现已支持的参数如下,不清楚含义不要乱设置)
+            initial-size: 1
+            min-idle: 1
+            maxActive: 30
+            maxWait: 30000
+            removeAbandoned: false
+            logAbandoned: true
+            timeBetweenEvictionRunsMillis: 30000
+            maxEvictableIdleTimeMillis: 180000
+            minEvictableIdleTimeMillis: 60000
+            phyTimeoutMillis: 3600000
+            testOnBorrow: false
+            testOnReturn: false
+            testWhileIdle: true
+            validationQuery: SELECT 1
+            keepAlive: true
+            filters: stat,slf4j
+            connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+            removeAbandonedTimeoutMillis: 1800000
+          datasource:
+            master:
+              url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:hussar-lcdp}?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useTimezone=true&serverTimezone=GMT%2B8&allowMultiQueries=true
+              username: ${MYSQL_USER:root}
+              password: ${MYSQL_PASSWORD:root123456}
+              db-name: ${MYSQL_DATABASE:hussar-lcdp}
+              driver-class-name: com.mysql.cj.jdbc.Driver
+              jdbc-from-ds: true
+              select-datasource-sql: SELECT CONN_NAME poolName,DRIVER_CLASS driverClassName,JDBC_URL url,USER_NAME userName,PASSWORD password  FROM `SYS_DATASOURCE` WHERE CONN_NAME != 'master'
+              druid: # 全局druid参数，绝大部分值和默认保持一致。(现已支持的参数如下,不清楚含义不要乱设置)
+                initial-size: 1
+                min-idle: 1
+                maxActive: 30
+                maxWait: 30000
+                removeAbandoned: false
+                logAbandoned: true
+                timeBetweenEvictionRunsMillis: 30000
+                maxEvictableIdleTimeMillis: 180000
+                minEvictableIdleTimeMillis: 60000
+                phyTimeoutMillis: 3600000
+                testOnBorrow: false
+                testOnReturn: false
+                testWhileIdle: true
+                validationQuery: SELECT 1
+                keepAlive: true
+                filters: stat,slf4j
+                connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+                removeAbandonedTimeoutMillis: 1800000
+    {{ end }}
+    {{ if eq .Values.database.type "oracle" }}
+      ###################  ORACLE数据库配置  ###################
+      datasource:
+        dynamic:
+          primary: master
+          strict: true
+          druid:
+            initial-size: 1
+            min-idle: 2
+            maxActive: 30
+            maxWait: 30000
+            removeAbandoned: false
+            logAbandoned: true
+            timeBetweenEvictionRunsMillis: 30000
+            maxEvictableIdleTimeMillis: 180000
+            minEvictableIdleTimeMillis: 60000
+            phyTimeoutMillis: 3600000
+            testOnBorrow: false
+            testOnReturn: false
+            testWhileIdle: true
+            validationQuery: SELECT 1 FROM DUAL
+            keepAlive: true
+            poolPreparedStatements: true
+            maxPoolPreparedStatementPerConnectionSize: 20
+            filters: stat,slf4j
+            connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+          datasource:
+            master:
+              url: jdbc:oracle:thin:@${ORACLE_HOST:localhost}:${ORACLE_PORT:1521}:${ORACLE_DATABASE:orcl}
+              username: ${ORACLE_USER:HUSSAR}
+              password: ${ORACLE_PASSWORD:HUSSAR}
+              db-name: ${ORACLE_USER:HUSSAR}
+              domain: ${ORACLE_HOST:localhost}
+              driverClassName: oracle.jdbc.OracleDriver
+              jdbc-from-ds: true
+              select-datasource-sql: SELECT "CONN_NAME" poolName,"DRIVER_CLASS" driverClassName,"JDBC_URL" url,"USER_NAME" userName,"PASSWORD" password  FROM "SYS_DATASOURCE" WHERE "CONN_NAME" != 'master'
+              druid:
+                initial-size: 1
+                min-idle: 2
+                maxActive: 30
+                maxWait: 30000
+                removeAbandoned: false
+                logAbandoned: true
+                timeBetweenEvictionRunsMillis: 30000
+                maxEvictableIdleTimeMillis: 180000
+                minEvictableIdleTimeMillis: 60000
+                phyTimeoutMillis: 3600000
+                testOnBorrow: false
+                testOnReturn: false
+                testWhileIdle: true
+                validationQuery: SELECT 1 FROM DUAL
+                keepAlive: true
+                poolPreparedStatements: true
+                maxPoolPreparedStatementPerConnectionSize: 20
+                filters: stat,slf4j
+                connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+    mybatis-plus:
+      configuration:
+        jdbc-type-for-null: 'null'
+    {{ end }}
+    {{ if eq .Values.database.type "dm" }}
+      ###################  dm数据库配置数据库配置  ###################
+      jpa.properties.hibernate.dialect: org.hibernate.dialect.Oracle12cDialect
+      datasource:
+        dynamic:
+          primary: master
+          strict: true
+          druid:
+            initial-size: 1
+            min-idle: 2
+            maxActive: 30
+            maxWait: 30000
+            removeAbandoned: false
+            logAbandoned: true
+            timeBetweenEvictionRunsMillis: 30000
+            maxEvictableIdleTimeMillis: 180000
+            minEvictableIdleTimeMillis: 60000
+            phyTimeoutMillis: 3600000
+            testOnBorrow: false
+            testOnReturn: false
+            testWhileIdle: true
+            validationQuery: SELECT 1 FROM DUAL
+            keepAlive: true
+            poolPreparedStatements: true
+            maxPoolPreparedStatementPerConnectionSize: 20
+            filters: stat,slf4j
+            connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+          datasource:
+            master:
+              url: jdbc:dm://${DM_HOST:localhost}:${DM_PORT:5236}
+              username: ${DM_USER:HUSSAR_V8}
+              password: ${DM_PASSWORD:HUSSAR_V8}
+              db-name: ${DM_USER:HUSSAR_V8}
+              domain: ${DM_HOST:localhost}
+              driver-class-name: dm.jdbc.driver.DmDriver
+              jdbc-from-ds: true
+              select-datasource-sql: SELECT "CONN_NAME" poolName,"DRIVER_CLASS" driverClassName,"JDBC_URL" url,"USER_NAME" userName,"PASSWORD" password  FROM "SYS_DATASOURCE" WHERE "CONN_NAME" != 'master'
+              druid:
+                initial-size: 1
+                min-idle: 2
+                maxActive: 30
+                maxWait: 30000
+                removeAbandoned: false
+                logAbandoned: true
+                timeBetweenEvictionRunsMillis: 30000
+                maxEvictableIdleTimeMillis: 180000
+                minEvictableIdleTimeMillis: 60000
+                phyTimeoutMillis: 3600000
+                testOnBorrow: false
+                testOnReturn: false
+                testWhileIdle: true
+                validationQuery: SELECT 1 FROM DUAL
+                keepAlive: true
+                poolPreparedStatements: true
+                maxPoolPreparedStatementPerConnectionSize: 20
+                filters: stat,slf4j
+                connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+    {{ end }}
+    {{ if eq .Values.database.type "sqlServer" }}
+      ###################  sqlServer数据库配置数据库配置  ###################
+      datasource:
+        dynamic:
+          primary: master
+          strict: true
+          druid:
+            initial-size: 1
+            min-idle: 1
+            maxActive: 30
+            maxWait: 30000
+            removeAbandoned: false
+            logAbandoned: true
+            timeBetweenEvictionRunsMillis: 30000
+            maxEvictableIdleTimeMillis: 180000
+            minEvictableIdleTimeMillis: 60000
+            phyTimeoutMillis: 3600000
+            testOnBorrow: false
+            testOnReturn: false
+            testWhileIdle: true
+            validationQuery: SELECT 1
+            keepAlive: true
+            poolPreparedStatements: true
+            maxPoolPreparedStatementPerConnectionSize: 20
+            filters: stat,slf4j
+            connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+          datasource:
+            master:
+              url: jdbc:sqlserver://;serverName=${SQLSERVER_HOST:localhost};databaseName=${SQLSERVER_DATABASE:hussar8-group3};port=${SQLSERVER_PORT:1433}
+              username: ${SQLSERVER_USER:HUSSAR_V8}
+              password: ${SQLSERVER_PASSWORD:HUSSAR_V8}
+              db-name: ${SQLSERVER_DATABASE:hussar8-group3}
+              driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+              jdbc-from-ds: true
+              select-datasource-sql: SELECT CONN_NAME poolName,DRIVER_CLASS driverClassName,JDBC_URL url,USER_NAME userName,PASSWORD password  FROM SYS_DATASOURCE WHERE CONN_NAME != 'master'
+              druid:
+                initial-size: 1
+                min-idle: 1
+                maxActive: 30
+                maxWait: 30000
+                removeAbandoned: false
+                logAbandoned: true
+                timeBetweenEvictionRunsMillis: 30000
+                maxEvictableIdleTimeMillis: 180000
+                minEvictableIdleTimeMillis: 60000
+                phyTimeoutMillis: 3600000
+                testOnBorrow: false
+                testOnReturn: false
+                testWhileIdle: true
+                validationQuery: SELECT 1
+                keepAlive: true
+                poolPreparedStatements: true
+                maxPoolPreparedStatementPerConnectionSize: 20
+                filters: stat,slf4j
+                connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+    {{ end }}
+    {{ if eq .Values.database.type "oscar" }}
+      ###################  oscar数据库配置数据库配置  ###################
+      datasource:
+        dynamic:
+          primary: master
+          strict: true
+          druid:
+            initial-size: 1
+            min-idle: 1
+            maxActive: 30
+            maxWait: 30000
+            removeAbandoned: false
+            logAbandoned: true
+            timeBetweenEvictionRunsMillis: 30000
+            maxEvictableIdleTimeMillis: 180000
+            minEvictableIdleTimeMillis: 60000
+            phyTimeoutMillis: 3600000
+            testOnBorrow: false
+            testOnReturn: false
+            testWhileIdle: true
+            validationQuery: SELECT 1
+            keepAlive: true
+            poolPreparedStatements: true
+            maxPoolPreparedStatementPerConnectionSize: 20
+            filters: stat,slf4j
+            connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+          datasource:
+            master:
+              url: jdbc:oscar://${OSCAR_HOST:localhost}:${OSCAR_PORT:2003}/${OSCAR_DATABASE:osrdb}
+              username: ${OSCAR_USER:HUSSAR_V8}
+              password: ${OSCAR_PASSWORD:szoscar55}
+              db-name: ${OSCAR_USER:HUSSAR_V8}
+              driver-class-name: com.oscar.Driver
+              jdbc-from-ds: true
+              select-datasource-sql: SELECT CONN_NAME poolName,DRIVER_CLASS driverClassName,JDBC_URL url,USER_NAME userName,PASSWORD password  FROM SYS_DATASOURCE WHERE CONN_NAME != 'master'
+              druid:
+                initial-size: 1
+                min-idle: 1
+                maxActive: 30
+                maxWait: 30000
+                removeAbandoned: false
+                logAbandoned: true
+                timeBetweenEvictionRunsMillis: 30000
+                maxEvictableIdleTimeMillis: 180000
+                minEvictableIdleTimeMillis: 60000
+                phyTimeoutMillis: 3600000
+                testOnBorrow: false
+                testOnReturn: false
+                testWhileIdle: true
+                validationQuery: SELECT 1
+                keepAlive: true
+                filters: stat,slf4j
+                connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+    {{ end }}
+    {{ if eq .Values.database.type "kingbase" }}
+      ###########  kingbase数据库配置数据库配置  ###################
+      datasource:
+        dynamic:
+          primary: master
+          strict: true
+          druid:
+            initial-size: 1
+            min-idle: 2
+            maxActive: 30
+            maxWait: 30000
+            removeAbandoned: false
+            logAbandoned: true
+            timeBetweenEvictionRunsMillis: 30000
+            maxEvictableIdleTimeMillis: 180000
+            minEvictableIdleTimeMillis: 60000
+            phyTimeoutMillis: 3600000
+            testOnBorrow: false
+            testOnReturn: false
+            testWhileIdle: true
+            validationQuery: SELECT 1
+            keepAlive: true
+            filters: stat,slf4j
+            connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+          datasource:
+            master:
+              url: jdbc:kingbase8://${KINGBASE_HOST:localhost}:${KINGBASE_PORT:54321}/${KINGBASE_DATABASE:hussar_base_dev}
+              username: ${KINGBASE_USER:hussar_base_dev}
+              password: ${KINGBASE_PASSWORD:123456}
+              db-name: ${KINGBASE_DATABASE:hussar_base_dev}
+              driver-class-name: com.kingbase8.Driver
+              jdbc-from-ds: true
+              select-datasource-sql: SELECT CONN_NAME poolName,DRIVER_CLASS driverClassName,JDBC_URL url,USER_NAME userName,PASSWORD "password"  FROM SYS_DATASOURCE WHERE CONN_NAME != 'master'
+              druid:
+                initial-size: 1
+                min-idle: 2
+                maxActive: 30
+                maxWait: 30000
+                removeAbandoned: false
+                logAbandoned: true
+                timeBetweenEvictionRunsMillis: 30000
+                maxEvictableIdleTimeMillis: 180000
+                minEvictableIdleTimeMillis: 60000
+                phyTimeoutMillis: 3600000
+                testOnBorrow: false
+                testOnReturn: false
+                testWhileIdle: true
+                validationQuery: SELECT 1
+                keepAlive: true
+                filters: stat,slf4j
+                connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+    {{ end }}
+    {{ if eq .Values.database.type "pgsql" }}
+      ###################  pgsql数据库配置数据库配置  ###################
+      datasource:
+        dynamic:
+          primary: master
+          strict: true
+          druid:
+            initial-size: 1
+            min-idle: 2
+            maxActive: 30
+            maxWait: 30000
+            removeAbandoned: false
+            logAbandoned: true
+            timeBetweenEvictionRunsMillis: 30000
+            maxEvictableIdleTimeMillis: 180000
+            minEvictableIdleTimeMillis: 60000
+            phyTimeoutMillis: 3600000
+            testOnBorrow: false
+            testOnReturn: false
+            testWhileIdle: true
+            validationQuery: SELECT 1
+            keepAlive: true
+            filters: stat,slf4j
+            connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+          datasource:
+            master:
+              url: jdbc:postgresql://${PGSQL_HOST:localhost}:${PGSQL_PORT:5432}/${PGSQL_DATABASE:hussar}?reWriteBatchedInserts=true
+              username: ${PGSQL_USER:hussar_base_dev}
+              password: ${PGSQL_PASSWORD:hussar_base_dev}
+              db-name: ${PGSQL_DATABASE:hussar}
+              driver-class-name: org.postgresql.Driver
+              jdbc-from-ds: true
+              select-datasource-sql: SELECT CONN_NAME poolName,DRIVER_CLASS driverClassName,JDBC_URL url,USER_NAME userName,PASSWORD "password"  FROM SYS_DATASOURCE WHERE CONN_NAME != 'master'
+              druid:
+                initial-size: 1
+                min-idle: 2
+                maxActive: 30
+                maxWait: 30000
+                removeAbandoned: false
+                logAbandoned: true
+                timeBetweenEvictionRunsMillis: 30000
+                maxEvictableIdleTimeMillis: 180000
+                minEvictableIdleTimeMillis: 60000
+                phyTimeoutMillis: 3600000
+                testOnBorrow: false
+                testOnReturn: false
+                testWhileIdle: true
+                validationQuery: SELECT 1
+                keepAlive: true
+                filters: stat,slf4j
+                connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+    {{ end }}
+  application.yml: |
+    server:
+      servlet:
+        context-path: /
+      port: 8280
+      tomcat:
+        port-header: HEAD,DELETE,OPTIONS,TRACE,COPY,SEARCH,PROPFIND,BOGUS
+        min-spare-threads: 20
+        max-threads: 500
+        max-connections: 10000
+        max-http-form-post-size: -1
+        uri-encoding: UTF-8
+      compression:
+        enabled: true
+        mime-types: application/javascript,text/css,application/json,application/xml,text/html,text/xml,text/plain
+
+    hussar:
+      # 授权相关信息
+      use-vol-server: {{ .Values.license.useVolServer }}
+      vol-server-name: {{ .Values.license.licenseService }}
+      vol-server-context-path: {{ .Values.license.licenseServicePath }}
+      core:
+        encrypt:
+          enable-pw-encryption: false # 是否开启登录密码传输加密
+      cache:
+        cacheType: ehcache
+        redisCluster: 0
+      audit:
+        enable: false # 是否开启审计日志
+        version: 8.2.1 # 服务版本
+        server-name: hussar-web # 当前服务名称
+      security:
+        check-safe:
+          enable: true # 二次认证开关
+        enable: true # 是否开启认证
+        enable-authority: true # 是否开启鉴权
+        enable-aop-authority: false #是否开启service鉴权
+        ignore-urls: # 认证白名单
+          - /global/sessionError
+          - /global/error
+          - /exception/repeat
+          - /speed/resources/file
+          - /unifiedtodo/saveTask
+          - /unifiedtodo/updateTask
+          - /unifiedtodo/deleteTask
+          - /unifiedtodo/updateTaskStatus
+          - /unifiedtodo/updateUserStatus
+          - /unifiedtodo/updateTaskUser
+          - /unifiedtodo/addTaskUser
+          - /unifiedtodo/deleteTaskUser
+          - /themeConfig/getThemeConfigCss.css
+          - /themeConfig/getThemeColor
+          - /themeConfig/getCurrentApplicationTheme
+          - /server/acquire
+          - /server/assert
+          - /druid/**
+          - /hussarbase/publish/prepare/**
+          - /hussarbase/publish/download/**
+          - /hussarBase/newapp/saveOrUpdateNewApplication
+          - /hussarBase/newapp/abutmentGitlab
+          - /hussarBase/newapp/importData
+          - /hussarBase/newapp/status
+          - /hussarBase/authorization/IAMDataSync/**
+          - /hussarBase/authorization/pushDataToIam/**
+          - /hussarBase/application/devops/**
+          - /expansion/getMessage
+          - /bpm/publicProcess/getModifyConfigurationOnline
+
+        oauth2:
+          is-code: false #登录认证时是否使用授权码模式
+          is-implicit: false #登录认证时是否使用隐藏式
+          is-password: true #登录认证时是否使用密码模式
+          is-client: false #登录认证时是否使用凭证式
+          is-new-refresh: true # 刷新token时是否更换新的refreshToken 可删
+          header-token-key: Authorization #token存放在header中的key值 可删
+      job: #任务调度
+        enable-server: true         #服务是否为调度服务
+        enable-executor: true       # 服务是否为执行器服务
+        enable-single-model: true  # 是否为单体模式（单服务中既包括调度器，又包含执行器模块,且调度器仅为本服务中执行器分配任务，此时可配置为true，不再使用akka进行调度器、执行器间的通信，直接使用接口调用）
+        execution:
+          app-name: hussar-job      #应用名称，服务对应的应用名称
+          server-address: 127.0.0.1:8280    #调度服务地址，单体设置为自身的ip+端口号，若不配置就不开启调度
+        dispatch:
+          package-type: 'jar'   # 解决 springboot 中无法区分jar启动还是war启动，解决websocket重复注入的问题
+      dynamic:
+        setting:
+          datasource-key-by-header: hussar-token #配置从header中那个属性获取数据源key
+      secure:
+        encrypt:
+          #是否开启传输加密
+          enabled: true
+          #是否开启签名
+          enabled-encrypt-sign: true
+        anti-replay:
+          #是否开启防重放
+          enabled: true
+        risk-protect:
+          # 是否开启风险防护
+          enable: true
+          # 是否开启Actuator端点访问检查
+          actuator-access-check: true
+          # 可访问Actuator端点的ip，默认通过localhost方式请求可访问
+          actuator-access-ips:
+            - 127.0.0.1
+
+      log:
+        #是否开启日志，开启日志需要配置es
+        enable: false
+        #日志页面地址，用于告警时查看错误信息
+        url: http://localhost:8081/console.html#/unifiedLog
+        #日志保留天数,配置0或者不配置默认永久保留
+        log-keep-days: 3
+        #链路保留天数,配置0或者不配置默认永久保留
+        trace-keep-days: 3
+        es:
+          #es连接地址
+          hosts: localhost:9200
+      packaged: 'jar'
+      static-version: 20200305
+      refer-whitelist:
+        - http://
+        - https://
+
+      base:
+        domain: HUSSAR_V8
+        kaptcha-expire: 3   #验证码失效时间  单位 minute
+
+      bpm:
+        modify-configuration-online: true #是支持在线配置模式，在线配置模式参与者抄送人表单权限配置存储到表中
+        workflow-editable-online: true #获取流程能否在线编辑（false只可以配置参与者，抄送人，表单权限，true流程画布所有的都可编辑）
+        form-editable-online: true #获取表单能否在线编辑（true可编辑，false不可编辑）
+        use-security-level: false #是否使用密级
+        order-by-time: false #办理历史的排序规则，先按照接受时间升序，再按照办理时间升序
+        use-datapush: false # 是否启用统一待办自动推送
+        system-id: 524168298611613696  # 统一待办应用编码
+        order-rule: 2
+      msg:
+        app-id: workflow #统一消息应用id
+        app-secret: 426bd4e7571f0bc777bbc48545582313 #统一消息应用密钥
+        todo-scene-code: todo #统一消息待办场景编码
+        reject-scene-code: reject #统一消息驳回场景编码
+        reminders-scene-code: reminders #统一消息催办场景编码
+        entrust-scene-code: entrust #统一消息委托场景编码
+        complete-scene-code: complete #统一消息流程完成编码
+        terminated-scene-code: terminated #统一消息流程终止编码
+    message:
+      queuePrefix:   #消息队列前缀
+      enable-message-service: false #开启消息服务
+      job-app-id: 543099687121723392 #定时任务appId  单体模式下使用hussar.job.execution.
+      mp:
+        sensitive:
+          enable: true #是否开启数据脱敏
+        encrypt:
+          enable: true #是否开启敏感数据入库存储加密
+      oss:
+        # 是否进行上传文件类型校验
+        upload-file-type-check: true
+        # 支持上传的文件类型
+        support-file-types: txt,doc,xls,docx,pptx,xlsx,pdf,rar,zip,png,jpg,ico,apk,ipa,p12,exe,jks,mobileprovision,keystore,jpeg
+      swagger:
+        auth-server: http://localhost:8280 #提供认证功能的服务ip及端口
+      mobile:
+        integration:
+          ding-talk-token-url: https://oapi.dingtalk.com/gettoken # 集成钉钉,获取token url
+          ding-talk-userid-url: https://oapi.dingtalk.com/user/getuserinfo # 集成钉钉，获取 userid url
+          we-chat-work-token-url: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+          we-chat-work-user-id-url: https://qyapi.weixin.qq.com/cgi-bin/auth/getuserinfo
+          we-chat-work-user-info-url: https://qyapi.weixin.qq.com/cgi-bin/user/get
+        publish:
+          python-path: C:\test
+          tmp-path: C:\test\tmp
+          app-img-path: C:\test\noDelete.png
+          download-url: http://localhost:8081/hussarApi/hussarbase/publish/download/
+          prepare-url: http://localhost:8081/#/pulish/
+      migration:
+        # 导出数据完整性校验算法
+        checksum: sha256
+
+    open:
+      type: 1
+      isMultiple: true
+
+    plugin: # 插件的配置
+      runMode: prod   # 插件运行模式. dev: 开发环境, prod: 生产环境,dev模式下运行的是代码，prod模式下运行的是jar包
+      enable: false   # 是否启用插件，启用时配置参考application-example.yml中的插件配置项
+      pluginRestPathPrefix: / # 插件rest接口前缀. 默认: /plugins
+      enablePluginIdRestPathPrefix: false # 是否启用插件id作为rest接口前缀, 默认为启用. 如果为启用, 则地址为 /pluginRestPathPrefix/pluginId,其中pluginRestPathPrefix: 为pluginRestPathPrefix的配置值, pluginId: 为插件id
+      enableSwaggerRefresh: true # 是否启用Swagger刷新机制. 默认启用
+      backUpPath: backupPlugin # 在卸载插件后, 备份插件的目录
+      uploadTempPath: temp # 上传的插件所存储的临时目录
+
+    knife4j:
+      enable: true
+
+    spring:
+      data:
+        mongodb:
+          host: localhost # mongodb的连接地址
+          port: 27017 # mongodb的连接端口号
+          database: msg # mongodb的连接的数据库
+          username:
+          password:
+      rabbitmq:
+        addresses: localhost
+        port: 5672
+        username:
+        password:
+        virtual-host: /
+        publisher-confirms: true
+        publisher-returns: true
+      cache:
+        type: redis
+      redis:
+        host: hussar-redis-replic-master-0.hussar-redis-replic-headless
+        port: 6379
+        password:
+        database: 3
+        timeout: 2000
+        lettuce:
+          shutdown-timeout: 100
+          pool:
+            max-active: 3000
+            max-idle: 3000
+            min-idle: 0
+            max-wait: -1
+            time-between-eviction-runs: 60000
+      jmx:
+        enabled: false
+      profiles:
+        active: dev
+      servlet:
+        multipart:
+          max-request-size: 100MB
+          max-file-size: 100MB
+      aop:
+        proxy-target-class: true
+      activiti:
+        check-process-definitions: false
+        database-schema-update: true
+        async-executor-activate: false
+      http:
+        encoding:
+          charset: utf-8
+          force: true
+          enabled: true
+      autoconfigure:
+        exclude: org.springframework.cloud.gateway.config.GatewayAutoConfiguration,org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration,org.activiti.spring.boot.SecurityAutoConfiguration
+
+    mybatis-plus:
+      type-handlers-package: com.jxdinfo.hussar.support.mp.typeconvter
+      mapper-locations: classpath*:com/jxdinfo/hussar/**/mapping/*.xml
+      typeAliasesPackage: com.jxdinfo.hussar.**.model,com.xxxx.**.model
+      typeEnumsPackage: com.jxdinfo.hussar.common.constant.enums
+      check-config-location: true
+      global-config:
+        banner: false
+        db-config:
+          id-type: assign-id
+        enable-sql-runner: true
+      configuration:
+        map-underscore-to-camel-case: false
+        cache-enabled: true
+        lazyLoadingEnabled: false
+        multipleResultSetsEnabled: true
+    #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印sql语句,调试用
+
+    logging:
+      config: classpath:log4j2.xml
+      level:
+        root: INFO
+    gitlab:
+      uri:
+        git-uri: {{ .Values.gitlab.uri.gitUri }}
+        git-group: {{ .Values.gitlab.uri.gitGroup }}
+      defaultPassword: {{ .Values.gitlab.defaultPassword }}
+    IAM:
+      data-sync:
+        key: {{ .Values.IAM.dataSync.key }}
+        type: {{ .Values.IAM.dataSync.type }}
+        signType: {{ .Values.IAM.dataSync.signType }}
+        appCode: {{ .Values.IAM.dataSync.appCode }}
+        bimRemoteUser: {{ .Values.IAM.dataSync.bimRemoteUser }}
+        bimRemotePwd: {{ .Values.IAM.dataSync.bimRemotePwd }}
+      auth:
+        address: {{ .Values.IAM.auth.address }}
+        clientId: {{ .Values.IAM.auth.clientId }}
+        clientSecret: {{ .Values.IAM.auth.clientSecret }}
+      grant:
+        address: {{ .Values.IAM.grant.clientSecret }}
+        username: {{ .Values.IAM.grant.username }}
+        userId: {{ .Values.IAM.grant.userId }}
+        appKey: {{ .Values.IAM.grant.appKey }}
+        dataObjectCode: {{ .Values.IAM.grant.dataObjectCode }}    # 功能对象编码
+        adataObjectCode: {{ .Values.IAM.grant.adataObjectCode }}   # 可见范围对象编码
+        btnObjectCode: {{ .Values.IAM.grant.btnObjectCode }}  # 操作权限对象编码
+      request-way: {{ .Values.IAM.requestWay }}
+    appManage:
+      enable: {{ .Values.appManage.enable }}
+      url: {{ .Values.appManage.url }}
+      projectCode: {{ .Values.appManage.projectCode }}
+      branch: {{ .Values.appManage.branch }}
+      deployType: {{ .Values.appManage.deployType }}
+      obtainChangeFlag: {{ .Values.appManage.obtainChangeFlag }}
+    companyWeChat:
+      corpID: {{ .Values.corp.corpid }}
+      corpSecret:
+      token: {{ .Values.corp.token }}
+      encodingAESKey: {{ .Values.corp.encodingAESKey }}
+
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+### Services
+# hussar-compile service
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    k8s-app: {{ .Values.deploymentName.hussarCompile }}
+  name: {{ .Values.serviceName.hussarCompile }}
+  namespace: {{ .Values.namespace }}
+spec:
+  type: ClusterIP
+  ports:
+    - name: complie-web
+      port: 8989
+      targetPort: 8989
+    {{ if contains  "h5" .Values.project.projectType  }}
+    - name: complie-mobile
+      port: 8988
+      targetPort: 8988
+    {{ end }}
+    {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+    - name: complie-mobile-uni
+      port: 8987
+      targetPort: 8987
+    {{ end }}
+    - name: complie-format
+      port: 8820
+      targetPort: 8820
+  selector:
+    k8s-app: {{ .Values.deploymentName.hussarCompile }}
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# hussar-backend service
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    k8s-app: {{ .Values.deploymentName.hussarBackend }}
+  name: {{ .Values.serviceName.hussarBackend }}
+  namespace: {{ .Values.namespace }}
+spec:
+  type: ClusterIP
+  ports:
+    - name: back-web
+      port: 8280
+      targetPort: 8280
+  selector:
+    k8s-app: {{ .Values.deploymentName.hussarBackend }}
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# hussar-nginx service
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    k8s-app: {{ .Values.deploymentName.hussarNginx }}
+  name: {{ .Values.serviceName.hussarNginx }}
+  namespace: {{ .Values.namespace }}
+spec:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 8080
+      targetPort: 8080
+    {{ if contains  "h5" .Values.project.projectType  }}
+    - name: mobile-http
+      port: 8380
+      targetPort: 8380
+    {{ end }}
+    {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+    - name: mobile-uni-http
+      port: 8480    # nginx监听端口
+      targetPort: 8480
+    {{ end }}
+  selector:
+    k8s-app: {{ .Values.deploymentName.hussarNginx }}
+  sessionAffinity: None
+  type: NodePort
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+### Deployments
+# hussar-compile deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    k8s-app: {{ .Values.deploymentName.hussarCompile }}
+  name: {{ .Values.deploymentName.hussarCompile }}
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      k8s-app: {{ .Values.deploymentName.hussarCompile }}
+  template:
+    metadata:
+      labels:
+        k8s-app: {{ .Values.deploymentName.hussarCompile }}
+        pod-dev: hussar-compile-env   # pod亲和性需要
+      annotations:
+         k8s.v1.cni.cncf.io/networks: '[{"name": "net-to-xj", "namespace": "admin", "interface": "eth1"},{"name": "net-to-hlw", "namespace": "admin", "interface":"eth2"}]'
+      namespace: {{ .Values.namespace }}
+      name: {{ .Values.deploymentName.hussarCompile }}
+    spec:
+      #nodeName: minion-4-1
+      initContainers:
+        - name: hussar-compile-setup
+          image: {{ .Values.compile.image }}
+          imagePullPolicy: {{ .Values.compile.imagePullPolicy }}
+          env:
+            - name: REGISTRY
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: REGISTRY
+            - name: CORP_ID
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: CORP_ID
+            - name: CORP_SECRET
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: CORP_SECRET
+          volumeMounts:
+            - name: hussar-front-source
+              mountPath: /home/hussar/workspace/hussar-front
+            {{ if contains  "h5" .Values.project.projectType  }}
+            - name: hussar-mobile-source
+              mountPath: /home/hussar/workspace/hussar-mobile
+            {{ end }}
+            {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+            - name: hussar-mobile-uni-source
+              mountPath: /home/hussar/workspace/hussar-mobile-uni
+            {{ end }}
+          command:
+            - /bin/bash
+            - '-c'
+            - |
+              mkdir -p /home/hussar/nginx/front/;
+              cp -a /home/hussar/init/* /home/hussar/workspace/
+              cd /home/hussar/workspace/hussar-front;
+              # 不论什么环境 前端开启不重启模式开关
+              sed -i 's/#VUE_APP_ENABLE_DLL=yes/VUE_APP_ENABLE_DLL=yes/g' .env.production;
+              sed -i 's/#VUE_APP_ENABLE_DLL=yes/VUE_APP_ENABLE_DLL=yes/g' .env.development;
+              sed -i 's/#VUE_APP_LOCAL_UNRESTART=yes/VUE_APP_LOCAL_UNRESTART=yes/g' .env.production;
+              sed -i 's/#VUE_APP_LOCAL_UNRESTART=yes/VUE_APP_LOCAL_UNRESTART=yes/g' .env.development;
+              # 开发环境  不展示 可视化设计器菜单
+
+              {{ if eq .Values.appManage.env "DEV" }}
+              sed -i 's#VUE_APP_HAS_VFG=true#VUE_APP_HAS_VFG=false#g' .env.production;
+              sed -i 's#VUE_APP_HAS_VFG=true#VUE_APP_HAS_VFG=false#g' .env.development;
+              # 开发环境
+              sed -i 's#VUE_APP_WECHAT_BASE='no'#VUE_APP_WECHAT_BASE='yes'#g' .env.production;
+              sed -i 's#VUE_APP_WECHAT_BASE='no'#VUE_APP_WECHAT_BASE='yes'#g' .env.development;
+              {{ else }}
+              # 测试环境和正式环境
+              sed -i 's#VUE_APP_WECHAT_BASE='yes'#VUE_APP_WECHAT_BASE='no'#g' .env.production;
+              sed -i 's#VUE_APP_WECHAT_BASE='yes'#VUE_APP_WECHAT_BASE='no'#g' .env.development;
+              {{ end }}
+              # 是否对接IAM
+
+              {{ if eq .Values.appManage.abutmentIAM true }}
+              sed -i 's#VUE_APP_INTEGRATED_IAM=false#VUE_APP_INTEGRATED_IAM=true#g' .env.production;
+              sed -i 's#VUE_APP_INTEGRATED_IAM=false#VUE_APP_INTEGRATED_IAM=true#g' .env.development;
+              {{ else }}
+              sed -i 's#VUE_APP_INTEGRATED_IAM=true#VUE_APP_INTEGRATED_IAM=false#g' .env.production;
+              sed -i 's#VUE_APP_INTEGRATED_IAM=true#VUE_APP_INTEGRATED_IAM=false#g' .env.development;
+              {{ end }}
+
+              echo "npm resposity $(REGISTRY)";
+              ls -al && pwd  && yarn --registry $(REGISTRY) && npm run build:webpack-dll;
+              echo "hussar-front compile done!";
+
+              # 应用类型包括 H5 并且选择了 企业微信基座  修改移动端配置文件 企业微信的corpId 和corpSecret
+              {{ if and (contains  "h5" .Values.project.projectType) .Values.corp.isCorp }}
+              cd /home/hussar/workspace/hussar-mobile;
+              sed -i 's#VUE_APP_WECOM_CORP_ID=#VUE_APP_WECOM_CORP_ID='${CORP_ID}'#g' .env.production;
+              sed -i 's#VUE_APP_CORP_SECRET=#VUE_APP_CORP_SECRET='${CORP_SECRET}'#g' .env.development;
+              ls -al && pwd && yarn --registry $(REGISTRY) ;
+              echo "hussar-mobile compile done!";
+              {{ end }}
+
+              # 应用类型包括uniapp 修改文件
+              {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+              cd /home/hussar/workspace/hussar-mobile-uni;
+              ls -al && pwd && yarn --registry $(REGISTRY) ;
+              echo "hussar-mobile-uni compile done!";
+              {{ end }}
+      containers:
+        - name: {{ .Values.deploymentName.hussarCompile }}
+          image: {{ .Values.compile.image }}
+          imagePullPolicy: {{ .Values.compile.imagePullPolicy }}
+          livenessProbe:
+            failureThreshold: 20
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            successThreshold: 1
+            tcpSocket:
+              port: 8989
+            timeoutSeconds: 3
+          ports:
+          - containerPort: 8989
+            name: web
+            protocol: TCP
+          {{ if contains  "h5" .Values.project.projectType }}
+          - containerPort: 8988
+            name: mobile
+            protocol: TCP
+          {{ end }}
+          {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+          - containerPort: 8987
+            name: mobile-uni
+            protocol: TCP
+          {{ end }}
+          - containerPort: 8820
+            name: format
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 20
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            successThreshold: 1
+            tcpSocket:
+              port: 8989
+            timeoutSeconds: 3
+          resources:
+            limits:
+              cpu: {{ .Values.compile.resources.limits.cpu }}
+              memory: {{ .Values.compile.resources.limits.memory }}
+            requests:
+              cpu: {{ .Values.compile.resources.requests.cpu }}
+              memory: {{ .Values.compile.resources.requests.memory }}
+          volumeMounts:
+            - name: hussar-front-source
+              mountPath: /home/hussar/workspace/hussar-front
+            {{ if contains  "h5" .Values.project.projectType }}
+            - name: hussar-mobile-source
+              mountPath: /home/hussar/workspace/hussar-mobile
+            {{ end }}
+            {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+            - name: hussar-mobile-uni-source
+              mountPath: /home/hussar/workspace/hussar-mobile-uni
+            {{ end }}
+            - name: hussar-front-output
+              mountPath: /home/hussar/nginx/front
+      imagePullSecrets:
+        - name: {{ .Values.compile.imagePullSecrets.name }}
+      restartPolicy: Always
+      volumes:
+        - name: hussar-front-source
+          persistentVolumeClaim:
+            claimName: {{ .Values.pvc.frontSource }}
+        {{ if contains  "h5" .Values.project.projectType }}
+        - name: hussar-mobile-source
+          persistentVolumeClaim:
+            claimName: {{ .Values.pvc.mobileSource }}
+        {{ end }}
+        {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+        - name: hussar-mobile-uni-source
+          persistentVolumeClaim:
+            claimName: {{ .Values.pvc.mobileUniSource }}
+        {{ end }}
+        - name: hussar-front-output
+          persistentVolumeClaim:
+            claimName: {{ .Values.pvc.output }}
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# hussar-backend deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    k8s-app: {{ .Values.deploymentName.hussarBackend }}
+  name: {{ .Values.deploymentName.hussarBackend }}
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      k8s-app: {{ .Values.deploymentName.hussarBackend }}
+  template:
+    metadata:
+      labels:
+        k8s-app: {{ .Values.deploymentName.hussarBackend }}
+        pod-dev: hussar-compile-env   # pod亲和性需要
+      annotations:
+        k8s.v1.cni.cncf.io/networks: '[{"name": "net-to-xj", "namespace": "admin", "interface": "eth1"},{"name": "net-to-hlw", "namespace": "admin", "interface":"eth2"}]'
+      namespace: {{ .Values.namespace }}
+      name: {{ .Values.deploymentName.hussarBackend }}
+    spec:
+      #nodeName: minion-4-1
+      affinity:
+        podAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: pod-dev
+                    operator: In
+                    values: ["hussar-compile-env"]
+              topologyKey: kubernetes.io/hostname
+      initContainers:
+        - name: wait-for-hussar-compile
+          image: {{ .Values.curl.image }}
+          command:
+            - sh
+            - '-c'
+            - |
+              {{if eq .Values.appManage.env "PROD" }}
+              cd /home/hussar
+              sed -i 's#JAVA_OPT="${JAVA_OPT} -jar ${BASE_DIR}/app.jar -Dspring.config.location=${BASE_DIR}/config/application.yml,${BASE_DIR}/config/application-dev.yml"#JAVA_OPT="${JAVA_OPT}  -javaagent:${BASE_DIR}/JavaAgent/lib/agent.jar -jar ${BASE_DIR}/app.jar -Dspring.config.location=${BASE_DIR}/config/application.yml,${BASE_DIR}/config/application-dev.yml"#g' hussar-startup.sh;
+              cd /home/hussar/JavaAgent/conf;
+              sed -i 's/appName=appName/appName='${APP_NAME}'/g' agent.properties;
+              {{ end }}
+              until curl -m5 -s {{ .Values.serviceName.hussarCompile }}.{{ .Values.namespace }}:8989/check; do echo waiting for wait-for-hussar-compile; sleep 5; done;
+      containers:
+        - name: {{ .Values.deploymentName.hussarBackend }}
+          image: {{ .Values.backend.image }}
+          imagePullPolicy: {{ .Values.backend.imagePullPolicy }}
+          env:
+            - name: FRONT_COMPILE_SERVER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: FRONT_COMPILE_SERVER
+            - name: MOBILE_COMPILE_SERVER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: MOBILE_COMPILE_SERVER
+            - name: MOBILE_UNI_COMPILE_SERVER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: MOBILE_UNI_COMPILE_SERVER
+            - name: FRONT_COMPILE_CODE_FORMAT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: FRONT_COMPILE_CODE_FORMAT
+            - name: REGISTRY
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: REGISTRY
+            - name: WEB_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: WEB_URL
+            - name: MOBILE_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: MOBILE_URL
+            - name: MOBILE_UNI_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: MOBILE_UNI_URL
+            - name: MYSQL_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: MYSQL_HOST
+            - name: MYSQL_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: MYSQL_PORT
+            - name: MYSQL_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: MYSQL_DATABASE
+            - name: MYSQL_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: MYSQL_USER
+            - name: MYSQL_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: MYSQL_PASSWORD
+            - name: ORACLE_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: ORACLE_HOST
+            - name: ORACLE_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: ORACLE_PORT
+            - name: ORACLE_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: ORACLE_DATABASE
+            - name: ORACLE_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: ORACLE_USER
+            - name: ORACLE_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: ORACLE_PASSWORD
+            - name: DM_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: DM_HOST
+            - name: DM_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: DM_PORT
+            - name: DM_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: DM_DATABASE
+            - name: DM_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: DM_USER
+            - name: DM_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: DM_PASSWORD
+            - name: PGSQL_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: PGSQL_HOST
+            - name: PGSQL_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: PGSQL_PORT
+            - name: PGSQL_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: PGSQL_DATABASE
+            - name: PGSQL_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: PGSQL_USER
+            - name: PGSQL_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: PGSQL_PASSWORD
+            - name: SQLSERVER_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: SQLSERVER_HOST
+            - name: SQLSERVER_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: SQLSERVER_PORT
+            - name: SQLSERVER_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: SQLSERVER_DATABASE
+            - name: SQLSERVER_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: SQLSERVER_USER
+            - name: SQLSERVER_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: SQLSERVER_PASSWORD
+            - name: KINGBASE_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: KINGBASE_HOST
+            - name: KINGBASE_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: KINGBASE_PORT
+            - name: KINGBASE_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: KINGBASE_DATABASE
+            - name: KINGBASE_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: KINGBASE_USER
+            - name: KINGBASE_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: KINGBASE_PASSWORD
+            - name: OSCAR_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: OSCAR_HOST
+            - name: OSCAR_PORT
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: OSCAR_PORT
+            - name: OSCAR_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: OSCAR_DATABASE
+            - name: OSCAR_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: OSCAR_USER
+            - name: OSCAR_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: OSCAR_PASSWORD
+            - name: APP_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: {{ .Values.configName.env }}
+                  key: APP_NAME
+          livenessProbe:
+            failureThreshold: 20
+            initialDelaySeconds: 600
+            periodSeconds: 10
+            successThreshold: 1
+            tcpSocket:
+              port: 8280
+            timeoutSeconds: 3
+          ports:
+            - containerPort: 8280
+              name: web
+              protocol: TCP
+          readinessProbe:
+            failureThreshold: 20
+            initialDelaySeconds: 600
+            periodSeconds: 10
+            successThreshold: 1
+            tcpSocket:
+              port: 8280
+            timeoutSeconds: 3
+          resources:
+            limits:
+              cpu: {{ .Values.backend.resources.limits.cpu }}
+              memory: {{ .Values.backend.resources.limits.memory }}
+            requests:
+              cpu: {{ .Values.backend.resources.requests.cpu }}
+              memory: {{ .Values.backend.resources.requests.memory }}
+          volumeMounts:
+            - name: {{ .Values.configName.webConfig }}
+              mountPath: /home/hussar/config
+            - name: hussar-web-source
+              mountPath: /home/hussar/workspace/hussar-web
+            - name: hussar-front-source
+              mountPath: /home/hussar/workspace/hussar-front
+            {{ if contains  "h5" .Values.project.projectType }}
+            - name: hussar-mobile-source
+              mountPath: /home/hussar/workspace/hussar-mobile
+            {{ end }}
+            {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+            - name: hussar-mobile-uni-source
+              mountPath: /home/hussar/workspace/hussar-mobile-uni
+            {{ end }}
+      imagePullSecrets:
+        - name: {{ .Values.backend.imagePullSecrets.name }}
+      volumes:
+        - name: {{ .Values.configName.webConfig }}
+          configMap:
+            name: {{ .Values.configName.webConfig }}
+        - name: hussar-web-source
+          persistentVolumeClaim:
+            claimName: {{ .Values.pvc.webSource }}
+        - name: hussar-front-source
+          persistentVolumeClaim:
+            claimName: {{ .Values.pvc.frontSource }}
+        {{ if contains  "h5" .Values.project.projectType }}
+        - name: hussar-mobile-source
+          persistentVolumeClaim:
+            claimName: {{ .Values.pvc.mobileSource }}
+        {{ end }}
+        {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+        - name: hussar-mobile-uni-source
+          persistentVolumeClaim:
+            claimName: {{ .Values.pvc.mobileUniSource }}
+        {{ end }}
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# hussar-nginx deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    k8s-app: {{ .Values.deploymentName.hussarNginx }}
+  name: {{ .Values.deploymentName.hussarNginx }}
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: {{ .Values.deploymentName.hussarNginx }}
+  template:
+    metadata:
+      labels:
+        k8s-app: {{ .Values.deploymentName.hussarNginx }}
+        pod-dev: hussar-compile-env   # pod亲和性需要
+      annotations:
+        k8s.v1.cni.cncf.io/networks: '[{"name": "net-to-xj", "namespace": "admin", "interface": "eth1"},{"name": "net-to-hlw", "namespace": "admin", "interface":"eth2"}]'
+      namespace: {{ .Values.namespace }}
+      name: {{ .Values.deploymentName.hussarNginx }}
+    spec:
+      #nodeName: minion-4-1
+      affinity:
+        podAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: pod-dev
+                    operator: In
+                    values: ["hussar-compile-env"]
+              topologyKey: kubernetes.io/hostname
+      initContainers:
+        - name: wait-for-hussar-compile
+          image: {{ .Values.curl.image }}
+          imagePullPolicy: {{ .Values.curl.imagePullPolicy }}
+          command:
+            - sh
+            - '-c'
+            - until curl -m5 -s {{ .Values.serviceName.hussarCompile }}.{{ .Values.namespace }}:8989/check; do echo waiting for wait-for-hussar-compile; sleep 5; done;
+      containers:
+        - name: {{ .Values.deploymentName.hussarNginx }}
+          image: {{ .Values.nginx.image }}
+          imagePullPolicy: {{ .Values.nginx.imagePullPolicy }}
+          livenessProbe:
+            failureThreshold: 20
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            successThreshold: 1
+            tcpSocket:
+              port: 8080
+            timeoutSeconds: 3
+          ports:
+            - containerPort: 8080
+              name: http
+              protocol: TCP
+            {{ if contains  "h5" .Values.project.projectType }}
+            - containerPort: 8380
+              name: mobile-http
+              protocol: TCP
+            {{ end }}
+            {{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+            - containerPort: 8480    # nginx监听端口
+              name: mobile-uni-http
+              protocol: TCP
+            {{ end }}
+          readinessProbe:
+            failureThreshold: 20
+            initialDelaySeconds: 60
+            periodSeconds: 10
+            successThreshold: 1
+            tcpSocket:
+              port: 8080
+            timeoutSeconds: 3
+          volumeMounts:
+            - mountPath: /etc/nginx/conf.d
+              name: nginx-server-block
+            - mountPath: /app
+              name: staticsite
+      volumes:
+        - configMap:
+            defaultMode: 420
+            name: {{ .Values.configName.nginxConfig }}
+          name: nginx-server-block
+        - name: staticsite
+          persistentVolumeClaim:
+            claimName: {{ .Values.pvc.output }}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_搜索</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="应用管理-维护团队成员" transform="translate(-816.000000, -310.000000)">
+            <g id="编组-19" transform="translate(560.000000, 251.000000)">
+                <g id="icon_搜索" transform="translate(257.000000, 60.000000)">
+                    <rect id="矩形_2026" fill="#000000" fill-rule="nonzero" opacity="0" x="1" y="1" width="22" height="22"></rect>
+                    <g id="搜索_icon" transform="translate(12.000000, 12.000000) rotate(-45.000000) translate(-12.000000, -12.000000) translate(6.000000, 2.000000)">
+                        <g id="Oval_48">
+                            <circle id="椭圆形" cx="5.889" cy="5.889" r="4.889"></circle>
+                            <circle id="椭圆形" stroke="#C8CDD5" stroke-width="2" cx="5.889" cy="5.889" r="5.889"></circle>
+                        </g>
+                        <path d="M4.056,18.458 L4.056,12.876 C4.056,12.392 4.87,12 5.889,12 C6.908,12 7.723,12.382 7.723,12.876 L7.723,18.458 C7.723,18.942 6.909,19.334 5.89,19.334 C4.871,19.334 4.056,18.951 4.056,18.458 Z" id="Rectangle_497" fill="#D1D1D1" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

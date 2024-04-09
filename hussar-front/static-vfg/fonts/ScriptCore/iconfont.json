@@ -1,0 +1,16 @@
+{
+  "id": "2955835",
+  "name": "scriptCore",
+  "font_family": "script",
+  "css_prefix_text": "icon-",
+  "description": "二次开发",
+  "glyphs": [
+    {
+      "icon_id": "25888065",
+      "name": "js",
+      "font_class": "js",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

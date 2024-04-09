@@ -1,0 +1,33 @@
+//----------- 下拉框----------------
+.el-select-dropdown.el-popper {
+  box-shadow: 0px 8px 16px 0px rgba(224, 240, 255, 0.50);
+  border: 1px solid #f1f3f6;
+
+  .el-select-dropdown__wrap.el-scrollbar__wrap {
+    margin-bottom: 0 !important;
+    margin-right: 0 !important;
+    overflow: auto;
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+    .el-select-dropdown__list {
+      padding: 2px 0;
+      .select{
+        background-color: #DDE5E3!important;
+      }
+      .el-select-dropdown__item{
+        padding: 0 16px;
+      }
+    }
+  }
+  // 垂直滚动条
+  .el-scrollbar__bar.is-vertical {
+    width: 8px;
+    .el-scrollbar__thumb {
+      background: (rgba(209, 209, 209, 0.7));
+      &:hover{
+        background: (rgba(209, 209, 209, 1));
+      }
+    }
+  }
+}

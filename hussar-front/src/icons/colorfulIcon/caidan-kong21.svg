@@ -1,0 +1,21 @@
+<svg t="1670925743765" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2737"
+     width="200" height="200">
+  <path d="M64 0h192v256H0V64a64 64 0 0 1 64-64z" fill="#D9D9D9" p-id="2738"></path>
+  <path d="M256 0h256v256H256z" fill="#FFFFFF" opacity=".5" p-id="2739"></path>
+  <path d="M512 0h256v256H512z" fill="#D9D9D9" p-id="2740"></path>
+  <path d="M768 0h256v256h-256zM0 256h256v256H0z" fill="#FFFFFF" opacity=".5" p-id="2741"></path>
+  <path d="M0 512h256v256H0z" fill="#D9D9D9" p-id="2742"></path>
+  <path d="M0 768h256v256H0z" fill="#FFFFFF" opacity=".5" p-id="2743"></path>
+  <path d="M256 256h256v256H256z" fill="#D9D9D9" p-id="2744"></path>
+  <path d="M512 256h256v256H512z" fill="#FFFFFF" opacity=".5" p-id="2745"></path>
+  <path d="M768 256h256v256h-256z" fill="#D9D9D9" p-id="2746"></path>
+  <path d="M256 512h256v256H256z" fill="#FFFFFF" opacity=".5" p-id="2747"></path>
+  <path d="M512 512h256v256H512z" fill="#D9D9D9" p-id="2748"></path>
+  <path d="M768 512h256v256h-256z" fill="#FFFFFF" opacity=".5" p-id="2749"></path>
+  <path d="M256 768h256v256H256z" fill="#D9D9D9" p-id="2750"></path>
+  <path d="M512 768h256v256H512z" fill="#FFFFFF" opacity=".5" p-id="2751"></path>
+  <path d="M768 768h256v192a64 64 0 0 1-64 64h-192v-256z" fill="#D9D9D9" p-id="2752"></path>
+  <path
+    d="M960 0a64 64 0 0 1 64 64v896a64 64 0 0 1-64 64H64a64 64 0 0 1-64-64V64a64 64 0 0 1 64-64h896z m0 32H64a32 32 0 0 0-31.488 26.24L32 64v896a32 32 0 0 0 26.24 31.488L64 992h896a32 32 0 0 0 31.488-26.24L992 960V64a32 32 0 0 0-26.24-31.488L960 32z"
+    fill="#D9D9D9" p-id="2753"></path>
+</svg>

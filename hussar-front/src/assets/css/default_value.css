@@ -1,0 +1,1649 @@
+.lcdp_axe .jxd_ins_elEditTable th{height:48px;}.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-header--column{line-height:48px;}.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-header--column .vxe-cell--title{line-height:unset;}
+.lcdp_axe .jxd_ins_elMultiChoice .lab{font-family:微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_elCountersignSelect:hover input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elInputNumber input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elInput input{font-size:14px;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-text{font-size:14px;}
+.lcdp_axe .jxd_ins_invoice .invoice-tips{text-align:left;}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input{height:100%;}.lcdp_axe .jxd_ins_elTreeSelect .el-input .el-select__caret{line-height: 1}
+.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .attach-btn{color: #fff;display: flex;height: 34px;width: 106px;justify-content: center;align-items: center;text-align: center;overflow: hidden;}
+.lcdp_axe .jxd_ins_elDataSelect input{text-align:left;}
+.lcdp_axe .jxd_ins_elTree{z-index:unset;}
+.lcdp_axe .jxd_ins_elTreeSelect{height: 34px;width: 206px;width: 206px;height: 34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect.checkBad input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_ticket .el-upload.el-upload--picture-card {background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.is-disabled input{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.is-disabled input{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.is-disabled input{color:#606266;}
+.lcdp_axe .jxd_ins_organization_filter_tree{height: 220px;width: 200px;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;width: 200px;height: 220px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.checkBad:not(.is-readonly) input{border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elLink {padding:0 0 0 0}
+.lcdp_axe .jxd_ins_elDoughnut canvas {border-left:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elTreeSelect input::-webkit-input-placeholder{text-align:left;}.lcdp_axe .jxd_ins_elTreeSelect .el-input .el-input__inner{padding-right: 20px}
+.lcdp_axe .jxd_ins_elFlowChart{height: 300px;width: 600px;background-color: #fff;border-top: 0px solid #e2e2e2;border-left: 0px solid #e2e2e2;border-right: 0px solid #e2e2e2;border-bottom: 0px solid #e2e2e2;padding: 20px 20px 20px 20px;border-radius: 0;width: 600px;height: 300px;}
+.lcdp_axe .jxd_ins_invoice .invoice-tips{line-height:25px;}
+.lcdp_axe .jxd_ins_elRadar canvas {border-right:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elTable .el-table .el-table__body .el-table-column--selection .cell {text-overflow: clip;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.jxd_ins_elAccountingNumReadonly:not(:hover):not(.is-disabled):not(.checkBad) input{color:#303030;}
+.lcdp_axe .jxd_ins_elDataSelect .el-input__icon:last-child{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elMultiChoice .lab,.lcdp_axe .jxd_ins_elMultiChoice .el-input__icon{color:#606266;}
+.lcdp_axe .jxd_ins_elFlowSelect input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elTable .el-table__footer-wrapper td .cell{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect.checkBad input{color:#000000;}
+.lcdp_axe .jxd_ins_elTree__context-menu li:hover{background:#EAF3FB;}
+.lcdp_axe .jxd_ins_horizontal_line div{width:100%;}
+.lcdp_axe .jxd_ins_elLine canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio__label{font-family:微软雅黑}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{border-top:1px solid #e2e2e2;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content .is-checked + .custom-tree-node span{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-body--row td.vxe-body--column{background-image: linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1)),linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1));}
+.lcdp_axe .jxd_ins_elAccountingNum input::-webkit-input-placeholder{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.checkBad textarea{border-left:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:hover:not(.is-disabled):not(.jxd_ins_elTextAreaReadonly):not(.checkBad) textarea{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.checkBad input::-webkit-input-placeholder{color:#000000;}
+.lcdp_axe .jxd_ins_elSingleUpload.checkBad{border: 1px solid #f56c6c;overflow: visible}
+.lcdp_axe .jxd_ins_elTextArea textarea{font-weight:400;} .lcdp_axe .jxd_ins_elTextArea textarea::-webkit-input-placeholder{font-weight:400;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.is-disabled textarea{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input__inner{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item{margin:0 30px 0 0;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled.el-range-editor{border-top:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label:hover:not(.is-disabled) .el-radio__input .el-radio__inner{border-color:#045340;}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label:hover:not(.is-disabled) .el-radio-button__inner{background:#045340;}
+.lcdp_axe .jxd_ins_elPie canvas {border-radius:2px;}
+.lcdp_axe .jxd_ins_elNumber .el-input input::-webkit-input-placeholder{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-focus input{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTree__context-menu li:hover{color:#333;}
+.lcdp_axe .jxd_ins_elDataSelect input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elDataSelect input::-webkit-input-placeholder{font-family:微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.is-disabled input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text p {font-family: 微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled) .button{border-left:1px solid #3c94e3;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.checkBad input{border-left:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio__label{text-decoration:none}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-focus input{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-focus .el-input__inner{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_ticket .el-upload.el-upload--picture-card {border-left: 1px dashed #d9d9d9;}
+.lcdp_axe .jxd_ins_elCommentEcho{height: 85px;width: 206px;background-color: #ffffff;font-size: 14px;font-family: 微软雅黑;color: #303133;font-style: normal;font-weight: 400;text-decoration: none;line-height: 34px;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;border-radius: 2px;letter-spacing: 0px;text-align: left;vertical: true;padding: 5px 0 0 10px;width: 206px;height: 85px;}
+.lcdp_axe .jxd_ins_elTreeTable .page{background:#606266;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody td{height:50px;}body,.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table .cell{line-height:unset;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table td ,.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table th {padding: 0 0!important;}
+.lcdp_axe .jxd_ins_elTreeSelect input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.is-disabled .el-input input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elRejectNode input{font-weight:normal;} .lcdp_axe .jxd_ins_elRejectNode input::-webkit-input-placeholder{font-weight:normal;}
+.lcdp_axe .jxd_ins_elSelect input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elTreeTable{height: 380px;width: 800px;overflow: hidden;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;border-radius: 0;width: 800px;height: 380px;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item{line-height:40px!important}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text p {font-size: 14px;}
+.lcdp_axe .jxd_ins_elInput:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elDateTimePicker input, .lcdp_axe .jxd_ins_elDateTimePicker.el-range-editor{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elIcon:hover:not([disabled]){color:#3c94e3;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node{padding-left:0;}
+.lcdp_axe .jxd_ins_elNumber .el-input .el-input__inner{width: 100%;height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.jxd_ins_elInputReadonly:not(.checkBad) input{border-top:1px solid #dcdfe6;}
+ .jxd_ins_elPanel .el-panel__header{border-radius:0px;}
+.lcdp_axe .jxd_ins_elTextArea textarea{font-size:14px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{height:34px;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody td{color:#606266;}
+ .jxd_ins_elDialog .el-dialog__header .dialog-header{padding-right:38px;}
+.lcdp_axe .jxd_ins_elFlowSelect input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elFlowSelect input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elNumber .el-input-number__decrease i,.lcdp_axe .jxd_ins_elNumber .el-input-number__increase i{height:100%;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__label{font-weight:400}
+.lcdp_axe .jxd_ins_elCheckBox {line-height:34px;}
+.lcdp_axe .jxd_ins_elParticipantInput input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{background-color:#045340;}
+.lcdp_axe .jxd_ins_invoice .upload .jxdIcon.jxd-el-upload{font-size:50px;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.checkBad:not(:hover) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elH1 {font-family:微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.el-input.is-disabled input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elInputNumber{height: 34px;width: 206px;width: 206px;height: 34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elButton:disabled{background-color:#a2d2fc;color:#ffffff;border-top:1px solid #ffffff;border-left:1px solid #ffffff;border-right:1px solid #ffffff;border-bottom:1px solid #ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elCountersignSelect:focus-within:not(:hover){border-top:1px solid #045340;border-left:1px solid #045340;border-right:1px solid #045340;border-bottom:1px solid #045340;}
+ .jxd_ins_elDialog .el-dialog__body{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-disabled input{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-focus input{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect.checkBad .el-input__inner{border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elDataSelect input::-webkit-input-placeholder{color:#c0c4cc;}
+ .jxd_ins_elDialog .el-dialog__header .dialog-header{color:#303133;}
+.lcdp_axe .jxd_ins_elTable .page .el-pagination{text-align:center;padding:0 20px;}
+.lcdp_axe .jxd_ins_elAccountingNum input{font-weight:400;} .lcdp_axe .jxd_ins_elAccountingNum input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number input{letter-spacing:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad) .button{border-top:1px solid #a2d2fc;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput:hover:not(.is-disabled) input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elLoading{height: 50px;width: 100px;background-color: #e0e0e0;font-style: normal;font-weight: 400;text-decoration: none;border-radius: 0;box-shadow: 0px 0px 0px #eee;z-index: 2000;width: 100px;height: 50px;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{text-decoration:none;}
+.lcdp_axe .jxd_ins_elTable .el-table__footer-wrapper td .cell{font-weight:400;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table__footer-wrapper td .cell{font-size:14px;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-body .custom-table-body-list { border-bottom-width: 1px; }
+.lcdp_axe .jxd_ins_elNumber:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;line-height:12px;}
+.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .el-upload {width: 100%;height: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{color:#677171;}
+.lcdp_axe .jxd_ins_custom_table{height: 380px;width: 800px;background-color: #fff;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;border-radius: 0;padding: 0px 0px 0px 0px;page-default-style: false;page-hover-style: false;page-selected-style: false;overflow: hidden;width: 800px;height: 380px;}
+.lcdp_axe .jxd_ins_elTree__context-menu li{color:#333;padding: 0 17px 0 25px;height: 28px;line-height: 28px}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-disabled .el-input__inner{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio__label{color:#606266}
+ .jxd_ins_elDialog .el-dialog__header{height:45px;line-height:45px;}  .jxd_ins_elDialog .el-dialog__body{height:calc(100% - 45px)}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pager li{color:#606266;}
+.lcdp_axe .jxd_ins_elTreeTable tbody tr:hover td{background:#f4f9fe;}
+.jxd_additional.lcdp_axe .jxd_ins_elCheckBoxGroup.checkBad.jxd_ins_elCheckBoxGroup::after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;line-height:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect:hover .el-input__inner{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number input{color:#677171;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pagination{text-align:center;padding:0 20px;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger{height:70px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table--body-wrapper{background:#fff;}.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-body--row.row--stripe{background:unset;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputNumberReadonly) input{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elEditTable{height: 380px;width: 800px;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;width: 800px;height: 380px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.checkBad textarea{border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elTable .page .el-pagination__jump{margin-left:3px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elNestedPies canvas {border-bottom:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pager li:not(.disabled).active{color:#fff;}
+.lcdp_axe .jxd_ins_elArea canvas {border-bottom:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle {padding: 0 0 0 10px; width: 100%; height: 100%;display: flex;align-items: center;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect.checkBad input{border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pager li.number:hover{border:1px #045340 solid;}
+ .jxd_ins_elPanel .el-panel__body{font-weight:normal;}
+.lcdp_axe .jxd_ins_elTable .page .el-pager li{color:rgba(81, 90, 110, 1);}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table,.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table .el-table__body-wrapper{background:#fff;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-loading-mask{background:transparent;}
+.lcdp_axe .jxd_ins_elDataSelect input{border-bottom:1px solid #dcdfe6;}
+ .jxd_ins_elDrawer .el-drawer__header .drawer-header{font-size:14px;}
+.lcdp_axe .jxd_ins_invoice .invoice-content {border-bottom: 1px dashed #d9d9d9;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item input{padding:0 40px 0 10px;}
+.lcdp_axe .jxd_ins_elInput ,.lcdp_axe .jxd_ins_elInput input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio,.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button{margin-right: 0px;}.lcdp_axe .jxd_ins_elRadioGroup .el-radio__label{padding-left: unset}
+.lcdp_axe .jxd_ins_elRadioGroup{display:block;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.jxd_ins_elTextAreaReadonly:not(.checkBad) textarea{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elNumber .el-input input::-webkit-input-placeholder{font-size:14px;}
+.lcdp_axe .jxd_ins_elRadar canvas{background-color:#ffffff;}
+ .jxd_ins_elPanel .el-panel__body, .jxd_ins_elPanel .el-panel__header{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pager li{border:1px rgba(237, 237, 237, 1) solid;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__header .el-tabs__item .el-tooltip{white-space:nowrap}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__header .el-tabs__item .el-tooltip{overflow:hidden; height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elCountersignSelect .el-input.is-disabled input{color:#606266;}
+.lcdp_axe .jxd_ins_elScrollContainer {overflow:auto;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio,.el-radio-button{margin-left: 0px;}
+.lcdp_axe .jxd_ins_elAccountingNum input{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-disabled input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_invoice .upload .el-upload__text{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect:hover .el-input:not(.is-disabled):not(.checkBad) .el-input__inner{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table td .cell{padding-left:14px;}
+.lcdp_axe .jxd_ins_elTreeTable thead th{padding:0;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table--footer-wrapper.body--wrapper{background:#f8f8f9;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger{border-radius:2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.checkBad input{border-right:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{color:#677171;}
+.lcdp_axe .jxd_ins_ticket .el-upload.el-upload--picture-card{width: 100%;height: 100%;line-height:100%;}.lcdp_axe .jxd_ins_ticket .el-upload-list--picture-card.jxd-ticket-imageList{left: calc(100% + 10px);}.lcdp_axe .jxd_ins_ticket .el-upload-list__item{width: 100%;}
+.lcdp_axe .jxd_ins_elRadioGroup{height: 34px;width: 206px;background-color: #ffffff;vertical: false;line-height: 34px;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_elDateTimePicker input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table--footer-wrapper.body--wrapper{font-size:14px;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pager li:not(.disabled).active{background:#045340;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTabs .iframe{width:100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:hover:not(.is-disabled):not(.jxd_ins_elTextAreaReadonly):not(.checkBad) textarea{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elCountersignSelect input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody tr:hover td{background:#f4f9fe;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-focus input{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.is-disabled input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elCountersignSelect input{color:#606266;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number input{font-size:14px;}
+.lcdp_axe .jxd_ins_elH2 {text-decoration:none;}
+.lcdp_axe .jxd_ins_elArea canvas {border-left:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.jxd_ins_elInputNumberReadonly:not(.checkBad) input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{ background-color:#045340;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pagination{text-align:center;padding:0 20px;}
+.lcdp_axe .jxd_ins_elCountersignSelect input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elInputNumber input{border-right:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-focus input{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputNumberReadonly) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elBar canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elParticipantInput input::-webkit-input-placeholder{font-family:微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice.checkBad{background-color:#ffffff;border-top:1px solid #f56c6c;border-left:1px solid #f56c6c;border-right:1px solid #f56c6c;border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pager li:hover{border:1px #045340 solid;}
+.lcdp_axe .jxd_ins_elConsignorInput input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row td{height:50px;}.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-body--column{line-height:50px;}.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-body--column .vxe-cell{line-height:unset;}
+.lcdp_axe .jxd_ins_elLineBar canvas{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect:hover:not(.is-disabled):not(.checkBad) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elCheckBox .el-checkbox__label{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textIcon i{font-size: 28px;}.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textCont {width: calc( 100% - 28px );display: flex;align-items: center;height: 100%;padding-left: 10px;}.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .progressCont {width: calc( 100% - 28px );display: flex;padding-left: 10px;flex-direction: column;justify-content: center;}
+.lcdp_axe .jxd_ins_camera{height: 75px;width: 75px;color: #045340;font-size: 48px;display: flex;justify-content: center;align-items: center;width: 75px;height: 75px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{font-size:14px;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox{width:80px}.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox-button .el-checkbox-button__inner{width:80px}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number input{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elFlowSelect input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text .attach-text-files{ padding: 0px 3px 3px;font-size: 14px;cursor: pointer;height: 22px;line-height: 22px;}
+.lcdp_axe .jxd_ins_selectOpinion{height: 140px;width: 660px;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;width: 660px;height: 140px;}
+.lcdp_axe .jxd_ins_elCommentEcho span{word-break:break-all;}
+.lcdp_axe .jxd_ins_elDateTimePicker input, .lcdp_axe .jxd_ins_elDateTimePicker.el-range-editor{padding-top:0px;}
+.lcdp_axe .jxd_ins_elTable .page .el-pager li, .lcdp_axe .jxd_ins_elTable .page .btn-prev, .lcdp_axe .jxd_ins_elTable .page .btn-next{background:#fff;}.lcdp_axe .jxd_ins_elTable .el-pagination button:disabled{background:#fff !important;}.lcdp_axe .jxd_ins_elTable .el-pagination .el-select .el-input .el-input__inner{background:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:focus-within:not(.checkBad) input{border-bottom:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad) .button{border-left:1px solid #a2d2fc;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__content{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect.checkBad .el-input__inner{border-left:1px solid #f56c6c;}
+ .jxd_ins_elDialog .el-dialog__headerbtn:hover i{color:#9e9e9e;}
+.lcdp_axe .jxd_ins_elTable .el-table__footer-wrapper tr{height:50px;}.lcdp_axe .jxd_ins_elTable .el-table__fixed-footer-wrapper tbody td{height:50px;}
+.lcdp_axe .jxd_ins_elParticipantInput input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elInput input{padding-right:47px;}
+.lcdp_axe .jxd_ins_elParticipantInput input{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputReadonly) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elCountersignSelect .is-controls-right .el-input-number__decrease i,.lcdp_axe .jxd_ins_elCountersignSelect .is-controls-right .el-input-number__increase i{line-height:20px;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-disabled input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_attachmentUpload{height: 144px;width: 270px;color: #606266;font-family: 微软雅黑;font-size: 14px;font-weight: normal;font-style: normal;text-decoration: none;letter-spacing: 0px;padding: 0px 0px 0px 0px;border-radius: 2px;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;cursor: pointer;display: flex;width: 270px;height: 144px;}
+.lcdp_axe .jxd_ins_elMultiChoice .lab{font-size:14px;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio,.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button__inner{border-top:0px solid #dcdfe6}
+.lcdp_axe .jxd_ins_elH1{height: 34px;width: 800px;background-color: #f1f5f9;border-left: 5px solid #045340;border-top: 0px solid #e2e2e2;border-right: 0px solid #e2e2e2;border-bottom: 0px solid #e2e2e2;padding: 0 0 0 10px;border-radius: 0;width: 800px;height: 34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber:hover:not(.is-disabled) .el-input input{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:focus-within input{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTreeTable tbody td{height:50px;}body,.lcdp_axe .jxd_ins_elTreeTable .el-table .cell{line-height:unset;}.lcdp_axe .jxd_ins_elTreeTable .el-table td ,.lcdp_axe .jxd_ins_elTreeTable .el-table th {padding: 0 0!important;}
+.lcdp_axe .jxd_ins_invoice .invoice-tips{color:#909399;}
+ .jxd_ins_elDialog .el-dialog__header{background:#f4f7fa;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table--footer-wrapper.body--wrapper{height:50px;} .lcdp_axe .jxd_ins_elEditTable .vxe-table--footer-wrapper.body--wrapper .vxe-table--footer tr td{padding:0 0 0 0;height:50px;} .lcdp_axe .jxd_ins_elEditTable .vxe-footer--row .vxe-cell{line-height: normal;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup{height: 34px;width: 206px;background-color: #ffffff;vertical: false;line-height: 34px;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content .is-checked + .custom-tree-node span{text-decoration:none;display:inline-block;}
+ .jxd_ins_elPanel .el-panel__body, .jxd_ins_elPanel .el-panel__header{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.is-disabled input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number input{font-size:14px;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content{height:auto;line-height:26px;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:focus-within input{border-right:1px solid #045340;}
+ .jxd_ins_elPanel .el-panel__body{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elSelect input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elSelect input::-webkit-input-placeholder{font-family:微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect:hover .el-input__inner{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item{height:40px;}
+.lcdp_axe .jxd_ins_elTable .el-table--border tbody tr td:not(:last-of-type){border-right: 1px solid #ededed;}.lcdp_axe .jxd_ins_elTable .el-table--border{border: 0 solid #ededed;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.is-disabled input{color:#606266;}
+.lcdp_axe .jxd_ins_elInputNumber input::-webkit-input-placeholder{font-style:normal;}
+ .jxd_ins_elPanel{height: 260px;width: 600px;padding: 0px 0px 0px 0px;width: 600px;height: 260px;}
+.lcdp_axe .jxd_ins_elTreeTable tbody td{font-weight:400;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled) .upload .el-upload-dragger .btn-icon{color:#045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.jxd_ins_elAccountingNumReadonly:not(:hover):not(.is-disabled):not(.checkBad) input{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.checkBad input{border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio{border-radius:2px}.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button__inner{border-radius:2px}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pager li:hover{background:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.checkBad:not(:hover) input{border-left:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputNumberReadonly) input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elMultiChoice .lab{text-decoration:none;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.is-disabled input{border-top:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elCheckBoxGroup label:hover:not(.is-disabled) .el-checkbox__label{color:#606266}.jxd_additional.lcdp_axe .jxd_ins_elCheckBoxGroup label:hover:not(.is-disabled) .el-checkbox__input .el-checkbox__inner{border-color:#606266}
+.lcdp_axe .jxd_ins_elInputNumber input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elLink span{font-weight:400}
+.lcdp_axe .jxd_ins_elMultipleUpload .jxd-upload-item{line-height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode.checkBad input{border-right:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.checkBad textarea{border-top:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elLine canvas {border-left:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly).el-range-editor{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elSelect .el-input__inner{padding-left:10px;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item input,.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item input{font-weight:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-disabled input{background-color:#fcfdfe;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput:hover:not(.is-disabled) input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect:hover .el-input:not(.is-disabled):not(.checkBad) input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:focus-within input{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;line-height:12px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row td:not(.col--checkbox){font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode:hover .el-input:not(.is-disabled) input{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elAccountingNum input{text-align:left;}
+.jxd_additional.lcdp_axe .jxd_ins_elSingleImgUpload:hover:not(.disabled){background-color:#f4f7fa;color:#c0c4cc;border-top:1px solid #dcdfe6;border-left:1px solid #dcdfe6;border-right:1px solid #dcdfe6;border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elFlowSelect input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elNumber input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elH2 {font-size:18px;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad):not(.el-upload-dragger.is-dragover) .upload .el-upload-dragger{border-top:1px dashed #D7D7D7;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pager li{color:#045340;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{border-radius:0 2px 2px 0;}
+ .jxd_ins_elDialog .dialog-body{width:400px;}
+.lcdp_axe .jxd_ins_elBar canvas {border-bottom:1px solid #dcdfe6 !important;}
+ .jxd_ins_elDialog .el-dialog__header{padding:0;}
+.lcdp_axe .jxd_ins_elSelect .el-input__inner{padding-right:10px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{text-align:center;}
+.lcdp_axe .jxd_ins_elMultipleUpload .el-upload-list__item,.lcdp_axe .jxd_ins_elMultipleUpload .el-upload.el-upload--picture-card{width: 150px;height: 150px;transition: none !important;}
+.lcdp_axe .jxd_ins_invoice .invoice-content {background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber:hover:not(.is-disabled) input{border-right:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode.checkBad input{border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elSingleImgUpload:after{color:#f56c6c;position:absolute;left:0;bottom:-82px;font-size:12px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-header--column:not(.col--ellipsis){padding:0;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elSingleImgUpload .el-upload{width: 100%;height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:focus-within textarea{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elParticipantInput input::-webkit-input-placeholder{font-size:14px;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content:hover{background-color:#F5F7FA;border-left:#F5F7FA}
+.lcdp_axe .jxd_ins_elLink span{font-family:微软雅黑}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.checkBad input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elNumber .el-input-number{line-height:34px;}
+.lcdp_axe .jxd_ins_elGauge canvas {border-radius:2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad.el-range-editor{border-right:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elTree__context-menu{font-size:14px;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-text{text-decoration:none;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textName {font-size: 14px;}
+.lcdp_axe .jxd_ins_elEditTable:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.checkBad input::-webkit-input-placeholder{color:#000000;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber:hover:not(.is-disabled) input{border-left:1px solid #045340;}
+ .jxd_ins_elDrawer .el-drawer__header{height:45px;line-height:45px;}  .jxd_ins_elDrawer .el-drawer__body{height:calc(100% - 45px)}
+.lcdp_axe .jxd_ins_elParticipantInput input{font-style:normal;} .lcdp_axe .jxd_ins_elParticipantInput input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elTextArea textarea::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elAccountingNum input{font-style:normal;} .lcdp_axe .jxd_ins_elAccountingNum input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup.el-checkbox-group .el-checkbox-button.is-checked .el-checkbox-button__inner{background-color: #045340!important;}.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__input.is-checked .el-checkbox__inner{border-color:#045340!important;background: #045340!important;}.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__input.is-checked+ .el-checkbox__label{color:#045340!important;}
+.lcdp_axe .jxd_ins_elTable .page{height:53px;text-align: center;padding: 10px 0;}.lcdp_axe .jxd_ins_elTable .el-pagination span:not([class*=suffix]){line-height:28px;}
+.lcdp_axe .jxd_ins_elInput input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elInput input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elParticipantInput ,.lcdp_axe .jxd_ins_elParticipantInput input{border-radius:2px;} .lcdp_axe .jxd_ins_elParticipantInput input{cursor: pointer;}
+.lcdp_axe .jxd_ins_elScatterMap canvas {border-right:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber:hover:not(.is-disabled) input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elConsignorInput{height: 34px;width: 206px;width: 206px;height: 34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elCountersignSelect:focus-within:not(:hover) input{color:#606266;}
+.lcdp_axe .jxd_ins_elTable tbody tr:nth-of-type(even){background:#fafafa;}
+.lcdp_axe .jxd_ins_elCheckBox .el-checkbox__label{text-decoration:none;}
+.lcdp_axe .jxd_ins_elRejectNode input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elDateTimePicker input{font-style:normal;} .lcdp_axe .jxd_ins_elDateTimePicker input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-table--body tbody tr.vxe-body--row:hover{background:rgba(244, 249, 254, 1);}
+.lcdp_axe .jxd_ins_elFlowSelect input{font-size:14px;}
+.lcdp_axe .jxd_ins_attachmentUpload .el-upload-list a{font-size: 14px;font-family: PingFangSC, PingFangSC-Regular;font-weight: 400;text-align: left;color: #606266;line-height: 17px;}
+.lcdp_axe .jxd_ins_elFlowSelect input{text-align:left;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text){height:34px; line-height:34px}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__header .el-tabs__item .el-tooltip{text-overflow:ellipsis}
+.lcdp_axe .jxd_ins_elConsignorInput input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{font-size:14px;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__label{color:#606266}.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__input .el-checkbox__inner{border-color:#606266}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiFileUpload.is-disabled{background-color:#a2d2fc;color:#ffffff;border-top:1px solid #a2d2fc;border-left:1px solid #a2d2fc;border-right:1px solid #a2d2fc;border-bottom:1px solid #a2d2fc;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{padding:0 10px 0 10px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.el-input.is-disabled input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pager li{color:#606266;}
+ .jxd_ins_elPanel .el-panel__header{height:45px;line-height:45px;padding:0 20px;}  .jxd_ins_elPanel .el-panel__body{height:calc(100% - 45px)}
+.lcdp_axe .jxd_ins_elAccountingNum input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pager li.number:hover{background:#fff;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__prefix .el-input__icon, .lcdp_axe .jxd_ins_elDateTimePicker .el-range__icon{font-size:14px;width:calc(14px + 11px);min-width:14px;height:100%;} .lcdp_axe .jxd_ins_elDateTimePicker .el-input__prefix{top:0}
+.lcdp_axe .jxd_ins_invoice .invoice-content {border-left: 1px dashed #d9d9d9;}
+.lcdp_axe .jxd_ins_elDataSelect:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elDateTimePicker{height: 34px;width: 206px;width: 206px;height: 34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.jxd_ins_elInputReadonly:not(.checkBad) input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTree__context-menu{position: fixed;min-width: 100px;max-width: 226px;height: auto;margin: 0;padding: 5px 0;border: 1px solid #e8e8e8;border-radius: 4px;box-shadow: 2px 2px 8px 0 hsl(0deg 0% 59% / 20%);text-align: left;z-index: 10;cursor: pointer;list-style: none; white-space: nowrap}
+.lcdp_axe .jxd_ins_elTree__context-menu li>i{margin-right: 5px}
+.lcdp_axe .jxd_ins_elTable tbody td{height:50px;}body,.lcdp_axe .jxd_ins_elTable .el-table .cell{line-height:unset;}.lcdp_axe .jxd_ins_elTable .el-table td ,.lcdp_axe .jxd_ins_elTable .el-table th {padding: 0 0!important;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect:hover:not(.is-disabled):not(.checkBad) input{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTextArea textarea{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elDateTimePicker input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.checkBad input{color:#000000;}
+.lcdp_axe .jxd_ins_elParticipantInput input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-focus input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{font-weight:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elCountersignSelect .el-input.is-disabled input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elConsignorInput input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table td{border-bottom: 1px solid #ededed;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table--border td:not(:last-of-type){border-right: 1px solid #ededed;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elRejectNode{height: 34px;width: 206px;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_elRadioGroup{text-align:left;}
+.lcdp_axe .jxd_ins_elLineBar canvas {border-left:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput:hover:not(.is-disabled) input{color:#606266;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page{height:53px;text-align: center;padding: 10px 0;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--border-line{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager li{color:#000000;}
+.lcdp_axe .jxd_ins_elStatusPanel{height: 200px;width: 200px;background-color: #ffffff;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;border-radius: 0;width: 200px;height: 200px;}
+.lcdp_axe .jxd_ins_elNumber .el-input input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item{font-weight:normal;}
+ .jxd_ins_elPanel .el-panel__body{color:#606266;}
+.lcdp_axe .jxd_ins_elSelect input{text-align:left;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pager li, .lcdp_axe .jxd_ins_elTreeTable .page .btn-prev, .lcdp_axe .jxd_ins_elTreeTable .page .btn-next{background:#fff;}.lcdp_axe .jxd_ins_elTreeTable .el-pagination button:disabled{background:#fff !important;}.lcdp_axe .jxd_ins_elTreeTable .el-pagination .el-select .el-input .el-input__inner{background:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elSingleUpload:hover .upload-button-area button{color:#ffffff;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elInput{height: 34px;width: 206px;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_elInput input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio{height:34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect:hover .el-input:not(.is-disabled):not(.checkBad) .el-input__inner{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_verticalLine{height: 500px;width: 10px;background-color: #ffffff;font-size: 14px;font-weight: normal;font-family: Microsoft Yahei;font-style: normal;color: #fff;text-decoration: none;width: 10px;height: 500px;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect.checkBad input{border-right:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody td{font-weight:400;}
+.lcdp_axe .jxd_ins_elstripShape canvas {border-left:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elDataSelect input{color:#333;}
+.lcdp_axe .jxd_ins_elDataSelect input::-webkit-input-placeholder{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad) .button{border-right:1px solid #a2d2fc;}
+.lcdp_axe .jxd_ins_elInput input{text-align:left;}
+.lcdp_axe .jxd_ins_elRejectNode input{font-family:Microsoft Yahei;} .lcdp_axe .jxd_ins_elRejectNode input::-webkit-input-placeholder{font-family:Microsoft Yahei;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox+.el-checkbox{margin-left: 0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputNumberReadonly) input{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTable .page .el-pager li{border:1px rgba(237, 237, 237, 1) solid;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox{display: inline-block;}
+.lcdp_axe .jxd_ins_elInputNumber input{text-align:left;}
+.lcdp_axe .jxd_ins_elTextArea textarea{border-radius:2px;}
+.lcdp_axe .jxd_ins_invoice .invoice-content {border-top: 1px dashed #d9d9d9;}
+ .jxd_ins_elPanel .el-panel__body{padding:0;}
+.lcdp_axe .jxd_ins_elInput input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{padding:0 10px 0 10px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager li.vxe-pager--num-btn:hover{color:#045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-disabled input{color:#606266;}
+.lcdp_axe .jxd_ins_elEditTable .page{height:53px;text-align: center;padding: 10px 0;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-disabled .el-input__inner{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode.checkBad input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup.jxd-checkboxGroup-item{display:block;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.jxd_ins_elTextAreaReadonly:not(.checkBad) textarea{border-left:1px solid #dcdfe6;}
+ .jxd_ins_elPanel .el-panel__body{text-decoration:none;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:focus-within:not(.checkBad) input{border-right:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:focus-within:not(.checkBad) input{border-top:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled.el-range-editor{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elSelect .el-input__inner{border-right:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:hover:not(.is-disabled):not(:focus-within) input{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pager li{border:1px rgba(237, 237, 237, 1) solid;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager li.vxe-pager--num-btn:hover{background:#fff;}
+.lcdp_axe .jxd_ins_elTreeSelect input{font-weight:normal;}.lcdp_axe .jxd_ins_elTreeSelect .el-select__tags .el-tag .el-select__tags-text{font-weight:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.is-disabled input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTreeSelect input{font-style:normal;}.lcdp_axe .jxd_ins_elTreeSelect .el-select__tags .el-tag .el-select__tags-text{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.checkBad input{border-left:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input__inner{padding-top:0px;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__prefix{left:auto;}
+.lcdp_axe .jxd_ins_elTabs.el-tabs--right .el-tabs__item{width: 200px;overflow:hidden;} .lcdp_axe .jxd_ins_elTabs.el-tabs--right .el-tabs__content{width: calc(100% - 200px);height:100%;}.lcdp_axe .jxd_ins_elTabs.el-tabs--left .el-tabs__item{width: 200px;overflow:hidden;} .lcdp_axe .jxd_ins_elTabs.el-tabs--left .el-tabs__content{width: calc(100% - 200px);height:100%;}.lcdp_axe .jxd_ins_elTabs.el-tabs--top .el-tabs__item{width: 200px;}.lcdp_axe .jxd_ins_elTabs.el-tabs--bottom .el-tabs__item{width: 200px;}
+.lcdp_axe .jxd_ins_elForm{height: 500px;width: 900px;background-color: #fff;border-top: 0px solid #e2e2e2;border-left: 0px solid #e2e2e2;border-right: 0px solid #e2e2e2;border-bottom: 0px solid #e2e2e2;border-radius: 2px;width: 900px;height: 500px;}
+.jxd_additional.lcdp_axe .jxd_ins_elCountersignSelect .el-input.is-disabled{border-top:1px solid #dcdfe6;border-left:1px solid #dcdfe6;border-right:1px solid #dcdfe6;border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elScrollContainer:hover {overflow:auto;}
+.lcdp_axe .jxd_ins_elSelect .el-select-dropdown__list{background-color: #fff;}
+.lcdp_axe .jxd_ins_elApiComponent{height: 200px;width: 200px;background-color: #fff;border-top: 0px solid #e2e2e2;border-left: 0px solid #e2e2e2;border-right: 0px solid #e2e2e2;border-bottom: 0px solid #e2e2e2;box-shadow: 0 0 0 #eee;border-radius: 0;width: 200px;height: 200px;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode:hover .el-input:not(.is-disabled) input{color:#606266;}
+.lcdp_axe .jxd_ins_elConsignorInput input{height:100%;}
+.lcdp_axe .jxd_ins_elVxeTable thead th:not(.col--checkbox){font-size:14px;}
+.lcdp_axe .jxd_ins_elTreeTable thead th{font-size:14px;}.lcdp_axe .jxd_ins_elTreeTable thead th .el-checkbox__inner{width:14px;height:14px;}.lcdp_axe .jxd_ins_elTreeTable thead th .el-checkbox__inner::after{left:40%;height:70%;}
+.lcdp_axe .jxd_ins_elMultipleUpload .el-upload{width: 150px;height: 150px;}.lcdp_axe .jxd_ins_elMultipleUpload .el-upload.el-upload--picture-card{line-height: 150px;}
+.jxd_additional.lcdp_axe .jxd_ins_verticalLine:hover{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elBimPowerPlant{height: 200px;width: 200px;background-color: #045340;font-size: 14px;color: #fff;text-align: center;padding: 0px 0px 0px 0px;border-radius: 2px;border-top: 1px solid #e2e2e2;border-left: 1px solid #e2e2e2;border-right: 1px solid #e2e2e2;border-bottom: 1px solid #e2e2e2;font-family: Microsoft Yahei;font-weight: normal;font-style: normal;text-decoration: none;line-height: 32px;box-shadow: 0px 0px 0px #eee;vertical: true;width: 200px;height: 200px;}
+.lcdp_axe .jxd_ins_elRadar canvas {border-radius:2px;}
+.lcdp_axe .jxd_ins_elTable .page .el-pager li{color:#606266;}
+.lcdp_axe .jxd_ins_elTable .el-table__body tbody td{color:#606266;}
+.lcdp_axe .jxd_ins_elRejectNode input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elIcon{height: 50px;width: 50px;color: #045340;font-weight: normal;font-family: Microsoft Yahei;font-style: normal;text-decoration: none;text-align: center;align-items: center;display: inline-grid !important;font-size: 15px;width: 50px;height: 50px;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled) .button{border-top:1px solid #3c94e3;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.is-disabled input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elAccountingNum input{font-size:14px;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table__footer-wrapper td .cell{font-weight:400;}
+.lcdp_axe .jxd_ins_elParticipantInput input::-webkit-input-placeholder{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.jxd_ins_elInputNumberReadonly:not(.checkBad) input{background-color:#fcfdfe;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:focus-within:not(.checkBad) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content:not(:hover){background:#ffffff;}.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__children:not(:hover){background:#ffffff;}
+.lcdp_axe .jxd_ins_elParticipantInput input{height:100%;}
+.lcdp_axe .jxd_ins_elNumber input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elDateTimePicker input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elSelect input{text-decoration:none;}
+.lcdp_axe .jxd_ins_elRadar canvas {border-left:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elTextArea textarea::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled):not(.el-upload-dragger.is-dragover) .upload .el-upload-dragger{border-right:1px dashed #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.is-disabled textarea{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.checkBad .el-input input{color:#000000;}
+.lcdp_axe .jxd_ins_invoice .invoice-tips{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_elTree .is-current.el-tree-node.is-focusable:not(.is-checked) > div.el-tree-node__content{color:#333;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item input,.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item input{font-family:Microsoft Yahei;}
+.lcdp_axe .jxd_ins_elDateTimePicker input::-webkit-input-placeholder{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.is-disabled input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item{font-style:normal;}
+.lcdp_axe .jxd_ins_elMultiGauge canvas {border-radius:2px;}
+ .jxd_ins_elPanel .el-panel__body{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload{color:#909399;}
+.lcdp_axe .jxd_ins_elBar{height: 250px;width: 400px;width: 400px;height: 250px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.checkBad textarea{border-right:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elConsignorInput input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTextArea textarea{padding:0 0 0 10px;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:hover:not(.is-disabled):not(:focus-within) input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elInput input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody td{font-size:14px;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody td .el-checkbox__inner{width:14px;height:14px;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody td .el-checkbox__inner::after{left:40%;height:70%;}
+.lcdp_axe .jxd_ins_elDateTimePicker input{font-weight:400;} .lcdp_axe .jxd_ins_elDateTimePicker input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elBar canvas {border-left:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table--footer-wrapper.body--wrapper{font-weight:400;}
+.lcdp_axe .jxd_ins_elMultiFileUpload{height: 34px;width: 100px;background-color: #045340;color: #ffffff;font-family: 微软雅黑;font-size: 14px;font-weight: normal;font-style: normal;text-decoration: none;line-height: 34px;vertical: true;letter-spacing: 0px;text-align: center;padding: 0px 0px 0px 0px;border-radius: 2px;border-top: 1px solid #045340;border-left: 1px solid #045340;border-right: 1px solid #045340;border-bottom: 1px solid #045340;cursor: pointer;width: 100px;height: 34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.is-disabled input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elArea{height: 250px;width: 400px;width: 400px;height: 250px;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice.is-disabled{background-color:#ffffff;border-top:1px solid #dcdfe6;border-left:1px solid #dcdfe6;border-right:1px solid #dcdfe6;border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elLine canvas {border-bottom:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-focus input{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:focus-within textarea{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elAccountingNum input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRadar canvas {border-bottom:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elCheckBox:hover .el-checkbox__label{color:#606266;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-body .custom-table-body-list { background-color: #FFF; }
+.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .tip{color: #909399;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect.checkBad input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elConsignorInput input::-webkit-input-placeholder{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elAccountingNum input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio{background-color:#fff}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect:hover .el-input:not(.is-disabled):not(.checkBad) .el-input__inner{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elRejectNode input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.jxd_ins_elAccountingNumReadonly:not(:hover):not(.is-disabled):not(.checkBad) input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elFlowSelect input{text-decoration:none;}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text em {font-size: 14px;color: #045340;margin-bottom: 2px;font-style: normal;line-height: 100%}.lcdp_axe .jxd_ins_ticket .jxd-el-view {font-size: 14px;}.lcdp_axe .jxd_ins_ticket .jxd-el-download {font-size: 14px;}.lcdp_axe .jxd_ins_ticket .jxd-el-close {font-size: 14px;line-height: 100%;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item input,.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item input{text-decoration:none;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__content{overflow: auto}
+.lcdp_axe .jxd_ins_elTreeTable tbody td{font-size:14px;}.lcdp_axe .jxd_ins_elTreeTable tbody td .el-checkbox__inner{width:14px;height:14px;}.lcdp_axe .jxd_ins_elTreeTable tbody td .el-checkbox__inner::after{left:40%;height:70%;}
+.lcdp_axe .jxd_ins_ticket .el-upload.el-upload--picture-card {border-bottom: 1px dashed #d9d9d9;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger.is-dragover{border-right: 2px dashed #045340;}
+.lcdp_axe .jxd_ins_elDateTimePicker:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elNumber{height: 34px;width: 206px;z-index: 0;width: 206px;height: 34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.is-disabled input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-head { text-align:center; }
+.lcdp_axe .jxd_ins_elEditTable thead th{color:#525858;}
+.lcdp_axe .jxd_ins_elNumber .el-input input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .tip{height: 24px;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-disabled input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elTable .el-table tr td{border-bottom: 1px solid #ededed;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .attach-text.checkBad{border-top:1px solid #f56c6c;border-left:1px solid #f56c6c;border-right:1px solid #f56c6c;border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elSelect input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textIcon i{color: #045340;font-size: 24px;display: flex;align-items: center;}
+.lcdp_axe .jxd_ins_elTable .el-table__footer-wrapper td .cell{color:#677171;}.lcdp_axe .jxd_ins_elTable .el-table__fixed .el-table__fixed-footer-wrapper .el-table__footer td .cell{color:#677171;}.lcdp_axe .jxd_ins_elTable .el-table__fixed-right .el-table__fixed-footer-wrapper .el-table__footer td .cell{color:#677171;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table__footer-wrapper td .cell{color:#677171;}
+.lcdp_axe .jxd_ins_elRose canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item{padding:0 20px 0 20px!important}
+.lcdp_axe .jxd_ins_elVxeTable th{height:48px;}.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-header--column{line-height:48px;}.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-header--column .vxe-cell--title{line-height:unset;}
+.lcdp_axe .jxd_ins_elPie canvas {border-left:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.checkBad input{border-top:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput:hover:not(.is-disabled) input{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elVxeTable table .vxe-body--row:nth-of-type(even){background:#fafafa;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{border-bottom:1px solid #e2e2e2;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect.checkBad input{border-left:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pagination{text-align:center;padding:0 20px;}
+.lcdp_axe .jxd_ins_elInputNumber input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTabs .iframe{height:100%;}
+.lcdp_axe .jxd_ins_elDoughnut canvas {border-radius:2px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{box-shadow:0 0 0 #eee;}
+.lcdp_axe .jxd_ins_invoice{height: 100px;width: 480px;width: 480px;height: 100px;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__prefix .el-input__icon:before{vertical-align:middle;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad).el-range-editor{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTreeTable thead th .cell{padding:0 10px 0 10px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-focus .el-input__inner{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{border-right:0px solid #e2e2e2;}
+.lcdp_axe .jxd_ins_elDataBaseComponent{height: 200px;width: 200px;background-color: #fff;border-top: 0px solid #e2e2e2;border-left: 0px solid #e2e2e2;border-right: 0px solid #e2e2e2;border-bottom: 0px solid #e2e2e2;box-shadow: 0 0 0 #eee;border-radius: 0;width: 200px;height: 200px;}
+.lcdp_axe .jxd_ins_elMultiGauge canvas {border-left:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elTreeTable tbody td{color:#606266;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elEditTable .page{background:#fff;}
+.lcdp_axe .jxd_ins_elFlowSelect input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_iframe{height: 300px;width: 300px;background-color: #fff;border-top: 0px solid #e2e2e2;border-left: 0px solid #e2e2e2;border-right: 0px solid #e2e2e2;border-bottom: 0px solid #e2e2e2;border-radius: 0;padding: 0px 0px 0px 0px;width: 300px;height: 300px;}
+.lcdp_axe .jxd_ins_elConsignorInput input{font-weight:400;} .lcdp_axe .jxd_ins_elConsignorInput input::-webkit-input-placeholder{font-weight:400;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.jxd_ins_elTextAreaReadonly:not(.checkBad) textarea{border-top:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:focus-within:not(.checkBad) input{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elMultipleUpload .jxd-upload-item.checkBad{border: 1px solid #f56c6c}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad.el-range-editor{border-top:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pager li{color:rgba(81, 90, 110, 1);}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect:hover:not(.is-disabled):not(.checkBad) input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elBar canvas {border-radius:2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly).el-range-editor{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row td{font-weight:400;}
+.lcdp_axe .jxd_ins_elSelect .el-input__inner{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTextArea textarea::-webkit-input-placeholder{font-size:14px;}
+.lcdp_axe .jxd_ins_elTextArea textarea{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.checkBad:not(:hover) input{border-bottom:1px solid #f56c6c;}
+ .jxd_ins_elDrawer{border-radius: 2px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-input--panel{z-index:2000!important;}
+.lcdp_axe .jxd_ins_elSelect,.lcdp_axe .jxd_ins_elSelect input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content .is-checked + .custom-tree-node span{color:#333;}
+.lcdp_axe .jxd_ins_elAccountingNum input{color:#606266;}
+.lcdp_axe .jxd_ins_elDataSelect input{height:100%;}
+.lcdp_axe .jxd_ins_elstripShape{height: 250px;width: 400px;width: 400px;height: 250px;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{font-style:normal;}
+.lcdp_axe .jxd_ins_elInput input::-webkit-input-placeholder{text-align:left;}
+ .jxd_ins_elPanel .el-panel__header{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{padding:0 10px 0 10px;}
+ .jxd_ins_elDialog .el-dialog__body .dialog-body,  .jxd_ins_elDialog .el-dialog__body .jxd-dialog-content{position:relative;}
+.lcdp_axe .jxd_ins_elEditTable table .vxe-body--row:nth-of-type(odd){background:#ffffff;}
+.lcdp_axe .jxd_ins_elTextArea textarea{font-style:normal;} .lcdp_axe .jxd_ins_elTextArea textarea::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elCheckBox .el-checkbox__label{font-size:14px;}
+.lcdp_axe .jxd_ins_elMultiChoice .lab{font-style:normal;}
+.lcdp_axe .jxd_ins_elRejectNode input{color:#606266;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox,.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox-button__inner{border-right:0px solid #dcdfe6}
+.lcdp_axe .jxd_ins_elGauge canvas {border-bottom:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{padding:0 20px 0 10px;}
+.lcdp_axe .jxd_ins_elTreeTable tbody tr:nth-of-type(even){background:#fafafa;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput:hover:not(.is-disabled) input{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elSelect .el-input__inner{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elNumber .el-input-number__increase,.lcdp_axe .jxd_ins_elNumber .el-input-number__decrease{right:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect.checkBad .el-input__inner{border-top:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.el-input.is-disabled input{border-left:1px solid #dcdfe6;}
+ .jxd_ins_elPanel .el-panel__body{position:relative;}
+.lcdp_axe .jxd_ins_elSingleImgUpload .el-upload-list__item{width: 100%;height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elSingleImgUpload.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-82px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-focus input{border-left:1px solid #045340;}
+ .jxd_ins_elDialog .el-dialog__headerbtn{border-radius:0;}
+.lcdp_axe .jxd_ins_elParticipantInput input{letter-spacing:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-disabled input{border-top:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.checkBad:not(:hover):after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elInput input{font-style:normal;} .lcdp_axe .jxd_ins_elInput input::-webkit-input-placeholder{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.is-disabled input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-header--column .vxe-cell{padding:0 10px 0 10px;}
+ .jxd_ins_elPanel .el-panel__header{font-size:14px;}
+.lcdp_axe .jxd_ins_elArea canvas{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-disabled input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_invoice .invoice-tips{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{box-shadow:0 0 0 #eee;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad):not(.el-upload-dragger.is-dragover) .upload .el-upload-dragger{border-bottom:1px dashed #D7D7D7;}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text i.jxd-uploader-icon {font-size: 40px;}
+.lcdp_axe .jxd_ins_elRichText{height: 342px;width: 735px;disable-background-color: #f5f5f5;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;border-radius: 2px;width: 735px;height: 342px;}
+.lcdp_axe .jxd_ins_elTable .page .el-pager li.number.active:not(.disabled).active:hover{background:#f4f7fa;}
+.lcdp_axe .jxd_ins_elInputNumber input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elConsignorInput input{letter-spacing:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad) .button{ background-color:#a2d2fc;}
+.lcdp_axe .jxd_ins_elNumber .el-input input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{font-style:normal;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pagination__jump{margin-left:3px;}
+.lcdp_axe .jxd_ins_elTable tbody td{padding:0;}
+.lcdp_axe .jxd_ins_elConsignorInput input{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled) .button{border-bottom:1px solid #3c94e3;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.checkBad input{color:#000000;}
+.lcdp_axe .jxd_ins_elTreeSelect input::-webkit-input-placeholder{font-size:14px;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-head { height:36px; width: 100%; line-height: 36px }
+.lcdp_axe .jxd_ins_elFlowSelect input{padding:0 20px 0 10px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row td{color:#677171;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__prefix .el-input__icon, .lcdp_axe .jxd_ins_elDateTimePicker .el-range__icon{color:#aab2bd;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row:hover td{color:#666;}
+ .jxd_ins_elPanel .el-panel__body{border-radius:0px;}
+.lcdp_axe .jxd_ins_elRejectNode input{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elSingleUpload:hover .upload-button-area button{background-color:#3c94e3;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{background-color:#fff;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{height:34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput:hover:not(.is-disabled) input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{height:34px;}
+.lcdp_axe .jxd_ins_elInputNumber input{padding-right:47px;}
+.lcdp_axe .jxd_ins_elInput input{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-focus .el-input__inner{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elMultiChoice:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elTable .el-table tbody tr td{border-bottom: 1px solid #ededed;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.is-disabled input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elConsignorInput input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTreeSelect:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label:hover:not(.is-disabled)  .el-radio__input.is-checked+.el-radio__label{color:#045340!important;}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label:hover:not(.is-disabled) .el-radio__input.is-checked .el-radio__inner{border-color:#045340 !important;background-color: #045340;}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label:hover:not(.is-disabled) .el-radio-button__orig-radio:checked + .el-radio-button__inner{background-color:#045340;border-color:#045340;box-shadow:-1px 0 0 0 #045340}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label:hover:not(.is-disabled) :not(.is-active) .el-radio-button__inner:hover{color:#045340}
+.lcdp_axe .jxd_ins_elRejectNode input::-webkit-input-placeholder{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice:focus{background-color:#ffffff;border-top:1px solid #045340;border-left:1px solid #045340;border-right:1px solid #045340;border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTreeTable th{height:36px;}body,.lcdp_axe .jxd_ins_elTreeTable .el-table .cell{line-height:unset;}
+.lcdp_axe .jxd_ins_elHidden{height: 34px;width: 206px;background: #ffffe0;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-body .custom-table-body-list { height: 100px; width: 100%; }
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item{font-size:16px;}
+.lcdp_axe .jxd_ins_elMultiChoice .lab{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_elScrollContainer .scrollContainer{position:absolute}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table .has-gutter th{color:#303133;}
+.jxd_additional.lcdp_axe .jxd_ins_elButton:hover:not(.is-disabled){background-color:#3c94e3;color:#ffffff;border-top:1px solid #e1e1e1;border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio__input .el-radio__inner{width:16px;height:16px}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio,.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button__inner{border-left:0px solid #dcdfe6}
+.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .jxdIcon.jxd-el-upload{color: #969696;height: unset;line-height: unset;margin: 0;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:hover:not(.is-disabled):not(.jxd_ins_elTextAreaReadonly):not(.checkBad) textarea{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTextArea textarea{text-decoration:none;}
+.lcdp_axe .jxd_ins_elSelect input::-webkit-input-placeholder{font-size:14px;}
+.lcdp_axe .jxd_ins_elTree__context-menu{background:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.jxd_ins_elInputNumberReadonly:not(.checkBad) input::-webkit-input-placeholder{color:#808da6;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{box-shadow:0 0 0 #eee;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:focus-within input{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{border-radius:2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect:hover .el-input:not(.is-disabled) input{border-bottom:1px solid #045340;}
+ .jxd_ins_elDialog .el-dialog__body:hover {overflow:auto;}
+.lcdp_axe .jxd_ins_elRose canvas {border-radius:2px;}
+.lcdp_axe .jxd_ins_elAccountingNum input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__label{font-family:微软雅黑}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.is--controls:not(.type--number):not(.type--text) .vxe-input--inner{background-color:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode.checkBad input{color:#000000;}
+.lcdp_axe .jxd_ins_horizontal_line{height: 10px;width: 500px;background-color: #ffffff;display: flex;align-items: center;font-size: 14px;font-weight: normal;font-family: Microsoft Yahei;font-style: normal;color: #fff;text-decoration: none;width: 500px;height: 10px;}
+.lcdp_axe .jxd_ins_elInputNumber input{color:#333;}
+.lcdp_axe .jxd_ins_elInput input{letter-spacing:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.checkBad:not(.is-readonly) input{border-left:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:hover:not(.is-disabled):not(:focus-within) input{border-top:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-disabled .el-input__inner{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTable .el-table td .cell{padding-left:14px;}
+.lcdp_axe .jxd_ins_invoice .invoice-content {border-radius: 6px;}
+.lcdp_axe .jxd_ins_elSelect input::-webkit-input-placeholder{text-align:left;}.lcdp_axe .jxd_ins_elSelect .el-input .el-input__inner{padding-right: 20px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pager li:hover{color:#045340;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pager li.number.active:not(.disabled).active{color:#fff;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox,.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox-button__inner{border-bottom:0px solid #dcdfe6}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.jxd_ins_elInputNumberReadonly:not(.checkBad) input{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.checkBad input{border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody td{padding:0;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable thead th .cell{padding:0 10px 0 10px;}
+.lcdp_axe .jxd_ins_elFlowSelect input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elFlowSelect{height: 34px;width: 206px;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger.is-dragover{border-left: 2px dashed #045340;}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input__inner{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody tr:nth-of-type(odd){background:#ffffff;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table__footer tbody tr td{background:#ffffff;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table__footer tbody tr td:first-of-type .cell{padding:unset;}
+.jxd_additional.lcdp_axe .jxd_ins_elVxeTable.checkBad .vxe-table .vxe-table--border-line{border-right:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.checkBad input{color:#333;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputNumberReadonly) input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pager li:not(.disabled).active{background:#045340;}
+.lcdp_axe .jxd_ins_elTable .page .el-pagination__total{margin-left:24px;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-body .custom-table-body-list { border-bottom-style: solid; }
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number{height:34px; line-height:34px}
+.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload.jxd_ins_elMultipleUpload.disabled:not(div),.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload.jxd_ins_elMultipleUpload.disabled:not(.disabled) .el-upload--picture-card:hover i,.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload.jxd_ins_elMultipleUpload.disabled.disabled .el-upload--picture-card i {color: #c0c4cc}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item input,.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item input{text-align:left;}
+.lcdp_axe .jxd_ins_elLoading *{font-family: 微软雅黑;}
+ .jxd_ins_elPanel .el-panel__body{font-style:normal;}
+.lcdp_axe .jxd_ins_elDoughnut canvas {border-right:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label.is-disabled  .el-radio__input.is-checked+.el-radio__label{color:#045340!important;}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label.is-disabled .el-radio__input.is-checked .el-radio__inner{border-color:#045340 !important;background-color: #045340;}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label.is-disabled .el-radio-button__orig-radio:checked + .el-radio-button__inner{background-color:#045340;border-color:#045340;box-shadow:-1px 0 0 0 #045340}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label.is-disabled :not(.is-active) .el-radio-button__inner:hover{color:#045340}
+.lcdp_axe .jxd_ins_elH1 {font-size:20px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad).el-range-editor{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elLoading *{font-style: normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.checkBad:not(:hover) input::-webkit-input-placeholder{color:#000000;}
+.lcdp_axe .jxd_ins_elRichText .w-e-text-container{height:300!important;}
+.lcdp_axe .jxd_ins_elDateTimePicker input, .lcdp_axe .jxd_ins_elDateTimePicker.el-range-editor{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elSelect input{font-style:normal;} .lcdp_axe .jxd_ins_elSelect input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{border-right:0px solid #e2e2e2;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text-files .icon-right {float: right;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.checkBad input{border-bottom:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:focus-within:not(.checkBad) input{color:#606266;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-text{font-family:微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.is-disabled input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup{text-align:left;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table .has-gutter th{background:#f4f7fa;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-head { border-bottom-style: solid; }
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.checkBad input{border-top:1px solid #f56c6c;}
+ .jxd_ins_elDialog .el-dialog__header .dialog-header{text-align:left;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect.checkBad input{border-top:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table tr td{border-bottom: 1px solid #ededed;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.is-disabled input{background-color:#fcfdfe;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elTreeSelect input{text-decoration:none;}.lcdp_axe .jxd_ins_elTreeSelect .el-select__tags .el-tag .el-select__tags-text{text-decoration:none;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pagination__total{margin-left:24px;}
+.lcdp_axe .jxd_ins_elDateTimePicker input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elDateTimePicker input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTable .page .el-pager li.number:hover{color:#045340;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__prefix .el-input__icon{background:none;line-height: 1}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input__inner{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{color:#ffffff;}
+.lcdp_axe .jxd_ins_elTable .el-table .has-gutter th,.lcdp_axe .jxd_ins_elTable .el-table__fixed-header-wrapper th{background:#f4f7fa;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-focus input{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table .has-gutter th:not(:nth-last-of-type(1)){border-right: 1px solid #ededed;}.lcdp_axe .jxd_ins_elTreeTable .el-table tr:nth-last-of-type(2){border-right:0px solid #ededed;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-disabled input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.jxd_ins_elInputReadonly:not(.checkBad) input{border-right:1px solid #dcdfe6;}
+ .jxd_ins_elDialog .el-dialog__header, .jxd_ins_elDialog .el-dialog__body{box-shadow:0px 0px 20px #CBC8C8;}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text p {font-style: normal;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table--footer-wrapper.body--wrapper{background:#f8f8f9;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row td{color:#677171;}
+.lcdp_axe .jxd_ins_elMultiChoice {padding:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputNumberReadonly) input{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elCheckBox{height: 34px;width: 100px;width: 100px;height: 34px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-body--row td.vxe-body--column{background-image: linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1)),linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1));}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled):not(.el-upload-dragger.is-dragover) .upload .el-upload-dragger{border-bottom:1px dashed #045340;}
+ .jxd_ins_elDialog .el-dialog__header, .jxd_ins_elDialog .el-dialog__body{border-left:0px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger .btn-icon{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode.checkBad input{border-top:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elConsignorInput input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elSelect input{color:#333;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-header--column:not(.col--ellipsis){padding:0;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{width:68px;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{font-size:14px;}
+.lcdp_axe .jxd_ins_elCountersignSelect input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textValue {color: #045340;}
+.lcdp_axe .jxd_ins_elMultiChoice .lab{font-weight:400;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table .has-gutter th{border-bottom: 1px solid #ededed;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode:hover .el-input:not(.is-disabled) input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTable tbody td{font-weight:400;}
+ .jxd_ins_elDialog .el-dialog__headerbtn {right:20px;top: 50%;transform: translate(0, -50%);}
+.lcdp_axe .jxd_ins_attachmentUpload .button{box-shadow:0 0 0 #eee;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect.checkBad .el-input__inner{border-top:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-disabled input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elSingleImgUpload .jxd-upload-item{width: 100%;height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect.checkBad .el-input__inner{border-bottom:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.checkBad input{border-left:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-disabled input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elScrollContainer .scrollContainer{width:200%}
+.lcdp_axe .jxd_ins_elTable thead th{font-size:14px;}.lcdp_axe .jxd_ins_elTable thead th .el-checkbox__inner{width:14px;height:14px;}.lcdp_axe .jxd_ins_elTable thead th .el-checkbox__inner::after{left:40%;height:70%;}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input__inner{padding-bottom:0px;}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input input {height:100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputReadonly) input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elScatterMap{height: 250px;width: 400px;width: 400px;height: 250px;}
+.lcdp_axe .jxd_ins_elTable tbody tr:nth-of-type(odd){background:#ffffff;}.lcdp_axe .jxd_ins_elTable
+ .jxd_ins_elDialog .dialog-body{height:255px;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput:hover:not(.is-disabled) input{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elAccountingNum input{letter-spacing:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad) .button{border-bottom:1px solid #a2d2fc;}
+.lcdp_axe .jxd_ins_elDataSelect input::-webkit-input-placeholder{text-align:left;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect.checkBad input::-webkit-input-placeholder{color:#000000;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox,.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox-button__inner{border-left:0px solid #dcdfe6}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{padding:0 10px 0 10px;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect.checkBad input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect:hover .el-input:not(.is-disabled):not(.checkBad) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item{text-decoration:none;}
+.lcdp_axe .jxd_ins_elTabs.el-tabs--top .el-tabs__item{height: 35px;vertical-align: bottom;} .lcdp_axe .jxd_ins_elTabs.el-tabs--top .el-tabs__content{height: calc(100% - 35px);width:100%;}.lcdp_axe .jxd_ins_elTabs.el-tabs--bottom .el-tabs__item{height: 35px;vertical-align: bottom;} .lcdp_axe .jxd_ins_elTabs.el-tabs--bottom .el-tabs__content{height: calc(100% - 35px);width:100%;}.lcdp_axe .jxd_ins_elTabs.el-tabs--right .el-tabs__item{height: 35px;}.lcdp_axe .jxd_ins_elTabs.el-tabs--left .el-tabs__item{height: 35px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-header--column .vxe-cell{padding:0 10px 0 10px;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__content .el-tab-pane{position:relative}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.checkBad input{color:#000000;}
+.lcdp_axe .jxd_ins_elstripShape canvas{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elTabs .tabIcon{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elDataSelect input{font-weight:400;} .lcdp_axe .jxd_ins_elDataSelect input::-webkit-input-placeholder{font-weight:400;}
+ .jxd_ins_elDialog .el-dialog__body .jxd-dialog-content{font-weight:normal;}
+ .jxd_ins_elPanel .el-panel__headerbtn{top:13.5px;}
+.lcdp_axe .jxd_ins_elDataSelect input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elSelect .el-input__inner{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text-files.clearfix i:hover{color: #5AAEE9;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio{display:inline-block}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice.is-disabled .lab,.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice.is-disabled .el-input__icon{color:#606266;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__content .el-tab-pane{width:100%;height:100%}
+.lcdp_axe .jxd_ins_elSelect input{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elLink:hover span{color:#3c94e3}
+.lcdp_axe .jxd_ins_elCheckBox .el-checkbox__label{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad):not(.el-upload-dragger.is-dragover) .upload .el-upload-dragger{background-color:#F2F2F2;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__inner{height:100%;}
+.lcdp_axe .jxd_ins_elDataSelect ,.lcdp_axe .jxd_ins_elDataSelect input{border-radius:2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.checkBad input::-webkit-input-placeholder{color:#000000;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable thead th{font-size:14px;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable thead th .el-checkbox__inner{width:14px;height:14px;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable thead th .el-checkbox__inner::after{left:40%;height:70%;}
+.lcdp_axe .jxd_ins_elCheckBox .el-checkbox__label{font-style:normal;}
+.lcdp_axe .jxd_ins_elNumber input, .lcdp_axe .jxd_ins_elNumber.el-input-number{border-radius:2px;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text{width: 100%;border-radius: 2px;}
+.lcdp_axe .jxd_ins_elDateTimePicker input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pager li:not(.disabled).active{background:#045340;}
+.lcdp_axe .jxd_ins_elSelect input.el-input__inner{height: 100%;}
+.lcdp_axe .jxd_ins_elLineBar canvas {border-radius:2px;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elH2{height: 34px;width: 800px;background-color: #f1f5f9;line-height: 34px;text-align: left;vertical: true;border-left: 5px solid #045340;border-top: 0px solid #045340;border-right: 0px solid #045340;border-bottom: 0px solid #045340;padding: 0 0 0 10px;border-radius: 0;font-family: 微软雅黑;font-size: 18px;color: #303133;font-weight: bold;font-style: normal;text-decoration: none;word-break: break-all;width: 800px;height: 34px;}
+.lcdp_axe .jxd_ins_invoice .invoice-content {border-right: 1px dashed #d9d9d9;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table--header-wrapper,.lcdp_axe .jxd_ins_elEditTable thead tr{background:#f8f8f9;}
+.lcdp_axe .jxd_ins_elDataSelect input{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode:hover .el-input:not(.is-disabled) input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text-files .text-left {float: left;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad.el-range-editor{border-bottom:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:focus-within input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elTreeTable tbody tr:nth-of-type(odd){background:#ffffff;}.lcdp_axe .jxd_ins_elTreeTable
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:hover:not(.is-disabled):not(:focus-within) input{border-left:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.jxd_ins_elInputReadonly:not(.checkBad) input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pager li{color:rgba(81, 90, 110, 1);}
+.lcdp_axe .jxd_ins_attachmentUpload .invoice-content{width: 100%;height: 100%;align-items: center;overflow: hidden;}
+.lcdp_axe .jxd_ins_elInputNumber input{text-decoration:none;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{border-left:0px solid #e2e2e2;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pager li{border:1px rgba(237, 237, 237, 1) solid;}
+.lcdp_axe .jxd_ins_elSingleUpload{height: 34px;width: 208px;border-top: 0px solid #e2e2e2;border-left: 0px solid #e2e2e2;border-right: 0px solid #e2e2e2;border-bottom: 0px solid #e2e2e2;border-radius: 0 0 0 0;display: flex;width: 208px;height: 34px;}
+.lcdp_axe .jxd_ins_elTree{height: 400px;width: 500px;background-color: #ffffff;border-top: 1px solid #ffffff;border-left: 1px solid #ffffff;border-right: 1px solid #ffffff;border-bottom: 1px solid #ffffff;border-radius: 2px;width: 500px;height: 400px;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect.checkBad input{color:#333;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:focus-within input{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_verticalLine div{border-radius:5px;}
+.lcdp_axe .jxd_ins_elTreeTable tbody tr:hover td{color:#666;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad):not(.el-upload-dragger.is-dragover) .upload{color:#BCBDBF;}
+.lcdp_axe .jxd_ins_elstripShape canvas {border-radius:2px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.checkBad input{border-right:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody tr:nth-of-type(even){background:#fafafa;}
+.lcdp_axe .jxd_ins_elTable tbody tr.hover-row td{background:#f4f9fe;}.lcdp_axe .jxd_ins_elTable tbody tr:hover td{background:#f4f9fe;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-body .custom-table-body-list { position: relative; }
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput:hover:not(.is-disabled) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elSelect input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elInput input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-head { background-color: #f4f7fa; }
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled):not(.el-upload-dragger.is-dragover) .upload .el-upload-dragger{border-left:1px dashed #045340;}
+ .jxd_ins_elDialog .el-dialog__body .jxd-dialog-content{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup.checkBad  .el-radio__input.is-checked+.el-radio__label{color:#045340!important;}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup.checkBad .el-radio__input.is-checked .el-radio__inner{border-color:#045340 !important;background-color: #045340;}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup.checkBad .el-radio-button__orig-radio:checked + .el-radio-button__inner{background-color:#045340;border-color:#045340;box-shadow:-1px 0 0 0 #045340}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup.checkBad :not(.is-active) .el-radio-button__inner:hover{color:#045340}
+.lcdp_axe .jxd_ins_elSelect .el-input__inner{padding-top:0px;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{color:#ffffff;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio__label{font-size:14px}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-header--row th.vxe-header--column{background-image: linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1)),linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1));}.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-table--header-wrapper{background-image:linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1)),linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1));background-repeat: no-repeat;background-size: 100% 1px;background-position: 100% 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elButton.button_additional:focus:not(.is-disabled){background-color:#89c5fc;color:#ffffff;border-top:1px solid #ffffff;border-left:1px solid #ffffff;border-right:1px solid #ffffff;border-bottom:1px solid #ffffff;}
+.lcdp_axe .jxd_ins_elNestedPies canvas {border-left:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elTreeSelect input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-header--row th.vxe-header--column{background-image: linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1)),linear-gradient(rgba(237, 237, 237, 1),rgba(237, 237, 237, 1));}.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--header-wrapper{border-bottom: 1px solid  rgba(237, 237, 237, 1);}
+.lcdp_axe .jxd_ins_elInput input::-webkit-input-placeholder{font-size:14px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager{text-align:center;padding:0 20px;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled) .button{ background-color:#4b8ec9;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:focus-within textarea{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elNumber .el-input-number__decrease{border-bottom-right-radius:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.checkBad input{border-right:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elMultiChoice {text-align:left;}
+.lcdp_axe .jxd_ins_elAccountingNum input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elSelect .el-input__inner{padding-bottom:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice:hover:not(.is-disabled) .lab,.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice:hover:not(.is-disabled) .el-input__icon{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.jxd_ins_elInputNumberReadonly:not(.checkBad) input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--border-line{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRadar{height: 250px;width: 400px;width: 400px;height: 250px;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.is-disabled .el-input input{color:#606266;}
+.lcdp_axe .jxd_ins_elNumber .el-input input{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.checkBad textarea{color:#000000;}
+.lcdp_axe .jxd_ins_elContainer{height: 200px;width: 200px;background-color: #fff;border-top: 0px solid #e2e2e2;border-left: 0px solid #e2e2e2;border-right: 0px solid #e2e2e2;border-bottom: 0px solid #e2e2e2;border-radius: 0;width: 200px;height: 200px;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.is-disabled .el-input input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elParticipantInput input::-webkit-input-placeholder{text-align:left;}
+.lcdp_axe .jxd_ins_elParticipantInput input{border-right:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly).el-range-editor{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_attachmentUpload ::-webkit-scrollbar-thumb {box-shadow:inset 0 0 10px 10px #D1D1D1;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled.el-range-editor{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:hover:not(.is-disabled):not(:focus-within) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elTextArea textarea{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elTextArea textarea::-webkit-input-placeholder{font-family:微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect.checkBad input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio{width:80px}.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button .el-radio-button__inner{width:80px}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text-single{border: none;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled input{color:#606266;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table .has-gutter th{color:#303133;}
+.lcdp_axe .jxd_ins_elTable .el-table__body tr.current-row > td {background: #ecf5ff;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-text{font-weight:400;}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input__inner{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text p {color: #909399;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pager li, .lcdp_axe .jxd_ins_elEditTable .page .btn-prev, .lcdp_axe .jxd_ins_elEditTable .page .btn-next{background:#fff;}.lcdp_axe .jxd_ins_elEditTable .el-pagination button:disabled{background:#fff !important;}.lcdp_axe .jxd_ins_elEditTable .el-pagination .el-select .el-input .el-input__inner{background:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad.el-range-editor{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elMultipleUpload:not(div),.lcdp_axe .jxd_ins_elMultipleUpload:not(.disabled) .el-upload--picture-card:hover i,.lcdp_axe .jxd_ins_elMultipleUpload.disabled .el-upload--picture-card i {color: #c0c4cc}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__suffix{right:20px;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled) .button{color:#ffffff;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page { text-align: center; height: 53px; padding: 10px 0; }.lcdp_axe .jxd_ins_custom_table .el-pagination__total { margin-top:1px; }
+.jxd_additional.lcdp_axe .jxd_ins_elSingleImgUpload.jxd_ins_elSingleImgUpload.disabled{background-color:#f4f7fa;color:#c0c4cc;border-top:1px solid #dcdfe6;border-left:1px solid #dcdfe6;border-right:1px solid #dcdfe6;border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pager li, .lcdp_axe .jxd_ins_custom_table .custom-table-page .btn-prev, .lcdp_axe .jxd_ins_custom_table .custom-table-page .btn-next{background:#fff;height:28px;}.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pagination button:disabled{background:#fff !important;}.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pagination .el-select .el-input .el-input__inner{background:#fff;height:28px;}.lcdp_axe .jxd_ins_custom_table .el-pagination span:not([class*=suffix]){line-height:28px;}
+.lcdp_axe .jxd_ins_elTable thead th{padding:0;}
+.lcdp_axe .jxd_ins_elSelect input{padding:0 20px 0 10px;}
+ .jxd_ins_elDialog .el-dialog__header{border-top:0px solid #dcdfe6;position:relative;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area input{position: absolute;top: 0;left: 0;width: 100%;height: 100%;opacity: 0;cursor: pointer;}
+.lcdp_axe .jxd_ins_elDateTimePicker input{color:#606266;}
+.lcdp_axe .jxd_ins_elScatterMap canvas {border-radius:2px;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio,.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button__inner{border-bottom:0px solid #dcdfe6}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{border-top:0px solid #e2e2e2;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox{align-items: center;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-select--panel{z-index:2001!important;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page { background: #fff; }
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elTreeTable tbody td{padding:0;}
+.lcdp_axe .jxd_ins_elSelect .el-input{height: 100%;}.lcdp_axe .jxd_ins_elSelect .el-input .el-select__caret{line-height: 1}
+.lcdp_axe .jxd_ins_elH1 {font-weight:bold;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox{margin-right: 0px;}.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__label{padding-left: unset; display: unset}
+.lcdp_axe .jxd_ins_elCandidate{height: 220px;width: 570px;width: 570px;height: 220px;}
+.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup.checkBad .el-radio__input .el-radio__inner{border-color:#045340;}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup.checkBad .el-radio-button__inner{background:#045340;}
+.lcdp_axe .jxd_ins_elCountersignSelect input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elAccountingNum input{height:100%;}
+.lcdp_axe .jxd_ins_elSelect:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elNumber .el-input input{padding:0px 50px 0px 15px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect.checkBad .el-input__inner{border-left:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad input{color:#000000;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__label{font-size:14px}
+.lcdp_axe .jxd_ins_elTreeSelect input{font-family:微软雅黑;}.lcdp_axe .jxd_ins_elTreeSelect .el-select__tags .el-tag .el-select__tags-text{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elParticipantInput input{color:#606266;}
+.lcdp_axe .jxd_ins_elDataSelect input{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_elRejectNode input{border-right:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode:hover .el-input:not(.is-disabled) input{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.jxd_ins_elAccountingNumReadonly:not(:hover):not(.is-disabled):not(.checkBad) input::-webkit-input-placeholder{color:#8f9297;}
+.lcdp_axe .jxd_ins_elImage{height: 120px;width: 120px;background-color: transparent;width: 120px;height: 120px;}
+.lcdp_axe .jxd_ins_elDataSelect{height: 34px;width: 206px;color: #c0c4cc;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_elRejectNode input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTable .el-table .has-gutter th,.lcdp_axe .jxd_ins_elTable .el-table__fixed-header-wrapper th{border-bottom: 1px solid #ededed;}
+ .jxd_ins_elDialog .el-dialog__body .jxd-dialog-content{font-size:14px;}
+.lcdp_axe .jxd_ins_attachmentUpload:after{color: #f56c6c;position: absolute;left: 0;bottom: -15px;font-size: 12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput:hover:not(.is-disabled) input{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elNestedPies canvas {border-radius:2px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text){height:34px; line-height:34px}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.el-input.is-disabled input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{background-color:#fff;}
+.lcdp_axe .jxd_ins_elParticipantInput input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elParticipantInput input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTable{height: 380px;width: 800px;background-color: #ffffff;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;border-radius: 0;width: 800px;height: 380px;}
+ .jxd_ins_elDialog .el-dialog__body .jxd-dialog-content{text-align:left;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.checkBad:not(:hover) input{border-right:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup::after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;line-height:12px;}
+.lcdp_axe .jxd_ins_elLoading *{font-size:14px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-select--panel{z-index:2001!important;}
+.lcdp_axe .jxd_ins_elLink span{font-size:14px}
+.lcdp_axe .jxd_ins_elConsignorInput input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTable th{height:36px;}body,.lcdp_axe .jxd_ins_elTable .el-table .cell{line-height:unset;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pager li{color:#606266;}
+.lcdp_axe .jxd_ins_verticalLine div{margin:0 auto;}
+.jxd_additional.lcdp_axe .jxd_ins_elCountersignSelect:hover input{color:#606266;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row:hover td{color:#666;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content .custom-tree-node{font-size:14px;}
+.lcdp_axe .jxd_ins_elTextArea:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+ .jxd_ins_elPanel .el-panel__body{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number{height:34px; line-height:34px}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pager li:hover{color:#045340;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item input{padding:0 20px 0 10px;}
+ .jxd_ins_elDialog .el-dialog__body{overflow:hidden;}
+.lcdp_axe .jxd_ins_ticket{height: 100px;width: 150px;line-height: 150px;width: 150px;height: 100px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly).el-range-editor{border-bottom:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad):not(.el-upload-dragger.is-dragover) .upload .el-upload-dragger{border-right:1px dashed #D7D7D7;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--border-line{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elInputNumber::after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pager li:not(.disabled).active{color:#fff;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{border-bottom:0px solid #e2e2e2;}
+.lcdp_axe .jxd_ins_elDateTimePicker, .lcdp_axe .jxd_ins_elDateTimePicker input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elInputNumber input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elMultiChoice .el-input__icon{font-size:14px;width:14px;}
+.lcdp_axe .jxd_ins_elMultiChoice{width: 206px;background-color: #ffffff;min-height: 34px;border-radius: 2px;border: 1px solid #e2e2e2;box-sizing: border-box;color: #606266;margin-top: 3px;line-height: normal;padding: 3px 0 6px 3px;display: flex;align-items: center;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_elTextArea textarea{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elDoughnut canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elDateTimePicker input, .lcdp_axe .jxd_ins_elDateTimePicker.el-range-editor{padding-bottom:0px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row td{font-weight:400;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input{height: 100%;margin: 0;}
+.lcdp_axe .jxd_ins_elTable tbody td{font-size:14px;}.lcdp_axe .jxd_ins_elTable tbody td .el-checkbox__inner{width:14px;height:14px;}.lcdp_axe .jxd_ins_elTable tbody td .el-checkbox__inner::after{left:40%;height:70%;}
+.lcdp_axe .jxd_ins_elSelect .el-select-dropdown__item.hover{background-color: #F5F7FA;}
+.lcdp_axe .jxd_ins_elParticipantInput input{padding:0 0 0 10px;}
+.lcdp_axe .jxd_ins_elNumber .el-input__inner{border-bottom-right-radius:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-focus input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elstripShape canvas {border-right:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item{text-align:center!important}
+.lcdp_axe .jxd_ins_attachmentUpload .el-progress-bar__outer{background-color: #e4f0fb;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-disabled input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_horizontal_line div{border-radius:5px;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.checkBad input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elH2 {color:#333;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_elNumber input{border-bottom:1px solid #dcdfe6;}
+ .jxd_ins_elDialog .el-dialog__body .jxd-dialog-content{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTable thead th .cell{padding:0 10px 0 10px;}
+.lcdp_axe .jxd_ins_elH1 {color:#303133;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect:hover .el-input__inner{border-left:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:focus-within input{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode.checkBad input{border-left:1px solid #f56c6c;}
+ .jxd_ins_elDialog .el-dialog__body .jxd-dialog-content{text-decoration:none;}
+.lcdp_axe .jxd_ins_elTable .el-table .has-gutter th,.lcdp_axe .jxd_ins_elTable .el-table__fixed-header-wrapper th{font-weight:bold;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.is-disabled input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table .has-gutter th{font-weight:bold;}
+.lcdp_axe .jxd_ins_elH2 {font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputReadonly) input{border-left:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-focus input{border-top:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.checkBad input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elTextArea textarea{text-align:left;}
+.lcdp_axe .jxd_ins_elLineBar{height: 250px;width: 400px;width: 400px;height: 250px;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{background-color:#FFFFFF;}
+.lcdp_axe .jxd_ins_elButton{height: 34px;width: 58px;letter-spacing: 0px;background-color: #045340;font-size: 14px;color: #ffffff;text-align: center;padding: 0px 0px 0px 0px;border-radius: 2px;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;font-family: 微软雅黑;font-weight: normal;font-style: normal;text-decoration: none;line-height: 34px;vertical: true;width: 58px;height: 34px;}
+.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;line-height:12px;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-head { font-size: 14px; }
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput:hover:not(.is-disabled) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elInputNumber input::-webkit-input-placeholder{text-align:left;}
+.lcdp_axe .jxd_ins_elNumber .el-input input{letter-spacing:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect:hover:not(.is-disabled):not(.checkBad) input{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elDataSelect input::-webkit-input-placeholder{font-size:14px;}
+.lcdp_axe .jxd_ins_elLink span{color:#045340}
+.lcdp_axe .jxd_ins_attachmentUpload .elsp{display: inline-block;width: calc(100% - 48px);overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.lcdp_axe .jxd_ins_elFlowSelect .el-input{height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label.is-disabled .el-radio__input .el-radio__inner{border-color:#045340;}.jxd_additional.lcdp_axe .jxd_ins_elRadioGroup label.is-disabled .el-radio-button__inner{background:#045340;}
+ .jxd_ins_elDialog .el-dialog__header i{font-size:18px;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.is-disabled input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elScatterMap canvas {border-left:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.is--controls:not(.type--number):not(.type--text) .vxe-input--inner{box-shadow:0 0 0 #eee;}
+.lcdp_axe .jxd_ins_elLabel span{word-break:break-all;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled):not(.el-upload-dragger.is-dragover) .upload .el-upload-dragger{border-top:1px dashed #045340;}
+.lcdp_axe .jxd_ins_ticket .el-upload-list__item{height: 100%;}.lcdp_axe .jxd_ins_ticket .el-upload-list--picture-card {height: 100px;}
+ .jxd_ins_elDrawer .el-drawer__header .drawer-header{text-align:left;}
+.lcdp_axe .jxd_ins_elLine canvas {border-radius:2px;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{font-weight:400;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{width:106px;}
+ .jxd_ins_elDialog .el-dialog{border-radius:2px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{background-color:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-focus input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode:hover .el-input:not(.is-disabled) input{border-right:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber:hover:not(.is-disabled) input{border-top:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect:hover .el-input:not(.is-disabled) input{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elRejectNode input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__active-bar{height: 4px!important;bottom:0}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox{height:34px;line-height:34px}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page{background:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice:hover:not(.is-disabled){background-color:#ffffff;border-top:1px solid #045340;border-left:1px solid #045340;border-right:1px solid #045340;border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elInputNumber input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elInputNumber input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number input{background-color:#fff;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{border-radius:2px 0 0 2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elVxeTable.checkBad .vxe-table .vxe-table--border-line{border-top:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elEditTable table .vxe-body--row:nth-of-type(even){background:#fafafa;}
+.lcdp_axe .jxd_ins_elCheckBox{text-align:left;}
+ .jxd_ins_elDialog .el-dialog__headerbtn{background:transparent!important;}
+.lcdp_axe .jxd_ins_elInputNumber input{font-weight:400;} .lcdp_axe .jxd_ins_elInputNumber input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__label{text-decoration:none}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-disabled input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elFlowSelect input::-webkit-input-placeholder{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.checkBad input{border-bottom:1px solid #f56c6c;}
+ .jxd_ins_elPanel .el-panel__body{font-size:14px;}
+.lcdp_axe .jxd_ins_elConsignorInput input{text-decoration:none;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-focus .el-input__inner{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager{background:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect:hover:not(.is-disabled):not(.checkBad) input{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable{height: 380px;width: 800px;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;box-shadow: 0 0 0 #eee;width: 800px;height: 380px;}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text i.jxd-uploader-icon {color: #909399;width: unset;height: unset;line-height: 100%;}.lcdp_axe .jxd_ins_ticket .jxd-ticket-text:hover i.jxd-uploader-icon {color: #045340;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pager li.number:hover{color:#045340;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pager li:hover{border:1px #045340 solid;}
+.lcdp_axe .jxd_ins_elTreeSelect input{padding:0 20px 0 10px;}
+ .jxd_ins_elDrawer .el-drawer__header .drawer-header{color:#303133;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-disabled .el-input__inner{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRejectNode input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elScatterMap canvas {border-bottom:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elRejectNode input{padding:0 20px 0 10px;}
+.lcdp_axe .jxd_ins_attachmentUpload ::-webkit-scrollbar-thumb:hover {box-shadow:inset 0 0 10px 10px #bbb;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.is-disabled input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTextArea textarea::-webkit-input-placeholder{text-align:left;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-head { font-weight: bold; }
+.lcdp_axe .jxd_ins_custom_table .custom-table-body { height: 100%; overflow: auto; }
+.lcdp_axe .jxd_ins_elInputNumber input{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_elTable .el-table th{border-bottom: 1px solid #ededed;}
+.lcdp_axe .jxd_ins_elDoughnut canvas {border-bottom:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:hover:not(.is-disabled):not(.jxd_ins_elTextAreaReadonly):not(.checkBad) textarea{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_selectActNode{height: 20px;width: 600px;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;width: 600px;height: 20px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputReadonly) input{color:#606266;}
+.lcdp_axe .jxd_ins_elInputNumber input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.checkBad:not(:hover) input{color:#000000;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textName {font-weight: 400;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad).el-range-editor{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-input--panel{z-index:2000!important;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:focus-within textarea{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTable .page .el-pager li.number:hover{border:1px #045340 solid;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox{background-color:#fff}
+.lcdp_axe .jxd_ins_elDataSelect input{padding:0 50px 0 10px;}
+.lcdp_axe .jxd_ins_elFlowSelect input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elParticipantInput input{font-weight:400;} .lcdp_axe .jxd_ins_elParticipantInput input::-webkit-input-placeholder{font-weight:400;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.checkBad input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elDataSelect .el-input__icon{font-size:14px;line-height: 1}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.is--controls:not(.type--number):not(.type--text) .vxe-input--inner{border-radius:2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:focus-within textarea{color:#606266;}
+.lcdp_axe .jxd_ins_elH1 {word-break:break-all;}
+.lcdp_axe .jxd_ins_elCountersignSelect input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elMultipleUpload{height: 150px;width: 635px;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;border-radius: 0;font-size: 28px;line-height: 150px;vertical: true;overflow: hidden;width: 635px;height: 150px;}
+.lcdp_axe .jxd_ins_elPie canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{font-size:14px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-table--footer-wrapper.body--wrapper{color:#677171;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number input{text-align:center;}
+.lcdp_axe .jxd_ins_elConsignorInput input{text-align:left;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table tbody tr td{border-bottom: 1px solid #ededed;}
+.lcdp_axe .jxd_ins_elTextArea{height: 85px;width: 206px;disable-background-color: #f5f5f5;width: 206px;height: 85px;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-page .el-pager li.number:not(.disabled).active{color:#fff;}
+.lcdp_axe .jxd_ins_elLabel{height: 34px;width: 110px;background-color: #ffffff;font-size: 14px;font-family: 微软雅黑;color: #303133;font-style: normal;font-weight: 400;text-decoration: none;line-height: 34px;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;border-radius: 2px;letter-spacing: 0px;text-align: right;vertical: true;width: 110px;height: 34px;}
+.lcdp_axe .jxd_ins_elSelect .el-select-dropdown__item:not(.selected):not(.hover){color: #333;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-disabled .el-input__inner{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elAccountingNum input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect:hover .el-input:not(.is-disabled) input{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elFlowSelect input{font-style:normal;} .lcdp_axe .jxd_ins_elFlowSelect input::-webkit-input-placeholder{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_format:hover{color:#303133;border-top:0px solid #dcdfe6;border-left:0px solid #dcdfe6;border-right:0px solid #dcdfe6;border-bottom:0px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRose canvas{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:focus-within input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager li{border:1px rgba(237, 237, 237, 1) solid;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item{height:40px;}
+.lcdp_axe .jxd_ins_elImage ,.lcdp_axe .jxd_ins_elImage .el-image__inner ,.lcdp_axe .jxd_ins_elImage .el-image__error{border-radius:2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elLabel:hover{color:#303133;background-color:#ffffff;border-top:0px solid #dcdfe6;border-left:0px solid #dcdfe6;border-right:0px solid #dcdfe6;border-bottom:0px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRose canvas {border-left:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber:hover:not(.is-disabled) .el-input input{color:#606266;}
+.lcdp_axe .jxd_ins_elMultiGauge canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_attachmentUpload .el-upload-dragger{width: 100%;height: 100%;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.checkBad.el-range-editor{border-left:1px solid #f56c6c;}
+ .jxd_ins_elDialog .el-dialog__body .dialog-body{padding:0;} .jxd_ins_elDialog .el-dialog__body{padding:0;}
+.lcdp_axe .jxd_ins_elCountersignSelect .is-controls-right .el-input-number__decrease i,.lcdp_axe .jxd_ins_elCountersignSelect .is-controls-right .el-input-number__increase i{height:100%;}
+.lcdp_axe .jxd_ins_elTable .page .el-pager li.number.active:not(.disabled).active{background:#045340;}
+.lcdp_axe .jxd_ins_elMultiGauge canvas{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elH1 {font-style:normal;}
+.lcdp_axe .jxd_ins_elH1 {text-decoration:none;}
+.lcdp_axe .jxd_ins_elConsignorInput ,.lcdp_axe .jxd_ins_elConsignorInput input{border-radius:2px;} .lcdp_axe .jxd_ins_elConsignorInput input{cursor: pointer;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pager li, .lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .btn-prev, .lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .btn-next{background:#fff;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-pagination button:disabled{background:#fff !important;}.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-pagination .el-select .el-input .el-input__inner{background:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-focus .el-input__inner{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elArea canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elInput input{text-decoration:none;}
+.lcdp_axe .jxd_ins_attachmentUpload .nullFile{color: #c0c4cc;}
+.lcdp_axe .jxd_ins_elGauge canvas{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled.el-range-editor{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elDateTimePicker input, .lcdp_axe .jxd_ins_elDateTimePicker.el-range-editor{padding-left:10px;}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input__inner{padding-left:10px;}
+.lcdp_axe .jxd_ins_elEditTable .page .el-pager li.number.active:not(.disabled).active{background:#045340;}
+.lcdp_axe .jxd_ins_elAccountingNum ,.lcdp_axe .jxd_ins_elAccountingNum input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elPie{height: 250px;width: 400px;width: 400px;height: 250px;}
+.lcdp_axe .jxd_ins_elParticipantInput input{text-decoration:none;}
+.lcdp_axe .jxd_ins_elRadioGroup  .el-radio__input.is-checked+.el-radio__label{color:#045340!important;}.lcdp_axe .jxd_ins_elRadioGroup .el-radio__input.is-checked .el-radio__inner{border-color:#045340 !important;background-color: #045340;}.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button__orig-radio:checked + .el-radio-button__inner{background-color:#045340;border-color:#045340;box-shadow:-1px 0 0 0 #045340}.lcdp_axe .jxd_ins_elRadioGroup :not(.is-active) .el-radio-button__inner:hover{color:#045340}
+.lcdp_axe .jxd_ins_elNumber .el-input-number__increase{height:calc(50% - 0px);top:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad) input{color:#303030;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-disabled .el-input__inner{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text-multi{border: 1px solid #DCDFE6;}
+.lcdp_axe .jxd_ins_elCountersignSelect input{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elCountersignSelect:hover{border-top:1px solid #045340;border-left:1px solid #045340;border-right:1px solid #045340;border-bottom:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect.checkBad .el-input__inner{border-right:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__nav-scroll{background-color: #F4F7FA}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:focus-within input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{text-align:center;}
+.lcdp_axe .jxd_ins_elGauge canvas {border-top:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:hover:not(.is-disabled):not(.jxd_ins_elTextAreaReadonly):not(.checkBad) textarea{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_invoice .invoice-tips{font-weight:400;}
+.lcdp_axe .jxd_ins_elxForm{height: 72px;width: 72px;background-color: #fff;border-top: 0px solid #e2e2e2;border-left: 0px solid #e2e2e2;border-right: 0px solid #e2e2e2;border-bottom: 0px solid #e2e2e2;border-radius: 2px;width: 72px;height: 72px;}
+.lcdp_axe .jxd_ins_elNestedPies canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable thead th{padding:0;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number input{box-shadow:0 0 0 #eee;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{height: 100%;line-height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:hover:not(.is-disabled):not(:focus-within) input{color:#606266;}
+.lcdp_axe .jxd_ins_elSingleImgUpload{height: 150px;width: 150px;background-color: #f4f7fa;color: #c0c4cc;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;border-radius: 0;font-size: 28px;line-height: 150px;vertical: true;overflow: hidden;width: 150px;height: 150px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table--footer-wrapper.body--wrapper{height:50px;} .lcdp_axe .jxd_ins_elVxeTable .vxe-table--footer-wrapper.body--wrapper .vxe-table--footer tr td{padding:0 0 0 0;height:50px;} .lcdp_axe .jxd_ins_elVxeTable .vxe-footer--row .vxe-cell{line-height: normal;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area{position: relative;height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.is-disabled input{background-color:#fcfdfe;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect:hover .el-input:not(.is-disabled) input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elSelect input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elLink span{letter-spacing:0px}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content{font-weight:400;}
+.lcdp_axe .jxd_ins_elRejectNode input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elNumber .el-input{width: 100%;height: 100%;}
+.lcdp_axe .jxd_ins_invoice .invoice-tips,.lcdp_axe .jxd_ins_invoice .el-upload-list__item{font-size:14px;}.lcdp_axe .jxd_ins_invoice .jxd-el-download{font-size:14px;}.lcdp_axe .jxd_ins_invoice .jxd-el-close{font-size:14px;}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text p {font-weight: 400;}
+.lcdp_axe .jxd_ins_elInputNumber input{padding:0 0 0 10px;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio__label{font-weight:400}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect:hover .el-input:not(.is-disabled):not(.checkBad) .el-input__inner{border-top:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.checkBad input{border-top:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-head { color: #303133; }
+.lcdp_axe .jxd_ins_elConsignorInput input{font-style:normal;} .lcdp_axe .jxd_ins_elConsignorInput input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elTextArea textarea{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger.is-dragover{border-top: 2px dashed #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.jxd_ins_elTextAreaReadonly:not(.checkBad) textarea{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elPie canvas{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.checkBad input{border-left:1px solid #f56c6c;}
+ .jxd_ins_elPanel .el-panel__header{color:#303133;}
+.lcdp_axe .jxd_ins_elRejectNode input::-webkit-input-placeholder{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.jxd_ins_elTextAreaReadonly:not(.checkBad) textarea{color:#303030;}
+.lcdp_axe .jxd_ins_elSelect{height: 34px;width: 206px;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row td{padding:0;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pager li{border:1px rgba(237, 237, 237, 1) solid;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.jxd_ins_elAccountingNumReadonly:not(:hover):not(.is-disabled):not(.checkBad) input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRejectNode input::-webkit-input-placeholder{text-align:left;}
+.lcdp_axe .jxd_ins_elGauge canvas {border-right:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.checkBad:not(.is-readonly) input{border-right:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-disabled input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elSingleImgUpload .el-upload-list__item img{width: 100%;height: 100%;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger.is-dragover{background-color: #e4f0fb;}
+.lcdp_axe .jxd_ins_elDataSelect input{font-size:14px;} .lcdp_axe .jxd_ins_elDataSelect .el-input__icon{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.is-disabled textarea{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elNumber .el-input input{font-size:14px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item.is-active{background-color:#fff;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__input .el-checkbox__inner{width:15px;height:15px}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pagination__jump{margin-left:3px;}
+.lcdp_axe .jxd_ins_elNumber .el-input input{color:#606266;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{font-weight:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.el-input.is-disabled input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elDataSelect input{font-style:normal;} .lcdp_axe .jxd_ins_elDataSelect input::-webkit-input-placeholder{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode.checkBad input::-webkit-input-placeholder{color:#000000;}
+.jxd_additional.lcdp_axe .jxd_ins_elVxeTable.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_horizontal_line:hover{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiFileUpload:hover:not(.is-disabled){background-color:#3c94e3;color:#ffffff;border-top:1px solid #3c94e3;border-left:1px solid #3c94e3;border-right:1px solid #3c94e3;border-bottom:1px solid #3c94e3;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload .jxd-upload-item.checkBad:not(div),.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload .jxd-upload-item.checkBad:not(.disabled) .el-upload--picture-card:hover i,.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload .jxd-upload-item.checkBad.disabled .el-upload--picture-card i {color: #c0c4cc}
+.lcdp_axe .jxd_ins_elAccountingNum input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elLine canvas {border-right:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elDataSelect input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elMultipleUpload:after{color:#f56c6c;position:relative;left:0;bottom:75px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.checkBad:not(.is-readonly) input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elEditTable thead th:not(.col--checkbox){font-size:14px;}
+.lcdp_axe .jxd_ins_elRejectNode input{font-size:14px;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content .custom-tree-node{text-decoration:none;}
+.lcdp_axe .jxd_ins_elInputNumber input::-webkit-input-placeholder{font-size:14px;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table .has-gutter th{border-bottom: 1px solid #ededed;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio{align-items:center}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_attachmentUpload .clearfix.after{content: '';height: 0;display: block;clear: both;}
+ .jxd_ins_elPanel .el-panel__body{text-align:left;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pager li:hover{background:#fff;}
+.lcdp_axe .jxd_ins_elTreeSelect input{font-size:14px;}.lcdp_axe .jxd_ins_elTreeSelect .el-select__tags .el-tag .el-select__tags-text{font-size:14px;}
+.lcdp_axe .jxd_ins_elLink span{text-decoration:none}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable tbody tr:hover td{color:#666;}
+.lcdp_axe .jxd_ins_ticket .el-upload.el-upload--picture-card {border-right: 1px dashed #d9d9d9;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textName {color: #606266;}
+.lcdp_axe .jxd_ins_elSelect .el-select-dropdown__item.hover{color: #333;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__prefix .el-input__icon:before{display:inline-block;}
+.lcdp_axe .jxd_ins_elCountersignSelect{padding:10px 0 0 20px;font-size:0;}
+.lcdp_axe .jxd_ins_elLink span{line-height:34px}
+.lcdp_axe .jxd_ins_elTextArea textarea{border-top:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.checkBad input{border-left:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio{overflow:hidden}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.jxd_ins_elInputReadonly:not(.checkBad) input{color:#303030;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-disabled input{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload .jxd-upload-item.checkBad:after{color:#f56c6c;position:relative;left:0;bottom:75px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-disabled input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elDataSelect input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textValue {font-weight: bold;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content .is-checked + .custom-tree-node span{font-style:normal;}
+.lcdp_axe .jxd_ins_elNestedPies canvas{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table--border tbody tr td:not(:last-of-type){border-right: 1px solid #ededed;}.lcdp_axe .jxd_ins_elTreeTable .el-table--border{border: 0px solid #ededed;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable th{height:36px;}body,.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table .cell{line-height:unset;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-disabled input{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-focus input{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elConsignorInput input::-webkit-input-placeholder{text-align:left;}
+.jxd_additional.lcdp_axe .jxd_ins_elScrollContainer:hover{background-color:#ffffff;border-top:0px solid #dcdfe6;border-left:0px solid #dcdfe6;border-right:0px solid #dcdfe6;border-bottom:0px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elNumber .el-input-number__decrease{height:calc(50% - 0px);bottom:0px;}
+.lcdp_axe .jxd_ins_elCheckBox .el-checkbox__label{font-weight:normal;}
+.lcdp_axe .jxd_ins_elInput input{border-right:1px solid #dcdfe6;}
+ .jxd_ins_elPanel .el-panel__header{background:#f4f7fa;}
+.lcdp_axe .jxd_ins_elRose{height: 250px;width: 400px;background-color: transparent;width: 400px;height: 250px;}
+.lcdp_axe .jxd_ins_elAccountingNum:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elH1 {line-height:34px;}
+.lcdp_axe .jxd_ins_elNumber .el-input-number__decrease,.lcdp_axe .jxd_ins_elNumber .el-input-number__increase{height:50%;line-height:50%;}
+.lcdp_axe .jxd_ins_elAccountingNum input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elAccountingNum input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTable .el-table .has-gutter th:not(:nth-last-of-type(1)),.lcdp_axe .jxd_ins_elTable .el-table__fixed-header-wrapper th:not(:nth-last-of-type(1)){border-right: 1px solid #ededed;}
+.lcdp_axe .jxd_ins_elInput input{height:100%;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox{overflow:hidden;}
+.lcdp_axe .jxd_ins_elEditTable thead th{font-weight:bold;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.checkBad input{border-top:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table--footer-wrapper.body--wrapper{color:#677171;}
+.lcdp_axe .jxd_ins_elScatterMap canvas:first-child{background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:hover:not(.is-disabled):not(.jxd_ins_elTextAreaReadonly):not(.checkBad) textarea{color:#606266;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content .is-checked + .custom-tree-node span{font-size:14px;}
+.lcdp_axe .jxd_ins_elNumber input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elAccountingNum input::-webkit-input-placeholder{text-align:left;}
+.lcdp_axe .jxd_ins_elRadioGroup:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;line-height:12px;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button__inner{width:80px}
+.lcdp_axe .jxd_ins_elLineBar canvas {border-bottom:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager .vxe-pager--num-btn.is--active:not(.is--disabled).is--active{color:#fff;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pager li:hover{border:1px #045340 solid;}
+.lcdp_axe .jxd_ins_elTextArea textarea{line-height:20px;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table .has-gutter th{background:#f4f7fa;}
+.lcdp_axe .jxd_ins_elScrollContainer .scrollContainer{height:200%}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger .btn-icon{font-size:40px;margin:unset;line-height: 1;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content .is-checked .el-checkbox__inner{background-color:#045340;border-color:#045340;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{padding:0 20px 0 10px;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox{border-radius:2px}.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox-button__inner{border-radius:2px}
+.lcdp_axe .jxd_ins_elTreeTable .el-table .has-gutter th{font-weight:bold;}
+.lcdp_axe .jxd_ins_elAccountingNum input{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode:hover .el-input:not(.is-disabled) input{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elInputNumber ,.lcdp_axe .jxd_ins_elInputNumber input{border-radius:2px;}
+.lcdp_axe .jxd_ins_elMultiGauge canvas {border-right:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect.checkBad .el-input__inner{border-right:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elFlowSelect input::-webkit-input-placeholder{text-align:left;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item:not(.is-active){color:#303133;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager li.vxe-pager--num-btn:hover{border:1px #045340 solid;}
+.lcdp_axe .jxd_ins_ticket .el-upload.el-upload--picture-card {border-top: 1px dashed #d9d9d9;}
+.lcdp_axe .jxd_ins_elScatterMap canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elLink span{font-style:normal}
+ .jxd_ins_elDrawer .el-drawer__header{background:#f4f7fa;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pager li{color:rgba(81, 90, 110, 1);}
+.lcdp_axe .jxd_ins_verticalLine div{width:1px;}
+.lcdp_axe .jxd_ins_elTreeSelect,.lcdp_axe .jxd_ins_elTreeSelect input{border-radius:2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.checkBad:not(:hover) input{border-top:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elTree .is-current.el-tree-node.is-focusable:not(.is-checked) > div.el-tree-node__content{background-color:#eef6fe;border-left:#eef6fe;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item{width:180px;}
+.lcdp_axe .jxd_ins_elLine canvas{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger{border-left:1px dashed #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.checkBad input{border-top:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:hover:not(.is-disabled):not(:focus-within) input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elCountersignSelect:focus-within:not(:hover) input{background-color:#ffffff;}
+ .jxd_ins_elDialog .el-dialog__body .jxd-dialog-content{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.jxd_ins_elAccountingNumReadonly:not(:hover):not(.is-disabled):not(.checkBad) input{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect:hover input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio__label{font-style:normal}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number input{text-align:center;}
+.lcdp_axe .jxd_ins_attachmentUpload .el-progress-bar__inner{background-color: #045340;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pager li:hover{color:#f4f7fa;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row td{height:50px;}.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-body--column{line-height:50px;}.lcdp_axe .jxd_ins_elEditTable .vxe-table .vxe-body--column .vxe-cell{line-height:unset;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item input,.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item input{font-style:normal;}
+.lcdp_axe .jxd_ins_elPlacehoder{height: 200px;width: 200px;}
+.lcdp_axe .jxd_ins_elInput input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elCheckBox.is-checked .el-checkbox__label{color:#606266;}
+.lcdp_axe .jxd_ins_elH1 {text-align:left;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger.is-dragover{border-bottom: 2px dashed #045340;}
+.lcdp_axe .jxd_ins_elVxeTable table .vxe-body--row:nth-of-type(odd){background:#ffffff;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item{margin:0 0 0 0;}
+.lcdp_axe .jxd_ins_elFlowSelect .el-input input {height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.is-disabled input{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.is-disabled input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elInputNumber input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elRadar canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elArea canvas {border-radius:2px;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice.checkBad .lab,.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice.checkBad .el-input__icon{color:#000000;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__content{padding:0;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect:hover .el-input__inner{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elDateTimePicker input{font-size:14px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table--footer-wrapper.body--wrapper{font-weight:400;}
+.lcdp_axe .jxd_ins_elH2 {word-break:break-all;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.jxd_ins_elTextAreaReadonly:not(.checkBad) textarea{border-right:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.checkBad input{border-bottom:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elLoading *{font-weight:normal;}
+.lcdp_axe .jxd_ins_elFlowSelect input{border-top:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput:hover:not(.is-disabled) input{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.is-disabled input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{border-left:1px solid #e2e2e2;}
+.lcdp_axe .jxd_ins_elLink{height: 34px;width: 50px;background-color: #fff;border-left: 0px solid #dcdfe6;border-top: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;border-radius: 0;width: 50px;height: 34px;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger{border-top:1px dashed #dcdfe6;}
+.lcdp_axe .jxd_ins_elInput input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textName {font-family: 微软雅黑;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__suffix .el-input__icon:before{display:inline-block;}
+.lcdp_axe .jxd_ins_elTable .el-table .has-gutter th,.lcdp_axe .jxd_ins_elTable .el-table__fixed-header-wrapper th{color:#303133;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload:hover:not(.disabled):not(div),.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload:hover:not(.disabled):not(.disabled) .el-upload--picture-card:hover i,.jxd_additional.lcdp_axe .jxd_ins_elMultipleUpload:hover:not(.disabled).disabled .el-upload--picture-card i {color: #c0c4cc}
+.lcdp_axe .jxd_ins_elFlowSelect input{font-weight:normal;} .lcdp_axe .jxd_ins_elFlowSelect input::-webkit-input-placeholder{font-weight:normal;}
+.lcdp_axe .jxd_ins_elGauge{height: 250px;width: 400px;width: 400px;height: 250px;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-body .custom-table-body-list { border-bottom-color: #DBDEE5; }
+ .jxd_ins_elDialog .el-dialog__header, .jxd_ins_elDialog .el-dialog__body{border-right:0px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elInput input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager .vxe-pager--num-btn.is--active:not(.is--disabled).is--active{background:#045340;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textValue {font-family: 微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-focus input{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table .el-table__body .el-table-column--selection .cell {text-overflow: clip;}
+.lcdp_axe .jxd_ins_elConsignorInput input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elConsignorInput input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elVxeTable:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.lcdp_axe .jxd_ins_elLoading {opacity: 30%;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput:hover:not(.is-disabled) input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.jxd_ins_elInputNumberReadonly:not(.checkBad) input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elFlowSelect input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_horizontal_line .ig-line{height:1px;}
+ .jxd_ins_elDrawer .el-drawer{box-shadow:0px 0px 20px #CBC8C8;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .el-table tr td{border-bottom: 1px solid rgba(237, 237, 237, 1);}
+.lcdp_axe .jxd_ins_ticket .el-upload-list--picture-card.jxd-ticket-imageList{width: 320px;overflow-x: hidden;overflow-y: hidden;display:-webkit-box;}.lcdp_axe .jxd_ins_ticket .el-upload-list--picture-card.jxd-ticket-imageList:hover{overflow-x: auto;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.checkBad:not(.is-readonly) input{border-top:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{text-align:center;}
+.lcdp_axe .jxd_ins_elNumber .el-input__inner{border-top-right-radius:0px;}
+.lcdp_axe .jxd_ins_elVxeTable{height: 380px;width: 800px;width: 800px;height: 380px;}
+.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice:focus .lab,.jxd_additional.lcdp_axe .jxd_ins_elMultiChoice:focus .el-input__icon{color:#606266;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--border-line{border-right:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-focus .el-input__inner{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elstripShape canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elAccountingNum{height: 34px;width: 206px;font-style: normal;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_ticket .el-upload.el-upload--picture-card {border-radius: 6px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect:hover:not(.is-disabled):not(.checkBad) input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect .el-input.is-focus input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--body tbody tr.vxe-body--row:hover{background:rgba(244, 249, 254, 1);}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad).el-range-editor{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number input{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_elLineBar canvas {border-top:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pager li:hover{background:#fff;}
+.lcdp_axe .jxd_ins_horizontal_line div{box-shadow:0 0 0 #000;}
+.lcdp_axe .jxd_ins_elAnalogQuantity .textStyle .textValue {font-size: 14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect:hover .el-input:not(.is-disabled) input{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elH1 {letter-spacing:0;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table__body tr.current-row > td {background: #ecf5ff;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-body .custom-table-body-list:hover { background-color: #F4F9FE; }
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad) .button{color:#ffffff;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number input{padding:0 20px 0 10px;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__item.is-active{color:#045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.is-disabled input{color:#606266;}
+.lcdp_axe .jxd_ins_elInputNumber input{height:100%;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.is-disabled input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-focus input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elVxeTable thead th{color:#525858;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table--header-wrapper,.lcdp_axe .jxd_ins_elVxeTable thead tr{background:#f8f8f9;}
+.lcdp_axe .jxd_ins_elConsignorInput input{padding:0 0 0 10px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect:hover input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elLoading *{color:#333;}
+.lcdp_axe .jxd_ins_elSingleUpload:after{color: #f56c6c;position: absolute;left: 0;bottom: -15px;font-size: 12px;}
+.lcdp_axe .jxd_ins_elNumber .el-input input{font-family:微软雅黑;} .lcdp_axe .jxd_ins_elNumber .el-input input::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table th{border-bottom: 1px solid #ededed;}
+.lcdp_axe .jxd_ins_elFlowSelect input{border-bottom:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.is-disabled input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row td{padding:0;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.jxd_ins_elInputReadonly:not(.checkBad) input{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect:hover .el-input:not(.is-disabled) input{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:focus-within input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number input{box-shadow:0 0 0 #eee;}
+.lcdp_axe .jxd_ins_elNumber .el-input-number__decrease i,.lcdp_axe .jxd_ins_elNumber .el-input-number__increase i{line-height:13px;}
+ .jxd_ins_elDialog .el-dialog__header .dialog-header{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDataSelect.el-input.is-disabled input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elParticipantInput input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-disabled .el-input__inner{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table td .cell{padding-left:14px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-pager li{background:#fff;}
+.lcdp_axe .jxd_ins_elBar canvas {border-right:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{color:#677171;}
+.lcdp_axe .jxd_ins_elTable tbody tr:hover td{color:#666;}
+.lcdp_axe .jxd_ins_elParticipantInput input{text-align:left;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{color:#000;}
+.lcdp_axe .jxd_ins_elConsignorInput input{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-disabled input{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.is-disabled input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elTree .is-checked.el-tree-node.is-focusable > div.el-tree-node__content{background-color:#fff;border-left:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:focus-within input{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elDateTimePicker input, .lcdp_axe .jxd_ins_elDateTimePicker.el-range-editor{padding-right:40px;}
+.lcdp_axe .jxd_ins_elInputNumber input{font-style:normal;} .lcdp_axe .jxd_ins_elInputNumber input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number input{color:#677171;}
+.lcdp_axe .jxd_ins_elSingleImgUpload.checkBad{border: 1px solid #f56c6c;overflow: visible}
+.lcdp_axe .jxd_ins_elSelect .el-select-dropdown__item.selected{color: #4CAAEE;}
+.lcdp_axe .jxd_ins_elInput input{padding:0 0 0 10px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.checkBad textarea{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_camera .jxd-el-close {font-size:24px;}.lcdp_axe .jxd_ins_camera .el-icon-close {font-size:24px;}
+.lcdp_axe .jxd_ins_elTextArea textarea::-webkit-input-placeholder{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elTreeTable .page{height:53px;text-align: center;padding: 10px 0;}
+.lcdp_axe .jxd_ins_elLineBar canvas {border-right:1px solid #dcdfe6 !important;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.is-disabled input{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text-files .text-left{color: #303133;}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{height: 100%;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber:focus-within input{border-left:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elIcon[disabled]{color:#a2d2fc;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{color:#677171;}
+.lcdp_axe .jxd_ins_horizontal_line div{background-color:#000;}
+.lcdp_axe .jxd_ins_elTreeTable .el-table__footer-wrapper tr{height:50px;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button__inner{height:34px;display: inline-flex;align-items: center;justify-content: center;}
+.lcdp_axe .jxd_ins_elRejectNode .el-input input {height: 100%;}
+.lcdp_axe .jxd_ins_elTable .page{background:#fff;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput:hover:not(.is-disabled) input{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elScrollContainer{height: 300px;width: 500px;background-color: #ffffff;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;width: 500px;height: 300px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputReadonly) input{border-top:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput:hover:not(.is-disabled) input{border-left:1px solid #045340;}
+.lcdp_axe .jxd_ins_elDoughnut{height: 250px;width: 400px;width: 400px;height: 250px;}
+ .jxd_ins_elPanel .el-panel__header{text-align:left;padding-right:20px;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table--footer-wrapper.body--wrapper{font-size:14px;}
+ .jxd_ins_elDialog .el-dialog__header .dialog-header{padding-left:10px;}
+.lcdp_axe .jxd_ins_elCandidate .candidate-center{padding-top:20px;}
+.lcdp_axe .jxd_ins_elMultiGauge{height: 250px;width: 400px;width: 400px;height: 250px;}
+.lcdp_axe .jxd_ins_elstripShape canvas {border-bottom:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger{border-right:1px dashed #dcdfe6;}
+.lcdp_axe .jxd_ins_elNumber .el-input input{text-align:left;}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-focus input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text{background: #ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elCheckBoxGroup .is-focus+ .el-checkbox__label{color:#606266}.jxd_additional.lcdp_axe .jxd_ins_elCheckBoxGroup .is-focus+ .el-checkbox__input .el-checkbox__inner{border-color:#606266}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox,.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox-button__inner{border-top:0px solid #dcdfe6}
+.lcdp_axe .jxd_ins_elNumber .el-input-number__increase{border-top-right-radius:0px;}
+.lcdp_axe .jxd_ins_elPie canvas {border-right:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elH2 {font-family:微软雅黑;}
+ .jxd_ins_elBaseWebPage{overflow: auto;background-color: #fff;}
+.lcdp_axe .jxd_ins_elH2 {font-weight:bold;}
+.jxd_additional.lcdp_axe .jxd_ins_elCommentEcho:hover{color:#303133;background-color:#ffffff;border-top:1px solid #dcdfe6;border-left:1px solid #dcdfe6;border-right:1px solid #dcdfe6;border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTabs{height: 600px;width: 1000px;width: 1000px;height: 600px;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pagination__total{margin-left:24px;}
+.jxd_additional.lcdp_axe .jxd_ins_elSingleUpload.checkBad .upload-button-area button{color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.jxd_ins_elDateTimePickerReadonly:not(.checkBad).el-range-editor{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elFlowSelect input{color:#606266;}
+ .jxd_ins_elPanel .el-panel__body{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elAnalogQuantity{height: 34px;width: 206px;background-color: #ffffff;border-top: 0px solid #dcdfe6;border-left: 0px solid #dcdfe6;border-right: 0px solid #dcdfe6;border-bottom: 0px solid #dcdfe6;border-radius: 2px;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_verticalLine div{box-shadow:0 0 0 #000;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea:focus-within textarea{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elFlowSelect input::-webkit-input-placeholder{font-size:14px;}
+.lcdp_axe .jxd_ins_elPie canvas {border-bottom:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-dragger{border-bottom:1px dashed #dcdfe6;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-input.type--number input{background-color:#fff;}
+.lcdp_axe .jxd_ins_elDateTimePicker input{text-decoration:none;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.is-disabled input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-default-input{text-align:center;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect.checkBad input{color:#333;}.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect.checkBad .el-select__tags .el-tag .el-select__tags-text{color:#333;}
+.lcdp_axe .jxd_ins_elCountersignSelect{height: 60px;width: 430px;width: 430px;height: 60px;}
+.jxd_additional.lcdp_axe .jxd_ins_elStatusPanel:hover{background-color:#ffffff;border-top:0px dashed #dcdfe6;border-left:0px dashed #dcdfe6;border-right:0px dashed #dcdfe6;border-bottom:0px dashed #dcdfe6;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__suffix .el-input__icon:before{vertical-align:middle;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elInputReadonly) input{border-right:1px solid #045340;}
+.vxe-table--tooltip-wrapper{ z-index:10000!important;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum:focus-within input{border-bottom:1px solid #045340;}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text p {text-align: left;}
+.lcdp_axe .jxd_ins_elArea canvas {border-right:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elTreeTable .page .el-pagination__total{margin-left:24px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.is-disabled input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTabs .el-tabs__header{margin:0;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_elInputNumber input{font-size:14px;}
+ .jxd_ins_elDialog .el-dialog__body{border-bottom:0px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox-button__inner{height:34px;display: inline-flex;align-items: center;justify-content: center;}
+.jxd_additional.lcdp_axe .jxd_ins_elInput.is-disabled input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elNumber .el-input input::-webkit-input-placeholder{text-align:left;}
+ .jxd_ins_elDialog .el-dialog__body .jxd-dialog-content{letter-spacing:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.is-disabled textarea{background-color:#fcfdfe;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect.checkBad input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_verticalLine div{height:500px;} .lcdp_axe .jxd_ins_verticalLine .ig-line{height:100%;margin:0 auto}
+.lcdp_axe .jxd_ins_elSingleUpload .el-input input{font-family:微软雅黑;}
+.lcdp_axe .jxd_ins_attachmentUpload {background-color:#ffffff;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.is-disabled input{background-color:#fcfdfe;}
+.lcdp_axe .jxd_ins_elVxeTable thead th{font-weight:bold;}
+.lcdp_axe .jxd_ins_attachmentUpload .upload .el-upload-text{font-style:normal;}
+.lcdp_axe .jxd_ins_elTable .page .el-pager li.number.active:not(.disabled).active{color:#fff;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text-files.clearfix:hover{background: #f4f7fa;}
+.lcdp_axe .jxd_ins_elNestedPies{height: 250px;width: 400px;background-color: transparent;width: 400px;height: 250px;}
+.lcdp_axe .jxd_ins_attachmentUpload .invoice-content  .el-input__icon { width: unset;height: unset;margin-bottom: -15px;line-height: 100%;}
+.lcdp_axe .jxd_ins_elCountersignSelect .is-controls-right .el-input-number__decrease,.lcdp_axe .jxd_ins_elCountersignSelect .is-controls-right .el-input-number__increase{height:50%;line-height:50%;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item{width:180px;}
+.lcdp_axe .jxd_ins_elCountersignSelect .el-input,.lcdp_axe .jxd_ins_elCountersignSelect input{height: 100%;}
+.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .attach-text-tip{width: 100%;font-size: 12px;line-height: 24px; overflow: hidden;}
+.lcdp_axe .jxd_ins_elTextArea textarea{height:100%;}
+.lcdp_axe .jxd_ins_elNumber .el-input input{font-style:normal;} .lcdp_axe .jxd_ins_elNumber .el-input input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elMultiGauge canvas {border-bottom:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{border-left:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.checkBad:not(.is-readonly) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elCustomComponent{height: 200px;width: 200px;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row td:not(.col--checkbox){font-size:14px;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio{line-height:34px}
+.lcdp_axe .jxd_ins_elConsignorInput input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elDoughnut canvas{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elDataSelect input{text-decoration:none;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly) input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly).el-range-editor{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_format{height: 34px;width: 110px;padding: 0 0 0 10px;font-family: 微软雅黑;font-size: 14px;font-style: normal;font-weight: 400;color: #303133;text-decoration: none;letter-spacing: 0px;text-align: right;align-items: center;line-height: 34px;;vertical: true;border-radius: 2px;word-break: break-all;border-top: 1px solid #dcdfe6;border-left: 1px solid #dcdfe6;border-right: 1px solid #dcdfe6;border-bottom: 1px solid #dcdfe6;width: 110px;height: 34px;}
+.lcdp_axe .jxd_ins_elRadioGroup .el-radio,.lcdp_axe .jxd_ins_elRadioGroup .el-radio-button__inner{border-right:0px solid #dcdfe6}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.is-disabled input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{border-right:1px solid #045340;}
+.lcdp_axe .jxd_ins_elCheckBox .el-checkbox__input .el-checkbox__inner{width:14px;height:14px}
+.jxd_additional.lcdp_axe .jxd_ins_elRejectNode .el-input.is-focus input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-focus .el-input__inner{border-top:1px solid #045340;}
+.lcdp_axe .jxd_ins_elConsignorInput input{border-left:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elVxeTable.checkBad .vxe-table .vxe-table--border-line{border-left:1px solid #f56c6c;}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text-files.fileCheckBadColor{color: #f56c6c;}
+.lcdp_axe .jxd_ins_elTextArea textarea{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_verticalLine div{background:#000;}
+.jxd_additional.lcdp_axe .jxd_ins_elFlowSelect:hover .el-input:not(.is-disabled) input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elRejectNode input{font-style:normal;} .lcdp_axe .jxd_ins_elRejectNode input::-webkit-input-placeholder{font-style:normal;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled input, .jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker.el-input.is-disabled.el-range-editor{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_ticket .jxd-ticket-text p {letter-spacing: 0px;}
+.lcdp_axe .jxd_ins_elRejectNode input{text-align:left;}
+ .jxd_ins_elDialog .el-dialog__header i{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.checkBad:not(.is-readonly)::after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .attach-text.checkBad:after{color: #f56c6c;position: absolute;left: 0;bottom: -15px;font-size: 12px;}
+.lcdp_axe .jxd_ins_elInput input::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elParticipantInput{height: 34px;width: 206px;width: 206px;height: 34px;}
+.lcdp_axe .jxd_ins_elWorkflowHistoryTable .page .el-pagination__jump{margin-left:3px;}
+.jxd_additional.lcdp_axe .jxd_ins_elDateTimePicker:hover:not(.is-disabled):not(.checkBad):not(.jxd_ins_elDateTimePickerReadonly) input{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload .invoice-content .upload-hover:hover:not(.is-disabled) .button{border-right:1px solid #3c94e3;}
+.lcdp_axe .jxd_ins_elSelect input{font-weight:normal;} .lcdp_axe .jxd_ins_elSelect input::-webkit-input-placeholder{font-weight:normal;}
+.lcdp_axe .jxd_ins_elTextArea textarea::-webkit-input-placeholder{font-style:normal;}
+.lcdp_axe .jxd_ins_elBar canvas{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number input{padding:0 20px 0 10px;}
+.lcdp_axe .jxd_ins_elNestedPies canvas {border-right:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elDateTimePicker input, .lcdp_axe .jxd_ins_elDateTimePicker.el-range-editor{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elCheckBoxGroup .el-checkbox__label{font-style:normal}
+.lcdp_axe .jxd_ins_attachmentUpload .attach-text-multi{border: 1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.checkBad .el-input input::-webkit-input-placeholder{color:#000000;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content{font-style:normal;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-body--row .vxe-cell .vxe-default-input{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_elDateTimePicker input, .lcdp_axe .jxd_ins_elDateTimePicker.el-range-editor{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elRose canvas {border-bottom:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elDateTimePicker input.el-input__inner{text-align:left;}
+.jxd_additional.lcdp_axe .jxd_ins_elSelect .el-input.is-disabled .el-input__inner{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elLink {text-align:center}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input.type--number input{font-family:微软雅黑;}
+.jxd_additional.lcdp_axe .jxd_ins_elSingleUpload.checkBad:after{color: #f56c6c;position: absolute;left: 0;bottom: -15px;font-size: 12px;}
+.lcdp_axe .jxd_ins_elGauge canvas {border-left:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elNumber .el-input input{font-weight:normal;} .lcdp_axe .jxd_ins_elNumber .el-input input::-webkit-input-placeholder{font-weight:normal;}
+.lcdp_axe .jxd_ins_elRose canvas {border-right:1px solid #dcdfe6 !important;}
+.lcdp_axe .jxd_ins_elLine{height: 250px;width: 400px;width: 400px;height: 250px;}
+.lcdp_axe .jxd_ins_invoice .invoice-tips{font-style:normal;}
+.lcdp_axe .jxd_ins_elDataSelect input{border-top:1px solid #dcdfe6;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.is-disabled textarea{border-left:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRejectNode input{text-decoration:none;}
+.lcdp_axe .jxd_ins_elTextArea textarea{color:#606266;}
+.lcdp_axe .jxd_ins_elDateTimePicker .el-input__prefix{right:0px;}
+.lcdp_axe .jxd_ins_elDateTimePicker input::-webkit-input-placeholder{text-align:left;}
+.lcdp_axe .jxd_ins_elEditTable .vxe-body--row .vxe-cell .vxe-input:not(.type--number):not(.type--text) input{letter-spacing:0px;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-head { border-bottom-color: #DBDEE5; }
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad):not(.el-upload-dragger.is-dragover) .upload .el-upload-dragger{border-left:1px dashed #D7D7D7;}
+.jxd_additional.lcdp_axe .jxd_ins_elVxeTable.checkBad .vxe-table .vxe-table--border-line{border-bottom:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_attachmentUpload.is-disabled:not(.invoice-content .upload-hover:hover):not(.checkBad) .upload .el-upload-dragger .btn-icon{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elParticipantInput.checkBad input{border-right:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elAccountingNum.jxd_ins_elAccountingNumReadonly:not(:hover):not(.is-disabled):not(.checkBad) input{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elAccountingNum input{padding:0 0 0 10px;}
+.lcdp_axe .jxd_ins_attachmentUpload .button{text-decoration:none;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--border-line{border-radius:0px;}.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--header-wrapper{border-radius:0px;}.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--header-wrapper{border-bottom-left-radius:0px;}.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-table--header-wrapper{border-bottom-right-radius:0px;}
+.jxd_additional.lcdp_axe .jxd_ins_elInputNumber.is-disabled input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elSelect input::-webkit-input-placeholder{color:#c0c4cc;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber.checkBad .el-input input{background-color:#ffffff;}
+.lcdp_axe .jxd_ins_elTreeSelect .el-input__inner{padding-right:10px;}
+.lcdp_axe .jxd_ins_elInput input{font-weight:400;} .lcdp_axe .jxd_ins_elInput input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elDateTimePicker input, .lcdp_axe .jxd_ins_elDateTimePicker.el-range-editor{border-top:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elTextArea textarea {resize:vertical;}
+.jxd_additional.lcdp_axe .jxd_ins_elTreeSelect .el-input.is-focus .el-input__inner{border-bottom:1px solid #045340;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.is-disabled input{border-right:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elRejectNode .el-input{height: 100%;}
+.lcdp_axe .jxd_ins_elTree .el-tree-node .el-tree-node__content .is-checked + .custom-tree-node span{font-weight:normal;}
+.lcdp_axe .jxd_ins_elLoading .el-loading-spinner .el-loading-text{text-decoration: none;}
+.lcdp_axe .jxd_ins_elParticipantInput input{border-bottom:1px solid #dcdfe6;}
+.lcdp_axe .jxd_ins_elSingleUpload .upload-button-area button{text-decoration:none;}
+.lcdp_axe .jxd_ins_elVxeTable .vxe-table--body-wrapper{background:#fff;}.lcdp_axe .jxd_ins_elVxeTable .vxe-table .vxe-body--row.row--stripe{background:unset;}
+ .jxd_ins_elPanel .el-panel__body, .jxd_ins_elPanel .el-panel__header{box-shadow: 0px 0px 20px #CBC8C8;}
+.jxd_additional.lcdp_axe .jxd_ins_elTextArea.el-textarea.is-disabled textarea{color:#606266;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.is-disabled input{color:#606266;}
+.lcdp_axe .jxd_ins_elDataSelect input::-webkit-input-placeholder{font-weight:400;}
+.lcdp_axe .jxd_ins_elCountersignSelect .jxd-select-item input,.lcdp_axe .jxd_ins_elCountersignSelect .jxd-number-item input{font-size:14px;}
+.jxd_additional.lcdp_axe .jxd_ins_elConsignorInput.checkBad input{border-right:1px solid #f56c6c;}
+.jxd_additional.lcdp_axe .jxd_ins_elSingleUpload.checkBad .upload-button-area button{background-color:#3c94e3;}
+.lcdp_axe .jxd_ins_custom_table .custom-table-head { border-bottom-width: 1px; }
+.jxd_additional.lcdp_axe .jxd_ins_elEditTable.checkBad:after{color:#f56c6c;position:absolute;left:0;bottom:-14px;font-size:12px;}
+.jxd_additional.lcdp_axe .jxd_ins_elNumber:hover:not(.is-disabled) .el-input input::-webkit-input-placeholder{color:#c0c4cc;}
+.lcdp_axe .jxd_ins_elParticipantInput input{background-color:#ffffff;}

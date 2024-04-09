@@ -1,0 +1,352 @@
+.table-drawer {
+
+  .el-drawer {
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+    box-shadow: -8px 0px 16px 0px rgba(18, 29, 106, 0.20);
+
+    .drawer-height {
+      height: 100%;
+
+      //含有tab页的标题
+      .drawer-title-tab-box {
+        padding-bottom: 8px !important;
+      }
+
+      //子抽屉标题样式
+      .user-choose-box {
+
+        .choose-title {
+          height: 64px;
+          width: 100%;
+
+          .title-text {
+            padding: 24px 0 0 24px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #4a4c66;
+            line-height: 16px;
+
+            i {
+              margin-right: 16px;
+              color: #878787;
+              cursor: pointer;
+            }
+
+          }
+
+        }
+
+      }
+
+      //正常抽屉标题
+      .drawer-title-box {
+        padding: 24px;
+
+        .icon {
+          font-size: 44px;
+          color: #045340;
+          width: 44px;
+          height: 44px;
+          line-height: 44px
+        }
+
+        .title-content {
+          margin-left: 10px;
+          color: #333651;
+
+          .title-text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+          }
+
+          .title-des { //?
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 7px;
+            line-height: 16px
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+  //抽屉el-tab-pane样式修改
+  .tab-box {
+    height: calc(100% - 141px);
+
+    .el-tabs {
+      height: 100%;
+
+      .el-tabs__header {
+        margin: 0;
+
+        .el-tabs__nav-wrap {
+          // tab页下边线
+          &:after {
+            height: 1px;
+            background-color: #EAEAEA;
+          }
+
+          .el-tabs__nav {
+            width: 100%;
+          }
+
+        }
+
+      }
+
+      .el-tabs__content {
+        height: calc(100% - 40px);
+
+        .el-tab-pane {
+          height: 100%;
+          overflow: hidden;
+
+          &:hover {
+            overflow: auto;
+          }
+        }
+      }
+
+      .el-tabs__item {
+        color: #878787;
+        padding: 0 95px 0 68px;
+
+        &.is-top {
+
+          &.is-disabled {
+            color: #C0C4CC;
+          }
+
+          &.is-active {
+            color: #045340;
+          }
+
+          &:last-child {
+            padding-right: 0 !important;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  .el-checkbox + .el-checkbox {
+    margin-left: 0;
+  }
+
+  //抽屉内容区域
+  .form-box {
+    overflow: hidden;
+
+    //滚动条hover的时候显示
+    &:hover {
+      overflow: auto;
+    }
+
+    .drawer-form {
+      //原来padding： 24px 32px 0 32px;左侧改成16px的原因是在抽屉内容区域出现滚动条时会占用16px。
+      padding: 24px 16px 0 32px;
+      margin-bottom: 0;
+      /*vue-easy-tree必须指定容器高度固定*/
+      height: 100%;
+
+      .el-form-item {
+        margin-bottom: 0;
+        padding-bottom: 24px;
+
+        .el-form-item__label {
+          font-size: 14px;
+          font-weight: 400;
+          color: #545672;
+          line-height: 20px;
+          // 表单必填项和验证提示语对齐
+          &:before {
+            margin-left: -8px;
+          }
+        }
+
+        .el-form-item__content {
+          line-height: 20px;
+
+          .el-input {
+            margin-top: 4px;
+          }
+
+        }
+
+      }
+
+      .form-item-little{
+        margin:0 16px;
+
+        .el-input{
+          width: 384px;
+
+          .el-input__prefix{
+            left: 358px;
+          }
+        }
+      }
+
+    }
+
+    //左侧树
+    .tree-wrap{
+
+      .tree-filter .el-input{
+        width: calc(100% - 32px);
+      }
+
+      .tree-wrapper .el-tree{
+        padding-left: 16px;
+
+        .vue-recycle-scroller__item-view{
+          width: calc(100% - 16px);
+        }
+      }
+
+    }
+
+  }
+
+  //抽屉的分割线
+  .line {
+    width: 100%;
+    height: 1px;
+    background: #EAEAEA;
+    box-shadow: 0 -1px 4px 0 rgba(242, 242, 242, 0.65);
+  }
+
+  //抽屉按钮
+  .bottom-box {
+    width: 100%;
+  }
+
+  //详情
+  .detail-form {
+
+    .el-form-item {
+      padding-bottom: 32px !important;
+
+      .el-form-item__label {
+        font-weight: 600 !important;
+      }
+
+      .el-form-item__content {
+
+        .detail-item {
+          width: 416px;
+          min-height: 20px;
+          position: relative;
+          display: inline-block;
+          margin-top: 4px;
+          color: #4A4C66;
+          word-break: break-all;
+
+          .textarea-item {
+            border: 1px solid #d9d9d9;
+            border-radius: 2px;
+            line-height: 32px;
+            height: 32px;
+            padding: 0 8px;
+          }
+
+          .placeholder {
+            color: #BCBDBF;
+          }
+
+          .content {
+            word-break: break-all
+          }
+
+          .info-btn-text {
+            @include color(color3);
+            cursor: pointer;
+            margin-left: 16px;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+  //审核页面-详情样式
+  .audit-detail-box {
+    margin: 0 32px;
+    padding-bottom: 24px;
+
+    .detail-item {
+      margin-top: 24px;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    .detail-label {
+      color: #545672;
+      font-weight: 600;
+    }
+
+    .detail-content {
+      color: #4A4C66;
+      margin-top: 4px;
+
+      .detail-before {
+        line-height: 20px;
+      }
+
+      .max-width {
+        max-width: 196px;
+      }
+
+      .detail-icon {
+        margin: 0 16px;
+        line-height: 20px;
+        height: 20px;
+
+        i {
+          font-size: 40px;
+          color: #878787;
+        }
+
+      }
+
+      .detail-after {
+        color: #045340;
+        max-width: 196px;
+        line-height: 20px;
+      }
+
+      .after-icon {
+        margin-left: 8px;
+        width: 40px;
+        height: 20px;
+        background-color: rgb(39, 148, 248, 0.1);
+        border-radius: 2px;
+        color: #045340;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+      }
+
+    }
+
+  }
+
+}
+.el-tabs {
+  height: initial;
+}

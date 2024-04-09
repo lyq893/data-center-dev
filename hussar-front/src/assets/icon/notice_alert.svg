@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>提示_警告</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="应用管理-删除应用" transform="translate(-897.000000, -519.000000)">
+            <g id="编组-12" transform="translate(800.000000, 440.000000)">
+                <g id="编组-11" transform="translate(96.000000, 76.000000)">
+                    <g id="检查-警告" transform="translate(0.000000, 2.000000)">
+                        <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                        <path d="M10,1.25 C5.1675,1.25 1.25,5.1675 1.25,10 C1.25,14.8325 5.1675,18.75 10,18.75 C14.8325,18.75 18.75,14.8325 18.75,10 C18.75,5.1675 14.8325,1.25 10,1.25 Z M10,16.25 C9.31,16.25 8.75,15.69 8.75,15 C8.75,14.31 9.31,13.75 10,13.75 C10.69,13.75 11.25,14.31 11.25,15 C11.25,15.69 10.69,16.25 10,16.25 Z M11.25,12.5 L8.75,12.5 L8.75,3.75 L11.25,3.75 L11.25,12.5 Z" id="形状" fill="#FFAB17" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

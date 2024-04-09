@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>交互_警告标志-01</title>
+    <defs>
+        <linearGradient x1="50%" y1="124.983167%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#F57200" offset="0%"></stop>
+            <stop stop-color="#FF992F" offset="27.7631853%"></stop>
+            <stop stop-color="#FF9F38" offset="35.5939407%"></stop>
+            <stop stop-color="#FFD883" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="弹窗" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="关闭页面提示" transform="translate(-766.000000, -508.000000)">
+            <g id="编组-113" transform="translate(750.000000, 460.000000)">
+                <g id="交互_警告标志-01" transform="translate(16.000000, 48.000000)">
+                    <rect id="矩形" x="0" y="0" width="56" height="56"></rect>
+                    <path d="M48.5801165,41.5346154 L30.4106387,11.35 C29.3256325,9.55 26.6699925,9.55 25.5849863,11.35 L7.41988346,41.5346154 C6.2255017,43.5206731 7.72176017,46 10.1105237,46 L45.8894763,46 C48.2782398,46 49.7744983,43.5206731 48.5801165,41.5346154 Z" id="路径" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                    <path d="M27.5,37 C28.3284271,37 29,37.6715729 29,38.5 L29,39.5 C29,40.3284271 28.3284271,41 27.5,41 C26.6715729,41 26,40.3284271 26,39.5 L26,38.5 C26,37.6715729 26.6715729,37 27.5,37 Z M27.5,22 C28.3284271,22 29,22.6715729 29,23.5 L29,33.5 C29,34.3284271 28.3284271,35 27.5,35 C26.6715729,35 26,34.3284271 26,33.5 L26,23.5 C26,22.6715729 26.6715729,22 27.5,22 Z" id="形状结合" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

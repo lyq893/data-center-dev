@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>左</title>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分页器" transform="translate(-211.000000, -7.000000)">
+            <g id="翻页器_左" transform="translate(204.000000, 0.000000)">
+                <g id="左" transform="translate(7.000000, 7.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                    <polygon id="Page_1-2" fill="#969696" fill-rule="nonzero" points="11.72 3.061 7.12 7.661 11.72 12.261 10.659 13.318 5 7.659 6.061 6.6 10.659 2"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,53 @@
+/**
+ * Created by 计丹红 on 2021/1/20.
+ * 目前只有iconClasses.json，其他命名格式的json不会被读取
+ **/
+{
+  /**
+   * 此为引用配置
+   * type: 目前情况只有web端和移动端
+   * web端为网页选择图标，mobile为移动端选择的图标
+   * web对应的value值即为相应的图标的存放位置
+   * 后续添加任何其他类型，可以此类推相对应
+   **/
+  "web": "iconLists",
+  /**
+   * 此为图标配置处
+   * key值可以任意命名，如与上侧引用配置一致
+   * type: 类型分类，可自行分区配置
+   * iconList: 图标列表
+   * iconList的class: 图标类名，必填，查找搜寻可用，主要用于展示图标
+   * iconList的font: 图标字体，非必填（element图标非必填，阿里巴巴图标必填），主要用于iconfont的字体，具体可查看阿里巴巴图标库使用说明
+   * iconList的title: 图标中文名，非必填，为方便查找搜寻用的
+   * iconList的type: 图标样式，i和svg类型，默认i标签，暂时不支持svg类型（包括2.0.7_beta版本系列）
+   **/
+  "iconLists": [
+    {
+      "type": "常用",
+      "iconList": [
+        {
+          "class": "jxd-clear",
+          "font": "jxdGodAxe",
+          "title": "清空",
+          "type": "svg"
+        },
+        {
+          "class": "el-icon-delete",
+          "title": "删除",
+          "type": "i"
+        }
+      ]
+    },
+    {
+      "type": "不常用",
+      "iconList": [
+        {
+          "class": "jxd-save",
+          "font": "jxdGodAxe",
+          "title": "保存",
+          "type": "i"
+        }
+      ]
+    }
+  ]
+}

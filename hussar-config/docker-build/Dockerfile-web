@@ -1,0 +1,34 @@
+FROM adoptopenjdk/openjdk8:latest
+LABEL maintainer="wangbinbin <bjw211@126.com>"
+
+ENV BASE_DIR="/home/hussar" \
+    JAVA_HOME="/opt/java/openjdk/" \
+    JAVA="/opt/java/openjdk/bin/java" \
+    HUSSAR_DEBUG="n" \
+    TZ="Asia/Shanghai"
+
+RUN ln -sf /usr/share/zoneinfo/${TZ} /etc/localtime
+RUN echo ${TZ} > /etc/timezone
+RUN sed -i 's/jdk.tls.disabledAlgorithms=SSLv3, TLSv1, TLSv1.1,/jdk.tls.disabledAlgorithms=SSLv3, /g' /opt/java/openjdk/jre/lib/security/java.security
+
+RUN mkdir -p $BASE_DIR/config
+# hussar-web project store 进行隔离
+RUN mkdir -p $BASE_DIR/workspace/hussar-front  && mkdir -p $BASE_DIR/workspace/hussar-config && mkdir -p $BASE_DIR/workspace/sql
+# 每一次项目启动的时候需要将编译服务执行编译之后的代码copy到对应的数据卷里，供nginx 和 compile 进行使用
+RUN mkdir -p $BASE_DIR/init
+WORKDIR $BASE_DIR
+COPY ./depend-support/hussar-config-copy $BASE_DIR/workspace/hussar-config
+COPY ./depend-support/sql $BASE_DIR/workspace/sql
+COPY ./depend-support/.gitignore $BASE_DIR/workspace/
+COPY ./depend-support/hussar-web.jar $BASE_DIR/app.jar
+ADD ./depend-support/JavaAgent.tar $BASE_DIR/
+COPY ./depend-support/application-dev.yml $BASE_DIR/config/application-dev.yml
+COPY ./depend-support/application.yml $BASE_DIR/config/application.yml
+COPY ./depend-support/hussar-startup.sh $BASE_DIR/
+ADD ./depend-support/hussar-web.tar $BASE_DIR/init/
+RUN ls $BASE_DIR/workspace
+RUN ls $BASE_DIR/workspace/hussar-config
+RUN ls $BASE_DIR/workspace/sql
+RUN ls $BASE_DIR/workspace/hussar-front
+RUN chmod +x hussar-startup.sh
+ENTRYPOINT ["sh","hussar-startup.sh"]

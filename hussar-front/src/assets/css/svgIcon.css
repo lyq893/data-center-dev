@@ -1,0 +1,13 @@
+:root{
+    /* 主题蓝色 */
+    --c-themeColor:#045340;
+}
+/*#app .sidebar-container .nest-menu .svg-icon{*/
+/*    color: var(--c-themeColor) !important;*/
+/*}*/
+/*#app .sidebar-container .el-menu-item.is-active{*/
+/*    color: var(--c-themeColor) !important;*/
+/*}*/
+.svg-icon{
+    color: var(--c-themeColor);
+}

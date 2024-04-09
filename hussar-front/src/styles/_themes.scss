@@ -1,0 +1,335 @@
+$themes: (
+
+        default: (
+          //字体
+                font_color1: #FFFFFF,
+                font_color2: #F8704A,
+                font_color3: #045340,
+                font_color4: #045340,
+
+          //背景
+                background_color1: #045340,
+                background_color2: #FFEAE4,
+                background_color3: #F8704A,
+                background_color4: rgb(38, 149, 249, 0.1),
+                background_color5: #FFFFFF,
+                background_color6: #FCFCFC,
+                background_color7: #1D6453,
+                background_color8: #44a5ff,
+                background_color9: #087de8,
+                background_color10: #f6f7f9,
+                background_color11: #f1f2f3,
+                background_color12: #eaf5ff,
+                background_color13: #f5f7fa,
+                background_color14: #045340, //新加
+                background_color15: #DDE5E3, //新加
+                background_color16: #1079D9, //新加-按钮交互
+                background_color17: rgb(39,148,248,0.1),
+                background_color18: #ffffff,
+                background_color19: rgba(39,148,248,0.7),
+                background_color20: #DDE5E3,
+
+          //边框
+                border_color1: #045340,
+                border_color2: #F8704A,
+                border_color3: rgb(38, 149, 249, 0.1),
+                border_color4: #045340, //新加
+                border1: 1px solid #045340,
+                border2: 10px solid #045340,
+                border3: 5px solid #045340,
+                border4: 3px solid #045340,
+                border5: 1px solid #045340,
+                border6: 1px solid #cfd4e5,
+                border7: 1px solid #dcdfe6,
+
+          //颜色
+                color1: #045340,
+                color2: #0094FF,
+                color3: #045340,
+                color4: #1D6453,
+                color5: #c6c6c6,
+                color6: #c0c4cc,
+                color7: #F5F7FA,
+                color8: #F1F3F6,
+                color9: #3796F3, //新加，无对应色
+
+                stroke: #045340,
+
+                box-shadow: 0 1px 1px 0 rgba(41, 99, 255, 0.6),
+                box-shadow2: 0 0 1px 1px rgba(38, 149, 249, 0.2),
+                box-shadow3: 0px 1px 5px 0px rgba(39, 148, 248, 0.4),
+
+                fill: #045340,
+
+                -webkit-box-shadow: 0 1px 1px 0 rgba(41, 99, 255, 0.6),
+
+                background_tenant: url(~@/assets/business/index/changeTenant.svg) no-repeat center,
+
+                //背景
+                background_navar_icon_skin: url(~@/assets/img/sys/sys-ico-skin.png) no-repeat center center,
+                background_navar_icon_full: url(~@/assets/img/sys/sys-ico-full.png) no-repeat center center,
+                background_navar_icon_exit: url(~@/assets/img/sys/sys-ico-exit.png) no-repeat center center,
+                background_navar_icon_persion: url(~@/assets/img/sys/sys-ico-info.png) no-repeat center center,
+                background_navar_icon_pwd: url(~@/assets/img/sys/sys-ico-lock.png) no-repeat center center,
+                background_navar_icon_secret: url(~@/assets/img/sys/sys-ico-secret.png) no-repeat center center,
+                background_navar_icon_avatar: url(~@/assets/img/navbar/avatar.png) no-repeat center center,
+
+                background_aside-img1: url(~@/assets/img/skin/1blue.png) no-repeat center center,
+                background_aside-img2: url(~@/assets/img/skin/2blue.png) no-repeat center center,
+                background_aside-img3: url(~@/assets/img/skin/3blue.png) no-repeat center center,
+
+                background_nine-item-1: url(~@/assets/img/skin/iconhart-blue1.png),
+                background_nine-item-2: url(~@/assets/img/skin/iconhuancun-blue1.png),
+                background_nine-item-3: url(~@/assets/img/skin/iconclock-blue1.png),
+                background_nine-item-4: url(~@/assets/img/skin/iconcheck-blue1.png),
+                background_nine-item-5: url(~@/assets/img/skin/icon-renw-blue1.png),
+                background_nine-item-6: url(~@/assets/img/skin/iconlog-blue1.png),
+                background_nine-item-7: url(~@/assets/img/skin/iconchijiuc-blue1.png),
+                background_nine-item-8: url(~@/assets/img/skin/iconfront-blue1.png),
+                background_nine-item-9: url(~@/assets/img/skin/iconshuj-blue1.png),
+
+                background_link-item1: url(~@/assets/img/skin/group-icon-blue1.png) no-repeat,
+                background_link-item2: url(~@/assets/img/skin/qq-icon-blue1.png) no-repeat,
+                background_link-item3: url(~@/assets/img/skin/phone-icon-blue1.png) no-repeat,
+                background_link-item4: url(~@/assets/img/skin/mile-icon-blue1.png) no-repeat,
+
+                background_img1: url("~@/assets/img/skin/1.png") no-repeat,
+                background_img2: url("~@/assets/img/skin/2.png") no-repeat,
+                background_img3: url("~@/assets/img/skin/3.png") no-repeat,
+
+                background_quotation-mark1: url('~@/assets/img/skin/quotation-mark1.png') no-repeat,
+                background_quotation-mark2: url('~@/assets/img/skin/quotation-mark2.png') no-repeat,
+                background_quotation-mark3: url('~@/assets/img/skin/quotation-mark2.png') no-repeat,
+                background_quotation-mark4: url('~@/assets/img/skin/quotation-mark1.png') no-repeat,
+
+                background_question-icon: url('~@/assets/img/skin/question-mark.png') no-repeat,
+
+                background_triangle1: url(~@/assets/img/skin/triangle1blue.png) no-repeat right bottom,
+                background_triangle2: url(~@/assets/img/skin/triangle2blue.png) no-repeat right bottom,
+                background_triangle3: url(~@/assets/img/skin/triangle3blue.png) no-repeat right bottom,
+                background_triangle4: url(~@/assets/img/skin/triangle4blue.png) no-repeat right bottom,
+                background_triangle5: url(~@/assets/img/skin/triangle5blue.png) no-repeat right bottom,
+                //日期选择框图标
+                //background_date_editor: url(~@/assets/img/datepicker/icon-date.png) no-repeat center,
+                background_date_editor: url(~@/assets/img/datepicker/date_defult.png) no-repeat center,
+),
+        green: (
+          //字体
+                font_color1: #FFFFFF,
+                font_color2: #F8704A,
+                font_color3: #03bab3,
+                font_color4: #0CC2BB,
+          //背景
+                background_color1: #03bab3,
+                background_color2: #FFEAE4,
+                background_color3: #F8704A,
+                background_color4: rgba(3, 186, 179, 0.1),
+                background_color5: #FFFFFF,
+                background_color6: #FCFCFC,
+                background_color7: #077F7A,
+                background_color8: #0ab8b2,
+                background_color9: #03908b,
+                background_color10: #f1f6f6,
+                background_color11: #ebefef,
+                background_color12: #edf8f8,
+                background_color13: #f8fcfc,
+                background_color14: #03bab3,
+                background_color15: #edf8f8,
+                background_color16: #077F7A,
+                background_color17: rgb(3,186,179,0.1),
+                background_color18: #ffffff,
+                background_color19: rgb(3,186,179,0.7),
+                background_color20: #edf8f8,
+
+          //边框
+                border_color1: #03bab3,
+                border_color2: #F8704A,
+                border_color3: rgb(3, 186, 179, 0.1),
+                border_color4: #04bab3,
+                border1: 1px solid #03bab3,
+                border2: 10px solid #03bab3,
+                border3: 5px solid #03bab3,
+                border4: 3px solid #04bab3,
+                border5: 1px solid #04bab3,
+                border6: 1px solid #cadede,
+                border7: 1px solid #e4eaea,
+
+                //图片
+                background-image1: url(~@/assets/img/skin/iconhart.png) no-repeat,
+                background-image2: url(~@/assets/img/skin/iconhuancun.png) no-repeat,
+                //颜色
+                color1: #03bab3,
+                color2: #15c1ba,
+                color3: #04bab3,
+                color4: #0a9c96,
+                color5: #C6C6C6,
+                color6: #b7c6c5,
+                color7: #F5F7FA,
+                color8: #F1F3F6,
+
+                stroke: #03bab3,
+
+                box-shadow: 0 1px 1px 0 rgba(14, 220, 255, 0.6),
+                box-shadow2: 0 0 1px 1px rgba(3, 186, 179, 0.2),
+                box-shadow3: 0px 1px 5px 0px rgba(4, 186, 179, 0.4),
+
+                fill: #03bab3,
+
+                -webkit-box-shadow: 0 1px 1px 0 rgba(14, 220, 255, 0.6),
+
+                background_tenant: url("~@/assets/business/index/changeTenant_green.svg") no-repeat center,
+
+                background_navar_icon_skin: url(~@/assets/img/skin/green/skin2.png) no-repeat center center,
+                background_navar_icon_full: url(~@/assets/img/skin/green/full2.png) no-repeat center center,
+                background_navar_icon_exit: url(~@/assets/img/skin/green/exit2.png) no-repeat center center,
+                background_navar_icon_persion: url(~@/assets/img/skin/green/person2.png) no-repeat center center,
+                background_navar_icon_pwd: url(~@/assets/img/skin/green/mima2.png) no-repeat center center,
+                background_navar_icon_secret: url(~@/assets/img/skin/green/mibao2.png) no-repeat center center,
+                background_navar_icon_avatar: url(~@/assets/img/skin/green/admin2.png) no-repeat center center,
+
+                background_aside-img1: url(~@/assets/img/skin/1.jpg) no-repeat center center,
+                background_aside-img2: url(~@/assets/img/skin/2.jpg) no-repeat center center,
+                background_aside-img3: url(~@/assets/img/skin/3.jpg) no-repeat center center,
+
+                background_nine-item-1: url(~@/assets/img/skin/iconhart.png) ,
+                background_nine-item-2: url(~@/assets/img/skin/iconhuancun.png) ,
+                background_nine-item-3: url(~@/assets/img/skin/iconclock.png) ,
+                background_nine-item-4: url(~@/assets/img/skin/iconcheck.png) ,
+                background_nine-item-5: url(~@/assets/img/skin/icon-renw.png) ,
+                background_nine-item-6: url(~@/assets/img/skin/iconlog.png) ,
+                background_nine-item-7: url(~@/assets/img/skin/iconchijiuc.png) ,
+                background_nine-item-8: url(~@/assets/img/skin/iconfront.png) ,
+                background_nine-item-9: url(~@/assets/img/skin/iconshuj.png) ,
+
+                background_link-item1: url(~@/assets/img/skin/group-icon.png) no-repeat,
+                background_link-item2: url(~@/assets/img/skin/qq-icon.png) no-repeat,
+                background_link-item3: url(~@/assets/img/skin/phone-icon.png) no-repeat,
+                background_link-item4: url(~@/assets/img/skin/mile-icon.png) no-repeat,
+
+                background_quotation-mark1: url('~@/assets/img/skin/quotation-mark1.jpg') no-repeat,
+                background_quotation-mark2: url('~@/assets/img/skin/quotation-mark2.jpg') no-repeat,
+                background_quotation-mark3: url('~@/assets/img/skin/quotation-mark2.jpg') no-repeat,
+                background_quotation-mark4: url('~@/assets/img/skin/quotation-mark1.jpg') no-repeat,
+
+                background_question-icon: url('~@/assets/img/skin/question-mark.jpg') no-repeat,
+
+                background_triangle1: url(~@/assets/img/skin/triangle1.png) no-repeat right bottom,
+                background_triangle2: url(~@/assets/img/skin/triangle2.png) no-repeat right bottom,
+                background_triangle3: url(~@/assets/img/skin/triangle3.png) no-repeat right bottom,
+                background_triangle4: url(~@/assets/img/skin/triangle4.png) no-repeat right bottom,
+                background_triangle5: url(~@/assets/img/skin/triangle5.png) no-repeat right bottom,
+                //日期选择框图标
+                background_date_editor: url(~@/assets/img/skin/green/icon-date1.png) no-repeat center,
+        ),
+        red:(
+                //字体
+                font_color1: #FFFFFF,
+                font_color2: #F8704A,
+                font_color3: #EB7E65,
+                font_color4: #045340,
+
+                //背景
+                background_color1: #EB7E65,
+                background_color2: #FFEAE4,
+                background_color3: #F8704A,
+                background_color4: rgb(38, 149, 249, 0.1),
+                background_color5: #FFFFFF,
+                background_color6: #FCFCFC,
+                background_color7: #eb5d52,
+                background_color8: #44a5ff,
+                background_color9: #087de8,
+                background_color10: #f6f7f9,
+                background_color11: #f1f2f3,
+                background_color12: #eaf5ff,
+                background_color13: #f5f7fa,
+                background_color14: #EB7E65,
+                background_color15: #eaf5ff,
+                background_color16: #eb5d52,
+                background_color17: rgb(235,126,101,0.1),
+                background_color18: #ffffff,
+                background_color19: rgb(235,126,101,0.7),
+                background_color20: #eaf5ff,
+
+                //边框
+                border_color1: #EB7E65,
+                border_color2: #F8704A,
+                border_color3: rgb(38, 149, 249, 0.1),
+                border_color4: #EB7E65,
+                border1: 1px solid #EB7E65,
+                border2: 10px solid #EB7E65,
+                border3: 5px solid #EB7E65,
+                border4: 3px solid #EB7E65,
+                border5: 1px solid #EB7E65,
+                border6: 1px solid #cfd4e5,
+                border7: 1px solid #dcdfe6,
+
+                //颜色
+                color1: #EB7E65,
+                color2: #0094FF,
+                color3: #EB7E65,
+                color4: #eb5d52,
+                color5: #c6c6c6,
+                color6: #c0c4cc,
+                color7: #F5F7FA,
+                color8: #F1F3F6,
+
+                stroke:#EB7E65,
+
+                box-shadow: 0 1px 1px 0 rgba(41, 99, 255, 0.6),
+                box-shadow2: 0 0 1px 1px rgba(38, 149, 249, 0.2),
+                box-shadow3: 0px 1px 5px 0px rgba(39, 148, 248, 0.4),
+
+                fill: #EB7E65,
+
+                -webkit-box-shadow: 0 1px 1px 0 rgba(41, 99, 255, 0.6),
+
+                background_tenant: url("~@/assets/business/index/changeTenant_red.svg") no-repeat center,
+
+                //背景
+                background_navar_icon_skin: url(~@/assets/img/sys/sys-ico-skin.png) no-repeat center center,
+                background_navar_icon_full: url(~@/assets/img/sys/sys-ico-full.png) no-repeat center center,
+                background_navar_icon_exit: url(~@/assets/img/sys/sys-ico-exit.png) no-repeat center center,
+                background_navar_icon_persion: url(~@/assets/img/sys/sys-ico-info.png) no-repeat center center,
+                background_navar_icon_pwd: url(~@/assets/img/sys/sys-ico-lock.png) no-repeat center center,
+                background_navar_icon_secret: url(~@/assets/img/sys/sys-ico-secret.png) no-repeat center center,
+                background_navar_icon_avatar: url(~@/assets/img/navbar/avatar.png) no-repeat center center,
+
+                background_aside-img1: url(~@/assets/img/skin/1blue.png) no-repeat center center,
+                background_aside-img2: url(~@/assets/img/skin/2blue.png) no-repeat center center,
+                background_aside-img3: url(~@/assets/img/skin/3blue.png) no-repeat center center,
+
+                background_nine-item-1: url(~@/assets/img/skin/iconhart-blue1.png),
+                background_nine-item-2: url(~@/assets/img/skin/iconhuancun-blue1.png),
+                background_nine-item-3: url(~@/assets/img/skin/iconclock-blue1.png),
+                background_nine-item-4: url(~@/assets/img/skin/iconcheck-blue1.png),
+                background_nine-item-5: url(~@/assets/img/skin/icon-renw-blue1.png),
+                background_nine-item-6: url(~@/assets/img/skin/iconlog-blue1.png),
+                background_nine-item-7: url(~@/assets/img/skin/iconchijiuc-blue1.png),
+                background_nine-item-8: url(~@/assets/img/skin/iconfront-blue1.png),
+                background_nine-item-9: url(~@/assets/img/skin/iconshuj-blue1.png),
+
+                background_link-item1: url(~@/assets/img/skin/group-icon-blue1.png) no-repeat,
+                background_link-item2: url(~@/assets/img/skin/qq-icon-blue1.png) no-repeat,
+                background_link-item3: url(~@/assets/img/skin/phone-icon-blue1.png) no-repeat,
+                background_link-item4: url(~@/assets/img/skin/mile-icon-blue1.png) no-repeat,
+
+                background_img1: url("~@/assets/img/skin/1.png") no-repeat,
+                background_img2: url("~@/assets/img/skin/2.png") no-repeat,
+                background_img3: url("~@/assets/img/skin/3.png") no-repeat,
+
+                background_quotation-mark1: url('~@/assets/img/skin/quotation-mark1.png') no-repeat,
+                background_quotation-mark2: url('~@/assets/img/skin/quotation-mark2.png') no-repeat,
+                background_quotation-mark3: url('~@/assets/img/skin/quotation-mark2.png') no-repeat,
+                background_quotation-mark4: url('~@/assets/img/skin/quotation-mark1.png') no-repeat,
+
+                background_question-icon: url('~@/assets/img/skin/question-mark.png') no-repeat,
+
+                background_triangle1: url(~@/assets/img/skin/triangle1blue.png) no-repeat right bottom,
+                background_triangle2: url(~@/assets/img/skin/triangle2blue.png) no-repeat right bottom,
+                background_triangle3: url(~@/assets/img/skin/triangle3blue.png) no-repeat right bottom,
+                background_triangle4: url(~@/assets/img/skin/triangle4blue.png) no-repeat right bottom,
+                background_triangle5: url(~@/assets/img/skin/triangle5blue.png) no-repeat right bottom,
+                //日期选择框图标
+                background_date_editor: url(~@/assets/img/datepicker/icon-date_red.png) no-repeat center,
+        )
+);

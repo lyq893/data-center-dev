@@ -1,0 +1,244 @@
+::v-deep .el-table th.is-leaf {
+  border: none !important;
+}
+
+ul,li {
+  list-style: none;
+}
+@mixin myBorder{
+  box-sizing: border-box;
+  border: 1px solid #E7E7E7;
+  border-radius: 2px;
+}
+@mixin cardTit {
+  color: #4A4C66;
+  font-weight: bold;
+  font-size: 14px;
+  height: 32px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 9px 0 14px;
+}
+::v-deep .workFlow-dialog {
+  border-radius: 4px;
+  overflow: hidden !important;
+  .el-dialog__header {
+    padding: 0 16px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    background: #F6F7F8;
+    position: relative;
+    .el-dialog__title {
+      color: #4A4C66;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+  .el-dialog__headerbtn {
+    margin: 1px -6px 0 0;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+  }
+  .el-dialog__body {
+    overflow: auto;
+    height: calc(100% - 100px);
+    padding: 24px 50px;
+    box-sizing: border-box;
+    .el-pagination .el-pager li {
+      line-height: 24px;
+    }
+  }
+  .el-dialog__footer {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .dialog-footer {
+      display: flex;
+    }
+    .el-button {
+      margin: 0 0 0 16px;
+    }
+  }
+  .node-ul {
+    height: calc(100% - 36px);
+    overflow: auto;
+    @mixin activeLi {
+      background: #EAF4FE;
+      .item-name {
+        color: #045340;
+      }
+    }
+    li {
+      height: 32px;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #4A4C66;
+      cursor: pointer;
+      .item-name {
+        width: calc(100% - 45px);
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+      }
+      .item-btn {
+        margin-left: 5px;
+        width: 40px;
+        display: flex;
+        justify-content: space-between;
+      }
+      i {
+        color: #878787;
+        &:hover {
+          color: #045340;
+        }
+      }
+      &.actLi {
+        @include activeLi;
+      }
+      &:hover {
+        @include activeLi;
+      }
+    }
+  }
+  .el-pagination {
+    height: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .btn-prev, .btn-next {
+      background: none;
+      height: 24px;
+      color: #6B7280;
+      padding-top: 2px;
+      box-sizing: border-box;
+      font-weight: normal;
+    }
+    span, button {
+      font-size: 12px !important;
+    }
+    .el-pager li {
+      height: 24px;
+      padding: 0;
+      border-radius: 4px;
+      min-width: 24px;
+      font-weight: normal;
+    }
+    .el-pagination__jump {
+      font-size: 12px;
+      color: #6B7280;
+    }
+    .el-input__inner {
+      width: 32px;
+      height: 24px;
+      border: 1px solid #F2F2F2;
+      border-radius: 2px;
+    }
+    .el-input__inner:hover {
+      border-color: #045340;
+    }
+  }
+  .work-tree {
+    .el-tree-node.is-current {
+      >.el-tree-node__content {
+        background: #DDE5E3 !important;
+        color: #045340;
+        border-radius: 0 18px 18px 0;
+      }
+    }
+  }
+  .table-tit {
+    padding: 0 9px 0 25px !important;
+  }
+  .workflow-table {
+    thead tr {
+      th .cell {
+        padding: 0 !important;
+      }
+      th:not(:first-child) {
+        border-bottom: 1px solid #EAEAEA !important;
+      }
+    }
+    tr td .cell {
+      padding: 0 !important;
+    }
+  }
+  .tree-inp {
+    .el-input__inner {
+      //border-color: transparent;
+      border-radius: 16px;
+      background: #F5F5F5;
+      &:hover {
+        border-color: #045340;
+      }
+      &:focus {
+        background: transparent;
+      }
+      &::placeholder {
+        text-align: right;
+      }
+    }
+    &.no-bg {
+      .el-input__inner {
+        background: transparent;
+      }
+    }
+  }
+  .copy-inp {
+    color: transparent;
+    position: absolute;
+    top: 0;
+    .el-input__inner {
+      background: none;
+      &::placeholder {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.pop-box {
+  height: auto;
+  max-height: 400px;
+  overflow: auto;
+  >div:nth-child(2) {
+    border-top: 1px solid #EAEAEA;
+  }
+}
+.div-label {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  &:not(.div-pop) {
+    justify-content: space-between;
+  }
+  padding: 0 12px;
+  &.div-pop {
+    cursor: pointer;
+    &:hover {
+      background: #DDE5E3;
+      color: #045340;
+    }
+  }
+  .label-btn {
+    color: #045340;
+    cursor: pointer;
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+}

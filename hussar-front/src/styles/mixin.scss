@@ -1,0 +1,184 @@
+@import "variables";
+@import "themes";
+@import "international";
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin scrollBar {
+  &::-webkit-scrollbar-track-piece {
+    background: #d3dce6;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #99a9bf;
+    border-radius: 20px;
+  }
+}
+
+@mixin relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+//遍历主题map
+@mixin themeify {
+  @each $theme-name, $theme-map in $themes {
+    //!global 把局部变量强升为全局变量
+    $theme-map: $theme-map !global;
+    //判断html的data-theme的属性值  #{}是sass的插值表达式
+    //& sass嵌套里的父容器标识   @content是混合器插槽，像vue的slot
+    [data-theme="#{""+$theme-name}"] & {
+      @content;
+    }
+  }
+}
+
+@function themed($key) {
+  @return map-get($theme-map, $key);
+}
+
+@mixin background_color($color) {
+  @include themeify {
+    background-color: themed($color)!important;
+  }
+}
+@mixin font_color($color) {
+  @include themeify {
+    color: themed($color)!important;
+  }
+}
+@mixin border_color($color) {
+  @include themeify {
+    border-color: themed($color)!important;
+  }
+}
+@mixin color($color) {
+  @include themeify {
+    color: themed($color)!important;
+  }
+}
+@mixin background_image($color) {
+  @include themeify {
+    background-image: themed($color)!important;
+  }
+}
+@mixin background($color) {
+  @include themeify {
+    background: themed($color)!important;
+  }
+}
+@mixin border($color) {
+  @include themeify {
+    border: themed($color)!important;
+  }
+}
+@mixin border_right($color) {
+  @include themeify {
+    border-right: themed($color)!important;
+  }
+}
+@mixin border_left($color) {
+  @include themeify {
+    border-left: themed($color)!important;
+  }
+}
+@mixin border_top($color) {
+  @include themeify {
+    border-top: themed($color)!important;
+  }
+}
+@mixin border_bottom($color) {
+  @include themeify {
+    border-bottom: themed($color)!important;
+  }
+}
+@mixin stroke($color) {
+  @include themeify {
+    stroke: themed($color)!important;
+  }
+}
+@mixin box_shadow($color) {
+  @include themeify {
+    box-shadow: themed($color)!important;
+  }
+}
+@mixin svg_icon_fill($color) {
+  @include themeify {
+    fill: themed($color)!important;
+  }
+}
+@mixin webkit_box_shadow($color) {
+  @include themeify {
+    -webkit-box-shadow: themed($color)!important;
+  }
+}
+
+//遍历国际化样式列表
+@mixin international {
+  @each $international-name, $international-map in $international {
+    //!global 把局部变量强升为全局变量
+    $international-map: $international-map !global;
+    [international-style="#{""+$international-name}"] & {
+      @content;
+    }
+  }
+}
+
+@function internationalKey($key) {
+  @return map-get($international-map, $key);
+}
+@mixin buttonWidth($style) {
+  @include international {
+    width: internationalKey($style)!important;
+  }
+}
+@mixin maxWidth($style) {
+  @include international {
+    max-width: internationalKey($style)!important;
+  }
+}
+@mixin marginLeft($style) {
+  @include international {
+    margin-left: internationalKey($style)!important;
+  }
+}
+@mixin right($style) {
+  @include international {
+    right: internationalKey($style)!important;
+  }
+}
+@mixin padding($color) {
+  @include themeify {
+    padding: themed($color)!important;
+  }
+}
+@mixin width($color) {
+  @include themeify {
+    width: themed($color)!important;
+  }
+}
+@mixin maxWidth($color) {
+  @include themeify {
+    max-width: themed($color)!important;
+  }
+}
+@mixin left($color) {
+  @include themeify {
+    left: themed($color)!important;
+  }
+}
+@mixin colHeight($color) {
+  @include themeify {
+    height: themed($color)!important;
+  }
+}

@@ -1,0 +1,119 @@
+//-----------------滚-动条----------------
+.el-scrollbar__wrap {
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+  overflow: auto;
+}
+//垂直滚动条
+::-webkit-scrollbar-thumb:vertical {
+  background: (rgba(209, 209, 209, 0.7));
+  border-radius: 7px;
+  background-clip: content-box;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  &:hover{
+    background: (rgba(209, 209, 209, 1));
+    background-clip: content-box;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+  }
+}
+//轨道
+::-webkit-scrollbar-track {
+  background-color: inherit;
+  border: 0;
+}
+//左侧菜单
+.sidebar-container .el-menu::-webkit-scrollbar {
+  width: 0;
+}
+
+//水平滚动条
+::-webkit-scrollbar-thumb:horizontal {
+  background: (rgba(209, 209, 209, 0.7));
+  border-radius: 7px;
+  background-clip: content-box;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  &:hover{
+    background: (rgba(209, 209, 209, 1));
+    background-clip: content-box;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent
+  }
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background-color: inherit;
+  border: 0;
+}
+
+//滚动条交接点背景色
+::-webkit-scrollbar-corner{
+  background-color: inherit;
+}
+
+//perfect scrollbar
+.console-body{
+  //滚动条整体
+  .ps:hover > .ps__rail-x, .ps:hover > .ps__rail-y, .ps--focus > .ps__rail-x, .ps--focus > .ps__rail-y, .ps--scrolling-x > .ps__rail-x, .ps--scrolling-y > .ps__rail-y{
+    opacity: 1;
+  }
+  //轨道
+  .ps .ps__rail-x:hover, .ps .ps__rail-y:hover, .ps .ps__rail-x:focus, .ps .ps__rail-y:focus, .ps .ps__rail-x.ps--clicking, .ps .ps__rail-y.ps--clicking{
+    background-color: transparent;
+    opacity: 1;
+  }
+  //滚动条轨道悬浮
+  .ps__rail-y:hover > .ps__thumb-y, .ps__rail-y:focus > .ps__thumb-y, .ps__rail-y.ps--clicking .ps__thumb-y{
+    background-color: rgba(209, 209, 209, 1);
+    right: 4px;
+    width: 8px;
+  }
+  .ps__rail-x:hover > .ps__thumb-x, .ps__rail-y:focus > .ps__thumb-x, .ps__rail-x.ps--clicking .ps__thumb-x{
+    background-color: rgba(209, 209, 209, 1);
+    height: 8px;
+    bottom: 4px;
+  }
+  //滚动条
+  .ps__thumb-y{
+    width: 8px;
+    right: 4px;
+    background-color: rgba(209, 209, 209, 0.7);
+
+    &:hover{
+      background-color: rgba(209, 209, 209, 1);
+    }
+  }
+  .ps__thumb-x{
+    height: 8px;
+    bottom: 4px;
+    background-color: rgba(209, 209, 209, 0.7);
+
+    &:hover{
+      background-color: rgba(209, 209, 209, 1);
+    }
+  }
+}
+
+//el-scrollbar 目前用于抽屉
+.el-scrollbar__bar.is-vertical{
+  width: 8px;
+  right: 4px;
+}
+.el-scrollbar__bar.is-horizontal{
+  height: 8px;
+  bottom: 4px;
+}
+
+.el-scrollbar__thumb{
+  background-color: rgba(209, 209, 209, 0.7);
+
+  &:hover{
+    background-color: rgba(209, 209, 209, 1);
+  }
+}

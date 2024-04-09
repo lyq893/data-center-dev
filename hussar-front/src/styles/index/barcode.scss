@@ -1,0 +1,35 @@
+/**
+  条形码解析组件弹窗样式
+ */
+.barcode-dialog .el-dialog__footer{
+  padding-right: 35px !important;
+  text-align: right !important;
+}
+.barcode-dialog canvas.drawingBuffer {
+  width: 0;
+  height: 0;
+}
+/**
+  条形码解析组件弹窗_取消按钮样式
+ */
+.cancel-dialog-button {
+  background-color: var(--c-whiteColor) !important;
+  color: var(--c-themeColor) !important;
+  border: 1px solid var(--c-themeColor) !important;
+}
+.cancel-dialog-button:focus-within,
+.cancel-dialog-button:hover {
+  color: var(--c-whiteColor) !important;
+  background-color: var(--c-themeColor) !important;
+}
+.cancel-dialog-button:active {
+  background-color: var(--c-keyDownColor) !important;
+}
+/**
+  条形码解析组件弹窗_上传(提交)按钮样式
+ */
+.primary-dialog-button {
+  background-color: var(--c-themeColor) !important;
+  color: var(--c-whiteColor) !important;
+  border: 1px solid var(--c-themeColor) !important;
+}

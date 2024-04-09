@@ -1,0 +1,29 @@
+// 文字按钮按钮组
+.btn-box {
+  font-size: 14px;
+  font-family: PingFangSC, PingFangSC-Regular;
+  color: #1E8F74;
+  line-height: 20px;
+
+  .b-tn-text {
+    cursor: pointer;
+
+    &:hover {
+      color: #1E8F74 !important;
+    }
+
+    &:active {
+      color: #1E8F74;
+    }
+  }
+  .b-tn-text-disabled {
+    //pointer-events: none;
+    cursor: not-allowed;
+    color: var(--c-placeholderIconColor);
+  }
+}
+// 按钮组
+.jxd-button-group-item.el-dropdown-menu__item:not(.is-disabled):hover, .el-dropdown-menu__item:focus {
+  background-color: var(--c-lightColor);
+  color: var(--theme-mainText-color);
+}

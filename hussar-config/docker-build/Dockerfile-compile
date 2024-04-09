@@ -1,0 +1,59 @@
+FROM node:14.19.1
+
+ENV BASE_DIR="/home/hussar" \
+    TZ="Asia/Shanghai"
+
+RUN ln -sf /usr/share/zoneinfo/${TZ} /etc/localtime
+RUN echo ${TZ} > /etc/timezone
+
+RUN mkdir $BASE_DIR
+WORKDIR $BASE_DIR
+
+RUN mkdir -p $BASE_DIR/init && mkdir -p $BASE_DIR/workspace/hussar-front
+ADD ./depend-support/hussar-front.tar $BASE_DIR/init
+
+
+COPY ./depend-support/ $BASE_DIR/init
+
+WORKDIR $BASE_DIR/init
+RUN rm application-dev.yml
+RUN rm application.yml
+RUN rm compile-startup.sh
+RUN rm hussar-front.tar
+RUN rm hussar-startup.sh
+RUN rm hussar-web.jar
+RUN rm hussar-web.tar
+RUN rm -rf hussar-config-copy
+RUN rm -rf sql
+RUN rm -rf JavaAgent.tar
+
+
+WORKDIR $BASE_DIR
+
+RUN if [ -f "/home/hussar/init/hussar-mobile.tar" ]; then \
+        mkdir -p $BASE_DIR/workspace/hussar-mobile; \
+		tar -xf /home/hussar/init/hussar-mobile.tar -C $BASE_DIR/init; \
+		rm /home/hussar/init/hussar-mobile.tar; \
+		echo "hussar-mobile file exists"; \
+    else \
+        echo "hussar-mobile file does not exist"; \
+    fi
+
+RUN if [ -f "/home/hussar/init/hussar-mobile-uni.tar" ]; then \
+        mkdir -p $BASE_DIR/workspace/hussar-mobile-uni; \
+		tar -xf /home/hussar/init/hussar-mobile-uni.tar -C $BASE_DIR/init; \
+		rm /home/hussar/init/hussar-mobile-uni.tar; \
+		echo "hussar-mobile-uni file exists"; \
+    else \
+        echo "hussar-mobile-uni file does not exist"; \
+    fi
+
+WORKDIR $BASE_DIR
+COPY ./depend-support/compile-startup.sh $BASE_DIR/
+
+RUN chmod +x compile-startup.sh
+ENTRYPOINT ["sh","compile-startup.sh"]
+
+RUN ls $BASE_DIR
+RUN ls $BASE_DIR/init
+

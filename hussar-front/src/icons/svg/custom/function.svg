@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>轻骑兵_功能（资源管理）</title>
+    <g id="适配" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7.5树结构切图" transform="translate(-244.000000, -45.000000)">
+            <g id="轻骑兵_功能（资源管理）" transform="translate(244.000000, 45.000000)">
+                <rect id="矩形" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <path class="svg-rect" d="M12,3 L4,3 C2.895,3 2,3.895 2,5 C2,6.105 2.895,7 4,7 L12,7 C13.105,7 14,6.105 14,5 C14,3.895 13.105,3 12,3 Z M12,6 C11.448,6 11,5.552 11,5 C11,4.448 11.448,4 12,4 C12.552,4 13,4.448 13,5 C13,5.552 12.552,6 12,6 Z" id="形状"  fill-rule="nonzero"></path>
+                <path class="svg-rect" d="M12,9 L4,9 C2.895,9 2,9.895 2,11 C2,12.105 2.895,13 4,13 L12,13 C13.105,13 14,12.105 14,11 C14,9.895 13.105,9 12,9 Z M4,12 C3.448,12 3,11.552 3,11 C3,10.448 3.448,10 4,10 C4.552,10 5,10.448 5,11 C5,11.552 4.552,12 4,12 Z" id="形状"  fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

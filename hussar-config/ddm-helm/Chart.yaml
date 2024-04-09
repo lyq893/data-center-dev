@@ -1,0 +1,6 @@
+annotations:
+  category: Infrastructure
+apiVersion: v2
+appVersion: 1.23.3
+name: ddm-helm
+version: 9.0.0

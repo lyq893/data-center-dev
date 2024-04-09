@@ -1,0 +1,95 @@
+//-----------------滚-动条----------------
+.el-scrollbar__wrap {
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+  overflow: auto;
+}
+//垂直滚动条
+::-webkit-scrollbar-thumb:vertical {
+  background: (rgba(209, 209, 209, 0.7));
+  border-radius: 7px;
+  background-clip: content-box;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  &:hover{
+    background: (rgba(209, 209, 209, 1));
+    background-clip: content-box;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+  }
+}
+//轨道
+::-webkit-scrollbar-track {
+  background-color: inherit;
+  border: 0;
+}
+//左侧菜单
+.sidebar-container .el-menu::-webkit-scrollbar {
+  width: 0;
+}
+
+//水平滚动条
+::-webkit-scrollbar-thumb:horizontal {
+  background: (rgba(209, 209, 209, 0.7));
+  border-radius: 7px;
+  background-clip: content-box;
+  border-bottom: 4px solid transparent;
+  border-top: 4px solid transparent;
+  &:hover{
+    background: (rgba(209, 209, 209, 1));
+    background-clip: content-box;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent
+  }
+}
+//水平滚动条轨道
+::-webkit-scrollbar-track:horizontal {
+  background-color: inherit;
+  border: 0;
+}
+//perfect scrollbar
+
+  //滚动条整体
+  .ps:hover > .ps__rail-x, .ps:hover > .ps__rail-y, .ps--focus > .ps__rail-x, .ps--focus > .ps__rail-y, .ps--scrolling-x > .ps__rail-x, .ps--scrolling-y > .ps__rail-y{
+    opacity: 1!important;
+  }
+  //轨道
+  .ps .ps__rail-x:hover, .ps .ps__rail-y:hover, .ps .ps__rail-x:focus, .ps .ps__rail-y:focus, .ps .ps__rail-x.ps--clicking, .ps .ps__rail-y.ps--clicking{
+    background-color: transparent!important;
+    opacity: 1!important;
+  }
+  //滚动条轨道悬浮
+  .ps__rail-y:hover > .ps__thumb-y, .ps__rail-y:focus > .ps__thumb-y, .ps__rail-y.ps--clicking .ps__thumb-y{
+    background-color: rgba(209, 209, 209, 1)!important;
+    right: 4px!important;
+    width: 8px!important;
+  }
+  .ps__rail-x:hover > .ps__thumb-x, .ps__rail-y:focus > .ps__thumb-x, .ps__rail-x.ps--clicking .ps__thumb-x{
+    background-color: rgba(209, 209, 209, 1)!important;
+    height: 8px!important;
+    bottom: 4px!important;
+  }
+  //滚动条
+  .ps__thumb-y{
+    width: 8px!important;
+    right: 4px!important;
+    background-color: rgba(209, 209, 209, 0.7)!important;
+
+    &:hover{
+      background-color: rgba(209, 209, 209, 1)!important;
+    }
+  }
+  .ps__thumb-x{
+    height: 8px!important;
+    bottom: 4px!important;
+    background-color: rgba(209, 209, 209, 0.7)!important;
+
+    &:hover{
+      background-color: rgba(209, 209, 209, 1)!important;
+    }
+  }
+

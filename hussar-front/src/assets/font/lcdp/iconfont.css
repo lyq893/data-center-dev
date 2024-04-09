@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "lcdpFont"; /* Project id 3534985 */
+  src: url('iconfont.woff2?t=1658296040847') format('woff2'),
+       url('iconfont.woff?t=1658296040847') format('woff'),
+       url('iconfont.ttf?t=1658296040847') format('truetype');
+}
+
+.lcdpFont {
+  font-family: "lcdpFont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lcdp_default-img:before {
+  content: "\e646";
+}
+

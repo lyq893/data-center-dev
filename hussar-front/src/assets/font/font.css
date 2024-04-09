@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "iconfont";
+  src:url('~@/assets/font/iconfont.woff');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 12px;
+  font-style: normal;
+  margin: 0 4px 0 2px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

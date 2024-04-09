@@ -1,0 +1,1003 @@
+{
+  "id": "2327661",
+  "name": "天斧Frame2021",
+  "font_family": "axeFrame",
+  "css_prefix_text": "axe-frame-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "19944926",
+      "name": "样式-两端对齐",
+      "font_class": "new-liangduanduiqi1",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "19944927",
+      "name": "样式-居中对齐",
+      "font_class": "new-juzhongduiqi1",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "19943473",
+      "name": "页面-新建移动页",
+      "font_class": "new-mobile",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "19944363",
+      "name": "样式-居中对齐",
+      "font_class": "new-juzhong",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "19944364",
+      "name": "样式-右侧对齐",
+      "font_class": "new-juyou",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "19944365",
+      "name": "样式-两端对齐",
+      "font_class": "new-liangduan",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "19944366",
+      "name": "样式-左侧对齐",
+      "font_class": "new-juzuo",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "19943474",
+      "name": "页面-新建工作流",
+      "font_class": "new-workflow1",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "19940687",
+      "name": "公共-上下箭头线性",
+      "font_class": "new-updown-arrow",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "19940688",
+      "name": "公共-筛选",
+      "font_class": "new-filter",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "19940689",
+      "name": "公共-搜索",
+      "font_class": "new-search",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "19940690",
+      "name": "页面-新建文件夹",
+      "font_class": "new-folder",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "19940691",
+      "name": "页面-新建页面",
+      "font_class": "new-page",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "19940692",
+      "name": "页面-新建数据模型",
+      "font_class": "new-datamodel",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "19940693",
+      "name": "页面-新建工作流",
+      "font_class": "new-workflow",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "19940694",
+      "name": "公共-新建",
+      "font_class": "new-create",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "19940696",
+      "name": "页面-新建微应用",
+      "font_class": "new-microAPP",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "19801242",
+      "name": "数据配置",
+      "font_class": "data-setting",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "19801243",
+      "name": "项目设置",
+      "font_class": "project-setting",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "19800065",
+      "name": "天斧图标 [已恢复]_项目设置 副本",
+      "font_class": "project-setting1",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "19800066",
+      "name": "天斧图标 [已恢复]_数据配置 副本 6",
+      "font_class": "data-setting1",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "19793779",
+      "name": "检查_警告",
+      "font_class": "console-warning",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "19793780",
+      "name": "检查_出错",
+      "font_class": "console-error",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "19793873",
+      "name": "取消配置",
+      "font_class": "no-config",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "19787338",
+      "name": "新建画板-移动端",
+      "font_class": "create-app",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "19787339",
+      "name": "新建画板-自定义",
+      "font_class": "create-custom",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "19787340",
+      "name": "新建画板-web",
+      "font_class": "create-web",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "19765041",
+      "name": "上_更多",
+      "font_class": "more",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "19736622",
+      "name": "样式_预览",
+      "font_class": "style-preview",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "19736623",
+      "name": "样式__固定尺寸",
+      "font_class": "fixed-size",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "19736624",
+      "name": "样式__靠边定位",
+      "font_class": "style-position",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "19736625",
+      "name": "样式__保存",
+      "font_class": "icon",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "19726084",
+      "name": "上_保存svg",
+      "font_class": "save",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "19726122",
+      "name": "上_发布",
+      "font_class": "publish",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "19729209",
+      "name": "画布样式_自定义",
+      "font_class": "custom-size",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "19729210",
+      "name": "画布样式_web",
+      "font_class": "web",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "19729211",
+      "name": "画布样式_大屏",
+      "font_class": "big-screen",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "19729212",
+      "name": "画布样式_app",
+      "font_class": "app",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "19729237",
+      "name": "上_公共样式",
+      "font_class": "common-style",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "19630071",
+      "name": "备注面板_链接",
+      "font_class": "link",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "19630072",
+      "name": "备注面板_设置",
+      "font_class": "set",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "19630080",
+      "name": "画板_回到原点",
+      "font_class": "location",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "19630081",
+      "name": "画板_编辑视图",
+      "font_class": "page-view",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "19630082",
+      "name": "画板_90度旋转",
+      "font_class": "rotate",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "19630087",
+      "name": "交互-添加动作",
+      "font_class": "add-action",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "19630088",
+      "name": "交互-更多样式选项",
+      "font_class": "more-style-add",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "19630089",
+      "name": "交互-收起",
+      "font_class": "fold",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "19630090",
+      "name": "交互-交互样式",
+      "font_class": "interaction-style",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "19630091",
+      "name": "交互-添加事件",
+      "font_class": "add-event",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "19630092",
+      "name": "交互-添加交互样式",
+      "font_class": "add",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "19630093",
+      "name": "交互-显示:隐藏-切换",
+      "font_class": "switch",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "19630094",
+      "name": "交互-向右箭头",
+      "font_class": "right-arrow",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "19630095",
+      "name": "交互-形状交互",
+      "font_class": "screen-arrow",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "19630096",
+      "name": "交互-隐藏未用",
+      "font_class": "hide-not-use",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "19630097",
+      "name": "交互-显示:隐藏-显示",
+      "font_class": "show-fill",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "19630098",
+      "name": "交互-展开",
+      "font_class": "unfold",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "19630099",
+      "name": "交互-显示全部",
+      "font_class": "show-total",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "19630100",
+      "name": "交互-图片边框",
+      "font_class": "picture-preview",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "19630101",
+      "name": "交互-添加填充颜色",
+      "font_class": "interaction-color-fill",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "19630102",
+      "name": "交互-警告标志",
+      "font_class": "warning",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "19630103",
+      "name": "交互-显示:隐藏-隐藏",
+      "font_class": "hide",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "19630104",
+      "name": "交互-添加字色",
+      "font_class": "interaction-font-color",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "19630105",
+      "name": "交互-过滤",
+      "font_class": "filter",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "19630123",
+      "name": "上__放大缩小",
+      "font_class": "zoom-search",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "19630124",
+      "name": "上_底部",
+      "font_class": "align-bottom",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "19630125",
+      "name": "上_顶部",
+      "font_class": "align-top",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "19630126",
+      "name": "上_上_中部",
+      "font_class": "align-center-v",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "19630127",
+      "name": "上_底层",
+      "font_class": "zindex-bottom",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "19630128",
+      "name": "上_选择模式_包含选中",
+      "font_class": "contain",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "19630129",
+      "name": "上_水平",
+      "font_class": "position-center-h",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "19630130",
+      "name": "上_垂直",
+      "font_class": "position-center-v",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "19630131",
+      "name": "上_左侧",
+      "font_class": "align-left",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "19630132",
+      "name": "上_右侧",
+      "font_class": "align-right",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "19630133",
+      "name": "上_预览",
+      "font_class": "preview",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "19630134",
+      "name": "上_选择模式_相交选中",
+      "font_class": "flex",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "19630135",
+      "name": "上_顶层",
+      "font_class": "zindex-top",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "19630136",
+      "name": "上_共享",
+      "font_class": "shared",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "19630137",
+      "name": "上_居中",
+      "font_class": "align-center-h",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "19630140",
+      "name": "通用-关闭",
+      "font_class": "close",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "19630141",
+      "name": "通用-文件夹箭头_展开svg",
+      "font_class": "arrow-right",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "19630142",
+      "name": "通用_搜索",
+      "font_class": "search",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "19630143",
+      "name": "通用-右键弹框_选中",
+      "font_class": "checked",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "19630144",
+      "name": "通用-闪电标志",
+      "font_class": "lightning",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "19630145",
+      "name": "通用-线性箭头",
+      "font_class": "top",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "19630146",
+      "name": "通用-增减符号",
+      "font_class": "increase-decrease",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "19630147",
+      "name": "通用-线性上下箭头",
+      "font_class": "scroll",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "19630148",
+      "name": "通用-函数",
+      "font_class": "func",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "19630150",
+      "name": "文本弹框_粗体",
+      "font_class": "font-bold",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "19630151",
+      "name": "文本弹框_下划线",
+      "font_class": "underline",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "19630152",
+      "name": "文本弹框_删除线",
+      "font_class": "strikethrough",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "19630153",
+      "name": "文本弹框_斜体",
+      "font_class": "italic",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "19630154",
+      "name": "文本弹框_项目符号",
+      "font_class": "project",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "19630156",
+      "name": "颜色弹框-添加",
+      "font_class": "dialog-add",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "19630157",
+      "name": "颜色弹框_色卡",
+      "font_class": "pantone",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "19630158",
+      "name": "颜色弹框_吸色",
+      "font_class": "color-sucker",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "19630159",
+      "name": "颜色弹框-调色板",
+      "font_class": "pallet",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "19630161",
+      "name": "样式面板_排版_顶部对齐",
+      "font_class": "font-top",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "19630162",
+      "name": "样式面板_排版_两端对齐",
+      "font_class": "text-align-normal",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "19630163",
+      "name": "样式面板_排版_底部对齐",
+      "font_class": "font-bottom",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "19630164",
+      "name": "样式面板_排版_附加文本选项",
+      "font_class": "font-color",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "19630165",
+      "name": "样式面板_填充-禁用",
+      "font_class": "background-disabled",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "19630166",
+      "name": "样式面板_排版_右侧对齐",
+      "font_class": "text-align-right",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "19630167",
+      "name": "样式面板_位置和尺寸_锁定宽高比（未选中）",
+      "font_class": "unlock",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "19630168",
+      "name": "样式面板_位置和尺寸_锁定宽高比（选中）",
+      "font_class": "lock",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "19630169",
+      "name": "样式面板_位置和尺寸_显示",
+      "font_class": "show",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "19630170",
+      "name": "样式面板_管理元件样式",
+      "font_class": "edit-style",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "19630171",
+      "name": "样式面板_填充-颜色",
+      "font_class": "fill",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "19630172",
+      "name": "样式面板_位置和尺寸_自动适合文本高度",
+      "font_class": "distance-v",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "19630173",
+      "name": "样式面板_边框_箭头样式",
+      "font_class": "side-arrow",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "19630174",
+      "name": "样式面板_圆角-可见性",
+      "font_class": "border-radius-settings",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "19630175",
+      "name": "样式面板_边框-类型",
+      "font_class": "border-type",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "19630176",
+      "name": "样式面板_位置和尺寸_隐藏",
+      "font_class": "hide-notcheck",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "19630177",
+      "name": "样式面板_排版_文字阴影",
+      "font_class": "text-shadow",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "19630178",
+      "name": "样式面板-圆角可见性弹出",
+      "font_class": "radius-config",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "19630179",
+      "name": "样式面板-边框可见性",
+      "font_class": "line-config",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "19630180",
+      "name": "样式面板_排版_左侧对齐",
+      "font_class": "text-align-left",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "19630181",
+      "name": "样式面板_排版_中部对齐",
+      "font_class": "font-center",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "19630182",
+      "name": "样式面板_位置和尺寸_自动适合文本宽度",
+      "font_class": "distance-h",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "19630183",
+      "name": "样式面板_边框-可见性",
+      "font_class": "border-settings",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "19630185",
+      "name": "样式面板_排版_居中对齐",
+      "font_class": "text-align-center",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "19630187",
+      "name": "元件样式_复制",
+      "font_class": "copy",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "19630193",
+      "name": "元件样式-字色",
+      "font_class": "style-font-size",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "19630194",
+      "name": "元件样式_上移",
+      "font_class": "move-up",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "19630195",
+      "name": "元件样式-边框颜色（禁用）",
+      "font_class": "line-color-disabled",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "19630196",
+      "name": "元件样式_删除样式",
+      "font_class": "style-delete",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "19630197",
+      "name": "元件样式_图像滤波",
+      "font_class": "pic-filter",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "19630199",
+      "name": "元件样式-边框颜色",
+      "font_class": "line-color",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "19630200",
+      "name": "元件样式_内部阴影",
+      "font_class": "in-shadow-border",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "19630201",
+      "name": "元件样式_外部阴影 无框",
+      "font_class": "out-shadow",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "19630226",
+      "name": "文件夹",
+      "font_class": "file-folder",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "19630227",
+      "name": "增加页面",
+      "font_class": "add-page",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "19630228",
+      "name": "母版",
+      "font_class": "master-module",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "19630229",
+      "name": "页面",
+      "font_class": "page",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "19630230",
+      "name": "文件夹线性",
+      "font_class": "file-folder-open",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "19630231",
+      "name": "排序",
+      "font_class": "sort",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "19596280",
+      "name": "图标-00_字色-不带框",
+      "font_class": "font-color-top",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "19596286",
+      "name": "图标-00_外部阴影",
+      "font_class": "out-shadow-border",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "19596267",
+      "name": "图标-00_下移",
+      "font_class": "move-down",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "19456434",
+      "name": "图标-09",
+      "font_class": "arrow-bottom",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "19459643",
+      "name": "图标_图片",
+      "font_class": "no-color",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "19416644",
+      "name": "图标-08",
+      "font_class": "bottom",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "15954377",
+      "name": "导入 (10)",
+      "font_class": "exportin",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    }
+  ]
+}

@@ -1,0 +1,2563 @@
+{
+  "web": "iconLists",
+  "mobile": "mobileIconLists",
+  "uni": "uniIconLists",
+  "iconLists": [
+    {
+      "type": "常用",
+      "iconList": [
+        {
+          "class": "el-icon-plus",
+          "title": "新增",
+          "code": "\\e6d9",
+          "codeIcon": "\ue6d9"
+        },
+        {
+          "class": "el-icon-edit-outline",
+          "title": "修改",
+          "code": "\\e764",
+          "codeIcon": "\ue764"
+        },
+        {
+          "class": "el-icon-delete",
+          "title": "删除",
+          "code": "\\e6d7",
+          "codeIcon": "\ue6d7"
+        },
+        {
+          "class": "el-icon-search",
+          "title": "查询",
+          "code": "\\e778",
+          "codeIcon": "\ue778"
+        },
+        {
+          "class": "el-icon-refresh-right",
+          "title": "重置",
+          "code": "\\e6c8",
+          "codeIcon": "\ue6c8"
+        },
+        {
+          "class": "el-icon-bottom",
+          "title": "下载",
+          "code": "\\e6eb",
+          "codeIcon": "\ue6eb"
+        },
+        {
+          "class": "el-icon-download",
+          "title": "导入",
+          "code": "\\e77c",
+          "codeIcon": "\ue77c"
+        },
+        {
+          "class": "el-icon-upload2",
+          "title": "导出",
+          "code": "\\e77b",
+          "codeIcon": "\ue77b"
+        },
+        {
+          "class": "el-icon-circle-check",
+          "title": "提交",
+          "type": "i",
+          "code": "\\e720",
+          "codeIcon": "\ue720"
+        },
+        {
+          "class": "el-icon-circle-close",
+          "title": "驳回",
+          "code": "\\e78d",
+          "codeIcon": "\ue78d"
+        },
+        {
+          "class": "el-icon-refresh-left",
+          "title": "取消",
+          "code": "\\e6c7",
+          "codeIcon": "\ue6c7"
+        },
+        {
+          "class": "el-icon-delete-solid",
+          "code": "\\e7c9",
+          "codeIcon": "\ue7c9"
+        },
+        {
+          "class": "el-icon-s-tools",
+          "code": "\\e7ac",
+          "codeIcon": "\ue7ac"
+        },
+        {
+          "class": "el-icon-setting",
+          "code": "\\e6ca",
+          "codeIcon": "\ue6ca"
+        },
+        {
+          "class": "el-icon-user-solid",
+          "code": "\\e7a5",
+          "codeIcon": "\ue7a5"
+        },
+        {
+          "class": "el-icon-user",
+          "code": "\\e6e3",
+          "codeIcon": "\ue6e3"
+        },
+        {
+          "class": "el-icon-more",
+          "code": "\\e794",
+          "codeIcon": "\ue794"
+        },
+        {
+          "class": "el-icon-more-outline",
+          "code": "\\e6cc",
+          "codeIcon": "\ue6cc"
+        },
+        {
+          "class": "el-icon-warning-outline",
+          "code": "\\e6c9",
+          "codeIcon": "\ue6c9"
+        },
+        {
+          "class": "el-icon-question",
+          "code": "\\e7a4",
+          "codeIcon": "\ue7a4"
+        },
+        {
+          "class": "el-icon-info",
+          "code": "\\e7a1",
+          "codeIcon": "\ue7a1"
+        },
+        {
+          "class": "el-icon-remove",
+          "code": "\\e7a2",
+          "codeIcon": "\ue7a2"
+        },
+        {
+          "class": "el-icon-circle-plus",
+          "code": "\\e7a0",
+          "codeIcon": "\ue7a0"
+        },
+        {
+          "class": "el-icon-success",
+          "code": "\\e79c",
+          "codeIcon": "\ue79c"
+        },
+        {
+          "class": "el-icon-error",
+          "code": "\\e79d",
+          "codeIcon": "\ue79d"
+        },
+        {
+          "class": "el-icon-zoom-in",
+          "code": "\\e777",
+          "codeIcon": "\ue777"
+        },
+        {
+          "class": "el-icon-zoom-out",
+          "code": "\\e776",
+          "codeIcon": "\ue776"
+        },
+        {
+          "class": "el-icon-warning",
+          "code": "\\e7a3",
+          "codeIcon": "\ue7a3"
+        },
+        {
+          "class": "el-icon-remove-outline",
+          "code": "\\e722",
+          "codeIcon": "\ue722"
+        }
+      ]
+    },
+    {
+      "type": "不常用",
+      "iconList": [
+        {
+          "class": "jxdIcon jxd-el-save",
+          "title": "保存",
+          "code": "\\e61f",
+          "codeIcon": "\ue61f"
+        },
+        {
+          "class": "jxdIcon jxd-el-camera",
+          "title": "摄像头",
+          "code": "\\e873",
+          "codeIcon": "\ue873"
+        },
+        {
+          "class": "jxdIcon jxd-el-temperature",
+          "title": "温度",
+          "code": "\\e896",
+          "codeIcon": "\ue896"
+        },
+        {
+          "class": "jxdIcon jxd-el-humidity",
+          "title": "湿度",
+          "code": "\\e897",
+          "codeIcon": "\ue897"
+        },
+        {
+          "class": "jxdIcon jxd-el-pressure",
+          "title": "气压",
+          "code": "\\e898",
+          "codeIcon": "\ue898"
+        },
+        {
+          "class": "jxdIcon jxd-el-PM25",
+          "title": "PM2.5",
+          "code": "\\e895",
+          "codeIcon": "\ue895"
+        },
+        {
+          "class": "el-icon-s-goods",
+          "code": "\\e7b2",
+          "codeIcon": "\ue7b2"
+        },
+        {
+          "class": "el-icon-goods",
+          "code": "\\e7c2",
+          "codeIcon": "\ue7c2"
+        },
+        {
+          "class": "el-icon-phone",
+          "code": "\\e795",
+          "codeIcon": "\ue795"
+        },
+        {
+          "class": "el-icon-platform-eleme",
+          "code": "\\e7ca",
+          "codeIcon": "\ue7ca"
+        },
+        {
+          "class": "el-icon-eleme",
+          "code": "\\e7c7",
+          "codeIcon": "\ue7c7"
+        },
+        {
+          "class": "el-icon-phone-outline",
+          "code": "\\e6cb",
+          "codeIcon": "\ue6cb"
+        },
+        {
+          "class": "el-icon-star-on",
+          "code": "\\e797",
+          "codeIcon": "\ue797"
+        },
+        {
+          "class": "el-icon-star-off",
+          "code": "\\e717",
+          "codeIcon": "\ue717"
+        },
+        {
+          "class": "el-icon-s-help",
+          "code": "\\e7b3",
+          "codeIcon": "\ue7b3"
+        },
+        {
+          "class": "el-icon-help",
+          "code": "\\e73d",
+          "codeIcon": "\ue73d"
+        },
+        {
+          "class": "el-icon-minus",
+          "code": "\\e6d8",
+          "codeIcon": "\ue6d8"
+        },
+        {
+          "class": "el-icon-plus",
+          "code": "\\e6d9",
+          "codeIcon": "\ue6d9"
+        },
+        {
+          "class": "el-icon-check",
+          "code": "\\e6da",
+          "codeIcon": "\ue6da"
+        },
+        {
+          "class": "el-icon-close",
+          "code": "\\e6db",
+          "codeIcon": "\ue6db"
+        },
+        {
+          "class": "el-icon-picture",
+          "code": "\\e79f",
+          "codeIcon": "\ue79f"
+        },
+        {
+          "class": "el-icon-picture-outline",
+          "code": "\\e75e",
+          "codeIcon": "\ue75e"
+        },
+        {
+          "class": "el-icon-picture-outline-round",
+          "code": "\\e75f",
+          "codeIcon": "\ue75f"
+        },
+        {
+          "class": "el-icon-upload",
+          "code": "\\e7c3",
+          "codeIcon": "\ue7c3"
+        },
+        {
+          "class": "el-icon-upload2",
+          "code": "\\e77b",
+          "codeIcon": "\ue77b"
+        },
+        {
+          "class": "el-icon-download",
+          "code": "\\e77c",
+          "codeIcon": "\ue77c"
+        },
+        {
+          "class": "el-icon-camera-solid",
+          "code": "\\e79b",
+          "codeIcon": "\ue79b"
+        },
+        {
+          "class": "el-icon-camera",
+          "code": "\\e779",
+          "codeIcon": "\ue779"
+        },
+        {
+          "class": "el-icon-video-camera-solid",
+          "code": "\\e796",
+          "codeIcon": "\ue796"
+        },
+        {
+          "class": "el-icon-video-camera",
+          "code": "\\e772",
+          "codeIcon": "\ue772"
+        },
+        {
+          "class": "el-icon-message-solid",
+          "code": "\\e799",
+          "codeIcon": "\ue799"
+        },
+        {
+          "class": "el-icon-bell",
+          "code": "\\e725",
+          "codeIcon": "\ue725"
+        },
+        {
+          "class": "el-icon-s-cooperation",
+          "code": "\\e7bf",
+          "codeIcon": "\ue7bf"
+        },
+        {
+          "class": "el-icon-s-order",
+          "code": "\\e7be",
+          "codeIcon": "\ue7be"
+        },
+        {
+          "class": "el-icon-s-platform",
+          "code": "\\e7bd",
+          "codeIcon": "\ue7bd"
+        },
+        {
+          "class": "el-icon-s-fold",
+          "code": "\\e7a9",
+          "codeIcon": "\ue7a9"
+        },
+        {
+          "class": "el-icon-s-unfold",
+          "code": "\\e7bc",
+          "codeIcon": "\ue7bc"
+        },
+        {
+          "class": "el-icon-s-operation",
+          "code": "\\e7bb",
+          "codeIcon": "\ue7bb"
+        },
+        {
+          "class": "el-icon-s-promotion",
+          "code": "\\e7ba",
+          "codeIcon": "\ue7ba"
+        },
+        {
+          "class": "el-icon-s-home",
+          "code": "\\e7b9",
+          "codeIcon": "\ue7b9"
+        },
+        {
+          "class": "el-icon-s-release",
+          "code": "\\e7b8",
+          "codeIcon": "\ue7b8"
+        },
+        {
+          "class": "el-icon-s-ticket",
+          "code": "\\e7b7",
+          "codeIcon": "\ue7b7"
+        },
+        {
+          "class": "el-icon-s-management",
+          "code": "\\e7b6",
+          "codeIcon": "\ue7b6"
+        },
+        {
+          "class": "el-icon-s-open",
+          "code": "\\e7b5",
+          "codeIcon": "\ue7b5"
+        },
+        {
+          "class": "el-icon-s-shop",
+          "code": "\\e7b4",
+          "codeIcon": "\ue7b4"
+        },
+        {
+          "class": "el-icon-s-marketing",
+          "code": "\\e7b1",
+          "codeIcon": "\ue7b1"
+        },
+        {
+          "class": "el-icon-s-flag",
+          "code": "\\e7b0",
+          "codeIcon": "\ue7b0"
+        },
+        {
+          "class": "el-icon-s-comment",
+          "code": "\\e7af",
+          "codeIcon": "\ue7af"
+        },
+        {
+          "class": "el-icon-s-finance",
+          "code": "\\e7ae",
+          "codeIcon": "\ue7ae"
+        },
+        {
+          "class": "el-icon-s-claim",
+          "code": "\\e7ad",
+          "codeIcon": "\ue7ad"
+        },
+        {
+          "class": "el-icon-s-custom",
+          "code": "\\e7ab",
+          "codeIcon": "\ue7ab"
+        },
+        {
+          "class": "el-icon-s-opportunity",
+          "code": "\\e7aa",
+          "codeIcon": "\ue7aa"
+        },
+        {
+          "class": "el-icon-s-data",
+          "code": "\\e7a8",
+          "codeIcon": "\ue7a8"
+        },
+        {
+          "class": "el-icon-s-check",
+          "code": "\\e7a7",
+          "codeIcon": "\ue7a7"
+        },
+        {
+          "class": "el-icon-s-grid",
+          "code": "\\e7a6",
+          "codeIcon": "\ue7a6"
+        },
+        {
+          "class": "el-icon-menu",
+          "code": "\\e798",
+          "codeIcon": "\ue798"
+        },
+        {
+          "class": "el-icon-share",
+          "code": "\\e793",
+          "codeIcon": "\ue793"
+        },
+        {
+          "class": "el-icon-d-caret",
+          "code": "\\e79a",
+          "codeIcon": "\ue79a"
+        },
+        {
+          "class": "el-icon-caret-left",
+          "code": "\\e792",
+          "codeIcon": "\ue792"
+        },
+        {
+          "class": "el-icon-caret-right",
+          "code": "\\e791",
+          "codeIcon": "\ue791"
+        },
+        {
+          "class": "el-icon-caret-bottom",
+          "code": "\\e790",
+          "codeIcon": "\ue790"
+        },
+        {
+          "class": "el-icon-caret-top",
+          "code": "\\e78f",
+          "codeIcon": "\ue78f"
+        },
+        {
+          "class": "el-icon-bottom-left",
+          "code": "\\e6ed",
+          "codeIcon": "\ue6ed"
+        },
+        {
+          "class": "el-icon-bottom-right",
+          "code": "\\e6ec",
+          "codeIcon": "\ue6ec"
+        },
+        {
+          "class": "el-icon-back",
+          "code": "\\e6ea",
+          "codeIcon": "\ue6ea"
+        },
+        {
+          "class": "el-icon-right",
+          "code": "\\e6e9",
+          "codeIcon": "\ue6e9"
+        },
+        {
+          "class": "el-icon-bottom",
+          "code": "\\e6eb",
+          "codeIcon": "\ue6eb"
+        },
+        {
+          "class": "el-icon-top",
+          "code": "\\e6e6",
+          "codeIcon": "\ue6e6"
+        },
+        {
+          "class": "el-icon-top-left",
+          "code": "\\e6e8",
+          "codeIcon": "\ue6e8"
+        },
+        {
+          "class": "el-icon-top-right",
+          "code": "\\e6e7",
+          "codeIcon": "\ue6e7"
+        },
+        {
+          "class": "el-icon-arrow-left",
+          "code": "\\e6de",
+          "codeIcon": "\ue6de"
+        },
+        {
+          "class": "el-icon-arrow-right",
+          "code": "\\e6e0",
+          "codeIcon": "\ue6e0"
+        },
+        {
+          "class": "el-icon-arrow-down",
+          "code": "\\e6df",
+          "codeIcon": "\ue6df"
+        },
+        {
+          "class": "el-icon-arrow-up",
+          "code": "\\e6e1",
+          "codeIcon": "\ue6e1"
+        },
+        {
+          "class": "el-icon-d-arrow-left",
+          "code": "\\e6dd",
+          "codeIcon": "\ue6dd"
+        },
+        {
+          "class": "el-icon-d-arrow-right",
+          "code": "\\e6dc",
+          "codeIcon": "\ue6dc"
+        },
+        {
+          "class": "el-icon-video-pause",
+          "code": "\\e7c1",
+          "codeIcon": "\ue7c1"
+        },
+        {
+          "class": "el-icon-video-play",
+          "code": "\\e7c0",
+          "codeIcon": "\ue7c0"
+        },
+        {
+          "class": "el-icon-refresh",
+          "code": "\\e6d0",
+          "codeIcon": "\ue6d0"
+        },
+        {
+          "class": "el-icon-refresh-right",
+          "code": "\\e6c8",
+          "codeIcon": "\ue6c8"
+        },
+        {
+          "class": "el-icon-refresh-left",
+          "code": "\\e6c7",
+          "codeIcon": "\ue6c7"
+        },
+        {
+          "class": "el-icon-finished",
+          "code": "\\e6cd",
+          "codeIcon": "\ue6cd"
+        },
+        {
+          "class": "el-icon-sort",
+          "code": "\\e6d2",
+          "codeIcon": "\ue6d2"
+        },
+        {
+          "class": "el-icon-sort-up",
+          "code": "\\e7c5",
+          "codeIcon": "\ue7c5"
+        },
+        {
+          "class": "el-icon-sort-down",
+          "code": "\\e7c4",
+          "codeIcon": "\ue7c4"
+        },
+        {
+          "class": "el-icon-rank",
+          "code": "\\e6d1",
+          "codeIcon": "\ue6d1"
+        },
+        {
+          "class": "el-icon-loading",
+          "code": "\\e6cf",
+          "codeIcon": "\ue6cf"
+        },
+        {
+          "class": "el-icon-view",
+          "code": "\\e6ce",
+          "codeIcon": "\ue6ce"
+        },
+        {
+          "class": "el-icon-c-scale-to-original",
+          "code": "\\e7c6",
+          "codeIcon": "\ue7c6"
+        },
+        {
+          "class": "el-icon-date",
+          "code": "\\e78e",
+          "codeIcon": "\ue78e"
+        },
+        {
+          "class": "el-icon-edit",
+          "code": "\\e78c",
+          "codeIcon": "\ue78c"
+        },
+        {
+          "class": "el-icon-edit-outline",
+          "code": "\\e764",
+          "codeIcon": "\ue764"
+        },
+        {
+          "class": "el-icon-folder",
+          "code": "\\e78a",
+          "codeIcon": "\ue78a"
+        },
+        {
+          "class": "el-icon-folder-opened",
+          "code": "\\e784",
+          "codeIcon": "\ue784"
+        },
+        {
+          "class": "el-icon-folder-add",
+          "code": "\\e783",
+          "codeIcon": "\ue783"
+        },
+        {
+          "class": "el-icon-folder-remove",
+          "code": "\\e781",
+          "codeIcon": "\ue781"
+        },
+        {
+          "class": "el-icon-folder-delete",
+          "code": "\\e780",
+          "codeIcon": "\ue780"
+        },
+        {
+          "class": "el-icon-folder-checked",
+          "code": "\\e77f",
+          "codeIcon": "\ue77f"
+        },
+        {
+          "class": "el-icon-tickets",
+          "code": "\\e78b",
+          "codeIcon": "\ue78b"
+        },
+        {
+          "class": "el-icon-document-remove",
+          "code": "\\e789",
+          "codeIcon": "\ue789"
+        },
+        {
+          "class": "el-icon-document-delete",
+          "code": "\\e788",
+          "codeIcon": "\ue788"
+        },
+        {
+          "class": "el-icon-document-copy",
+          "code": "\\e787",
+          "codeIcon": "\ue787"
+        },
+        {
+          "class": "el-icon-document-checked",
+          "code": "\\e786",
+          "codeIcon": "\ue786"
+        },
+        {
+          "class": "el-icon-document",
+          "code": "\\e785",
+          "codeIcon": "\ue785"
+        },
+        {
+          "class": "el-icon-document-add",
+          "code": "\\e782",
+          "codeIcon": "\ue782"
+        },
+        {
+          "class": "el-icon-printer",
+          "code": "\\e77e",
+          "codeIcon": "\ue77e"
+        },
+        {
+          "class": "el-icon-paperclip",
+          "code": "\\e77d",
+          "codeIcon": "\ue77d"
+        },
+        {
+          "class": "el-icon-takeaway-box",
+          "code": "\\e77a",
+          "codeIcon": "\ue77a"
+        },
+        {
+          "class": "el-icon-search",
+          "code": "\\e778",
+          "codeIcon": "\ue778"
+        },
+        {
+          "class": "el-icon-monitor",
+          "code": "\\e775",
+          "codeIcon": "\ue775"
+        },
+        {
+          "class": "el-icon-attract",
+          "code": "\\e774",
+          "codeIcon": "\ue774"
+        },
+        {
+          "class": "el-icon-mobile",
+          "code": "\\e773",
+          "codeIcon": "\ue773"
+        },
+        {
+          "class": "el-icon-scissors",
+          "code": "\\e771",
+          "codeIcon": "\ue771"
+        },
+        {
+          "class": "el-icon-umbrella",
+          "code": "\\e770",
+          "codeIcon": "\ue770"
+        },
+        {
+          "class": "el-icon-headset",
+          "code": "\\e76f",
+          "codeIcon": "\ue76f"
+        },
+        {
+          "class": "el-icon-brush",
+          "code": "\\e76e",
+          "codeIcon": "\ue76e"
+        },
+        {
+          "class": "el-icon-mouse",
+          "code": "\\e76c",
+          "codeIcon": "\ue76c"
+        },
+        {
+          "class": "el-icon-coordinate",
+          "code": "\\e76b",
+          "codeIcon": "\ue76d"
+        },
+        {
+          "class": "el-icon-magic-stick",
+          "code": "\\e76a",
+          "codeIcon": "\ue76a"
+        },
+        {
+          "class": "el-icon-reading",
+          "code": "\\e769",
+          "codeIcon": "\ue769"
+        },
+        {
+          "class": "el-icon-data-line",
+          "code": "\\e76d",
+          "codeIcon": "\ue76d"
+        },
+        {
+          "class": "el-icon-data-board",
+          "code": "\\e768",
+          "codeIcon": "\ue768"
+        },
+        {
+          "class": "el-icon-pie-chart",
+          "code": "\\e767",
+          "codeIcon": "\ue767"
+        },
+        {
+          "class": "el-icon-data-analysis",
+          "code": "\\e766",
+          "codeIcon": "\ue766"
+        },
+        {
+          "class": "el-icon-collection-tag",
+          "code": "\\e765",
+          "codeIcon": "\ue765"
+        },
+        {
+          "class": "el-icon-film",
+          "code": "\\e763",
+          "codeIcon": "\ue763"
+        },
+        {
+          "class": "el-icon-suitcase",
+          "code": "\\e761",
+          "codeIcon": "\ue761"
+        },
+        {
+          "class": "el-icon-suitcase-1",
+          "code": "\\e760",
+          "codeIcon": "\ue760"
+        },
+        {
+          "class": "el-icon-receiving",
+          "code": "\\e75d",
+          "codeIcon": "\ue75d"
+        },
+        {
+          "class": "el-icon-collection",
+          "code": "\\e75c",
+          "codeIcon": "\ue75c"
+        },
+        {
+          "class": "el-icon-files",
+          "code": "\\e75b",
+          "codeIcon": "\ue75b"
+        },
+        {
+          "class": "el-icon-notebook-1",
+          "code": "\\e75a",
+          "codeIcon": "\ue75a"
+        },
+        {
+          "class": "el-icon-notebook-2",
+          "code": "\\e759",
+          "codeIcon": "\ue759"
+        },
+        {
+          "class": "el-icon-toilet-paper",
+          "code": "\\e758",
+          "codeIcon": "\ue758"
+        },
+        {
+          "class": "el-icon-office-building",
+          "code": "\\e757",
+          "codeIcon": "\ue757"
+        },
+        {
+          "class": "el-icon-school",
+          "code": "\\e756",
+          "codeIcon": "\ue756"
+        },
+        {
+          "class": "el-icon-table-lamp",
+          "code": "\\e755",
+          "codeIcon": "\ue755"
+        },
+        {
+          "class": "el-icon-house",
+          "code": "\\e754",
+          "codeIcon": "\ue754"
+        },
+        {
+          "class": "el-icon-no-smoking",
+          "code": "\\e753",
+          "codeIcon": "\ue753"
+        },
+        {
+          "class": "el-icon-smoking",
+          "code": "\\e752",
+          "codeIcon": "\ue752"
+        },
+        {
+          "class": "el-icon-shopping-cart-full",
+          "code": "\\e751",
+          "codeIcon": "\ue751"
+        },
+        {
+          "class": "el-icon-shopping-cart-1",
+          "code": "\\e750",
+          "codeIcon": "\ue750"
+        },
+        {
+          "class": "el-icon-shopping-cart-2",
+          "code": "\\e74f",
+          "codeIcon": "\ue74f"
+        },
+        {
+          "class": "el-icon-shopping-bag-1",
+          "code": "\\e74e",
+          "codeIcon": "\ue74e"
+        },
+        {
+          "class": "el-icon-shopping-bag-2",
+          "code": "\\e74d",
+          "codeIcon": "\ue74d"
+        },
+        {
+          "class": "el-icon-sold-out",
+          "code": "\\e6d6",
+          "codeIcon": "\ue6d6"
+        },
+        {
+          "class": "el-icon-sell",
+          "code": "\\e6d5",
+          "codeIcon": "\ue6d5"
+        },
+        {
+          "class": "el-icon-present",
+          "code": "\\e74c",
+          "codeIcon": "\ue74c"
+        },
+        {
+          "class": "el-icon-box",
+          "code": "\\e74b",
+          "codeIcon": "\ue74b"
+        },
+        {
+          "class": "el-icon-bank-card",
+          "code": "\\e74a",
+          "codeIcon": "\ue74a"
+        },
+        {
+          "class": "el-icon-money",
+          "code": "\\e749",
+          "codeIcon": "\ue749"
+        },
+        {
+          "class": "el-icon-coin",
+          "code": "\\e748",
+          "codeIcon": "\ue748"
+        },
+        {
+          "class": "el-icon-wallet",
+          "code": "\\e747",
+          "codeIcon": "\ue747"
+        },
+        {
+          "class": "el-icon-discount",
+          "code": "\\e745",
+          "codeIcon": "\ue745"
+        },
+        {
+          "class": "el-icon-price-tag",
+          "code": "\\e744",
+          "codeIcon": "\ue744"
+        },
+        {
+          "class": "el-icon-news",
+          "code": "\\e73e",
+          "codeIcon": "\ue73e"
+        },
+        {
+          "class": "el-icon-guide",
+          "code": "\\e73c",
+          "codeIcon": "\ue73c"
+        },
+        {
+          "class": "el-icon-male",
+          "code": "\\e73b",
+          "codeIcon": "\ue73b"
+        },
+        {
+          "class": "el-icon-female",
+          "code": "\\e73a",
+          "codeIcon": "\ue73a"
+        },
+        {
+          "class": "el-icon-thumb",
+          "code": "\\e739",
+          "codeIcon": "\ue739"
+        },
+        {
+          "class": "el-icon-cpu",
+          "code": "\\e738",
+          "codeIcon": "\ue738"
+        },
+        {
+          "class": "el-icon-link",
+          "code": "\\e737",
+          "codeIcon": "\ue737"
+        },
+        {
+          "class": "el-icon-connection",
+          "code": "\\e736",
+          "codeIcon": "\ue736"
+        },
+        {
+          "class": "el-icon-open",
+          "code": "\\e735",
+          "codeIcon": "\ue735"
+        },
+        {
+          "class": "el-icon-turn-off",
+          "code": "\\e734",
+          "codeIcon": "\ue734"
+        },
+        {
+          "class": "el-icon-set-up",
+          "code": "\\e733",
+          "codeIcon": "\ue733"
+        },
+        {
+          "class": "el-icon-chat-round",
+          "code": "\\e732",
+          "codeIcon": "\ue732"
+        },
+        {
+          "class": "el-icon-chat-line-round",
+          "code": "\\e731",
+          "codeIcon": "\ue731"
+        },
+        {
+          "class": "el-icon-chat-square",
+          "code": "\\e730",
+          "codeIcon": "\ue730"
+        },
+        {
+          "class": "el-icon-chat-dot-round",
+          "code": "\\e72f",
+          "codeIcon": "\ue72f"
+        },
+        {
+          "class": "el-icon-chat-dot-square",
+          "code": "\\e72e",
+          "codeIcon": "\ue72e"
+        },
+        {
+          "class": "el-icon-chat-line-square",
+          "code": "\\e72d",
+          "codeIcon": "\ue72d"
+        },
+        {
+          "class": "el-icon-message",
+          "code": "\\e72b",
+          "codeIcon": "\ue72b"
+        },
+        {
+          "class": "el-icon-postcard",
+          "code": "\\e72a",
+          "codeIcon": "\ue72a"
+        },
+        {
+          "class": "el-icon-position",
+          "code": "\\e729",
+          "codeIcon": "\ue729"
+        },
+        {
+          "class": "el-icon-turn-off-microphone",
+          "code": "\\e728",
+          "codeIcon": "\ue728"
+        },
+        {
+          "class": "el-icon-microphone",
+          "code": "\\e727",
+          "codeIcon": "\ue727"
+        },
+        {
+          "class": "el-icon-close-notification",
+          "code": "\\e726",
+          "codeIcon": "\ue726"
+        },
+        {
+          "class": "el-icon-bangzhu",
+          "code": "\\e724",
+          "codeIcon": "\ue724"
+        },
+        {
+          "class": "el-icon-time",
+          "code": "\\e71f",
+          "codeIcon": "\ue71f"
+        },
+        {
+          "class": "el-icon-odometer",
+          "code": "\\e71e",
+          "codeIcon": "\ue71e"
+        },
+        {
+          "class": "el-icon-crop",
+          "code": "\\e71d",
+          "codeIcon": "\ue71d"
+        },
+        {
+          "class": "el-icon-aim",
+          "code": "\\e71c",
+          "codeIcon": "\ue71c"
+        },
+        {
+          "class": "el-icon-switch-button",
+          "code": "\\e71b",
+          "codeIcon": "\ue71b"
+        },
+        {
+          "class": "el-icon-full-screen",
+          "code": "\\e719",
+          "codeIcon": "\ue719"
+        },
+        {
+          "class": "el-icon-copy-document",
+          "code": "\\e718",
+          "codeIcon": "\ue718"
+        },
+        {
+          "class": "el-icon-mic",
+          "code": "\\e711",
+          "codeIcon": "\ue711"
+        },
+        {
+          "class": "el-icon-stopwatch",
+          "code": "\\e710",
+          "codeIcon": "\ue710"
+        },
+        {
+          "class": "el-icon-medal-1",
+          "code": "\\e70f",
+          "codeIcon": "\ue70f"
+        },
+        {
+          "class": "el-icon-medal",
+          "code": "\\e70e",
+          "codeIcon": "\ue70e"
+        },
+        {
+          "class": "el-icon-trophy",
+          "code": "\\e70d",
+          "codeIcon": "\ue70d"
+        },
+        {
+          "class": "el-icon-trophy-1",
+          "code": "\\e70c",
+          "codeIcon": "\ue70c"
+        },
+        {
+          "class": "el-icon-first-aid-kit",
+          "code": "\\e70b",
+          "codeIcon": "\ue70b"
+        },
+        {
+          "class": "el-icon-discover",
+          "code": "\\e70a",
+          "codeIcon": "\ue70a"
+        },
+        {
+          "class": "el-icon-place",
+          "code": "\\e709",
+          "codeIcon": "\ue709"
+        },
+        {
+          "class": "el-icon-location",
+          "code": "\\e79e",
+          "codeIcon": "\ue79e"
+        },
+        {
+          "class": "el-icon-location-outline",
+          "code": "\\e708",
+          "codeIcon": "\ue708"
+        },
+        {
+          "class": "el-icon-lock",
+          "code": "\\e6e5",
+          "codeIcon": "\ue6e5"
+        },
+        {
+          "class": "el-icon-location-information",
+          "code": "\\e707",
+          "codeIcon": "\ue707"
+        },
+        {
+          "class": "el-icon-add-location",
+          "code": "\\e706",
+          "codeIcon": "\ue706"
+        },
+        {
+          "class": "el-icon-delete-location",
+          "code": "\\e705",
+          "codeIcon": "\ue705"
+        },
+        {
+          "class": "el-icon-map-location",
+          "code": "\\e704",
+          "codeIcon": "\ue704"
+        },
+        {
+          "class": "el-icon-alarm-clock",
+          "code": "\\e703",
+          "codeIcon": "\ue703"
+        },
+        {
+          "class": "el-icon-timer",
+          "code": "\\e702",
+          "codeIcon": "\ue702"
+        },
+        {
+          "class": "el-icon-watch-1",
+          "code": "\\e6ff",
+          "codeIcon": "\ue6ff"
+        },
+        {
+          "class": "el-icon-watch",
+          "code": "\\e6fe",
+          "codeIcon": "\ue6fe"
+        },
+        {
+          "class": "el-icon-unlock",
+          "code": "\\e6e4",
+          "codeIcon": "\ue6e4"
+        },
+        {
+          "class": "el-icon-key",
+          "code": "\\e6e2",
+          "codeIcon": "\ue6e2"
+        },
+        {
+          "class": "el-icon-service",
+          "code": "\\e6d4",
+          "codeIcon": "\ue6d4"
+        },
+        {
+          "class": "el-icon-mobile-phone",
+          "code": "\\e6d3",
+          "codeIcon": "\ue6d3"
+        },
+        {
+          "class": "el-icon-bicycle",
+          "code": "\\e741",
+          "codeIcon": "\ue741"
+        },
+        {
+          "class": "el-icon-truck",
+          "code": "\\e740",
+          "codeIcon": "\ue740"
+        },
+        {
+          "class": "el-icon-ship",
+          "code": "\\e73f",
+          "codeIcon": "\ue73f"
+        },
+        {
+          "class": "el-icon-basketball",
+          "code": "\\e716",
+          "codeIcon": "\ue716"
+        },
+        {
+          "class": "el-icon-football",
+          "code": "\\e715",
+          "codeIcon": "\ue715"
+        },
+        {
+          "class": "el-icon-soccer",
+          "code": "\\e713",
+          "codeIcon": "\ue713"
+        },
+        {
+          "class": "el-icon-baseball",
+          "code": "\\e712",
+          "codeIcon": "\ue712"
+        },
+        {
+          "class": "el-icon-wind-power",
+          "code": "\\e6fd",
+          "codeIcon": "\ue6fd"
+        },
+        {
+          "class": "el-icon-light-rain",
+          "code": "\\e6fc",
+          "codeIcon": "\ue6fc"
+        },
+        {
+          "class": "el-icon-lightning",
+          "code": "\\e6fb",
+          "codeIcon": "\ue6fb"
+        },
+        {
+          "class": "el-icon-heavy-rain",
+          "code": "\\e6fa",
+          "codeIcon": "\ue6fa"
+        },
+        {
+          "class": "el-icon-sunrise",
+          "code": "\\e6f9",
+          "codeIcon": "\ue6f9"
+        },
+        {
+          "class": "el-icon-sunrise-1",
+          "code": "\\e6f8",
+          "codeIcon": "\ue6f8"
+        },
+        {
+          "class": "el-icon-sunset",
+          "code": "\\e6f7",
+          "codeIcon": "\ue6f7"
+        },
+        {
+          "class": "el-icon-sunny",
+          "code": "\\e6f6",
+          "codeIcon": "\ue6f6"
+        },
+        {
+          "class": "el-icon-cloudy",
+          "code": "\\e6f3",
+          "codeIcon": "\ue6f3"
+        },
+        {
+          "class": "el-icon-partly-cloudy",
+          "code": "\\e6f2",
+          "codeIcon": "\ue6f2"
+        },
+        {
+          "class": "el-icon-cloudy-and-sunny",
+          "code": "\\e6f1",
+          "codeIcon": "\ue6f1"
+        },
+        {
+          "class": "el-icon-moon",
+          "code": "\\e6f0",
+          "codeIcon": "\ue6f0"
+        },
+        {
+          "class": "el-icon-moon-night",
+          "code": "\\e6ee",
+          "codeIcon": "\ue6ee"
+        },
+        {
+          "class": "el-icon-dish",
+          "code": "\\e6c6",
+          "codeIcon": "\ue6c6"
+        },
+        {
+          "class": "el-icon-dish-1",
+          "code": "\\e6c5",
+          "codeIcon": "\ue6c5"
+        },
+        {
+          "class": "el-icon-food",
+          "code": "\\e6c4",
+          "codeIcon": "\ue6c4"
+        },
+        {
+          "class": "el-icon-chicken",
+          "code": "\\e6c3",
+          "codeIcon": "\ue6c3"
+        },
+        {
+          "class": "el-icon-fork-spoon",
+          "code": "\\e6c2",
+          "codeIcon": "\ue6c2"
+        },
+        {
+          "class": "el-icon-knife-fork",
+          "code": "\\e6c1",
+          "codeIcon": "\ue6c1"
+        },
+        {
+          "class": "el-icon-burger",
+          "code": "\\e6bf",
+          "codeIcon": "\ue6bf"
+        },
+        {
+          "class": "el-icon-tableware",
+          "code": "\\e6be",
+          "codeIcon": "\ue6be"
+        },
+        {
+          "class": "el-icon-sugar",
+          "code": "\\e6bd",
+          "codeIcon": "\ue6bd"
+        },
+        {
+          "class": "el-icon-dessert",
+          "code": "\\e6bc",
+          "codeIcon": "\ue6bc"
+        },
+        {
+          "class": "el-icon-ice-cream",
+          "code": "\\e6bb",
+          "codeIcon": "\ue6bb"
+        },
+        {
+          "class": "el-icon-hot-water",
+          "code": "\\e6ba",
+          "codeIcon": "\ue6ba"
+        },
+        {
+          "class": "el-icon-water-cup",
+          "code": "\\e6b9",
+          "codeIcon": "\ue6b9"
+        },
+        {
+          "class": "el-icon-coffee-cup",
+          "code": "\\e6b8",
+          "codeIcon": "\ue6b8"
+        },
+        {
+          "class": "el-icon-cold-drink",
+          "code": "\\e6b6",
+          "codeIcon": "\ue6b6"
+        },
+        {
+          "class": "el-icon-goblet",
+          "code": "\\e6b5",
+          "codeIcon": "\ue6b5"
+        },
+        {
+          "class": "el-icon-goblet-full",
+          "code": "\\e6b4",
+          "codeIcon": "\ue6b4"
+        },
+        {
+          "class": "el-icon-goblet-square-full",
+          "code": "\\e6b2",
+          "codeIcon": "\ue6b2"
+        },
+        {
+          "class": "el-icon-refrigerator",
+          "code": "\\e6b1",
+          "codeIcon": "\ue6b1"
+        },
+        {
+          "class": "el-icon-grape",
+          "code": "\\e6b0",
+          "codeIcon": "\ue6b0"
+        },
+        {
+          "class": "el-icon-watermelon",
+          "code": "\\e6af",
+          "codeIcon": "\ue6af"
+        },
+        {
+          "class": "el-icon-cherry",
+          "code": "\\e6ae",
+          "codeIcon": "\ue6ae"
+        },
+        {
+          "class": "el-icon-apple",
+          "code": "\\e6ad",
+          "codeIcon": "\ue6ad"
+        },
+        {
+          "class": "el-icon-pear",
+          "code": "\\e6ac",
+          "codeIcon": "\ue6ac"
+        },
+        {
+          "class": "el-icon-orange",
+          "code": "\\e6ab",
+          "codeIcon": "\ue6ab"
+        },
+        {
+          "class": "el-icon-coffee",
+          "code": "\\e6aa",
+          "codeIcon": "\ue6aa"
+        },
+        {
+          "class": "el-icon-ice-tea",
+          "code": "\\e6a9",
+          "codeIcon": "\ue6a9"
+        },
+        {
+          "class": "el-icon-ice-drink",
+          "code": "\\e6a7",
+          "codeIcon": "\ue6a7"
+        },
+        {
+          "class": "el-icon-milk-tea",
+          "code": "\\e6a6",
+          "codeIcon": "\ue6a6"
+        },
+        {
+          "class": "el-icon-potato-strips",
+          "code": "\\e6a5",
+          "codeIcon": "\ue6a5"
+        },
+        {
+          "class": "el-icon-lollipop",
+          "code": "\\e6a4",
+          "codeIcon": "\ue6a4"
+        },
+        {
+          "class": "el-icon-ice-cream-square",
+          "code": "\\e6a3",
+          "codeIcon": "\ue6a3"
+        },
+        {
+          "class": "el-icon-ice-cream-round",
+          "code": "\\e6a0",
+          "codeIcon": "\ue6a0"
+        }
+      ]
+    }
+  ],
+  "mobileIconLists": [
+    {
+      "type": "基础",
+      "iconList": [
+        {
+          "class": "van-icon-arrow",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-arrow-left",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-arrow-up",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-arrow-down",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-success",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cross",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-plus",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-minus",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-fail",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-circle",
+          "font": "van-icon"
+        }
+      ]
+    },
+    {
+      "type": "线框风格",
+      "iconList": [
+        {
+          "class": "van-icon-location-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-like-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-star-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-phone-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-setting-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-fire-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-coupon-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cart-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-shopping-cart-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cart-circle-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-friends-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-comment-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-gem-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-gift-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-point-gift-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-send-gift-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-service-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bag-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-todo-list-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-balance-list-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-close",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-clock-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-question-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-passed",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-add-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-gold-coin-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-info-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-play-circle-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-pause-circle-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-stop-circle-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-warning-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-phone-circle-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-music-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-smile-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-thumb-circle-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-comment-circle-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-browsing-history-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-underway-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-more-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-video-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-shop-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-shop-collect-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-share-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-chat-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-smile-comment-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-vip-card-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-award-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-diamond-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-volume-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cluster-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-wap-home-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-photo-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-gift-card-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-expand-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-medal-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-good-job-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-manager-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-label-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bookmark-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bill-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-hot-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-hot-sale-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-new-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-new-arrival-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-goods-collect-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-eye-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-delete-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-font-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-balance-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-refund-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-birthday-cake-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-user-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-orders-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-tv-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-envelop-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-flag-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-flower-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-filter-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bar-chart-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-chart-trending-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-brush-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bullhorn-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-hotel-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cashier-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-newspaper-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-warn-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-notes-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-calendar-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bulb-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-user-circle-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-desktop-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-apps-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-home-o",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-back-top",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-search",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-points",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-edit",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-qr",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-qr-invalid",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-closed-eye",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-down",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-scan",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-revoke",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-free-postage",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-certificate",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-logistics",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-contact",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cash-back-record",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-after-sale",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-exchange",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-upgrade",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-ellipsis",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-description",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-records",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-sign",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-completed",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-failure",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-ecard-pay",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-peer-pay",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-balance-pay",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-credit-pay",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-debit-pay",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cash-on-deliver",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-other-pay",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-tosend",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-pending-payment",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-paid",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-aim",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-discount",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-idcard",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-replay",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-shrink",
+          "font": "van-icon"
+        }
+      ]
+    },
+    {
+      "type": "实底风格",
+      "iconList": [
+        {
+          "class": "van-icon-location",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-like",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-star",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-phone",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-setting",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-fire",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-coupon",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cart",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-shopping-cart",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cart-circle",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-friends",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-comment",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-gem",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-gift",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-point-gift",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-send-gift",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-service",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bag",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-todo-list",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-balance-list",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-clear",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-clock",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-question",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-checked",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-add",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-gold-coin",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-info",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-play-circle",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-pause-circle",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-stop-circle",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-warning",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-phone-circle",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-music",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-smile",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-thumb-circle",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-comment-circle",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-browsing-history",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-underway",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-more",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-video",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-shop",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-shop-collect",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-share",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-chat",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-smile-comment",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-vip-card",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-award",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-diamond",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-volume",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cluster",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-wap-home",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-photo",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-gift-card",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-expand",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-medal",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-good-job",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-manager",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-label",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bookmark",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bill",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-hot",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-hot-sale",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-new",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-new-arrival",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-goods-collect",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-eye",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-delete",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-font",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-wechat",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-wechat-pay",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-alipay",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-photograph",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-youzan-shield",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-umbrella-circle",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bell",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-printer",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-map-marked",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-card",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-add-square",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-live",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-lock",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-audio",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-graphic",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-column",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-invition",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-play",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-pause",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-stop",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-weapp-nav",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-ascending",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-descending",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bars",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-wap-nav",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-enlarge",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-photo-fail",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-sort",
+          "font": "van-icon"
+        }
+      ]
+    }
+  ],
+  "uniIconLists": [
+    {
+      "type": "基础",
+      "iconList": [
+        {
+          "class": "van-icon-arrow-left",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-arrow-up",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-arrow-down",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-eye",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-location",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-star",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-fire",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-medal",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-font",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-gift",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-phone",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-contact",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-close",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-plus",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-info",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-circle",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-chat",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-more",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-search",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-scan",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-bars",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-shop",
+          "font": "van-icon"
+        },
+        {
+          "class": "van-icon-cart",
+          "font": "van-icon"
+        }
+      ]
+    }
+  ]
+}

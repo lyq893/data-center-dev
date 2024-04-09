@@ -1,0 +1,68 @@
+############################## 可视化设计器配置 开始  ##############################
+hussar-formdesign:
+  workspace: /home/hussar/workplace/
+  front-compile-server: ${FRONT_COMPILE_SERVER:http://localhost:8989/buildEntry}         # 编译服务地址
+  front-compile-path: /home/hussar/nginx/front/  # 前端编译输出路径
+  local-un-reset: true                                           #开启前端不重启模式
+  web-url: ${WEB_URL:http://192.168.2.99:8082}                            # web预览地址
+  offline-lr: true                                               # 本地利刃调试
+  back-project-path: hussar-web                                 # 天斧后端的项目路径
+  front-project-path: hussar-front
+  mobile-front-project-path: hussar-mobile
+spring:
+  ###################  MySQL数据库配置  ###################
+  datasource:
+    druid:
+      stat-view-servlet:
+        enabled: true
+        loginUsername: admin
+        loginPassword: 123456
+        allow: ''
+    dynamic:
+      primary: master
+      strict: true
+      druid: # 全局druid参数，绝大部分值和默认保持一致。(现已支持的参数如下,不清楚含义不要乱设置)
+          initial-size: 1
+          min-idle: 1
+          maxActive: 30
+          maxWait: 30000
+          removeAbandoned: false
+          logAbandoned: true
+          timeBetweenEvictionRunsMillis: 30000
+          maxEvictableIdleTimeMillis: 180000
+          minEvictableIdleTimeMillis: 60000
+          phyTimeoutMillis: 3600000
+          testOnBorrow: false
+          testOnReturn: false
+          testWhileIdle: true
+          validationQuery: SELECT 1
+          keepAlive: true
+          filters: stat,slf4j
+          connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
+      datasource:
+        master:
+          url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DATABASE:hussar-base}?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&useTimezone=true&serverTimezone=GMT%2B8&allowMultiQueries=true
+          username: ${MYSQL_SERVICE_USER:root}
+          password: ${MYSQL_SERVICE_PASSWORD:123456}
+          db-name: ${MYSQL_DATABASE:hussar-base}
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          jdbc-from-ds: true
+          select-datasource-sql: SELECT CONN_NAME poolName,DRIVER_CLASS driverClassName,JDBC_URL url,USER_NAME userName,PASSWORD password  FROM `SYS_DATASOURCE` WHERE CONN_NAME != 'master'
+          druid: # 全局druid参数，绝大部分值和默认保持一致。(现已支持的参数如下,不清楚含义不要乱设置)
+            initial-size: 1
+            min-idle: 1
+            maxActive: 30
+            maxWait: 30000
+            removeAbandoned: false
+            logAbandoned: true
+            timeBetweenEvictionRunsMillis: 30000
+            maxEvictableIdleTimeMillis: 180000
+            minEvictableIdleTimeMillis: 60000
+            phyTimeoutMillis: 3600000
+            testOnBorrow: false
+            testOnReturn: false
+            testWhileIdle: true
+            validationQuery: SELECT 1
+            keepAlive: true
+            filters: stat,slf4j
+            connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000

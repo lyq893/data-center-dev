@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-336.000000, -326.000000)">
+            <g id="分组-3" transform="translate(336.337402, 326.983520)">
+                <polygon id="路径-13" stroke="#6B798E" points="2.40440151 0 11.7633405 0 11.7633405 4.41139439 2.40440151 4.41139439"></polygon>
+                <polyline id="路径-14" stroke="#6B798E" points="7.08387102 4.41139439 7.08387102 7.30207171 7.08387102 9.79987444"></polyline>
+                <polyline id="路径-14-copy" stroke="#6B798E" transform="translate(7.140065, 7.105634) rotate(-270.000000) translate(-7.140065, -7.105634) " points="7.14006478 1.48107256 7.14006478 7.51572174 7.14006478 12.7301963"></polyline>
+                <rect id="矩形" stroke="#6B798E" x="0.5" y="10.0761196" width="2.26717268" height="2.26717268"></rect>
+                <rect id="矩形-copy" stroke="#6B798E" x="5.95028469" y="10.0761196" width="2.26717268" height="2.26717268"></rect>
+                <rect id="矩形-copy-2" stroke="#6B798E" x="11.4005694" y="10.0761196" width="2.26717268" height="2.26717268"></rect>
+                <path d="M1.51550293,7.10563442 L1.51550293,9.79987444" id="直线" stroke="#6B798E" stroke-linecap="square"></path>
+                <path d="M12.5341557,7.10563442 L12.5341557,9.79987444" id="直线-copy" stroke="#6B798E" stroke-linecap="square"></path>
+                <rect id="矩形" fill="#6B798E" x="3.26717268" y="1.42992292" width="1.39285714" height="1.39285714"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

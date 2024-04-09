@@ -1,0 +1,21 @@
+<svg id="组件-默认" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: #4c5a6c;
+      }
+    </style>
+  </defs>
+  <rect id="矩形_454" data-name="矩形 454" class="cls-1" width="20" height="20"/>
+  <g id="组_465" data-name="组 465" class="cls-2" transform="translate(4 4)">
+    <path id="联合_5" data-name="联合 5" class="cls-3" d="M8,13a1,1,0,0,1-1-1V8A1,1,0,0,1,8,7h4a1,1,0,0,1,1,1v4a1,1,0,0,1-1,1ZM1,13a1,1,0,0,1-1-1V8A1,1,0,0,1,1,7H5A1,1,0,0,1,6,8v4a1,1,0,0,1-1,1ZM8,6A1,1,0,0,1,7,5V1A1,1,0,0,1,8,0h4a1,1,0,0,1,1,1V5a1,1,0,0,1-1,1ZM1,6A1,1,0,0,1,0,5V1A1,1,0,0,1,1,0H5A1,1,0,0,1,6,1V5A1,1,0,0,1,5,6Z"/>
+  </g>
+</svg>

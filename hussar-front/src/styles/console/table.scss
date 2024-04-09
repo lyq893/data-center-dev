@@ -1,0 +1,512 @@
+/*-------------表格样式-------------*/
+// 左树右表----右表部分标题样式
+.account-title-parent {
+  padding: 16px 24px;
+  align-items: center;
+}
+
+.account-title {
+  height: fit-content;
+  max-width: 70%;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #545672;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.account-total {
+  width: 80px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  color: #bdbdbd;
+  line-height: 22px;
+}
+
+// 无树表查询区
+.table-filter {
+  padding-bottom: 8px;
+
+  .filter-btn {
+    margin-left: 24px
+  }
+
+  .el-button + .el-button {
+    margin-left: 8px;
+  }
+}
+
+// 左树右表查询区
+.split-container .tree-right .filter-box {
+  padding: 0 24px;
+  background: #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+  .el-button.left {
+    margin-left: 24px;
+  }
+
+  .title-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #878787;
+  }
+}
+
+// 无树表格
+.list-container {
+  height: 100%;
+
+  .list-box {
+    border-radius: 4px;
+    box-shadow: 0px 1px 5px 0px rgba(18, 29, 106, 0.20);
+    height: 100%;
+    background: #ffffff;
+
+    .table-box {
+      height: 100%;
+
+      .table-wrap {
+        height: calc(100% - 40px);
+
+        .lcdp-table {
+          height: calc(100% - 40px);
+        }
+      }
+    }
+
+    // 没有查询区
+    .table-box-noquery {
+      .table-wrap {
+        height: 100%;
+      }
+    }
+  }
+}
+
+// 左树右表表格
+.split-container {
+  height: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px 0px rgba(18, 29, 106, 0.20);
+
+  .el-row {
+    margin-left: -6px;
+    margin-right: -6px;
+
+    .tree-right {
+      background-color: #FFFFFF;
+      height: 100%;
+      opacity: 1;
+      padding: 0;
+
+      // 弹出层
+      .tab-box {
+        height: 100%;
+
+        & > div {
+          height: 100%
+        }
+      }
+    }
+  }
+
+  .right-table-parent {
+    border-left: solid 1px;
+    border-image: linear-gradient(#fafafa, #eaeaea, #fafafa) 50 50;
+  }
+
+  .table-form-box {
+    width: 81%;
+    padding: 0 24px 20px;
+    box-shadow: 0 2px 18px 0 rgba(204, 213, 224, 0.69);
+    border-radius: 5px;
+    transition: all 0.2s;
+  }
+
+  .spread-tree .table-form-box {
+    width: 71.5%
+  }
+
+  .flod-tree .table-form-box {
+    width: 100%
+  }
+
+  // 没有查询区
+  .tree-right-noquery {
+    .table-box {
+      height: calc(100% - 64px);
+    }
+  }
+
+  .table-box {
+    height: calc(100% - 88px);
+
+    .table-wrap {
+      height: 100%;
+
+      .lcdp-table {
+        height: calc(100% - 40px);
+      }
+    }
+  }
+}
+
+// 特殊：角色维护》新增角色》关联用户
+// 关联用户
+.table-right .tree-right {
+  height: 100%;
+  background: #ffffff;
+
+  .el-input__inner:hover {
+    border: 1px solid #045340;
+  }
+
+  .table-filter {
+    padding: 24px 24px 16px;
+  }
+
+  .table-wrap {
+    height: calc(100% - 72px);
+
+    .lcdp-table {
+      height: calc(100% - 48px);
+
+      td.el-table__cell {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+// 表格
+.table-box {
+  overflow: auto;
+  padding: 16px 24px 16px 24px;
+  background: #fff;
+  border-radius: 4px;
+
+  .el-checkbox__input.is-indeterminate .el-checkbox__inner:before {
+    height: 4px;
+    transform: scale(0.6);
+    top: 4px;
+    border-radius: 2px;
+  }
+
+}
+
+// 隔行填充色
+.lcdp-table.el-table--striped .el-table__body tr.el-table__row--striped td{
+  background: #FDFDFD;
+}
+
+.lcdp-table {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+
+  // 表格复选框选中状态
+  .el-checkbox__input.is-checked .el-checkbox__inner {
+    background: #1D6453 !important;
+    border-color: #045340;
+
+    &:hover {
+      border-color: #1D6453;
+    }
+
+  }
+
+  //表格复选框半选状态
+  .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background: #045340;
+    border-color: #045340;
+
+    &:hover {
+      border-color: #1D6453 !important
+    }
+
+  }
+
+  &::before {
+    position: static;
+  }
+
+  .el-button {
+    float: left;
+    width: auto;
+    height: 24px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0 8px;
+    font-size: 12px;
+    border: 1px solid #CFD4E5;
+    box-shadow: 0 2px 4px 0 rgba(207, 212, 229, 0.61);
+    text-align: center;
+    color: #6B798E;
+    border-radius: 2px;
+
+    &:active, &:focus {
+      background-color: #fff
+    }
+
+    &.t-btn-del:focus {
+      background-color: #F56C6C;
+      color: #6B798E;
+    }
+
+    &.is-disabled, &.is-disabled:focus, &.is-disabled:hover {
+      background: #fff !important;
+      color: #C0C4CC !important;
+    }
+  }
+
+  .el-button + .el-button {
+    margin-left: 4px;
+  }
+
+  th {
+    padding: 6px 0;
+
+    &.is-leaf {
+      border-bottom: 1px solid #ececed;
+      border-right: 0;
+      text-align: left;
+    }
+  }
+
+  tbody tr {
+    &:hover {
+      background: #f5f5f5;
+    }
+
+    &:focus {
+      background: #e4f2ff;
+    }
+  }
+
+  .has-gutter th {
+    padding: 14px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #545672;
+  }
+
+  .el-table__header-wrapper {
+
+    th .cell {
+      line-height: 20px;
+    }
+  }
+
+  .el-table__body-wrapper {
+    height: calc(100% - 64px);
+    overflow: hidden;
+
+    &:hover {
+      overflow: auto;
+    }
+
+    .cell {
+      line-height: 34px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+      span {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+    .el-table__row td {
+      color: rgba(0,0,0,0.65);
+      font-size: 14px;
+      padding: 6px 0;
+      border: 0;
+    }
+
+  }
+}
+
+.lcdp-table.el-table .cell, .lcdp-table.el-table .cell span {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.lcdp-table.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: #F5F5F5;
+}
+
+// 弹窗内表格
+.lcdp-dialog {
+  .el-dialog__body {
+    padding: 14px 24px 16px;
+
+    .tree-right {
+      height: calc(100% - 10px);
+
+      .table-wrap {
+        height: calc(100% - 50px);
+
+        .el-table {
+          width: 100%;
+          height: calc(100% - 56px) !important;
+          border: none;
+          color: #606266;
+          font-size: 14px;
+
+          td {
+            border-bottom: 0;
+          }
+
+          th.is-leaf {
+            border-bottom: 1px solid #EAEAEA;
+          }
+
+          .has-gutter th {
+            background-color: #FDFDFD;
+            font-size: 14px;
+            font-weight: 400;
+            color: #878787;
+            padding: 10px 0 !important;
+          }
+
+          .el-table__header-wrapper th .cell {
+            line-height: 20px;
+          }
+
+          .is-center .cell {
+            text-align: center;
+
+            div {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+
+    /*实例管理-修改意见*/
+    .table-wrap {
+      height: 100%;
+
+      .lcdp-table {
+        height: 100%;
+      }
+    }
+
+    // 插件管理
+    .lcdp-table {
+      height: calc(100% - 40px);
+
+      ::v-deep .el-table__body-wrapper {
+        height: calc(100% - 38px);
+        overflow-y: scroll;
+      }
+    }
+  }
+}
+
+// ------------------表格分页-------------
+.table-wrap .lcdp-pagination.el-pagination .el-select .el-input.is-focus .el-input__inner,
+.table-wrap .lcdp-pagination .el-pagination__sizes .el-input .el-input__inner:hover {
+  border-color: #045340;
+}
+
+@media screen and (max-width: 1600px) {
+  .account-title {
+    max-width: 62%;
+  }
+}
+
+
+/*实例管理-修改意见*/
+.el-table__expand-icon .el-icon-arrow-right:before {
+  content: "\e6d9";
+  display: inline-block;
+  box-sizing: content-box;
+  border: 1px solid #ccc;
+  /*padding: 1px;*/
+  margin-left: -3px;
+  margin-top: -2px;
+  width: 12px;
+  height: 12px;
+}
+
+.el-table__expand-icon--expanded .el-icon-arrow-right:before {
+  content: "\e6d8";
+  display: inline-block;
+  box-sizing: content-box;
+  width: 12px;
+  height: 12px;
+  margin-left: -3px;
+  margin-top: -2px;
+}
+
+.el-table .el-table__expand-icon {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  width: 12px;
+  height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .el-icon-arrow-right {
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+}
+
+.el-table__body-wrapper tbody tr td:nth-child(2) .cell {
+
+  .el-table__expand-icon {
+    position: absolute;
+    left: -10px;
+    top: 14px;
+  }
+
+  .el-table__indent + .el-table__expand-icon {
+    left: -5px;
+  }
+}
+
+//-------------------表格超链接样式---------------
+.table-hyperlinks {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  color: #045340;
+}
+
+/*表格选中行颜色*/
+.el-table__row.selected-row,
+.el-table--striped .el-table__body tr.el-table__row--striped.selected-row,
+.el-table--striped .el-table__body tr.el-table__row--striped.selected-row td,
+.lcdp-table.el-table--striped .el-table__body tr.checked-row td,
+.lcdp-table.el-table--striped .el-table__body tr.current-row > td.el-table__cell {
+  background: #FDFDFD;
+}
+
+.checked-row {
+  background-color: #FDFDFD;
+}
+
+

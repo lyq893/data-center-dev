@@ -1,0 +1,245 @@
+###################################################################################################################
+#
+#   helm 模板文件 所需要的配置参数数据，按照如下配置完成后，可执行如下命令生成一个完整的k8s 部署yarml文件
+#
+#   该helm脚本只是使用 helm 模板 生成k8s的yaml文件，暂不可直接用于helm install
+#
+#   helm template <name> <chart> --output-dir <output-dir>
+#
+#   其中 name：heml 的名称，可以任意名称  chart： 固定 hussar-lcdp-template，为Chart文件所在目录，output-dir:输出目录
+#   例：
+#   helm template hussar-ncdp hussar-ncdp-template --output-dir k8s-script
+#
+###################################################################################################################
+
+# 命名空间，通过命名空间进行环境隔离
+namespace: jszt-ldcp
+
+# Harbor仓库密钥信息（加密后）
+harbor:
+  secret: eyJhdXRocyI6eyIxNzIuMjcuNDQuMzU6NDQzIjp7InVzZXJuYW1lIjoianN6dC1kb2NwLXVzZXIxIiwicGFzc3dvcmQiOiJBYV84ODg4ODgiLCJlbWFpbCI6Ijg3OTAwNjM0NEBxcS5jb20iLCJhdXRoIjoiYW5ONmRDMWtiMk53TFhWelpYSXhPa0ZoWHpnNE9EZzRPQT09In19fQ==
+
+# 项目相关信息：
+# projectType 分为web类型，其他类型时，值为web,app 源码会包含hussar-mobile
+project:
+  projectType: web,app
+
+
+# 服务对外暴漏的ip和端口号，启动成功后访问页面的域名和端口以及设计器预览时获取当前服务的域名和端口
+# frontServiceName和mobileServiceName为前端访问域名(三级域名+二级域名)
+service:
+  ip: 60.204.136.32
+  port: 32102
+  mobilePort: 32103
+  frontService: front-0928.lcdp-dev.qd-metro.com
+  mobileService: mobile-0928.lcdp-dev.qd-metro.com
+
+# ingress相关
+# ingressName 为每个环境 ingress文件的资源名 projectcode-ingress
+# projectcode为变量
+# projectcode命名规范：开发环境projectcode_branchName;测试环境projectcode_test;正式环境projectcode_prod
+ingress:
+  ingressName: projectcode-ingress
+
+
+# 数据库类型：根据此变量，spring连接数据库使用不同的连接数据库配置，包括：mysql、oracle、dm、pgsql、sqlServer、kingbase、oscar
+database:
+  type: mysql
+
+# 数据库连接相关信息
+mysql:
+  host: 172.27.178.14
+  port: 3306
+  database: test
+  username: root
+  password: Root@14!
+
+
+# oracle连接相关信息，连接oracle数据库时设置连接
+oracle:
+  host:
+  port:
+  database:
+  username:
+  password:
+
+# 达梦连接相关信息，连接达梦数据库时设置连接
+dm:
+  host:
+  port:
+  database:
+  username:
+  password:
+
+# pgsql连接相关信息，连接pg数据库时设置连接
+pgsql:
+  host:
+  port:
+  database:
+  username:
+  password:
+
+# sqlServer连接相关信息，连接sqlServer数据库时设置连接
+sqlServer:
+  host:
+  port:
+  database:
+  username:
+  password:
+
+# 金仓连接相关信息，连接金仓数据库时设置连接
+kingbase:
+  host:
+  port:
+  database:
+  username:
+  password:
+# 神通连接相关信息，连接神通数据库时设置连接x
+oscar:
+  host:
+  port:
+  database:
+  username:
+  password:
+
+# 编译服务相关配置，主要为镜像地址、镜像拉取策略、镜像拉取密钥、资源使用情况（最少使用CPU、内存，最多使用的CPU、内存）
+# namespace 命名空间，在代码中会根据变量生成实际的命名空间
+compile:
+  image: swr:2512/namespace/${imageName}_compile:${frontImages}
+  imagePullPolicy: IfNotPresent
+  imagePullSecrets:
+    name: harbor-secret
+  resources:
+    limits:
+      cpu: 2000m
+      memory: 6Gi
+    requests:
+      cpu: 1300m
+      memory: 2Gi
+
+# 后台服务相关配置，主要为镜像地址、镜像拉取策略、镜像拉取密钥、资源使用情况（最少使用CPU、内存，最多使用的CPU、内存）
+# namespace 命名空间，在代码中会根据变量生成实际的命名空间
+curl:
+  image: swr:2512/namespace/busybox-curl:8.3.4
+  imagePullPolicy: IfNotPresent
+  imagePullSecrets:
+    name: harbor-secret
+  resources:
+    limits:
+      cpu: 500m
+      memory: 2Gi
+    requests:
+      cpu: 200m
+      memory: 1Gi
+# namespace 命名空间，在代码中会根据变量生成实际的命名空间
+nginx:
+  image: swr:2512/namespace/hussar-nginx:latest
+  imagePullPolicy: IfNotPresent
+  imagePullSecrets:
+    name: harbor-secret
+  resources:
+    limits:
+      cpu: 500m
+      memory: 2Gi
+    requests:
+      cpu: 300m
+      memory: 1Gi
+# 后台服务相关配置，主要为镜像地址、镜像拉取策略、镜像拉取密钥、资源使用情况（最少使用CPU、内存，最多使用的CPU、内存）
+# namespace 命名空间，在代码中会根据变量生成实际的命名空间
+backend:
+  image: swr:2512/namespace/${imageName}_web:${webImages}
+  imagePullPolicy: IfNotPresent
+  imagePullSecrets:
+    name: harbor-secret
+  resources:
+    limits:
+      cpu: 2000m
+      memory: 2Gi
+    requests:
+      cpu: 1000m
+      memory: 1Gi
+
+
+# 授权服务相关配置
+license:
+  useVolServer: true
+  licenseService: https://lcdp-license.qd-metro.com
+  licenseServicePath: /
+  image:
+  imagePullPolicy: IfNotPresent
+  imagePullSecrets:
+    name: harbor-secret
+
+
+
+# k8s资源服务名
+# projectcode为变量
+# projectcode命名规范：开发环境projectcode_branchName;测试环境projectcode_test;正式环境projectcode_prod
+configName:
+  env: test1103-01-hussar-ldcp-env
+  nginxConfig: test1103-01-hussar-nginx-server-block
+  webConfig: test1103-01-hussar-web-config
+serviceName:
+  hussarCompile: test1103-01-hussar-compile-svc
+  hussarBackend: test1103-01-hussar-backend-svc
+  hussarNginx: test1103-01-hussar-nginx-svc
+deploymentName:
+  hussarCompile: test1103-01-hussar-compile
+  hussarBackend: test1103-01-hussar-backend
+  hussarNginx: test1103-01-hussar-nginx
+# 持久卷
+pvc:
+  frontSource: test1103-01-hussar-front-source-pvc
+  mobileSource: test1103-01-hussar-mobile-source-pvc
+  webSource: test1103-01-hussar-web-source-pvc
+  output: htest1103-01-ussar-front-output-pvc
+
+
+# 新应用后台配置文件(线上)，线下开发根本实际进行调整
+# 关于gitlab信息：地址、项目群组、添加git账号默认密码
+gitlab:
+  uri:
+    gitUri: http://gitlab.qd-metro.com/
+    gitGroup: lcdp/
+  defaultPassword: qddt@123
+
+# 对接IAM后台配置信息： auth 授权推送账号信息、grant单点登录连接信息
+IAM:
+  dataSync:
+    key: JLB6L6MJVIT5Z7IL
+    type: SM4
+    signType: SM3
+    appCode: LCDP
+    bimRemoteUser: iamUser
+    bimRemotePwd: 123qwe!@#QWE
+  auth:
+    address: idp.qd-metro.com
+    clientId: LCDP
+    clientSecret: 75d7ddd815ac460e81d8b6c47c0f5976
+  grant:
+    address: bpc.qd-metro.com
+    username: dvadmin
+    userId: 20230904151142997-ECB6-3741DEE5D
+    appKey: LCDP
+    dataObjectCode: TMOPMS_GON
+    adataObjectCode: TMOPMS_TEM
+  request-way: http
+
+# 新应用项目信息：用于项目启动回调
+appManage:
+  enable: true                          # 是否开启回调方法，线上部署开启，线下关闭
+  url: https://lcdp.qd-metro.com/       # 应用管理平台地址
+  projectCode: 000                      # 项目编码
+  branch: dev                           # 分支名称
+  deployType: 1                         # 部署类型
+  obtainChangeFlag: false               # 是否是获取变更操作，默认false，获取变更时修改为true 为应用部署之后回调方法添加部署完成日志使用
+  env: DEV                              # 新应用的环境类型 DEV开发环境 TEST 测试环境 PROD 正式环境
+  abutmentIAM: false                     # 是否对接IAM 默认false 用于判断修改前端变量
+
+# 企业微信 终端信息
+corp:
+  isCorp: true            #是否选择企业微信终端
+  corpid: 1111             # 企业微信ID
+  corpsecret: 222222       # 企业应用密钥
+  token: weChatCallBackToken  #企业微信回调需要token
+  encodingAESKey: weChatCallBackParam    #企业微信回调

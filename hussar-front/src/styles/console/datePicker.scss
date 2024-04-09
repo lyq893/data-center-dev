@@ -1,0 +1,196 @@
+//------------日期选择器------------
+.table-filter .lcdp-date {
+  width: 200px;
+}
+
+.el-input__inner:focus {
+  border-color: #045340;
+}
+
+.lcdp-date-pop {
+  box-shadow: 0px 8px 16px 0px rgba(224, 240, 255, 0.50);
+  border: 1px solid #f1f3f6;
+
+  .el-date-picker__header {
+    margin: 5px 12px;
+
+    &:hover {
+      color: #045340;
+    }
+
+    // 前一年
+    .el-picker-panel__icon-btn:hover {
+      color: #045340;
+    }
+
+  }
+
+  .el-picker-panel__content {
+    .el-date-table {
+      th {
+        line-height: 14px;
+      }
+
+      td {
+        height: 20px;
+
+        div {
+          height: 20px;
+        }
+
+        span {
+          width: 16px;
+          height: 16px;
+          line-height: 16px;
+        }
+
+        &.today span, &.available:hover {
+          color: #045340;
+        }
+      }
+
+      td.current:not(.disabled) {
+        span {
+          background-color: #045340;
+          color: #fff !important;
+        }
+      }
+
+      td.start-date.in-range span, td.end-date span {
+        color: #fff !important;
+        background-color: #045340;
+      }
+    }
+
+    .el-year-table {
+      td.today .cell, td .cell:hover, &.current:not(.disabled) .cell {
+        color: #045340;
+      }
+    }
+
+    .el-month-table {
+      td {
+        &.today .cell, &.current:not(.disabled) .cell, .cell:hover {
+          color: #045340;
+        }
+      }
+    }
+  }
+
+  .el-picker-panel__footer {
+    .el-button {
+      margin-left: 5px;
+
+      &.is-plain:hover, &.is-plain:focus {
+        color: #045340;
+        border-color: #045340;
+      }
+    }
+
+    // 取消
+    .el-button--text {
+      color: #045340;
+
+      &:hover {
+        color: #045340;
+      }
+    }
+  }
+
+  // 日期选择器
+  &.el-date-picker {
+    width: 270px;
+
+    .el-picker-panel__content {
+      width: 250px;
+      margin: 5px 10px;
+    }
+  }
+
+  &.el-date-picker__header-label {
+    font-size: 14px;
+  }
+
+  // 日期时间选择器
+  .el-date-picker__time-header .el-input__inner {
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
+// 时间选择器
+.lcdp-time-pop .el-time-panel__btn.confirm {
+  color: #045340;
+}
+
+// 消息中心
+.message-form {
+  .el-input--prefix .el-input__inner {
+    padding-left: 15px;
+  }
+}
+
+//日期时间选择器
+.lcdp-date {
+
+  .el-input__prefix {
+    position: absolute;
+    left: calc(100% - 22px);
+  }
+
+  .el-icon-circle-close:hover {
+    color: #878787;
+  }
+
+}
+
+// 日历图标不显示
+.dateIcon:hover .el-input__prefix{
+  display: none;
+}
+
+// 两个组合的日期时间选择器
+.lcdp-date-editor {
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 410px;
+  height: 32px;
+  line-height: 32px;
+
+  .el-range__icon {
+    height: 100%;
+    position: absolute;
+    left: calc(100% - 22px)
+  }
+
+  .el-range-input:nth-last-child(2) {
+    text-align: left;
+    margin-left: 11px;
+  }
+
+  .el-range-input:nth-last-child(4) {
+    text-align: left;
+  }
+
+  .el-range-separator {
+    height: 32px;
+  }
+
+  .el-range__close-icon {
+    position: absolute;
+    left: calc(100% - 48px);
+
+    &:hover {
+      color: #878787;
+    }
+
+  }
+
+}
+
+.table-filter .el-date-editor.el-date-editor--daterange{
+  width: 250px;
+  height: 32px;
+  margin-right: 8px;
+}
+

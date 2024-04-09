@@ -1,0 +1,3 @@
+//可清空级联下拉框交互
+.el-cascader .el-input__suffix .el-icon-circle-close:before{content: "\E6DB";color: #969696}
+.el-cascader .el-input__suffix:hover .el-icon-circle-close:before{content: "\E79D";color: #878787}

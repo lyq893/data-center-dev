@@ -1,0 +1,77 @@
+// vxe表格的公共样式
+.vxe-table.vxe-table--render-default {
+  .vxe-table--body-wrapper {
+    .vxe-body--row .btn-box .no-text{
+      color: #606266;
+    }
+    /*设置奇数行颜色*/
+    .vxe-body--row:nth-child(odd) {
+      background: #FFF;
+    }
+
+    /*设置偶数行颜色*/
+    .vxe-body--row:nth-child(even) {
+      background: #F8FBFE;
+    }
+
+    /*行鼠标悬浮颜色*/
+    .vxe-body--row:hover{
+      background-color: #F5F5F5;
+    }
+
+    /*行选中颜色*/
+    .vxe-body--row.row--checked {
+      background-color: #E4F2FF;
+    }
+  }
+
+  /*表头颜色*/
+  .vxe-table--header{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EAEAEA;
+
+    .vxe-cell--title {
+      font-weight: 400;
+      font-size: 14px;
+      color: #545672;
+    }
+
+  }
+
+  .vxe-cell--checkbox {
+    // 复选框
+    .vxe-checkbox--icon {
+      font-size: 12px;
+      &:before {
+        border: 1px solid #CCCCCC;
+        width: 14px;
+        height: 14px;
+      }
+    }
+    //复选框选中状态
+    .vxe-checkbox--checked-icon:before {
+      border: 1px solid #1B82E1;
+      border-radius: 2px;
+    }
+    .vxe-checkbox--checked-icon:after {
+      height: 8px;
+      width: 4px;
+      left: 7px;
+      border: 1px solid #fff;
+      border-left: 0px;
+      border-top: 0;
+    }
+    // 复选框半选状态
+    .vxe-checkbox--indeterminate-icon:before {
+      border: 1px solid #1B82E1;
+      border-radius: 2px;
+    }
+    .vxe-checkbox--indeterminate-icon:after{
+      height: 2px;
+      top: 46%;
+      transform: scale(1);
+      left: 28%;
+      border-radius: 2px;
+    }
+  }
+}

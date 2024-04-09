@@ -1,0 +1,103 @@
+/**
+* 需要在hussar_v8_front 修改样式
+number 数字组件
+ */
+ .el-input-number.is-controls-right .el-input-number__decrease,
+ .el-input-number.is-controls-right .el-input-number__increase{
+  height: 50%;
+}
+ .el-input-number .el-input-number__decrease i,
+ .el-input-number .el-input-number__increase i{
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  margin-top: -5px;
+}
+ .el-input-number .el-input,
+ .el-input-number .el-input .el-input__inner{
+  width: 100%;
+  height: 100%;
+}
+ /**
+ select 下拉框组件
+  */
+.jxd_ins_elSelect .el-input,.jxd_ins_elSelect .el-input input {
+ height: 100%;
+}
+.jxd_ins_elDateTimePicker.el-input .el-input__prefix .el-input__icon{
+ background: none;
+}
+.jxd_ins_elDateTimePicker.el-input .el-input__prefix .el-input__icon:before {
+ display: inline-block;
+ vertical-align: middle;
+ //position: absolute;
+ //top: 50%;
+ //margin-top: -8px;
+}
+.jxd_ins_elDateTimePicker.el-input .el-input__suffix .el-input__icon:before {
+ display: inline-block;
+ vertical-align: middle;
+}
+.jxd_ins_elDateTimePicker.el-input .el-input__prefix {
+ right: 0px;
+ left: auto;
+ //height: calc(100% - 5px);
+}
+/**
+tab页
+ */
+.jxd_ins_elTabs .el-tabs__content .el-tab-pane {
+ position: relative;
+ height: 100%;
+ width:100%;
+}
+.jxd_ins_elTabs .el-tabs__content{
+ height: 100%;
+ width: 100%;
+ overflow: auto;
+
+}
+.jxd_ins_elDateTimePicker.el-input .el-input__suffix {
+ right: 20px;
+ //top: 2px;
+}
+/**
+input 单行文本组件
+ */
+.el-input input{
+ height: 100%;
+}
+/**
+textarea 多行文本组件
+ */
+.el-textarea textarea{
+ height: 100%;
+}
+/**
+editTable 可编辑表格组件
+ */
+.vxe-input--panel {
+  z-index: 2000 !important;
+}
+.vxe-select--panel {
+ z-index: 2001 !important;
+}
+/**
+dialog 弹窗组件
+ */
+.el-dialog__body {
+ position: relative;
+}
+.el-dialog__footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+/**
+单选框
+ */
+.el-radio {
+ height: 100%;
+ display: inline-flex;
+ align-items: center;
+}

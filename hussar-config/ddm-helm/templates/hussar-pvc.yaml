@@ -1,0 +1,82 @@
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# 创建PVC
+
+# compile服务首次进行编译前端代码 和 hussarweb 生成vue代码 共享
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+ name: {{ .Values.pvc.frontSource }}
+ namespace: {{ .Values.namespace }}
+spec:
+ storageClassName: storagepool-storage-pool-backend
+ accessModes:
+   - ReadWriteMany
+ resources:
+   requests:
+     storage: 5Gi
+{{ if contains  "h5" .Values.project.projectType  }}
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# compile服务首次进行编译前端代码 和 hussarweb 生成vue代码 共享
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ .Values.pvc.mobileSource }}
+  namespace: {{ .Values.namespace }}
+spec:
+ storageClassName: storagepool-storage-pool-backend
+ accessModes:
+   - ReadWriteMany
+ resources:
+   requests:
+     storage: 5Gi
+{{ end }}
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# compile服务编译的输出目录 nginx公用
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+ name: {{ .Values.pvc.output }}
+ namespace: {{ .Values.namespace }}
+spec:
+ storageClassName: storagepool-storage-pool-backend
+ accessModes:
+   - ReadWriteMany
+ resources:
+   requests:
+     storage: 10Gi
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# hussarweb 后台源码存储
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+ name: {{ .Values.pvc.webSource }}
+ namespace: {{ .Values.namespace }}
+spec:
+ storageClassName: storagepool-storage-pool-backend
+ accessModes:
+   - ReadWriteMany
+ resources:
+   requests:
+     storage: 2Gi
+
+{{ if and (contains  "uniapp" .Values.project.projectType) (eq .Values.appManage.env "DEV") }}
+---
+# Source: hussar-ncdp/templates/hussar-web-compile-nginx.yaml
+# hussar-mobile-uni 源码存储
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ .Values.pvc.mobileUniSource }}
+  namespace: {{ .Values.namespace }}
+spec:
+  storageClassName: storagepool-storage-pool-backend
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 5Gi
+{{ end }}

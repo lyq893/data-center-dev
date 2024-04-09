@@ -1,0 +1,16 @@
+{
+  "id": "3534985",
+  "name": "LCDP",
+  "font_family": "lcdpFont",
+  "css_prefix_text": "lcdp_",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "30424628",
+      "name": "图文_图片",
+      "font_class": "default-img",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    }
+  ]
+}

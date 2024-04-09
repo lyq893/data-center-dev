@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "jxdIcon"; /* Project id 2360595 */
+  src: url('iconfont.eot?t=1673000826632'); /* IE9 */
+  src: url('iconfont.eot?t=1673000826632#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff2?t=1673000826632') format('woff2'),
+       url('iconfont.woff?t=1673000826632') format('woff'),
+       url('iconfont.ttf?t=1673000826632') format('truetype'),
+       url('iconfont.svg?t=1673000826632#jxdIcon') format('svg');
+}
+
+.jxdIcon {
+  font-family: "jxdIcon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jxd-el-hidden:before {
+  content: "\e610";
+}
+
+.jxd-el-dagang_gantetu:before {
+  content: "\e60f";
+}
+
+.jxd-el-icon:before {
+  content: "\e604";
+}
+
+.jxd-el-nr-tag:before {
+  content: "\e601";
+}
+
+.jxd-el-right-arrow:before {
+  content: "\e546";
+}
+
+.jxd-el-PM25:before {
+  content: "\e895";
+}
+
+.jxd-el-temperature:before {
+  content: "\e896";
+}
+
+.jxd-el-humidity:before {
+  content: "\e897";
+}
+
+.jxd-el-pressure:before {
+  content: "\e898";
+}
+
+.jxd-el-camera:before {
+  content: "\e873";
+}
+
+.jxd-el-close:before {
+  content: "\e6b1";
+}
+
+.jxd-el-view:before {
+  content: "\e6e7";
+}
+
+.jxd-el-error:before {
+  content: "\e86b";
+}
+
+.jxd-el-download:before {
+  content: "\e864";
+}
+
+.jxd-el-fileList:before {
+  content: "\e865";
+}
+
+.jxd-el-upload:before {
+  content: "\e866";
+}
+

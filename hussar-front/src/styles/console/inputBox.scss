@@ -1,0 +1,423 @@
+//抽屉中的样式
+.table-drawer {
+
+  .el-form-item:not(.is-error) {
+
+    //输入框边框颜色，防止is-error的时候element-ui上的颜色失效
+    .el-input__inner {
+      border: 1px solid #D9D9D9;
+    }
+
+  }
+
+  .el-form-item.is-error {
+
+    //输入框边框颜色，防止用户维护抽屉中开启登录ip限制校验边框颜色呗不错误时影响
+    .el-input__inner {
+      border: 1px solid #F56C6C;
+    }
+
+  }
+
+  .el-input {
+    width: 416px;
+    font-size: 14px;
+
+    &.is-disabled .el-input__inner {
+      color: #a7a7a7;
+      background-color: #F4F4F4;
+      border-color: #d9d9d9 !important;
+    }
+
+    .el-input__inner {
+      padding-right: 30px;
+      border-radius: 2px;
+      height: 32px;
+      line-height: 32px;
+      color: #545672;
+      padding-left: 8px;
+
+      &:hover {
+        border: 1px solid #045340;
+      }
+
+      &:focus {
+        border-color: #045340;
+      }
+    }
+
+    .el-input__icon {
+      line-height: 32px;
+      font-size: 14px;
+    }
+
+  }
+
+  //外部数据源新增页面, 特殊：新增不相容角色集》基数数字左对齐
+  .el-input-number {
+    width: 416px;
+    line-height: 20px;
+
+    .el-input-number__decrease {
+      top: 5px;
+      line-height: 30px;
+      background: #ffffff;
+    }
+
+    .el-input-number__increase {
+      top: 5px;
+      line-height: 30px;
+      background: #ffffff;
+    }
+
+    .el-input__inner {
+      width: 416px !important;
+      padding-left: 8px;
+      text-align: center;
+    }
+
+  }
+
+  //角色不相容新增、修改页面
+  .is-controls-right {
+
+    .el-input-number__decrease {
+      line-height: 10px;
+      border: none;
+      top: auto
+    }
+
+    .el-input-number__increase {
+      line-height: 10px;
+      border: none;
+    }
+
+  }
+
+
+  .el-select {
+    width: 416px;
+
+    .el-input__inner {
+
+      &::placeholder {
+        font-size: 14px;
+        color: #BCBDBF;
+      }
+
+    }
+
+    .el-input__suffix {
+      right: 8px;
+      width: 16px;
+
+      .el-select__caret {
+        line-height: 32px;
+        height: 32px;
+        width: 16px;
+        color: #878787;
+      }
+
+    }
+
+  }
+
+  .el-form-item:not(.is-error) {
+
+    //多选框边框颜色，防止is-error的时候element-ui上的颜色失效
+    .el-textarea__inner {
+      border: 1px solid #D9D9D9;
+    }
+
+  }
+
+  .el-textarea {
+    width: 416px;
+    margin-top: 4px;
+
+    &.is-disabled .el-textarea__inner {
+      color: #C0C4CC;
+    }
+
+    .el-textarea__inner {
+      font-size: 14px;
+      color: #545672;
+      border-radius: 0;
+      padding: 8px 10px 22px;
+      height: 96px !important;
+      min-height: 96px !important;
+
+      &:hover {
+        @include border(border5);
+      }
+
+      &:focus {
+        @include border_color(border_color1);
+      }
+
+    }
+
+  }
+
+  .el-radio-group {
+    width: 416px;
+    margin-top: 4px;
+
+    .el-radio {
+      height: 20px;
+      line-height: 20px;
+      margin-right: 40px;
+
+      .el-radio__input.is-disabled.is-checked .el-radio__inner::after {
+        @include background_color(background_color1);
+      }
+
+      .el-radio__label, .el-switch__label * {
+        font-size: 14px;
+        color: #333651;
+        font-weight: 400;
+        padding-left: 4px;
+      }
+
+    }
+  }
+
+  .el-upload {
+    text-align: left;
+    width: 416px;
+    margin-top: 4px;
+  }
+
+  .el-switch {
+    width: 28px;
+
+    &.is-checked .el-switch__core {
+      @include background_color(background_color14);
+      @include border(border5);
+
+      &:after {
+        margin-left: -11px
+      }
+
+    }
+
+    .el-switch__core {
+      height: 14px;
+      border: 1px solid #CCCCCC;
+      background: #CCCCCC;
+
+      &:after {
+        height: 10px;
+        width: 10px;
+      }
+
+    }
+
+  }
+
+  .el-range-editor {
+
+    .el-input__inner {
+      padding: 2px 10px
+    }
+
+  }
+
+  .el-date-editor.el-input {
+    width: 418px;
+  }
+
+  .el-date-editor {
+
+    .el-input__prefix {
+      position: absolute;
+      left: 391px;
+      color: #878787;
+    }
+
+  }
+
+}
+
+//表格搜索框输入框
+.search-input {
+  margin-right: 8px;
+  width: 200px;
+  font-size: 12px;
+  line-height: 32px;
+  height: 32px;
+
+  .el-tag.el-tag--info {
+    max-width: 70%;
+  }
+
+  .el-input {
+    width: 200px;
+  }
+
+  .el-input__icon {
+    line-height: 32px;
+    height: 32px;
+  }
+
+  .el-input__inner {
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    color: #4A4C66;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 8px;
+    padding-right: 32px;
+
+    &:hover, &:focus {
+      border-color: #045340;
+    }
+
+  }
+
+  .el-icon-circle-close:before {
+    content: "\E6DB";
+    color: #969696;
+  }
+
+  .el-input__clear:hover.el-icon-circle-close:before {
+    content: "\E79D";
+    color: #878787
+  }
+
+  .el-select-dropdown__wrap.el-scrollbar__wrap {
+    margin-bottom: -6px;
+    margin-right: -6px;
+  }
+
+
+}
+
+@media screen and (max-width: 1600px) {
+
+  .search-input {
+    width: 138px;
+
+    .el-tag.el-tag--info {
+      max-width: 50%;
+    }
+
+    .el-input {
+      width: 138px;
+    }
+
+  }
+
+  .table-filter .el-date-editor.el-input {
+    width: 138px
+  }
+
+  .table-filter .el-date-editor .el-input__prefix {
+    left: 113px
+  }
+
+}
+
+//左侧树中的搜索框
+.tree-filter {
+
+  .el-input {
+    width: calc(100% - 48px);
+    margin-left: 24px;
+
+    .el-input__inner {
+      padding-left: 30px;
+      opacity: 1;
+      background: #E6EAF0;
+      border-radius: 17px;
+      height: 34px;
+      border: 1px solid #f6f8fb;
+      margin-left: 4px;
+    }
+
+  }
+
+  .el-input__prefix {
+    left: 12px;
+
+    .el-input__icon {
+      line-height: 34px;
+      font-size: 14px;
+    }
+
+  }
+
+}
+
+//抽屉中树的搜索框
+.tab-tree-input {
+  margin-bottom: 8px;
+
+  .el-input__inner {
+    padding-left: 30px !important;
+  }
+
+}
+
+
+//可清空下拉框交互
+.el-select .el-input__suffix .el-icon-circle-close {
+
+  &:before {
+    content: "\E6DB";
+    color: #969696;
+  }
+
+}
+
+.el-select .el-input__suffix:hover .el-icon-circle-close {
+
+  &:before {
+    content: "\E79D";
+    color: #878787
+  }
+
+}
+
+//消息中心
+.message-form {
+  .el-form-item.is-error .el-input__inner {
+    border-color: #F56C6C;
+  }
+  .el-input {
+    width: 100%;
+
+    .el-input__inner {
+      height: 32px;
+      line-height: 32px;
+    }
+
+  }
+
+  .el-select {
+    width: 100%;
+  }
+  .el-textarea {
+    width: 100%;
+
+    .el-textarea__inner {
+      height: 96px !important;
+      min-height: 96px !important;
+    }
+    .el-input__count {
+      line-height: 20px;
+    }
+
+  }
+}
+
+.icon-help {
+  color: #045340;
+  margin-right: 9px;
+}
+
+.el-tooltip__popper.is-dark{
+  padding: 8px 10px;
+}

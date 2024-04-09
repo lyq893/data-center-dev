@@ -1,0 +1,13 @@
+{
+  "List": [
+    "dashboard",
+    "layout",
+    "login",
+    "permit",
+    "redirect",
+    "404.vue",
+    "403.vue",
+    "423.vue",
+    "__viewsPathForOnlineServer.txt"
+  ]
+}

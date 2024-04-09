@@ -1,0 +1,65 @@
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ .Values.ingress.ingressName }}
+  namespace: {{ .Values.namespace }}
+  annotations:
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    # 预发布和正式环境 并且域名证书不等于null且不等于空字符串时 强制重定向https请求
+    {{ if and (or  (eq .Values.appManage.env "PRE") (eq .Values.appManage.env "PROD")) (ne .Values.ingress.tlsSecretName "") }}
+    nginx.ingress.kubernetes.io/ssl-passthrough: "true"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    {{ end }}
+spec:
+  # 预发布和正式环境 并且域名证书不等于null且不等于空字符串时 配置TLS域名证书认证
+  {{ if and (or  (eq .Values.appManage.env "PRE") (eq .Values.appManage.env "PROD")) (ne .Values.ingress.tlsSecretName "") }}
+  tls:
+    - hosts:
+        {{ if contains "web" .Values.project.projectType }}
+        - {{ .Values.service.frontService}}
+        {{ end }}
+        {{ if contains "h5" .Values.project.projectType }}
+        - {{ .Values.service.mobileService}}
+        {{ end }}
+        {{ if contains "uniapp" .Values.project.projectType }}
+        - {{ .Values.service.mobileUniService}}
+        {{ end }}
+      secretName: {{ .Values.ingress.tlsSecretName}}
+  {{ end }}
+  rules:
+    - host: {{ .Values.service.frontService}}
+      http:
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: {{ .Values.serviceName.hussarNginx}}
+                port:
+                  number: 8080
+    {{ if contains "h5" .Values.project.projectType }}
+    - host: {{ .Values.service.mobileService}}
+      http:
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: {{ .Values.serviceName.hussarNginx}}
+                port:
+                  number: 8380
+    {{ end }}
+    {{ if contains "uniapp" .Values.project.projectType }}
+    - host: {{ .Values.service.mobileUniService}}
+      http:
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: {{ .Values.serviceName.hussarNginx}}
+                port:
+                  number: 8480
+    {{ end }}

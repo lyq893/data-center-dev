@@ -1,0 +1,19 @@
+#server:
+#  port: 8280 #启动端口号
+#spring:
+#  application:
+#    name: hussar-web #服务名
+#  cloud:
+#    nacos:
+#      discovery:
+#        #register-enabled: false
+#        server-addr: localhost:8848 #nacos服务地址
+#        namespace: hussar-base-cloud  #命名空间，不配置默认取public
+#      config:
+#        server-addr: ${spring.cloud.nacos.discovery.server-addr} #nacos服务地址
+#        file-extension: yml #配置文件后缀
+#        shared-configs:
+#          - application-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension} #公共配置项
+#        namespace: hussar-base-cloud #命名空间，不配置默认取public
+#  profiles:
+#    active: dev #指定环境

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="切图" transform="translate(-337.000000, -381.000000)">
+            <g id="分组-6" transform="translate(337.837402, 381.500000)">
+                <g id="分组-4-copy-3" stroke="#6B798E">
+                    <circle id="椭圆形" cx="5.94686396" cy="3.75771173" r="3.75771173"></circle>
+                    <path d="M8.66400373,8.17104862 C7.84956908,7.75197921 6.9258418,7.51542346 5.94686396,7.51542346 C2.66250168,7.51542346 1.21680443e-13,10.1779251 1.21680443e-13,13.4622874" id="路径"></path>
+                </g>
+                <path d="M6.32945119,11 L8.66400373,13" id="直线-2" stroke="#6F7D91" stroke-linecap="square"></path>
+                <path d="M8.66400373,13 L14.6640037,7" id="直线-3" stroke="#6F7D91" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>

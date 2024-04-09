@@ -1,0 +1,224 @@
+.lcdp-dialog {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  text-align: center;
+
+  .el-dialog {
+    margin-top: 0 !important;
+    box-shadow: 0px 5px 50px 0px rgba(18, 29, 106, 0.20);
+    border-radius: 0;
+
+    .el-dialog__header {
+      height: 42px;
+      color: #878787;
+      padding: 10px 0px 10px 24px;
+      border-bottom: 1px solid #EAEAEA;
+      text-align: left;
+
+      .el-dialog__title {
+        color: #333651;
+        font-size: 16px;
+        font-weight: 400;
+      }
+
+      .el-dialog__headerbtn {
+        width: 24px;
+        height: 24px;
+        top: 11px;
+        right: 10px;
+        border-radius: 50%;
+        font-size: 12px;
+
+        .el-dialog__close {
+          color: #969696;
+          font-size: 18px;
+        }
+
+      }
+
+    }
+
+    .el-dialog__body {
+      padding: 12px 24px 12px;
+      height: calc(100% - 42px);
+      text-align: left;
+      border-bottom: solid 1px #eaeaea;
+      overflow-x: hidden;
+
+      .table-filter{
+        padding-bottom:0
+      }
+
+      //导入
+      .upload-demo {
+        height: 100%;
+
+        .el-upload {
+          width: 100%;
+          height: 100%;
+
+          .el-upload-dragger {
+            width: 100%;
+            height: 100%;
+
+            .el-icon-upload {
+              font-size: 50px;
+              margin: 32px 135px 8px;
+            }
+
+            .el-upload__text {
+              color: #878787;
+            }
+
+          }
+
+        }
+
+      }
+
+      //左侧树
+      .tree-wrap{
+
+        .tree-filter .el-input{
+          width: calc(100% - 32px);
+        }
+
+        .tree-wrapper .el-tree{
+          padding-left: 16px;
+
+          .vue-recycle-scroller__item-view{
+            width: calc(100% - 16px);
+          }
+        }
+
+      }
+
+    }
+
+    .el-dialog__footer {
+      height: 64px;
+      background-color: #FFF;
+      text-align: center;
+      padding: 16px 24px;
+      box-shadow: 0px 20px 20px 0px rgb(18 29 106 / 10%);
+
+      .dialog-footer {
+
+        .btn-box {
+          width: fit-content;
+          margin-left: auto;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+//弹窗中带按钮、标题
+.btn-dialog {
+
+  .el-dialog {
+    width: 368px;
+    height: 480px;
+
+    .el-dialog__body {
+      // 出现横向滚动条时下边距为0px
+      padding: 12px 24px 0;
+      height: calc(100% - 108px);
+      overflow-y: hidden;
+
+      &:hover {
+        overflow-y: auto;
+      }
+
+    }
+
+  }
+
+}
+
+//导入
+.import-dialog {
+
+  .el-dialog {
+    width: 368px;
+    height: 216px;
+
+    .el-dialog__body {
+      height: calc(100% - 42px);
+      overflow-y: hidden;
+
+      &:hover {
+        overflow-y: auto;
+      }
+
+    }
+
+  }
+
+}
+
+//大弹窗
+.big-dialog {
+
+  .el-dialog {
+    width: 1174px;
+    height: 650px;
+
+    .el-dialog__body {
+      height: calc(100% - 106px);
+      overflow-y: hidden;
+    }
+
+  }
+
+  &.no-footer {
+    .el-dialog__body {
+      height: calc(100% - 42px);
+      overflow-y: hidden;
+      border-bottom: none;
+    }
+  }
+}
+
+// 操作需要二次认证弹窗
+.checkSafe {
+  width: 460px;
+  .el-message-box__header {
+    padding: 24px 24px 16px;
+
+    .el-message-box__title span {
+      display: flex;
+      align-items: center;
+
+      &:before {
+        content: "\E7A5";
+        font-family: "font_family" !important;
+        font-size: 26px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        color: #FFB31B;
+        margin-right: 12px;
+      }
+    }
+  }
+  .el-message-box__content {
+    padding: 0 24px 0 60px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .big-dialog {
+
+    .el-dialog {
+      height: 496px;
+    }
+
+  }
+}
+
+

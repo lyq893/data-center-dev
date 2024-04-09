@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
+    <%= process.env.VUE_APP_ENABLE_DLL === 'yes' ? (function() {
+    const dllConfig = require('@/../config/dllConfig');
+    const scripts = dllConfig.consoleScripts;
+    const styles = dllConfig.consoleStyles;
+    let dlls = '<!--  使用不重启dll优化时开启  -->';
+    for (const script of scripts) {
+    dlls += `\n    <script src="./vendor/${script}.dll.js"></script>`;
+    }
+    for (const style of styles) {
+    dlls += `\n    <link href="./vendor/${style}.css" rel="stylesheet"/>`;
+    }
+    return dlls;
+    })() : '' %>
+    <title id="indexTitle">低代码开发平台</title>
+</head>
+<body class="console-body">
+<noscript>
+    <strong>We're sorry but hussar-front doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>

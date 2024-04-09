@@ -1,0 +1,121 @@
+{
+  "id": "2360595",
+  "name": "jxdIcon",
+  "font_family": "jxdIcon",
+  "css_prefix_text": "jxd-el-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "33686771",
+      "name": "隐藏",
+      "font_class": "hidden",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "33634377",
+      "name": "大纲_甘特图",
+      "font_class": "dagang_gantetu",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "31501944",
+      "name": "nr-arrow-tag",
+      "font_class": "icon",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "31346959",
+      "name": "nr-tag",
+      "font_class": "nr-tag",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "31209969",
+      "name": "按钮L",
+      "font_class": "right-arrow",
+      "unicode": "e546",
+      "unicode_decimal": 58694
+    },
+    {
+      "icon_id": "27053997",
+      "name": "PM2.5",
+      "font_class": "PM25",
+      "unicode": "e895",
+      "unicode_decimal": 59541
+    },
+    {
+      "icon_id": "27053998",
+      "name": "温度",
+      "font_class": "temperature",
+      "unicode": "e896",
+      "unicode_decimal": 59542
+    },
+    {
+      "icon_id": "27053999",
+      "name": "湿度",
+      "font_class": "humidity",
+      "unicode": "e897",
+      "unicode_decimal": 59543
+    },
+    {
+      "icon_id": "27054829",
+      "name": "气压",
+      "font_class": "pressure",
+      "unicode": "e898",
+      "unicode_decimal": 59544
+    },
+    {
+      "icon_id": "25458454",
+      "name": "默认样式_摄像头",
+      "font_class": "camera",
+      "unicode": "e873",
+      "unicode_decimal": 59507
+    },
+    {
+      "icon_id": "20271246",
+      "name": "公共_关闭弹窗",
+      "font_class": "close",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "20272752",
+      "name": "大纲_显示",
+      "font_class": "view",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "25235654",
+      "name": "上传失败",
+      "font_class": "error",
+      "unicode": "e86b",
+      "unicode_decimal": 59499
+    },
+    {
+      "icon_id": "25085694",
+      "name": "发票识别默认样式_下载",
+      "font_class": "download",
+      "unicode": "e864",
+      "unicode_decimal": 59492
+    },
+    {
+      "icon_id": "25085695",
+      "name": "发票识别默认样式_文件",
+      "font_class": "fileList",
+      "unicode": "e865",
+      "unicode_decimal": 59493
+    },
+    {
+      "icon_id": "25116585",
+      "name": "上传",
+      "font_class": "upload",
+      "unicode": "e866",
+      "unicode_decimal": 59494
+    }
+  ]
+}
